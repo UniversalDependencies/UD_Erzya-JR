@@ -1,15 +1,15 @@
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.1
+Data available since: UD v2.2
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
-Contributors: Zeman, Daniel
-Contributing: elsewhere
-Contact: zeman@ufal.mff.cuni.cz
+Lemmas: manual native
+UPOS: manual native
+XPOS: not available
+Features: manual native
+Relations: manual native
+Contributors: Rueter, Jack; Tyers, Francis
+Contributing: here
+Contact: rueter.jack@gmail.com
 Paragraphs to web: 1
 ===============================================================================
