@@ -21,457 +21,469 @@
 #
 #
 #
-# <dedication> <dedicatedTo>АНДРЕЕВ МИШАНЕНЬ</dedicatedTo>
-# <dedicationText>сех вадря ды сех вечкема ялгам туртов казезь васень кинигам</dedicationText>
-# <dedicatedBy>Алек Дуняшин</dedicatedBy>
+#text_id dedication: dedicated_to_myv"АНДРЕЕВ МИШАНЕНЬ" dedicated_by="Алек Дуняшин" pgNo="0003"
+# text = сех вадря ды сех вечкема ялгам туртов казезь васень кинигам
+1	Сех	сех	Pcle	_	Superl	2	advmod:superl	_	Gloss[eng]=most
+2	вадря	вадря	A	_	Attr	6	amod	_	Gloss[eng]=good
+3	ды	ды	CC	_	_	5	cc	_	Gloss[eng]=and
+4	сех	сех	Pcle	_	Superl	5	advmod:superl	_	Gloss[eng]=most
+5	вечкема	вечкемс	V	_	TV|Der/NomAct|N|Sg|Nom|Indef	6	amod	_	Gloss[eng]=beloved
+6	ялгам	ялга	N	_	Sg|Gen|PxSg1	8	obl	_	Gloss[eng]=friend
+7	туртов	туртов	Adp	_	Dat	6	case	_	Gloss[eng]=for
+8	казезь	каземс	V	_	TV|Der/Озь|Ger	0	root	_	Gloss[eng]=give.as.present
+9	васень	васень	Num	_	Ord|Sg|Nom|Indef	10	det	_	Gloss[eng]=first
+10	кинигам	кинига	N	_	Sg|Nom|PxSg1	8	nsubj	_	Gloss[eng]=book
+11	.	.	CLB	_	_	8	punct	_	_
+
 # </dedication>
 #<pgNo>((DunjaA1930-0005))</pgNo>
 #<chap>
 #<p storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="1">
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="1" sentID="1" pgNo="0005"
 # text = Минек ней улить аволь ансяк эрямонь праванок, улить морамонь, сёрмадомань праваноккак.
-1	Минек	минь	Pron	_	Pers|Pl1|Gen	7	nmod:exist	_	_
-2	ней	ней	Adv	_	Temp	7	advmod	_	_
-3	улить	улемс	V	_	IV|Ind|Prs|ScPl3	7	cop:exist	_	_
-4	аволь	аволь	Pcle	_	Neg|Intensive	5	advmod:neg	_	_
-5	ансяк	ансяк	Adv	_	Exclusive	6	advmod	_	_
-6	эрямонь	эрямо	N	_	SP|Gen|Indef	7	nmod:poss	_	_
-7	праванок	права	N	_	Pl|Nom|PxPl1	0	root	_	_
-8	,	,	CLB	_	_	13	punct	_	_
-9	улить	улемс	V	_	IV|Ind|Prs|ScPl3	13	cop:exist	_	_
-10	морамонь	морамо	N	_	SP|Gen|Indef	13	nmod:poss	_	_
-11	,	,	CLB	_	_	12	punct	_	_
-12	сёрмадомань	сёрмадома	N	_	SP|Gen|Indef	10	conj	_	_
-13	праваноккак	права	N	_	Pl|Nom|PxPl1|Foc/Гак	7	conj	_	_
-14	.	.	CLB	_	_	7	punct	_	_
+1	Минек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Gen	7	nmod:exist	_	Gloss[eng]=we
+2	ней	ней	ADV	Adv	AdvType=Temp	7	advmod	_	Gloss[eng]=now
+3	улить	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	7	cop:exist	_	Gloss[eng]=have
+4	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	5	advmod:neg	_	Gloss[eng]=not
+5	ансяк	ансяк	ADV	Adv	Exclusive	6	advmod	_	Gloss[eng]=only
+6	эрямонь	эрямо	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	7	nmod:poss	_	Gloss[eng]=life
+7	праванок	права	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Plur|Person[psor]=1	0	root	_	Gloss[eng]=right
+8	,	,	PUNCT	CLB	_	13	punct	_	_
+9	улить	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	13	cop:exist	_	Gloss[eng]=have
+10	морамонь	морамо	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	13	nmod:poss	_	Gloss[eng]=singing
+11	,	,	PUNCT	CLB	_	12	punct	_	_
+12	сёрмадомань	сёрмадома	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	10	conj	_	writing
+13	праваноккак	права	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Plur|Person[psor]=1|Clitic=Гак	7	conj	_	Gloss[eng]=right
+14	.	.	PUNCT	CLB	_	7	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="1" sentID="2" pgNo="0005"
 # text = Эщо аволь пек умок мокшэрзятне морсекшнэсть пелезь, салава ― пельсть кияк марясынзе ды сялдсынзе,  пеедьсынзе.
-1	Эщо	ещё	Adv	_	Temp	6	advmod	_	_
-2	аволь	аволь	Pcle	_	Neg|Intensive	3	advmod:neg	_	_
-3	пек	пек	Adv	_	_	4	advmod	_	_
-4	умок	умок	Adv	_	Temp	6	advmod	_	_
-5	мокшэрзятне	мокшэрзя	N	_	Pl|Nom|Def	6	nsubj	_	_
-6	морсекшнэсть	морсекшнемс	V	_	TV|Ind|Prt1|ScPl3	0	nsubj	_	_
-7	пелезь	пелемс	V	_	IV|Der/Озь|Ger	6	advmod	_	_
-8	,	,	CLB	_	_	9	punct	_	_
-9	салава	салава	Adv	_	_	7	conj	_	_
+1	Эщо	ещё	ADV	Adv	AdvType=Temp	6	advmod	_	Gloss[eng]=still
+2	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	3	advmod:neg	_	Gloss[eng]=not
+3	пек	пек	ADV	Adv	_	4	advmod	_	Gloss[eng]=very
+4	умок	умок	ADV	Adv	AdvType=Temp	6	advmod	_	Gloss[eng]=long.ago
+5	мокшэрзятне	мокшэрзя	NOUN	N	Number=Plur|Case=Nom|Definite=Def	6	nsubj	_	Gloss[eng]=Moksh-Erzya
+6	морсекшнэсть	морсекшнемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	nsubj	_	Gloss[eng]=sing
+7	пелезь	пелемс	VERB	V	Valency=1|Der/Озь|Ger	6	advmod	_	Gloss[eng]=in.fear
+8	,	,	PUNCT	CLB	_	9	punct	_	_
+9	салава	салава	ADV	Adv	_	7	conj	_	Gloss[eng]=in.secret
 10	―	―	PUNCT	_	_	11	punct	_	_
-11	пельсть	пелемс	V	_	IV|Ind|Prt1|ScPl3	6	conj	_	_
-12	кияк	кияк	Pron	_	Indef|Sg|Nom	13	nsubj	_	_
-13	марясынзе	марясынзе	_	_	TV|Ind|Prs|ScSg3|OcPl3	11	xcomp	_	_
-14	ды	ды	CC	_	_	15	cc	_	_
-15	сялдсынзе	сялдомс	V	_	TV|Ind|Prs|ScSg3|OcPl3	13	conj	_	_
-16	,	,	CLB	_	_	17	punct	_	_
-17	пеедьсынзе	пеедемс	V	_	TV|Ind|Prs|ScSg3|OcPl3	13	conj	_	_
-18	.	.	CLB	_	_	6	punct	_	_
+11	пельсть	пелемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	6	conj	_	Gloss[eng]=be.afraid
+12	кияк	кияк	PRON	Pron	PronType=Ind|Number=Sing|Case=Nom	13	nsubj	_	Gloss[eng]=somebody
+13	марясынзе	марясынзе	_	_	TV|Ind|Prs|ScSg3|OcPl3	11	xcomp	_	Gloss[eng]=hear
+14	ды	ды	CCONJ	CC	_	15	cc	_	Gloss[eng]=and
+15	сялдсынзе	сялдомс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	13	conj	_	Gloss[eng]=criticize
+16	,	,	PUNCT	CLB	_	17	punct	_	_
+17	пеедьсынзе	пеедемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	13	conj	_	Gloss[eng]=make.fun.of
+18	.	.	PUNCT	CLB	_	6	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="1" sentID="3" pgNo="0005"
 # text = Ней минь эсь моронок, эсь сёрмадовксонок эйсэ печататано.
-1	Ней	ней	Adv	_	Temp	9	advmod	_	_
-2	минь	минь	Pron	_	Pers|Pl1|Nom	9	nsubj	_	_
-3	эсь	эсь	Pron	_	Refl|Adn	4	det	_	_
-4	моронок	моро	N	_	Pl|Gen|PxPl1	9	obj	_	_
-5	,	,	CLB	_	_	9	punct	_	_
-6	эсь	эсь	Pron	_	Refl|Adn	7	det	_	_
-7	сёрмадовксонок	сёрмадовкс	N	_	Pl|Gen|PxPl1	4	conj	_	_
-8	эйсэ	эйсэ	Adp	_	Ine	7	case	_	_
-9	печататано	печатамс	V	_	TV|Ind|Prs|ScPl1	0	root	_	_
-10	.	.	CLB	_	_	9	punct	_	_
+1	Ней	ней	ADV	Adv	AdvType=Temp	9	advmod	_	Gloss[eng]=now
+2	минь	минь	PRON	Pron	PronType=Prs|Pl1|Case=Nom	9	nsubj:prspron	_	Gloss[eng]=we
+3	эсь	эсь	PRON	Pron	PronType=Refl|Adn	4	det	_	Gloss[eng]=own
+4	моронок	моро	NOUN	N	Number=Plur|Case=Gen|Number[psor]=Plur|Person[psor]=1	9	obj	_	Gloss[eng]=song
+5	,	,	PUNCT	CLB	_	9	punct	_	_
+6	эсь	эсь	PRON	Pron	PronType=Refl|Adn	7	det	_	Gloss[eng]=own
+7	сёрмадовксонок	сёрмадовкс	NOUN	N	Number=Plur|Case=Gen|Number[psor]=Plur|Person[psor]=1	4	conj	_	Gloss[eng]=writing
+8	эйсэ	эйсэ	ADP	Adp	Case=Ine	7	case	_	Gloss[eng]=object.marker
+9	печататано	печатамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	0	root	_	Gloss[eng]=print
+10	.	.	PUNCT	CLB	_	9	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="1" sentID="4" pgNo="0005"
-# text = Весе содаст, весе маряст минек думдонок-арсемадонок, мельденек-превденек;  ялатеке минь а виздтянок ― минь эщо тонав1	Весе	весе	Pron	_	Sg|Nom|Indef	2	nsubj	_	_
-2	содаст	содамс	V	_	TV|Opt|ScPl3	0	root	_	_
-3	,	,	CLB	_	_	5	punct	_	_
-4	весе	весе	Pron	_	Sg|Nom|Indef	5	nsubj	_	_
-5	маряст	марямс	V	_	IV|Opt|ScPl3	2	conj	_	_
-6	минек	минь	Pron	_	Pers|Pl1|Gen	7	nmod:poss	_	_
-7	думдонок-арсемадонок	дум	N	_	SP|Abl|PxPl1|SerialVerb|Cmp-арсема|N|SP|Abl|PxPl1	2	obl	_	_
-8	,	,	CLB	_	_	9	punct	_	_
-9	мельденек-превденек	мельденек-превденек	N	_	SP|Abl|PxPl1	7	conj	_	_
-10	;	;	CLB	_	_	14	punct	_	_
-11	ялатеке	ялатеке	Adv	_	_	14	advmod	_	_
-12	минь	минь	Pron	_	Pers|Pl1|Nom	14	nsubj	_	_
-13	а	а	Pcle	_	Neg	14	advmod:neg	_	_
-14	виздтянок	виздемс	V	_	IV|Err/Orth|Ind|Prs|ScPl1	2	conj	_	_
+# text = Весе содаст, весе маряст минек думдонок-арсемадонок, мельденек-превденек;  ялатеке минь а виздтянок ― минь эщо тонав1	Весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	2	nsubj	_	_
+2	содаст	содамс	VERB	V	Valency=2|Mood=Opt|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+3	,	,	PUNCT	CLB	_	5	punct	_	_
+4	весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	5	nsubj	_	_
+5	маряст	марямс	VERB	V	Valency=1|Mood=Opt|Number[subj]=Plur|Person[subj]=3	2	conj	_	_
+6	минек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Gen	7	nmod:poss	_	_
+7	думдонок-арсемадонок	дум	NOUN	N	Number=Sing,Plur|Abl|PxPl1|SerialVerb|Cmp-арсема|N|SP|Case=Abl|Number[psor]=Plur|Person[psor]=1	2	obl	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
+9	мельденек-превденек	мельденек-превденек	NOUN	N	Number=Sing,Plur|Case=Abl|Number[psor]=Plur|Person[psor]=1	7	conj	_	_
+10	;	;	PUNCT	CLB	_	14	punct	_	_
+11	ялатеке	ялатеке	ADV	Adv	_	14	advmod	_	_
+12	минь	минь	PRON	Pron	PronType=Prs|Pl1|Case=Nom	14	nsubj:prspron	_	_
+13	а	а	PART	Pcle	Polarity=Neg	14	advmod:neg	_	_
+14	виздтянок	виздемс	VERB	V	Valency=1|Err/Orth|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	2	conj	_	_
 15	―	―	PUNCT	_	_	18	punct	_	_
-16	минь	минь	Pron	_	Pers|Pl1|Nom	18	nsubj	_	_
-17	эщо	ещё	Err/Lex	_	Adv|Temp	18	advmod	_	_
-18	тонавтнетяно	тонавтнемс	V	_	TV|Ind|Prs|ScPl1	2	conj	_	_
-19	.	.	CLB	_	_	2	punct	_	_
+16	минь	минь	PRON	Pron	PronType=Prs|Pl1|Case=Nom	18	nsubj:prspron	_	_
+17	эщо	ещё	ADV	Adv	Err/Lex|AdvType=Temp	18	advmod	_	_
+18	тонавтнетяно	тонавтнемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	2	conj	_	_
+19	.	.	PUNCT	CLB	_	2	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="1" sentID="5" pgNo="0005"
 # text = Ки мурнесамизь ― кунсолосынек, седеяк кунсолосынек сень, кона невти тенек, кода витемс берянь тарканок.
-1	Ки	кие	Pron	_	Interr|Sem/Hum|Sg|Nom	2	nsubj	_	_
-2	мурнесамизь	мурнемс	V	_	TV|Ind|Prs|ScSg3|OcPl1	4	acl:relcl	_	_
+1	Ки	кие	PRON	Pron	PronType=Int|Sem/Hum|Number=Sing|Case=Nom	2	nsubj	_	_
+2	мурнесамизь	мурнемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=1	4	acl:relcl	_	_
 3	―	―	PUNCT	_	_	4	punct	_	_
-4	кунсолосынек	кунсоломс	V	_	TV|Ind|Prs|ScPl1|OcSg3	0	root	_	_
-5	,	,	CLB	_	_	7	punct	_	_
-6	седеяк	седеяк	Adv	_	_	7	advmod:cmpstandard	_	_
-7	кунсолосынек	кунсоломс	V	_	TV|Ind|Prs|ScPl1|OcSg3	4	conj	_	_
-8	сень	сень	N	_	Sg|Nom|Indef	7	obj	_	_
-9	,	,	CLB	_	_	11	punct	_	_
-10	кона	кона	Pron	_	Rel|Sel|Sg|Nom|Indef	11	nsubj	_	_
-11	невти	невтемс	V	_	TV|Ind|Prs|ScSg3	8	acl:relcl	_	_
-12	тенек	минь	Pron	_	Pers|Pl1|Dat|Short	11	obl	_	_
-13	,	,	CLB	_	_	15	punct	_	_
-14	кода	кода	Adv	_	Interr|Manner	15	advmod	_	_
-15	витемс	витемс	V	_	TV|Inf	11	ccomp	_	_
-16	берянь	берянь	A	_	Attr	17	amod	_	_
-17	тарканок	тарка	N	_	Sem/Plc|Pl|Gen|PxPl1	15	obj	_	_
-18	.	.	CLB	_	_	4	punct	_	_
+4	кунсолосынек	кунсоломс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1|Number[obj]=Sing|Person[obj]=3	0	root	_	_
+5	,	,	PUNCT	CLB	_	7	punct	_	_
+6	седеяк	седеяк	ADV	Adv	_	7	advmod:cmpstandard	_	_
+7	кунсолосынек	кунсоломс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1|Number[obj]=Sing|Person[obj]=3	4	conj	_	_
+8	сень	сень	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	obj	_	_
+9	,	,	PUNCT	CLB	_	11	punct	_	_
+10	кона	кона	PRON	Pron	PronType=Rel|Sel|Number=Sing|Case=Nom|Definite=Ind	11	nsubj	_	_
+11	невти	невтемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	8	acl:relcl	_	_
+12	тенек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Dat|Short	11	obl	_	_
+13	,	,	PUNCT	CLB	_	15	punct	_	_
+14	кода	кода	ADV	Adv	AdvType=Int|AdvType=Manner	15	advmod	_	_
+15	витемс	витемс	VERB	V	Valency=2|VerbForm=Inf	11	ccomp	_	_
+16	берянь	берянь	ADJ	A	Attr	17	amod	_	_
+17	тарканок	тарка	NOUN	N	Sem/Plc|Number=Plur|Case=Gen|Number[psor]=Plur|Person[psor]=1	15	obj	_	_
+18	.	.	PUNCT	CLB	_	4	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="2" sentID="1" pgNo="0005"
 # text = Минек сёрмадыцятнень сабаност зярс эщо аволь пек алга сокить.
-1	Минек	минь	Pron	_	Pers|Pl1|Gen	2	det	_	_
-2	сёрмадыцятнень	сёрмадыця	N	_	Pl|Gen|Def	3	nmod:poss	_	_
-3	сабаност	сабан	N	_	Pl|Nom|PxPl3	9	nsubj	_	_
-4	зярс	зярс	Adv	_	Rel|Ill|Temp	9	advmod	_	_
-5	эщо	ещё	Err/Lex	_	Adv|Temp	9	advmod	_	_
-6	аволь	аволь	Pcle	_	Neg|Intensive	7	advmod:neg	_	_
-7	пек	пек	Adv	_	_	8	advmod	_	_
-8	алга	алга	Adv	_	Spat	9	advmod	_	_
-9	сокить	сокамс	V	_	TV|Ind|Prs|ScPl3	0	root	_	_
-10	.	.	CLB	_	_	9	punct	_	_
+1	Минек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Gen	2	det	_	_
+2	сёрмадыцятнень	сёрмадыця	NOUN	N	Number=Plur|Case=Gen|Definite=Def	3	nmod:poss	_	_
+3	сабаност	сабан	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Plur|Person[psor]=3	9	nsubj	_	_
+4	зярс	зярс	ADV	Adv	PronType=Rel|Case=Ill|AdvType=Temp	9	advmod	_	_
+5	эщо	ещё	ADV	Adv	Err/Lex|AdvType=Temp	9	advmod	_	_
+6	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	7	advmod:neg	_	_
+7	пек	пек	ADV	Adv	_	8	advmod	_	_
+8	алга	алга	ADV	Adv	AdvType=Spat	9	advmod	_	_
+9	сокить	сокамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+10	.	.	PUNCT	CLB	_	9	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="2" sentID="2" pgNo="0005"
 # text = Улить эщо сокасо сокицяноккак.
-1	Улить	улемс	V	_	IV|Ind|Prs|ScPl3	4	cop:exist	_	_
-2	эщо	ещё	Err/Lex	_	Adv|Temp	4	advmod	_	_
-3	сокасо	сока	N	_	SP|Ine|Indef	4	obl	_	_
-4	сокицяноккак	сокиця	N	_	Pl|Nom|PxPl1|Foc/Гак	0	root	_	_
-5	.	.	CLB	_	_	4	punct	_	_
+1	Улить	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	4	cop:exist	_	_
+2	эщо	ещё	ADV	Adv	Err/Lex|AdvType=Temp	4	advmod	_	_
+3	сокасо	сока	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	4	obl	_	_
+4	сокицяноккак	сокиця	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Plur|Person[psor]=1|Clitic=Гак	0	root	_	_
+5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="2" sentID="3" pgNo="0005"
 # text = Зярс минь келес яла бажатано саеме, аволь пштить эщо минек сошниканок алов пезнавтомс.
-1	Зярс	зярс	Adv	_	Interr|Ill|Temp	5	advmod	_	_
-2	минь	минь	Pron	_	Pers|Pl1|Nom	5	nsubj	_	_
-3	келес	келес	Adv	_	_	5	advmod	_	_
-4	яла	яла	Adv	_	Temp	5	advmod	_	_
-5	бажатано	бажамс	V	_	IV|Ind|Prs|ScPl1	0	root	_	_
-6	саеме	саемс	V	_	TV|Inf|Loc	5	xcomp	_	_
-7	,	,	CLB	_	_	9	punct	_	_
-8	аволь	аволь	Pcle	_	Neg|Intensive	9	advmod:neg	_	_
-9	пштить	пшти	A	_	Clt/Cop|Prs|ScPl3	5	conj	_	_
-10	эщо	ещё	Err/Lex	_	Adv|Temp	9	advmod	_	_
-11	минек	минь	Pron	_	Pers|Pl1|Gen	12	nmod:poss	_	_
-12	сошниканок	сошника	N	_	Pl|Nom|PxPl1	9	nsubj	_	_
-13	алов	алов	Adv	_	Spat|Lat	14	obl	_	_
-14	пезнавтомс	пезнавтомс	V	_	TV|Inf	12	acl	_	_
-15	.	.	CLB	_	_	5	punct	_	_
+1	Зярс	зярс	ADV	Adv	AdvType=Int|Case=Ill|AdvType=Temp	5	advmod	_	_
+2	минь	минь	PRON	Pron	PronType=Prs|Pl1|Case=Nom	5	nsubj:prspron	_	_
+3	келес	келес	ADV	Adv	_	5	advmod	_	_
+4	яла	яла	ADV	Adv	AdvType=Temp	5	advmod	_	_
+5	бажатано	бажамс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	0	root	_	_
+6	саеме	саемс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	5	xcomp	_	_
+7	,	,	PUNCT	CLB	_	9	punct	_	_
+8	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	9	advmod:neg	_	_
+9	пштить	пшти	ADJ	A	Clitic=Cop|Tense=Pres|Number[subj]=Plur|Person[subj]=3	5	conj	_	_
+10	эщо	ещё	ADV	Adv	Err/Lex|AdvType=Temp	9	advmod	_	_
+11	минек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Gen	12	nmod:poss	_	_
+12	сошниканок	сошника	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Plur|Person[psor]=1	9	nsubj	_	_
+13	алов	алов	ADV	Adv	AdvType=Spat|Case=Lat	14	obl	_	_
+14	пезнавтомс	пезнавтомс	VERB	V	Valency=2|VerbForm=Inf	12	acl	_	_
+15	.	.	PUNCT	CLB	_	5	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="2" sentID="4" pgNo="0005"
 # text = Минь пурнатано вий.
-1	Минь	минь	Pron	_	Pers|Pl1|Nom	2	nsubj	_	_
-2	пурнатано	пурнамс	V	_	TV|Ind|Prs|ScPl1	0	root	_	_
-3	вий	вий	N	_	Sg|Nom|Indef	2	obj	_	_
-4	.	.	CLB	_	_	2	punct	_	_
+1	Минь	минь	PRON	Pron	PronType=Prs|Pl1|Case=Nom	2	nsubj:prspron	_	_
+2	пурнатано	пурнамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	0	root	_	_
+3	вий	вий	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	2	obj	_	_
+4	.	.	PUNCT	CLB	_	2	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="2" sentID="5" pgNo="0005"
 # text = Минь анокстатано паро орудият.
-1	Минь	минь	Pron	_	Pers|Pl1|Nom	2	nsubj	_	_
-2	анокстатано	анокстамс	V	_	TV|Ind|Prs|ScPl1	0	root	_	_
-3	паро	паро	A	_	Attr	4	amod	_	_
-4	орудият	орудия	N	_	Pl|Nom|Indef	2	obj	_	_
-5	.	.	CLB	_	_	2	punct	_	_
+1	Минь	минь	PRON	Pron	PronType=Prs|Pl1|Case=Nom	2	nsubj:prspron	_	_
+2	анокстатано	анокстамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	0	root	_	_
+3	паро	паро	ADJ	A	Attr	4	amod	_	_
+4	орудият	орудия	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	2	obj	_	_
+5	.	.	PUNCT	CLB	_	2	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="2" sentID="6" pgNo="0005"
 # text = Косо-косо рангстась уш тракторгак ― морыть эрзянь поэтнэ.
-1	Косо-косо	косо-косо	Adv	_	Spat|Ine	2	advmod	_	_
-2	рангстась	рангстамс	V	_	IV|Ind|Prt1|ScSg3	0	root	_	_
-3	уш	уш	Adv	_	Temp	3	advmod	_	_
-4	тракторгак	трактор	N	_	Sg|Nom|Indef|Foc/Гак	2	nsubj	_	_
+1	Косо-косо	косо-косо	ADV	Adv	AdvType=Spat|Case=Ine	2	advmod	_	_
+2	рангстась	рангстамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	уш	уш	ADV	Adv	AdvType=Temp	3	advmod	_	_
+4	тракторгак	трактор	NOUN	N	Number=Sing|Case=Nom|Definite=Ind|Clitic=Гак	2	nsubj	_	_
 5	―	―	PUNCT	_	_	6	punct	_	_
-6	морыть	морамс	V	_	TV|Ind|Prs|ScPl3	2	parataxis	_	_
-7	эрзянь	эрзя	N	_	SP|Gen|Indef	8	det	_	_
-8	поэтнэ	поэт	N	_	Pl|Nom|Def	6	nsubj	_	_
-9	.	.	CLB	_	_	6	punct	_	_
+6	морыть	морамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	2	parataxis	_	_
+7	эрзянь	эрзя	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	8	det	_	_
+8	поэтнэ	поэт	NOUN	N	Number=Plur|Case=Nom|Definite=Def	6	nsubj	_	_
+9	.	.	PUNCT	CLB	_	6	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="2" sentID="7" pgNo="0005"
 # text = Видьменек улить.
-1	Видьменек	видьме	N	_	Pl|Nom|PxPl1	0	root	_	_
-2	улить	улемс	V	_	IV|Ind|Prs|ScPl3	1	cop:exist	_	_
-3	.	.	CLB	_	_	1	punct	_	_
+1	Видьменек	видьме	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Plur|Person[psor]=1	0	root	_	_
+2	улить	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	1	cop:exist	_	_
+3	.	.	PUNCT	CLB	_	1	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="3" sentID="1" pgNo="0005"
 # text = Кода понгсь минь сынст ней а виднесынек.
-1	Кода	кода	Adv	_	Interr|Manner	7	advmod	_	_
-2	понгсь	понгомс	V	_	IV|Ind|Prt1|ScSg3	1	fixed	_	_
-3	минь	минь	Pron	_	Pers|Pl1|Nom	7	nsubj	_	_
-4	сынст	сынь	Pron	_	Pers|Pl3|Gen	7	obj	_	_
-5	ней	ней	Adv	_	Temp	7	advmod	_	_
-6	а	а	Pcle	_	Neg	7	advmod:neg	_	_
-7	виднесынек	виднемс	V	_	TV|Ind|Prs|ScPl1|OcPl3	0	root	_	_
-8	.	.	CLB	_	_	7	punct	_	_
+1	Кода	кода	ADV	Adv	AdvType=Int|AdvType=Manner	7	advmod	_	_
+2	понгсь	понгомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	1	fixed	_	_
+3	минь	минь	PRON	Pron	PronType=Prs|Pl1|Case=Nom	7	nsubj:prspron	_	_
+4	сынст	сынь	PRON	Pron	PronType=Prs|Pl3|Case=Gen	7	obj:prspron	_	_
+5	ней	ней	ADV	Adv	AdvType=Temp	7	advmod	_	_
+6	а	а	PART	Pcle	Polarity=Neg	7	advmod:neg	_	_
+7	виднесынек	виднемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1|Number[obj]=Plur|Person[obj]=3	0	root	_	_
+8	.	.	PUNCT	CLB	_	7	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="3" sentID="2" pgNo="0005"
 # text = Минек од сёрмадыцятне а кармить чупонеме «сокинесэ», конань тулынень пес аварькшнызе эрзянь поэт Я.  П.  Григошин.
-1	Минек	минь	Pron	_	Pers|Pl1|Gen	3	det	_	_
-2	од	од	A	_	Attr	3	amod	_	_
+1	Минек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Gen	3	det	_	_
+2	од	од	ADJ	A	Attr	3	amod	_	_
 3	сёрмадыцятне	сёрмадыця	Act	_	DemPrc|Der/V2A|Pl|Nom|Def	5	nsubj	_	_
-4	а	а	Pcle	_	Neg	5	advmod:neg	_	_
-5	кармить	кармамс	V	_	IV|Ind|Prs|ScPl3	0	root	_	_
-6	чупонеме	чупонемс	V	_	IV|Inf|Loc	5	xcomp	_	_
-7	«	«	CLB	_	_	8	punct	_	_
-8	сокинесэ	сока	N	_	Der/НЕ|Der/Dimin|N|SP|Ine|Indef	6	obl	_	_
+4	а	а	PART	Pcle	Polarity=Neg	5	advmod:neg	_	_
+5	кармить	кармамс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+6	чупонеме	чупонемс	VERB	V	Valency=1|VerbForm=Inf|Case=Loc	5	xcomp	_	_
+7	«	«	PUNCT	CLB	_	8	punct	_	_
+8	сокинесэ	сока	NOUN	N	Der/НЕ|Der/Dimin|N|Number=Sing,Plur|Case=Ine|Definite=Ind	6	obl	_	_
 9	»	»	CBL	_	_	8	punct	_	_
-10	,	,	CLB	_	_	14	punct	_	_
-11	конань	кона	Det	_	Rel|SP|Gen	14	obj	_	_
-12	тулынень	тулыне	N	_	SP|Gen|Indef	14	obl	_	_
-13	пес	пес	Adp	_	Spat	12	case	_	_
-14	аварькшнызе	аварькшнемс	V	_	TV|Stem/э|Ind|Prt1|ScSg3|OcSg3	8	acl:relcl	_	_
-15	эрзянь	эрзя	N	_	SP|Gen|Indef	16	det	_	_
-16	поэт	поэт	N	_	Sg|Nom|Indef	14	nsubj	_	_
-17	Я.	Я	N	_	ABBR	19	flat:name	_	_
-18	П.	П	N	_	ABBR	19	flat:name	_	_
-19	Григошин	Григошин	N	_	Sem/Sur_Mal|Prop|Sg|Nom|Indef	16	appos	_	_
-20	.	.	CLB	_	_	5	punct	_	_
+10	,	,	PUNCT	CLB	_	14	punct	_	_
+11	конань	кона	DET	Det	PronType=Rel|Number=Sing,Plur|Case=Gen	14	obj	_	_
+12	тулынень	тулыне	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	14	obl	_	_
+13	пес	пес	ADP	Adp	Spat	12	case	_	_
+14	аварькшнызе	аварькшнемс	VERB	V	Valency=2|Stem/э|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	8	acl:relcl	_	_
+15	эрзянь	эрзя	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	16	det	_	_
+16	поэт	поэт	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	14	nsubj	_	_
+17	Я.	Я	NOUN	N	ABBR	19	flat:name	_	_
+18	П.	П	NOUN	N	ABBR	19	flat:name	_	_
+19	Григошин	Григошин	PROPN	N	Sem/Sur_Mal|Prop|Number=Sing|Case=Nom|Definite=Ind	16	appos	_	_
+20	.	.	PUNCT	CLB	_	5	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="4" sentID="1" pgNo="0005"
 # text = Неень шкась кармавты эйсэнек лиякс тееме, лиякс арсеме.
-1	Неень	неень	A	_	Der/GenAttr|Sg	2	amod	_	_
-2	шкась	шка	N	_	Sg|Nom|Def	3	nsubj	_	_
-3	кармавты	кармавтомс	V	_	TV|Ind|Prs|ScSg3	0	root	_	_
-4	эйсэнек	эйсэ	Adp	_	Ine|PxPl1	3	obj	_	_
-5	лиякс	лиякс	Adv	_	Tra	6	advmod	_	_
-6	тееме	теемс	V	_	TV|Inf|Loc	3	xcomp	_	_
-7	,	,	CLB	_	_	9	punct	_	_
-8	лиякс	лиякс	Adv	_	Tra	9	advmod	_	_
-9	арсеме	арсемс	V	_	IV|Inf|Loc	6	conj	_	_
-10	.	.	CLB	_	_	3	punct	_	_
+1	Неень	неень	ADJ	A	Der/GenAttr|Number=Sing	2	amod	_	_
+2	шкась	шка	NOUN	N	Number=Sing|Case=Nom|Definite=Def	3	nsubj	_	_
+3	кармавты	кармавтомс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	эйсэнек	эйсэ	ADP	Adp	Case=Ine|Number[psor]=Plur|Person[psor]=1	3	obj	_	_
+5	лиякс	лиякс	ADV	Adv	Case=Tra	6	advmod	_	_
+6	тееме	теемс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	3	xcomp	_	_
+7	,	,	PUNCT	CLB	_	9	punct	_	_
+8	лиякс	лиякс	ADV	Adv	Case=Tra	9	advmod	_	_
+9	арсеме	арсемс	VERB	V	Valency=1|VerbForm=Inf|Case=Loc	6	conj	_	_
+10	.	.	PUNCT	CLB	_	3	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="4" sentID="2" pgNo="0005"
 # text = Ней минек кона-кона сёрмадыцянть пельде сави вешемс аволь ансяк тонавтнема.
-1	Ней	ней	Adv	_	Temp	7	advmod	_	_
-2	минек	минь	Pron	_	Pers|Pl1|Gen	4	nmod:poss	_	_
-3	кона-кона	кона-кона	Pron	_	Distr|Sg|Nom|Indef	4	det	_	_
+1	Ней	ней	ADV	Adv	AdvType=Temp	7	advmod	_	_
+2	минек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Gen	4	nmod:poss	_	_
+3	кона-кона	кона-кона	PRON	Pron	Distr|Number=Sing|Case=Nom|Definite=Ind	4	det	_	_
 4	сёрмадыцянть	сёрмадыця	Act	_	DemPrc|Der/V2A|Sg|Gen|Def	7	obl	_	_
-5	пельде	пельде	Adp	_	Spat|Abl	4	case	_	_
-6	сави	савомс	Aux	_	IV|Ind|Prs|ScSg3	7	aux	_	_
-7	вешемс	вешемс	V	_	TV|Inf	0	root	_	_
-8	аволь	аволь	Pcle	_	Neg|Intensive	9	advmod:neg	_	_
-9	ансяк	ансяк	Adv	_	Exclusive	10	advmod	_	_
-10	тонавтнема	тонавтнема	N	_	Sg|Nom|Indef	7	obj	_	_
-11	.	.	CLB	_	_	7	punct	_	_
+5	пельде	пельде	ADP	Adp	Spat|Case=Abl	4	case	_	_
+6	сави	савомс	AUX	Aux	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	7	aux	_	_
+7	вешемс	вешемс	VERB	V	Valency=2|VerbForm=Inf	0	root	_	_
+8	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	9	advmod:neg	_	_
+9	ансяк	ансяк	ADV	Adv	Exclusive	10	advmod	_	_
+10	тонавтнема	тонавтнема	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	obj	_	_
+11	.	.	PUNCT	CLB	_	7	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="4" sentID="3" pgNo="0005"
 # text = Минь мертяно тенст: кадык сынь невтьсызь мезес тонадсть, кадык невтьсызь мастерчист.
-1	Минь	минь	Pron	_	Pers|Pl1|Nom	2	nsubj	_	_
-2	мертяно	меремс	V	_	IV|Ind|Prs|ScPl1	0	root	_	_
-3	тенст	сынь	Pron	_	Pers|Pl3|Dat|Short	2	obl	_	_
-4	:	:	CLB	_	_	2	punct	_	_
-5	кадык	кадомс	V	_	TV|Imprt|ScSg2|OcSg3	7	aux:opt	_	_
-6	сынь	сынь	Pron	_	Pers|Pl3|Nom	7	nsubj	_	_
-7	невтьсызь	невтемс	V	_	TV|Ind|Prs|ScPl3|OcSg3	2	conj	_	_
-8	мезес	мезе	Pron	_	Interr|SP|Ill|Indef	9	obl	_	_
-9	тонадсть	тонадомс	V	_	IV|Ind|Prt1|ScPl3	7	ccomp	_	_
-10	,	,	CLB	_	_	12	punct	_	_
-11	кадык	кадомс	V	_	TV|Imprt|ScSg2|OcSg3	12	aux:opt	_	_
-12	невтьсызь	невтемс	V	_	TV|Ind|Prs|ScPl3|OcSg3	2	conj	_	_
-13	мастерчист	мастерчи	N	_	Sg|Gen|PxPl3	12	obj	_	_
-14	.	.	CLB	_	_	2	punct	_	_
+1	Минь	минь	PRON	Pron	PronType=Prs|Pl1|Case=Nom	2	nsubj:prspron	_	_
+2	мертяно	меремс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	0	root	_	_
+3	тенст	сынь	PRON	Pron	PronType=Prs|Pl3|Case=Dat|Short	2	obl	_	_
+4	:	:	PUNCT	CLB	_	2	punct	_	_
+5	кадык	кадомс	VERB	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2|Number[obj]=Sing|Person[obj]=3	7	aux:opt	_	_
+6	сынь	сынь	PRON	Pron	PronType=Prs|Pl3|Case=Nom	7	nsubj:prspron	_	_
+7	невтьсызь	невтемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	2	conj	_	_
+8	мезес	мезе	PRON	Pron	PronType=Int|Number=Sing,Plur|Case=Ill|Definite=Ind	9	obl	_	_
+9	тонадсть	тонадомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	7	ccomp	_	_
+10	,	,	PUNCT	CLB	_	12	punct	_	_
+11	кадык	кадомс	VERB	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2|Number[obj]=Sing|Person[obj]=3	12	aux:opt	_	_
+12	невтьсызь	невтемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	2	conj	_	_
+13	мастерчист	мастерчи	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Plur|Person[psor]=3	12	obj	_	_
+14	.	.	PUNCT	CLB	_	2	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="5" sentID="1" pgNo="0005"
 # text = А.  Дуняшин истямо сёрмадыця, конань пельде минь учотано сёрмадовкст аволь ансяк тонавтницянь.
-1	А.	А	N	_	ABBR	2	flat:name	_	_
-2	Дуняшин	Дуняшин	N	_	Prop|Sem/Sur_Mal|Sg|Nom|Indef	4	nsubj:cop	_	_
-3	истямо	истямо	Pron	_	Dem|Dep	4	det	_	_
-4	сёрмадыця	сёрмадомс	N	_	Sg|Nom|Indef	0	root	_	_
-5	,	,	CLB	_	_	9	punct	_	_
-6	конань	кона	Pron	_	Rel|Sel|SP|Gen|Indef	9	obl	_	_
-7	пельде	пельде	Adp	_	Spat|Abl	6	case	_	_
-8	минь	минь	Pron	_	Pers|Pl1|Nom	9	nsubj	_	_
-9	учотано	учомс	V	_	TV|Ind|Prs|ScPl1	4	acl:relcl	_	_
-10	сёрмадовкст	сёрмадовкс	N	_	Pl|Nom|Indef	9	obj	_	_
-11	аволь	аволь	Pcle	_	Neg|Intensive	12	advmod:neg	_	_
-12	ансяк	ансяк	Adv	_	Exclusive	13	advmod	_	_
-13	тонавтницянь	тонавтниця	N	_	SP|Gen|Indef	10	conj	_	_
-14	.	.	CLB	_	_	4	punct	_	_
+1	А.	А	NOUN	N	ABBR	2	flat:name	_	_
+2	Дуняшин	Дуняшин	PROPN	N	Prop|Sem/Sur_Mal|Number=Sing|Case=Nom|Definite=Ind	4	nsubj:cop	_	_
+3	истямо	истямо	PRON	Pron	PronType=Dem|Dep	4	det	_	_
+4	сёрмадыця	сёрмадомс	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	0	root	_	_
+5	,	,	PUNCT	CLB	_	9	punct	_	_
+6	конань	кона	PRON	Pron	PronType=Rel|Sel|Number=Sing,Plur|Case=Gen|Definite=Ind	9	obl	_	_
+7	пельде	пельде	ADP	Adp	Spat|Case=Abl	6	case	_	_
+8	минь	минь	PRON	Pron	PronType=Prs|Pl1|Case=Nom	9	nsubj:prspron	_	_
+9	учотано	учомс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	4	acl:relcl	_	_
+10	сёрмадовкст	сёрмадовкс	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	9	obj	_	_
+11	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	12	advmod:neg	_	_
+12	ансяк	ансяк	ADV	Adv	Exclusive	13	advmod	_	_
+13	тонавтницянь	тонавтниця	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	10	conj	_	_
+14	.	.	PUNCT	CLB	_	4	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" sentID="1" pgNo="0005"
 # text = Дуняшиндэ башкаяк улить минек сёрмадыцянок.
-1	Дуняшиндэ	Дуняшин	N	_	Sem/Sur_Mal|Prop|SP|Abl|Indef	2	obl	_	_
-2	башкаяк	башка	Adv	_	Foc/Гак	5	obl	_	_
-3	улить	улемс	V	_	IV|Ind|Prs|ScPl3	5	cop:exist	_	_
-4	минек	минь	Pron	_	Pers|Pl1|Gen	5	nmod:poss	_	_
-5	сёрмадыцянок	сёрмадыця	N	_	Pl|Nom|PxPl1	0	root	_	_
-6	.	.	CLB	_	_	5	punct	_	_
+1	Дуняшиндэ	Дуняшин	PROPN	N	Sem/Sur_Mal|Prop|Number=Sing,Plur|Case=Abl|Definite=Ind	2	obl	_	_
+2	башкаяк	башка	ADV	Adv	Clitic=Гак	5	obl	_	_
+3	улить	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	5	cop:exist	_	_
+4	минек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Gen	5	nmod:poss	_	_
+5	сёрмадыцянок	сёрмадыця	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Plur|Person[psor]=1	0	root	_	_
+6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" sentID="2" pgNo="0005"
 # text = Ламо эйстэст кармасть сёрмадомо аволь умок.
-1	Ламо	ламо	Pron	_	Sg|Nom|Indef	3	nsubj	_	_
-2	эйстэст	эйстэ	Adp	_	Ela|PxPl3	1	det	_	_
-3	кармасть	кармамс	V	_	IV|Ind|Prt1|ScPl3	0	root	_	_
-4	сёрмадомо	сёрмадомс	V	_	TV|Inf|Loc	3	xcomp	_	_
-5	аволь	аволь	Pcle	_	Neg|Intensive	6	advmod:neg	_	_
-6	умок	умок	Adv	_	Temp	3	advmod	_	_
-7	.	.	CLB	_	_	3	punct	_	_
+1	Ламо	ламо	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	3	nsubj	_	_
+2	эйстэст	эйстэ	ADP	Adp	Case=Ela|Number[psor]=Plur|Person[psor]=3	1	det	_	_
+3	кармасть	кармамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+4	сёрмадомо	сёрмадомс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	3	xcomp	_	_
+5	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	6	advmod:neg	_	_
+6	умок	умок	ADV	Adv	AdvType=Temp	3	advmod	_	_
+7	.	.	PUNCT	CLB	_	3	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" sentID="3" pgNo="0005"
 # text = Сынь учить паро невтемат Дуняшинэнь пельде.
-1	Сынь	сынь	Pron	_	Pers|Pl3|Nom	2	nsubj	_	_
-2	учить	учомс	V	_	TV|Ind|Prs|ScPl3	0	root	_	_
-3	паро	паро	A	_	Attr	4	amod	_	_
-4	невтемат	невтема	N	_	Pl|Nom|Indef	2	obj	_	_
-5	Дуняшинэнь	Дуняшин	N	_	Prop|Sem/Sur_Mal|SP|Gen|Indef	2	obl	_	_
-6	пельде	пельде	Adp	_	Spat|Abl	5	case	_	_
-7	.	.	CLB	_	_	2	punct	_	_
+1	Сынь	сынь	PRON	Pron	PronType=Prs|Pl3|Case=Nom	2	nsubj:prspron	_	_
+2	учить	учомс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+3	паро	паро	ADJ	A	Attr	4	amod	_	_
+4	невтемат	невтема	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	2	obj	_	_
+5	Дуняшинэнь	Дуняшин	PROPN	N	Prop|Sem/Sur_Mal|Number=Sing,Plur|Case=Gen|Definite=Ind	2	obl	_	_
+6	пельде	пельде	ADP	Adp	Spat|Case=Abl	5	case	_	_
+7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" sentID="4" pgNo="0005"
 # text = Ули арась мезес тонавтнемс од сёрмадыцятненень Дуняшинэнь пельде?
 # text[eng] = Is there anything for the new writers to learn from Dunyashin?
-1	Ули	улемс	V	_	IV|Ind|Prs|ScSg3	4	cop:exist	_	Gloss[eng]=be
-2	арась	арась	Aux	_	Neg|Exist|Prs|ScSg3	1	conj	_	Gloss[eng]=not.exist
-3	мезес	мезе	Pron	_	Interr|SP|Ill|Indef	4	obl	_	Gloss[eng]=what
-4	тонавтнемс	тонавтнемс	V	_	TV|Inf	0	root	_	Gloss[eng]=learn
-5	од	од	A	_	Attr	6	amod	_	Gloss[eng]=new
-6	сёрмадыцятненень	сёрмадыця	N	_	Pl|Dat|Def	4	obl	_	Gloss[eng]=writer
-7	Дуняшинэнь	Дуняшин	N	_	Prop|Sem/Sur_Mal|SP|Gen|Indef	4	obl	_	_
-8	пельде	пельде	Adp	_	Spat|Abl	7	case	_	Gloss[eng]=from
-9	?	?	CLB	_	_	4	punct	_	_
+1	Ули	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	4	cop:exist	_	Gloss[eng]=be
+2	арась	арась	AUX	Aux	Polarity=Neg|Exist|Tense=Pres|Number[subj]=Sing|Person[subj]=3	1	conj	_	Gloss[eng]=not.exist
+3	мезес	мезе	PRON	Pron	PronType=Int|Number=Sing,Plur|Case=Ill|Definite=Ind	4	obl	_	Gloss[eng]=what
+4	тонавтнемс	тонавтнемс	VERB	V	Valency=2|VerbForm=Inf	0	root	_	Gloss[eng]=learn
+5	од	од	ADJ	A	Attr	6	amod	_	Gloss[eng]=new
+6	сёрмадыцятненень	сёрмадыця	NOUN	N	Number=Plur|Case=Dat|Definite=Def	4	obl	_	Gloss[eng]=writer
+7	Дуняшинэнь	Дуняшин	PROPN	N	Prop|Sem/Sur_Mal|Number=Sing,Plur|Case=Gen|Definite=Ind	4	obl	_	_
+8	пельде	пельде	ADP	Adp	Spat|Case=Abl	7	case	_	Gloss[eng]=from
+9	?	?	PUNCT	CLB	_	4	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" sentID="5" pgNo="0005"
 # text = Ули.
 # text[eng] = There is.
-1	Ули	улемс	V	_	IV|Ind|Prs|ScSg3	0	root	_	_
-2	.	.	CLB	_	_	1	punct	_	_
+1	Ули	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	.	.	PUNCT	CLB	_	1	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" sentID="6" pgNo="0005"
 # text = Те кинигасонть пурназь сонзэ весе икелень сёрмадовксонзо.
-1	Те	те	Det	_	Dem|Sg	2	det	_	_
-2	кинигасонть	кинига	N	_	Sg|Ine|Def	3	obl	_	_
-3	пурназь	пурнамс	V	_	TV|Der/Озь|Ger	0	root	_	_
-4	сонзэ	сон	Pron	_	Pers|Sg3|Gen	7	nmod:poss	_	_
-5	весе	весе	Pron	_	Sg|Nom|Indef	7	det	_	_
+1	Те	те	DET	Det	PronType=Dem|Number=Sing	2	det	_	_
+2	кинигасонть	кинига	NOUN	N	Number=Sing|Case=Ine|Definite=Def	3	obl	_	_
+3	пурназь	пурнамс	VERB	V	Valency=2|Der/Озь|Ger	0	root	_	_
+4	сонзэ	сон	PRON	Pron	PronType=Prs|Sg3|Case=Gen	7	nmod:poss	_	_
+5	весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	7	det	_	_
 6	икелень	икелень	Der/GenAttr	_	A|Sg	7	amod	_	_
-7	сёрмадовксонзо	сёрмадовкс	N	_	Pl|Nom|PxSg3	3	nsubj	_	_
-8	.	.	CLB	_	_	3	punct	_	_
+7	сёрмадовксонзо	сёрмадовкс	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+8	.	.	PUNCT	CLB	_	3	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" sentID="7" pgNo="0005"
 # text = Тесэ тешкстазь Дуняшинэнь весе сёрмадома кизэ.
-1	Тесэ	тесэ	Adv	_	Ine	2	obl	_	_
-2	тешкстазь	тешкстамс	V	_	TV|Der/Озь|Ger	0	root	_	_
-3	Дуняшинэнь	Дуняшин	N	_	Sem/Sur_Mal|Prop|SP|Gen|Indef	6	nmod:poss	_	_
-4	весе	весе	Pron	_	Sg|Nom|Indef	6	det	_	_
-5	сёрмадома	сёрмадомс	V	_	TV|Der/NomAct|N|Sg|Nom|Indef	6	nmod:abs	_	_
-6	кизэ	ки	N	_	Sg|Nom|PxSg3	2	nsubj	_	_
-7	.	.	CLB	_	_	2	punct	_	_
+1	Тесэ	тесэ	ADV	Adv	Case=Ine	2	obl	_	_
+2	тешкстазь	тешкстамс	VERB	V	Valency=2|Der/Озь|Ger	0	root	_	_
+3	Дуняшинэнь	Дуняшин	PROPN	N	Sem/Sur_Mal|Prop|Number=Sing,Plur|Case=Gen|Definite=Ind	6	nmod:poss	_	_
+4	весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	6	det	_	_
+5	сёрмадома	сёрмадомс	VERB	V	Valency=2|Derivation=NomAct|N|Number=Sing|Case=Nom|Definite=Ind	6	nmod:abs	_	_
+6	кизэ	ки	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
+7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" pgNo="0006"
 # text = Тестэ од сёрмадыцятне нейсызь, кодамо киява мольсь Дуняшин.
-1	Тестэ	тестэ	Adv	_	Ela	4	obl	_	_
-2	од	од	A	_	Attr	3	amod	_	_
-3	сёрмадыцятне	сёрмадыця	N	_	Pl|Nom|Def	4	nsubj	_	_
-4	нейсызь	неемс	V	_	TV|Ind|Prs|ScPl3|OcSg3	0	root	_	_
-5	,	,	CLB	_	_	8	punct	_	_
-6	кодамо	кодамо	A	_	Interr|Sg|Nom|Indef	7	det	_	_
-7	киява	ки	N	_	SP|Prl|Indef	8	obl	_	_
-8	мольсь	молемс	V	_	IV|Ind|Prt1|ScSg3	4	ccomp	_	_
-9	Дуняшин	Дуняшин	N	_	Prop|Sem/Sur_Mal|Sg|Nom|Indef	8	nsubj	_	_
-10	.	.	CLB	_	_	4	punct	_	_
+1	Тестэ	тестэ	ADV	Adv	Case=Ela	4	obl	_	_
+2	од	од	ADJ	A	Attr	3	amod	_	_
+3	сёрмадыцятне	сёрмадыця	NOUN	N	Number=Plur|Case=Nom|Definite=Def	4	nsubj	_	_
+4	нейсызь	неемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	_
+5	,	,	PUNCT	CLB	_	8	punct	_	_
+6	кодамо	кодамо	ADJ	A	Interr|Number=Sing|Case=Nom|Definite=Ind	7	det	_	_
+7	киява	ки	NOUN	N	Number=Sing,Plur|Case=Prl|Definite=Ind	8	obl	_	_
+8	мольсь	молемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	4	ccomp	_	_
+9	Дуняшин	Дуняшин	PROPN	N	Prop|Sem/Sur_Mal|Number=Sing|Case=Nom|Definite=Ind	8	nsubj	_	_
+10	.	.	PUNCT	CLB	_	4	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" pgNo="0006"
 # text = Кизэ сонзэ аберянь.
-1	Кизэ	ки	N	_	Sg|Nom|PxSg3	4	nsubj	_	_
-2	сонзэ	сон	Pron	_	Pers|Sg3|Gen	1	nmod:poss	_	_
-3	а	а	Pcle	_	Neg	4	advmod:neg	_	_
-4	берянь	берянь	A	_	Sg|Nom|Indef	0	root	_	_
-5	.	.	CLB	_	_	4	punct	_	_
+1	Кизэ	ки	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
+2	сонзэ	сон	PRON	Pron	PronType=Prs|Sg3|Case=Gen	1	nmod:poss	_	_
+3	а	а	PART	Pcle	Polarity=Neg	4	advmod:neg	_	_
+4	берянь	берянь	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	0	root	_	_
+5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" pgNo="0006"
 # text = Ушодовсь сон газетс сёрмадомасто.
-1	Ушодовсь	ушодовомс	V	_	IV|Ind|Prt1|ScSg3	0	root	_	_
-2	сон	сон	Pron	_	Pers|Sg3|Nom	1	nsubj	_	_
-3	газетс	газета	N	_	SP|Ill|Indef	4	obl	_	_
-4	сёрмадомасто	сёрмадома	N	_	SP|Ela|Indef	1	obl	_	_
-5	.	.	CLB	_	_	1	punct	_	_
+1	Ушодовсь	ушодовомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	сон	сон	PRON	Pron	PronType=Prs|Sg3|Case=Nom	1	nsubj:prspron	_	_
+3	газетс	газета	NOUN	N	Number=Sing,Plur|Case=Ill|Definite=Ind	4	obl	_	_
+4	сёрмадомасто	сёрмадома	NOUN	N	Number=Sing,Plur|Case=Ela|Definite=Ind	1	obl	_	_
+5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="7" sentID="1" pgNo="0006"
 # text = Те сборникенть нолдамсто кинь-кинь пельде марявсть истят картамот: сборникесь поздаясь, ловноманзо а кармить.
-1	Те	те	Det	_	Dem|Sg	2	det	_	_
-2	сборникенть	сборник	N	_	Sg|Gen|Def	3	obj	_	_
-3	нолдамсто	нолдамс	V	_	TV|Ger|Ela	6	advcl	_	_
-4	кинь-кинь	кие-#кие	Pron	_	Distr|SP|Gen|Indef	6	obl	_	_
-5	пельде	пельде	Adp	_	Spat|Abl	4	case	_	_
-6	марявсть	марявомс	V	_	IV|Ind|Prt1|ScPl3	0	root	_	_
-7	истят	истямо	Pron	_	Dem|Pl|Nom|Indef	8	det	_	_
-8	кортамот	кортамо	N	_	Pl|Nom|Indef	6	nsubj	_	_
-9	:	:	CLB	_	_	11	punct	_	_
-10	сборникесь	сборник	N	_	Sg|Nom|Def	11	nsubj	_	_
-11	поздаясь	поздаямс	V	_	IV|Ind|Prt1|ScSg3	8	appos	_	_
-12	,	,	CLB	_	_	15	punct	_	_
-13	ловноманзо	ловномс	V	_	TV|Loc|PxSg3	15	xcomp	_	_
-14	а	а	Pcle	_	Neg	15	advmod:neg	_	_
-15	кармить	кармамс	V	_	IV|Ind|Prs|ScPl3	11	conj	_	_
-16	.	.	CLB	_	_	6	punct	_	_
+1	Те	те	DET	Det	PronType=Dem|Number=Sing	2	det	_	_
+2	сборникенть	сборник	NOUN	N	Number=Sing|Case=Gen|Definite=Def	3	obj	_	_
+3	нолдамсто	нолдамс	VERB	V	Valency=2|Ger|Case=Ela	6	advcl	_	_
+4	кинь-кинь	кие-#кие	PRON	Pron	Distr|Number=Sing,Plur|Case=Gen|Definite=Ind	6	obl	_	_
+5	пельде	пельде	ADP	Adp	Spat|Case=Abl	4	case	_	_
+6	марявсть	марявомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+7	истят	истямо	PRON	Pron	PronType=Dem|Number=Plur|Case=Nom|Definite=Ind	8	det	_	_
+8	кортамот	кортамо	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	6	nsubj	_	_
+9	:	:	PUNCT	CLB	_	11	punct	_	_
+10	сборникесь	сборник	NOUN	N	Number=Sing|Case=Nom|Definite=Def	11	nsubj	_	_
+11	поздаясь	поздаямс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	8	appos	_	_
+12	,	,	PUNCT	CLB	_	15	punct	_	_
+13	ловноманзо	ловномс	VERB	V	Valency=2|Case=Loc|Number[psor]=Sing|Person[psor]=3	15	xcomp	_	_
+14	а	а	PART	Pcle	Polarity=Neg	15	advmod:neg	_	_
+15	кармить	кармамс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	11	conj	_	_
+16	.	.	PUNCT	CLB	_	6	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="7" sentID="2" pgNo="0006"
 # text = Те а истя.
-1	Те	те	Pron	_	Dem|Sg|Nom|Indef	3	nsubj	_	Gloss[eng]=this
-2	а	а	Pcle	_	Neg	3	advmod:neg	_	Gloss[eng]=not
-3	истя	истя	Adv	_	Manner	0	root	_	Gloss[eng]=so
-4	.	.	CLB	_	_	3	punct	_	_
+1	Те	те	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	3	nsubj	_	Gloss[eng]=this
+2	а	а	PART	Pcle	Polarity=Neg	3	advmod:neg	_	Gloss[eng]=not
+3	истя	истя	ADV	Adv	AdvType=Manner	0	root	_	Gloss[eng]=so
+4	.	.	PUNCT	CLB	_	3	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="7" sentID="3" pgNo="0006"
 # text = Миненек савкшны аволь ансяк ловномс, сави тонавтнемс сёрмадомо.
-1	Миненек	минь	Pron	_	Pers|Pl1|Dat	2	obl	_	Gloss[eng]=we
-2	савкшны	савкшномс	V	_	IV|Ind|Prs|ScSg3	5	aux	_	Gloss[eng]=have.to
-3	аволь	аволь	Pcle	_	Neg|Intensive	4	advmod:neg	_	Gloss[eng]=not
-4	ансяк	ансяк	Adv	_	Exclusive	5	advmod	_	Gloss[eng]=only
-5	ловномс	ловномс	V	_	TV|Inf	0	root	_	Gloss[eng]=read
-6	,	,	CLB	_	_	8	punct	_	_
-7	сави	савомс	V	_	IV|Ind|Prs|ScSg3	8	aux	_	Gloss[eng]=have.to
-8	тонавтнемс	тонавтнемс	V	_	TV|Inf	5	conj	_	Gloss[eng]=learn
-9	сёрмадомо	сёрмадомс	V	_	TV|Inf|Loc	8	xcomp	_	Gloss[eng]=write
-10	.	.	CLB	_	_	5	punct	_	_
+1	Миненек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Dat	2	obl	_	Gloss[eng]=we
+2	савкшны	савкшномс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	5	aux	_	Gloss[eng]=have.to
+3	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	4	advmod:neg	_	Gloss[eng]=not
+4	ансяк	ансяк	ADV	Adv	Exclusive	5	advmod	_	Gloss[eng]=only
+5	ловномс	ловномс	VERB	V	Valency=2|VerbForm=Inf	0	root	_	Gloss[eng]=read
+6	,	,	PUNCT	CLB	_	8	punct	_	_
+7	сави	савомс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	8	aux	_	Gloss[eng]=have.to
+8	тонавтнемс	тонавтнемс	VERB	V	Valency=2|VerbForm=Inf	5	conj	_	Gloss[eng]=learn
+9	сёрмадомо	сёрмадомс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	8	xcomp	_	Gloss[eng]=write
+10	.	.	PUNCT	CLB	_	5	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="7" sentID="4" pgNo="0006"
 # text = Минек арасть примерэнек ― минек арасель литературанок.
-1	Минек	минь	Pron	_	Pers|Pl1|Gen	3	nmod:exist	_	Gloss[eng]=we
-2	арасть	арась	Aux	_	Neg|Exist|Prs|ScSg3	3	cop:existneg	_	Gloss[eng]=not.exist
-3	примерэнек	примерэнек	N	_	Pl|Nom|PxPl1	0	root	_	Gloss[eng]=example
+1	Минек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Gen	3	nmod:exist	_	Gloss[eng]=we
+2	арасть	арась	AUX	Aux	Polarity=Neg|Exist|Tense=Pres|Number[subj]=Sing|Person[subj]=3	3	cop:existneg	_	Gloss[eng]=not.exist
+3	примерэнек	примерэнек	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Plur|Person[psor]=1	0	root	_	Gloss[eng]=example
 4	―	―	PUNCT	_	_	7	punct	_	_
-5	минек	минь	Pron	_	Pers|Pl1|Gen	7	nmod:exist	_	Gloss[eng]=we
-6	арасель	арась	Aux	_	Neg|Exist|Prt2|ScSg3	7	cop:existneg	_	Gloss[eng]=not.exist
-7	литературанок	литература	N	_	Sg|Gen|PxPl1	3	conj	_	Gloss[eng]=literature
-8	.	.	CLB	_	_	3	punct	_	_
+5	минек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Gen	7	nmod:exist	_	Gloss[eng]=we
+6	арасель	арась	AUX	Aux	Polarity=Neg|Exist|Tense=Prt2|Number[subj]=Sing|Person[subj]=3	7	cop:existneg	_	Gloss[eng]=not.exist
+7	литературанок	литература	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Plur|Person[psor]=1	3	conj	_	Gloss[eng]=literature
+8	.	.	PUNCT	CLB	_	3	punct	_	_
 
 #</sentence>
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="7" sentID="5" pgNo="0006"
 # text = Минек арасть классикенек.
-1	Минек	минь	Pron	_	Pers|Pl1|Gen	3	nmod:exist	_	_
-2	арасть	арась	Aux	_	Neg|Exist|Prs|ScPl3	3	cop:negexist	_	_
-3	классикенек	классик	N	_	Pl|Nom|PxPl1	0	root	_	_
-4	.	.	CLB	_	_	3	punct	_	_
+1	Минек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Gen	3	nmod:exist	_	_
+2	арасть	арась	AUX	Aux	Polarity=Neg|Exist|Tense=Pres|Number[subj]=Plur|Person[subj]=3	3	cop:negexist	_	_
+3	классикенек	классик	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Plur|Person[psor]=1	0	root	_	_
+4	.	.	PUNCT	CLB	_	3	punct	_	_
+
 #</text>
