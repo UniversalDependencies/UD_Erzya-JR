@@ -48,7 +48,7 @@
 6	кона	кона	PRON	Pron	PronType=Rel|Sel|Number=Sing|Case=Nom|Definite=Ind	7	nsubj	_	_
 7	моли	молемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	4	acl:relcl	_	_
 8	ашосо	ашо	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	9	obl	_	_
-9	копачазь	копачамс	VERB	V	Valency=1|Der/Озь|Ger|A|Attr	11	acl	_	_
+9	копачазь	копачамс	VERB	V	Valency=1|Der/Озь|Ger|A|Attr	11	acl:ger	_	_
 10	умарь	умарь	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	11	nmod:abs	_	_
 11	чувто	чувто	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	obl	_	_
 12	ёнов	ёнов	ADP	Adp	Spat|Case=Lat	11	case	_	_
@@ -171,11 +171,11 @@
 4	эрсесь	эрсемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	Gloss[eng]=occur
 5	пиже	пиже	ADJ	A	Attr	6	amod	_	Gloss[eng]=green
 6	нарось	нар	NOUN	N	Number=Sing|Case=Nom|Definite=Def	4	nsubj	_	Gloss[eng]=grass
-7	,	,	PUNCT	CLB	_	_	_	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	вельксэкс	велькс	NOUN	N	Number=Sing,Plur|Case=Tra|Definite=Ind	12	acl	_	Gloss[eng]=cover
 9	—	—	PUNCT	_	_	12	punct	_	_
 10	тештьсэ	теште	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	11	nmod:instr	_	Gloss[eng]=star
-11	сялгонезь	сялгонемс	VERB	V	Valency=2|Der/Озь|Ger|A|Attr	12	acl	_	Gloss[eng]=pierce
+11	сялгонезь	сялгонемс	VERB	V	Valency=2|Der/Озь|Ger|A|Attr	12	acl:ger	_	Gloss[eng]=pierce
 12	менелесь	менель	NOUN	N	Sem/Plc|Number=Sing|Case=Nom|Definite=Def	conj	nsubj	_	Gloss[eng]=sky
 13	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -188,7 +188,7 @@
 4	веленек	веле	NOUN	N	Sem/Plc|Number=Sing|Case=Gen|Number[psor]=Plur|Person[psor]=1	7	obl	_	_
 5	перька	перька	ADP	Adp	Spat|Case=Prl	4	case	_	_
 6	келейстэ	келейстэ	ADV	Adv	_	7	advmod	_	_
-7	сравтнезь	сравтнемс	VERB	V	Valency=2|Der/Озь|Ger|A|Attr	8	acl	_	_
+7	сравтнезь	сравтнемс	VERB	V	Valency=2|Der/Озь|Ger|A|Attr	8	acl:ger	_	_
 8	паксятне	пакся	NOUN	N	Sem/Plc|Number=Plur|Case=Nom|Definite=Def	0	root	_	_
 9	,	,	PUNCT	CLB	_	12	punct	_	_
 10	васов	васов	ADV	Adv	AdvType=Spat	11	advmod	_	_
@@ -238,11 +238,11 @@
 3	кеман	кемемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=1	8	parataxis	_	_
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	ламодонть	ламо	DET	Det	Qnt|Der/MWN|N|Number=Sing|Case=Abl|Definite=Def	8	obl	_	_
-6	аволинь	аволь	VERB	V	Aux|Polarity=Neg|Mood=Cnj|Number[subj]=Sing|Person[subj]=1	7	aux:neg	_	_
+6	аволинь	аволь	AUX	V	Polarity=Neg|Mood=Cnj|Number[subj]=Sing|Person[subj]=1	7	aux:neg	_	_
 7	карма	кармамс	VERB	V	Valency=1|ConNeg	8	aux	_	_
 8	чарькодеме	чарькодемс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	0	root	_	_
 9	,	,	PUNCT	CLB	_	13	punct	_	_
-10	аволь	аволь	VERB	V	Aux|Polarity=Neg|Mood=Cnj|Number[subj]=Sing|Person[subj]=3	11	aux:neg	_	_
+10	аволь	аволь	AUX	V	Polarity=Neg|Mood=Cnj|Number[subj]=Sing|Person[subj]=3	11	aux:neg	_	_
 11	ульгак	ульгак	VERB	V	ConNeg	13	cop:exist	_	_
 12	маласом	маласо	ADP	Adp	Spat|Case=Ine|Number[psor]=Sing|Person[psor]=1|Err/Orth	13	nmod:exist	_	_
 13	авам	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=1	8	advcl	_	_
@@ -363,11 +363,11 @@
 6	марто	марто	ADP	Adp	COM	5	case	_	_
 7	вастнематне	вастнемс	VERB	V	Valency=2|Derivation=NomAct|N|Number=Plur|Case=Nom|Definite=Def	8	nsubj	_	_
 8	лездасть	лездамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	_
-9	тень	мон	PRON	Pron	Pres|Sg1|Case=Dat|Short	8	obl	_	_
+9	тень	мон	PRON	Pron	PronType=Prs|Sg1|Case=Dat|Short	8	obl	_	_
 10	пурнамс	пурнамс	VERB	V	Valency=2|VerbForm=Inf	8	xcomp	_	_
 11	ве	ве	NUM	Num	Adn	12	nummod	_	_
 12	таркас	тарка	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ill|Definite=Ind	10	obl	_	_
-13	неть	неть	Dem	_	Pron|Pl|Nom|Indef	15	det	_	_
+13	неть	неть	PRON	_	Dem|Pl|Nom|Indef	15	det	_	_
 14	велень	веле	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Gen|Definite=Ind	15	nmod:poss	_	_
 15	вайгельтнень	вайгель	NOUN	N	Number=Plur|Case=Gen|Definite=Def	10	obj	_	_
 16	.	.	PUNCT	CLB	_	8	punct	_	_
@@ -379,7 +379,7 @@
 2	ёвтнить	ёвтнемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	_
 3	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	4	advmod:neg	_	_
 4	шождынестэ	шождынестэ	Adv	5	advmod	_	_	_	_
-5	эрязь	эрямс	VERB	V	Valency=1|Der/Озь|Ger|A|Attr	6	acl	_	_
+5	эрязь	эрямс	VERB	V	Valency=2|Der/Озь|Ger|A|Attr	6	acl:ger	_	_
 6	иетнеде	ие	NOUN	N	Number=Plur|Case=Abl|Definite=Def	2	obl	_	_
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	ёжомарямотнеде	ёжомарямо	NOUN	N	Number=Plur|Case=Abl|Definite=Def	6	conj	_	_
@@ -397,7 +397,7 @@
 3	сёрмадомо	сёрмадомс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	1	xcomp	_	_
 4	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	5	advmod:neg	_	_
 5	ансяк	ансяк	ADV	Adv	Exclusive	7	advmod	_	_
-6	умонь	умонь	Der/GenAttr	_	A	7	amod	_	_
+6	умонь	умонь	ADJ	_	Der/GenAttr	7	amod	_	_
 7	читне	чи	NOUN	N	Number=Plur|Case=Nom|Definite=Def	1	nsubj	_	_
 8	.	.	PUNCT	CLB	_	1	punct	_	_
 
@@ -490,9 +490,9 @@
 4	апарось	апаро	NOUN	N	Number=Sing|Case=Nom|Definite=Def	6	nsubj:cop	_	Gloss[eng]=bad
 5	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	6	advmod:neg	_	Gloss[eng]=not
 6	сюлмавкс	сюлмавкс	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	0	root	_	Gloss[eng]=link
-7	умонь	умонь	Der/GenAttr	_	A|Sg	10	amod	_	Gloss[eng]=past
+7	умонь	умонь	ADJ	_	Der/GenAttr|Sg	10	amod	_	Gloss[eng]=past
 8	ды	ды	CCONJ	CC	_	9	cc	_	Gloss[eng]=and
-9	неень	неень	Der/GenAttr	_	A|Sg	7	conj	_	Gloss[eng]=present
+9	неень	неень	ADJ	_	Der/GenAttr|Sg	7	conj	_	Gloss[eng]=present
 10	шкатнень	шка	NOUN	N	Number=Plur|Case=Gen|Definite=Def	6	nmod:poss	_	Gloss[eng]=time
 11	марто	марто	ADP	Adp	COM	10	case	_	Gloss[eng]=with
 12	?	?	PUNCT	CLB	_	6	punct	_	_
@@ -724,7 +724,7 @@
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	цёра	цёра	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	6	vocative	_	_
 4	,	,	PUNCT	CLB	_	3	punct	_	_
-5	иля	иля	Aux	_	Neg|Imprt	6	aux:neg	_	_
+5	иля	иля	AUX	_	Neg|Imprt	6	aux:neg	_	_
 6	маняво	манявомс	VERB	V	Valency=1|ConNeg	0	root	_	_
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -1113,7 +1113,7 @@
 5	—	—	PUNCT	_	_	6	punct	_	_
 6	арсезевинь	арсезевемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=1	2	parataxis	_	Gloss[eng]=become.pensive
 7	ды	ды	CCONJ	CC	_	9	cc	_	Gloss[eng]=and
-8	эзия	эзия	Aux	_	Neg|Ind|Prt1|ScSg1|OcSg3	9	aux:neg	_	Gloss[eng]=did.not.
+8	эзия	эзия	AUX	_	Neg|Ind|Prt1|ScSg1|OcSg3	9	aux:neg	_	Gloss[eng]=did.not.
 9	ёвта	ёвтамс	VERB	V	Valency=2|ConNeg	6	conj	_	Gloss[eng]=say
 10	,	,	PUNCT	CLB	_	12	punct	_	_
 11	мезе	мезе	PRON	Pron	PronType=Int|Number=Sing|Case=Nom|Definite=Ind	12	obj	_	Gloss[eng]=what
@@ -1195,7 +1195,7 @@
 1	Ялатеке	ялатеке	ADV	Adv	_	13	advmod	_	Gloss[eng]=who.cares
 2	,	,	PUNCT	CLB	_	4	punct	_	_
 3	мезде	мезе	PRON	Pron	PronType=Int|Number=Sing,Plur|Case=Abl|Definite=Ind	4	obl	_	Gloss[eng]=what
-4	арсинь	арсемс	Hom1	_	V|IV|Ind|Prt1|ScSg1	13	advcl	_	Gloss[eng]=think
+4	арсинь	арсемс	VERB	_	IV|Ind|Prt1|ScSg1	13	advcl	_	Gloss[eng]=think
 5	ней	ней	ADV	Adv	AdvType=Temp	4	advmod	_	Gloss[eng]=now
 6	,	,	PUNCT	CLB	_	4	punct	_	_
 7	ве	ве	NUM	Num	Attr	8	fixed	_	_
@@ -1203,7 +1203,7 @@
 9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	содан	содамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=1	13	parataxis	_	Gloss[eng]=know
 11	,	,	PUNCT	CLB	_	10	punct	_	_
-12	аволинек	аволь	VERB	V	Aux|Polarity=Neg|Mood=Cnj|Number[subj]=Plur|Person[subj]=1	13	aux:neg	_	Gloss[eng]=not
+12	аволинек	аволь	AUX	V	Polarity=Neg|Mood=Cnj|Number[subj]=Plur|Person[subj]=1	13	aux:neg	_	Gloss[eng]=not
 13	пра	прамс	VERB	V	Valency=1|ConNeg	0	root	_	Gloss[eng]=come.to
 14	.	.	PUNCT	CLB	_	13	punct	_	_
 
@@ -1212,7 +1212,7 @@
 # text = Секс валомгак эзинь прядо.">
 1	Секс	секс	ADV	Adv	_	4	advmod	_	Gloss[eng]=for.this.reason
 2	валомгак	вал	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=1|Clitic=Гак	4	obj	_	Gloss[eng]=what.was.being.said
-3	эзинь	эзь	VERB	V	Aux|Polarity=Neg|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=1	4	aux:neg	_	Gloss[eng]=did.not
+3	эзинь	эзь	AUX	V	Polarity=Neg|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=1	4	aux:neg	_	Gloss[eng]=did.not
 4	прядо	прядомс	VERB	V	Valency=2|ConNeg	0	root	_	Gloss[eng]=finish
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -1324,7 +1324,7 @@
 #sent_id = storyIDЧахрат ды пелюма" paragID="8" sentID="2" pgNo="0008"
 # text = — Кадык ютавтсызь балягатне пеетькшнема шкаст.">
 1	—	—	PUNCT	_	_	3	punct	_	_
-2	Кадык	кадомс	Aux	_	TV|Imprt|ScSg2|OcSg3	3	aux	_	_
+2	Кадык	кадомс	AUX	_	TV|Imprt|ScSg2|OcSg3	3	aux	_	_
 3	ютавтсызь	ютавтомс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	_
 4	балягатне	баляга	NOUN	N	Number=Plur|Case=Nom|Definite=Def	3	nsubj	_	_
 5	пеетькшнема	пеедькшнемс	VERB	V	Valency=1|Stem/е|Derivation=NomAct|N|Number=Sing|Case=Nom|Definite=Ind	6	compound:abs	_	_
@@ -1389,7 +1389,7 @@
 # text = Ансяк кодат иляст уле, весемеде мазыйтне эйстэдест, монень маряви, розась ды макось.">
 1	Ансяк	ансяк	ADV	Adv	Exclusive	2	advmod	_	_
 2	кодат	кодамо	ADJ	A	Interr|Case=Nom|Number=Plur	13	acl:relcl	_	_
-3	иляст	иля	Aux	_	Neg|Imprt|ScPl3	4	aux:neg	_	_
+3	иляст	иля	AUX	_	Neg|Imprt|ScPl3	4	aux:neg	_	_
 4	уле	улемс	AUX	V	Valency=1|ConNeg	2	cop	_	_
 5	,	,	PUNCT	CLB	_	2	punct	_	_
 6	весемеде	весемеде	PART	Pcle	Superl	7	advmod:cmpstandard	_	_
