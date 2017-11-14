@@ -23,17 +23,17 @@
 #
 #text_id dedication: dedicated_to_myv"АНДРЕЕВ МИШАНЕНЬ" dedicated_by="Алек Дуняшин" pgNo="0003"
 # text = сех вадря ды сех вечкема ялгам туртов казезь васень кинигам
-1	Сех	сех	Pcle	_	Superl	2	advmod:superl	_	Gloss[eng]=most
-2	вадря	вадря	A	_	Attr	6	amod	_	Gloss[eng]=good
-3	ды	ды	CC	_	_	5	cc	_	Gloss[eng]=and
-4	сех	сех	Pcle	_	Superl	5	advmod:superl	_	Gloss[eng]=most
-5	вечкема	вечкемс	V	_	TV|Der/NomAct|N|Sg|Nom|Indef	6	amod	_	Gloss[eng]=beloved
-6	ялгам	ялга	N	_	Sg|Gen|PxSg1	8	obl	_	Gloss[eng]=friend
-7	туртов	туртов	Adp	_	Dat	6	case	_	Gloss[eng]=for
-8	казезь	каземс	V	_	TV|Der/Озь|Ger	0	root	_	Gloss[eng]=give.as.present
-9	васень	васень	Num	_	Ord|Sg|Nom|Indef	10	det	_	Gloss[eng]=first
-10	кинигам	кинига	N	_	Sg|Nom|PxSg1	8	nsubj	_	Gloss[eng]=book
-11	.	.	CLB	_	_	8	punct	_	_
+1	Сех	сех	ADV	_	Degree=Sup	2	advmod:sup	_	Gloss[eng]=most
+2	вадря	вадря	ADJ	A	Attr	6	amod	_	Gloss[eng]=good
+3	ды	ды	CCONJ	CC	_	5	cc	_	Gloss[eng]=and
+4	сех	сех	ADV	_	Degree=Sup	5	advmod:sup	_	Gloss[eng]=most
+5	вечкема	вечкемс	VERB	V	Valency=2|VerbForm=Vnoun|Number=Sing|Case=Nom|Definite=Ind	6	amod	_	Gloss[eng]=beloved
+6	ялгам	ялга	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=1	8	obl	_	Gloss[eng]=friend
+7	туртов	туртов	ADP	Adp	Case=Dat	6	case	_	Gloss[eng]=for
+8	казезь	каземс	VERB	V	Valency=2|Der/Озь|VerbForm=Conv	0	root	_	Gloss[eng]=give.as.present
+9	васень	васень	NUM	Num	Ord|Number=Sing|Case=Nom|Definite=Ind	10	det	_	Gloss[eng]=first
+10	кинигам	кинига	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=1	8	nsubj	_	Gloss[eng]=book
+11	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # </dedication>
 #<pgNo>((DunjaA1930-0005))</pgNo>
@@ -65,7 +65,7 @@
 4	умок	умок	ADV	Adv	AdvType=Temp	6	advmod	_	Gloss[eng]=long.ago
 5	мокшэрзятне	мокшэрзя	NOUN	N	Number=Plur|Case=Nom|Definite=Def	6	nsubj	_	Gloss[eng]=Moksh-Erzya
 6	морсекшнэсть	морсекшнемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	nsubj	_	Gloss[eng]=sing
-7	пелезь	пелемс	VERB	V	Valency=1|Der/Озь|Ger	6	advmod	_	Gloss[eng]=in.fear
+7	пелезь	пелемс	VERB	V	Valency=1|Der/Озь|VerbForm=Conv	6	advmod	_	Gloss[eng]=in.fear
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	салава	салава	ADV	Adv	_	7	conj	_	Gloss[eng]=in.secret
 10	―	―	PUNCT	_	_	11	punct	_	_
@@ -122,13 +122,13 @@
 3	―	―	PUNCT	_	_	4	punct	_	_
 4	кунсолосынек	кунсоломс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1|Number[obj]=Sing|Person[obj]=3	0	root	_	_
 5	,	,	PUNCT	CLB	_	7	punct	_	_
-6	седеяк	седеяк	ADV	Adv	_	7	advmod:cmpstandard	_	_
+6	седеяк	седеяк	ADV	Adv	Degree=Cmp	7	advmod:cmpstandard	_	_
 7	кунсолосынек	кунсоломс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1|Number[obj]=Sing|Person[obj]=3	4	conj	_	_
 8	сень	сень	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	obj	_	_
 9	,	,	PUNCT	CLB	_	11	punct	_	_
 10	кона	кона	PRON	Pron	PronType=Rel|Sel|Number=Sing|Case=Nom|Definite=Ind	11	nsubj	_	_
 11	невти	невтемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	8	acl:relcl	_	_
-12	тенек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Dat|Short	11	obl	_	_
+12	тенек	минь	PRON	Pron	PronType=Prs|Pl1|Case=Dat|Variant=Short	11	obl	_	_
 13	,	,	PUNCT	CLB	_	15	punct	_	_
 14	кода	кода	ADV	Adv	AdvType=Int|AdvType=Manner	15	advmod	_	_
 15	витемс	витемс	VERB	V	Valency=2|VerbForm=Inf	11	ccomp	_	_
@@ -285,7 +285,7 @@
 # text = Минь мертяно тенст: кадык сынь невтьсызь мезес тонадсть, кадык невтьсызь мастерчист.
 1	Минь	минь	PRON	Pron	PronType=Prs|Pl1|Case=Nom	2	nsubj:prspron	_	_
 2	мертяно	меремс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	0	root	_	_
-3	тенст	сынь	PRON	Pron	PronType=Prs|Pl3|Case=Dat|Short	2	obl	_	_
+3	тенст	сынь	PRON	Pron	PronType=Prs|Pl3|Case=Dat|Variant=Short	2	obl	_	_
 4	:	:	PUNCT	CLB	_	2	punct	_	_
 5	кадык	кадомс	VERB	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2|Number[obj]=Sing|Person[obj]=3	7	aux:opt	_	_
 6	сынь	сынь	PRON	Pron	PronType=Prs|Pl3|Case=Nom	7	nsubj:prspron	_	_
@@ -374,7 +374,7 @@
 # text = Те кинигасонть пурназь сонзэ весе икелень сёрмадовксонзо.
 1	Те	те	DET	Det	PronType=Dem|Number=Sing	2	det	_	_
 2	кинигасонть	кинига	NOUN	N	Number=Sing|Case=Ine|Definite=Def	3	obl	_	_
-3	пурназь	пурнамс	VERB	V	Valency=2|Der/Озь|Ger	0	root	_	_
+3	пурназь	пурнамс	VERB	V	Valency=2|Der/Озь|VerbForm=Conv	0	root	_	_
 4	сонзэ	сон	PRON	Pron	PronType=Prs|Sg3|Case=Gen	7	nmod:poss	_	_
 5	весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	7	det	_	_
 6	икелень	икелень	ADJ	_	Der/GenAttr|Sg	7	amod	_	_
@@ -385,10 +385,10 @@
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="6" sentID="7" pgNo="0005"
 # text = Тесэ тешкстазь Дуняшинэнь весе сёрмадома кизэ.
 1	Тесэ	тесэ	ADV	Adv	Case=Ine	2	obl	_	_
-2	тешкстазь	тешкстамс	VERB	V	Valency=2|Der/Озь|Ger	0	root	_	_
+2	тешкстазь	тешкстамс	VERB	V	Valency=2|Der/Озь|VerbForm=Conv	0	root	_	_
 3	Дуняшинэнь	Дуняшин	PROPN	N	Sem/Sur_Mal|Prop|Number=Sing,Plur|Case=Gen|Definite=Ind	6	nmod:poss	_	_
 4	весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	6	det	_	_
-5	сёрмадома	сёрмадомс	VERB	V	Valency=2|Derivation=NomAct|N|Number=Sing|Case=Nom|Definite=Ind	6	nmod:abs	_	_
+5	сёрмадома	сёрмадомс	VERB	V	Valency=2|VerbForm=Vnoun|Number=Sing|Case=Nom|Definite=Ind	6	nmod:abs	_	_
 6	кизэ	ки	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -429,7 +429,7 @@
 # text = Те сборникенть нолдамсто кинь-кинь пельде марявсть истят картамот: сборникесь поздаясь, ловноманзо а кармить.
 1	Те	те	DET	Det	PronType=Dem|Number=Sing	2	det	_	_
 2	сборникенть	сборник	NOUN	N	Number=Sing|Case=Gen|Definite=Def	3	obj	_	_
-3	нолдамсто	нолдамс	VERB	V	Valency=2|Ger|Case=Ela	6	advcl	_	_
+3	нолдамсто	нолдамс	VERB	V	Valency=2|VerbForm=Conv|Case=Ela	6	advcl	_	_
 4	кинь-кинь	кие-#кие	PRON	Pron	Distr|Number=Sing,Plur|Case=Gen|Definite=Ind	6	obl	_	_
 5	пельде	пельде	ADP	Adp	Spat|Case=Abl	4	case	_	_
 6	марявсть	марявомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	_
