@@ -31,7 +31,7 @@
 # text[eng] = Kechai was awoken by annoying flies.
 # text[fin] = Ketšai heräsi ikäviin kärpäsiin.
 1	Кечаень	Кечай	PROPN	N	Sem/Ant_Mal|Number=Sing,Plur|Case=Gen|Definite=Ind	2	obj	_	Кечаень
-2	сыргозтизь	сыргозтемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:1.1,1|1:1.1,4|сыргозтизь
+2	сыргозтизь	сыргозтемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:1.1,4|ObjRef=1:1.1,1|сыргозтизь
 3	налкставтыця	налкставтомс	VERB	V	Valency=2|Derivation=NomAg|Number=Sing|Case=Nom|Definite=Ind	4	amod	налкставтыця
 4	карвот	карво	NOUN	N	Sem/Ani|Number=Plur|Case=Nom|Definite=Ind	2	nsubj	_	карвот
 5	.	.	PUNCT	CLB	CLB	2	punct	_	.
@@ -40,15 +40,15 @@
 # text = Сынь кутькавтозь якасть чамаумарьганзо , сельме кертнева , эцесть пилес .
 # text[eng] = They tickled his face and eyelids as they walked over them and poked into his ears.
 # text[fin] = Ne kutisten kävelivät hänen poskillaan, silmäloimillaan ja menivät suoraan korviinkin.
-1	Сынь	сон	PRON	Pron	PronType=Prs|Pl3|Case=Nom	3	nsubj:prspron	_	1:1.1,4|Сынь
+1	Сынь	сон	PRON	Pron	PronType=Prs|Pl3|Case=Nom	3	nsubj:prspron	_	SubjRef=1:1.1,4|Сынь
 2	кутькавтозь	кутькавтомс	VERB	V	Valency=2|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	3	advcl	_	кутькавтозь
-3	якасть	якамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	1:1.1,4|якасть
-4	чамаумарьганзо	чамаумарь	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Prl|Number[psor]=Sing|Person[psor]=3	3	obl	_	1:1.1,1|чамаумарьганзо
+3	якасть	якамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	SubjRef=1:1.1,4|якасть
+4	чамаумарьганзо	чамаумарь	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Prl|Number[psor]=Sing|Person[psor]=3	3	obl	_	PxRef=1:1.1,1|чамаумарьганзо
 5	,	,	PUNCT	CLB	CLB	7	punct	_	,
 6	сельме	сельме	NOUN	N	Sem/Body_part|Number=Sing|Case=Nom|Definite=Ind	7	compound	_	сельме
 7	кертнева	керь	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Prl|Definite=Def	4	conj	_	кертнева
 8	,	,	PUNCT	CLB	CLB	9	punct	_	,
-9	эцесть	эцемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	3	conj	_	1:1.1,4|эцесть
+9	эцесть	эцемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	3	conj	_	SubjRef=1:1.1,4|эцесть
 10	пилес	пиле	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ill|Definite=Ind	9	obl	_	пилес
 11	.	.	PUNCT	CLB	CLB	3	punct	_	.
 
@@ -60,15 +60,15 @@
 2	пачк	пачк	ADP	Adp	Po	1	case	_	пачк
 3	нузякссто	нузякссто	ADV	Adv	AdvType=Manner|Case=Ela	5	advmod	_	нузякссто
 4	зярыяксть	зярыяксть	ADV	Adv	Qnt|Mult	5	advmod:multprf	_	зярыяксть
-5	аволдась	аволдамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:1.1,1|аволдась
-6	кедьсэнзэ	кедь	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	5	obl	_	1:1.1,1|кедьсэнзэ
+5	аволдась	аволдамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:1.1,1|аволдась
+6	кедьсэнзэ	кедь	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	5	obl	_	PxRef=1:1.1,1|кедьсэнзэ
 7	,	,	PUNCT	CLB	CLB	8	punct	_	,
-8	бажась	бажамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	5	conj	_	1:1.1,1|бажась
+8	бажась	бажамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	5	conj	_	SubjRef=1:1.1,1|бажась
 9	панемс	панемс	VERB	V	VerbForm=Inf	8	xcomp	_	панемс
 10	,	,	PUNCT	CLB	CLB	11	punct	_	,
 11	но	но	CCONJ	CCONJ	CC	5	cc	_	но
-12	тонат	тона	PRON	Pron	PronType=Dem|Number=Plur|Case=Nom|Definite=Ind	13	nsubj	_	1:1.1,4|тонат
-13	тандадыльть	тандадомс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	5	conj	_	1:1.1,4|тандадыльть
+12	тонат	тона	PRON	Pron	PronType=Dem|Number=Plur|Case=Nom|Definite=Ind	13	nsubj	_	SubjRef=1:1.1,4|тонат
+13	тандадыльть	тандадомс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	5	conj	_	SubjRef=1:1.1,4|тандадыльть
 14	а	а	PART	Pcle	Polarity=Neg	15	advmod:neg	_	а
 15	куватьс	куватьс	ADV	Adv	AdvType=Temp|Case=Ill	13	advmod	_	куватьс
 16	.	.	PUNCT	CLB	CLB	5	punct	_	.
@@ -78,13 +78,13 @@
 # text[eng] = He only dropped his hand and they were back on his face again.
 # text[fin] = Ei hän ehtinyt laskemaan kätensä, kun ne taas laskeutuivat hänen kasvoilleen.
 1	Ансяк	ансяк	ADV	Adv	Adv	4	advmod	_	Ансяк
-2	кенериль	кенеремс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Sing|Person[subj]=3	0	root	_	1:1.1,1|кенериль
-3	кедензэ	кедь	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	4	obj	_	1:1.1,1|кедензэ
+2	кенериль	кенеремс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:1.1,1|кенериль
+3	кедензэ	кедь	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	4	obj	_	PxRef=1:1.1,1|кедензэ
 4	нолдамо	нолдамс	VERB	V	VerbForm=Inf|Case=Loc	2	xcomp	_	нолдамо
 5	,	,	PUNCT	CLB	CLB	7	punct	_	,
 6	таго	таго	ADV	Adv	AdvType=Temp	7	advmod	_	таго
-7	озыльть	озамс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	2	conj	_	1:1.1,4|озыльть
-8	чаманзо	чама	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	7	obl	_	1:1.1,1|чаманзо
+7	озыльть	озамс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	2	conj	_	SubjRef=1:1.1,4|озыльть
+8	чаманзо	чама	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	7	obl	_	PxRef=1:1.1,1|чаманзо
 9	лангс	ланго	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Ill|Definite=Ind	8	case	_	лангс
 10	.	.	PUNCT	CLB	CLB	2	punct	_	.
 
@@ -94,18 +94,18 @@
 # text[fin] = Lopulta, uni oli poissa.
 1	Окойники	окойники	ADV	Adv	AdvType=Temp	5	advmod	_	Окойники
 2	,	,	PUNCT	CLB	CLB	1	punct	_	,
-3	удомазо	удома	NOUN	N	V|Derivation=NomAct|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	1:1.1,1|удомазо
+3	удомазо	удома	NOUN	N	V|Derivation=NomAct|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	PxRef=1:1.1,1|удомазо
 4	допрок	допрок	PART	Pcle	Number=Sing|Case=Nom|Definite=Ind	5	advmod	_	допрок
-5	сезевсь	сезевемс	VERB	V	Inch|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:1.5,3|сезевсь
+5	сезевсь	сезевемс	VERB	V	Inch|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:1.5,3|сезевсь
 6	.	.	PUNCT	CLB	CLB	5	punct	_	.
 
 #sent_id = chapID1:paragID1:sentID6
 # text = Ды тесэ марясь салавинькань пейдема .
 # text[eng] = And at this he heard a muted titter of laughter.
 # text[fin] = Ja tässä vaiheessa hän kuuli salaperäistä tirskutusta.
-1	Ды	ды	CCONJ	CC	CC	3	conj	_	Ды
+1	Ды	ды	CCONJ	CC	CC	3	cc	_	Ды
 2	тесэ	тесэ	ADV	Adv	Sem/Spat|Adv|Dem|Case=Ine	3	advmod	_	тесэ
-3	марясь	марямс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:1.1,1|марясь
+3	марясь	марямс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:1.1,1|марясь
 4	салавинькань	салавинька	ADJ	A	Case=Prl|DimNYKA|Number=Sing,Plur|Case=Gen|Definite=Ind	5	nmod	_	салавинькань
 5	пейдема	пейдема	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	3	nsubj	_	пейдема
 6	.	.	PUNCT	CLB	CLB	3	punct	_	.
@@ -116,19 +116,19 @@
 # text[fin] = Ketšai varovasti avasi silmänsä hitusen, ja näin muodostuneesta raosta hän huomasi pikku Lopinen, hänen pikku siskonsa, joka nojautui hänen ylleen.
 1	Ёжомарязь	ёжомарязь	ADV	Adv	Adv	3	advcl	_	Ёжомарязь
 2	аламодо	аламодо	ADV	Adv	Qnt|Case=Abl	3	advmod	_	аламодо
-3	явинзе	явомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	0	root	_	1:1.1,1|1:1.7,5|явинзе
+3	явинзе	явомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	0	root	_	SubjRef=1:1.1,1|ObjRef=1:1.7,5|явинзе
 4	сельме	сельме	NOUN	N	Sem/Body_part|Number=Sing|Case=Nom|Definite=Ind	5	nmod	_	сельме
-5	керензэ	керь	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	3	obj	_	1:1.1,1|керензэ
+5	керензэ	керь	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	3	obj	_	PxRef=1:1.1,1|керензэ
 6	ды	ды	CCONJ	CC	CC	3	cc	_	ды
-7	панжовозь	панжовомс	VERB	V	Der/ОвОмс|V|Valency=1|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	9	advcl	_	панжовозь
+7	панжовозь	панжовомс	VERB	V	Der/ОвОмс|V|Valency=1|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	9	acl:ger	_	панжовозь
 8	тея	тея	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	9	amod	_	тея
 9	лазкскеванть	лазкске	NOUN	N	DimKE|Sem/Inanim_Cnt|Number=Sing|Case=Prl|Definite=Def	10	advmod	_	лазкскеванть
-10	редизе	редямс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	3	conj	_	1:1.1,1|1:1.7,13|редизе
+10	редизе	редямс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	3	conj	_	SubjRef=1:1.1,1|ObjRef=1:1.7,13|редизе
 11	велькссэнзэ	велькс	ADP	Adp	Sem/Relat|N|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	13	advmod	_	велькссэнзэ
-12	комазь	комамс	VERB	V	Der/Озь	13	advcl	_	комазь
+12	комазь	комамс	VERB	V	Der/Озь	13	acl:ger	_	комазь
 13	Лопинень	Лопа	PROPN	N	Sem/Ant_Fem|Der/Ыне|N|Number=Sing,Plur|Case=Gen|Definite=Ind	10	obj	_	Лопинень
 14	,	,	PUNCT	CLB	CLB	15	punct	_	,
-15	сазорканзо	сазорка	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	13	appos	_	1:1.1,1|сазорканзо
+15	сазорканзо	сазорка	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	13	appos	_	PxRef=1:1.1,1|сазорканзо
 16	.	.	PUNCT	CLB	CLB	3	punct	_	.
 
 #sent_id = chapID1:paragID1:sentID8
@@ -139,7 +139,7 @@
 2	,	,	PUNCT	CLB	CLB	5	punct	_	,
 3	вана	вана	PART	Pcle	Pcle	5	advmod	_	вана
 4	кие	кие	PRON	Pron	PronType=Int|Number=Sing|Case=Nom	5	nsubj	_	кие
-5	стявтызе	стявтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	1	ccomp	_	1:1.7,13|1:1.1,1|стявтызе
+5	стявтызе	стявтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	1	ccomp	_	SubjRef=1:1.7,13|ObjRef=1:1.1,1|стявтызе
 6	!	!	PUNCT	CLB	CLB	1	punct	_	!
 
 #sent_id = chapID1:paragID1:sentID9
@@ -154,22 +154,22 @@
 # text[eng] = Concentrating on her own endeavor, she had not even noticed that her big brother was awake, and so she kept tickling him by drawn a little piece of grass over his face.
 # text[fin] = Täysin paneutuneena omaan askeraansa Lopine ei huomannutkaan, että iso veli oli hereillä, hän vain jatkoi kutittamistaan vetämällä heinäkortta pitkin pojan naamaa.
 1	Эсь	эсь	DET	Det	PronType=Refl	2	det	_	Эсь
-2	тевезэнзэ	тев	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ill|Number[psor]=Sing|Person[psor]=3	3	obl	_	1:1.7,13|тевезэнзэ
+2	тевезэнзэ	тев	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ill|Number[psor]=Sing|Person[psor]=3	3	obl	_	PxRef=1:1.7,13|тевезэнзэ
 3	рожодомозь	рожодомомс	VERB	V	Der/Озь	5	advcl	_	рожодомозь
 4	,	,	PUNCT	CLB	CLB	7	punct	_	,
-5	тона	тона	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	7	nsubj	_	1:1.7,13|тона
-6	эзизе	эзь	AUX	V	Polarity=Neg|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	7	aux	_	1:1.7,13|эзизе
+5	тона	тона	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	7	nsubj	_	SubjRef=1:1.7,13|тона
+6	эзизе	эзь	AUX	V	Polarity=Neg|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	7	aux	_	SubjRef=1:1.7,13|эзизе
 7	редяяк	редямс	VERB	V	ConNeg|Clitic=Гак	0	root	_	редяяк
 8	—	—	PUNCT	CLB	CLB	10	punct	_	—
 9	лелясь	леля	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Definite=Def	10	nsubj	_	лелясь
-10	сыргозсь	сыргоземс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	7	ccomp	_	1:1.10,9|сыргозсь
+10	сыргозсь	сыргоземс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	7	ccomp	_	SubjRef=1:1.10,9|сыргозсь
 11	,	,	PUNCT	CLB	CLB	14	punct	_	,
 12	ды	ды	CCONJ	CC	CC	14	cc	_	ды
 13	яла	яла	ADV	Adv	AdvType=Temp	14	advmod	_	яла
-14	кутькавтсь	кутькавтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	7	conj	_	1:1.7,13|кутькавтсь
-15	эйсэнзэ	эйсэ	PRON	Pron	Relational|Case=Ine|Number[psor]=Sing|Person[psor]=3	7	obj	_	1:1.1,1|эйсэнзэ
+14	кутькавтсь	кутькавтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	7	conj	_	SubjRef=1:1.7,13|кутькавтсь
+15	эйсэнзэ	эйсэ	PRON	Pron	Relational|Case=Ine|Number[psor]=Sing|Person[psor]=3	7	obj	_	PxRef=1:1.1,1|эйсэнзэ
 16	,	,	PUNCT	CLB	CLB	19	punct	_	,
-17	чамаванзо	чама	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Prl|Number[psor]=Sing|Person[psor]=3	19	obl	_	1:1.10,9|чамаванзо
+17	чамаванзо	чама	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Prl|Number[psor]=Sing|Person[psor]=3	19	obl	_	PxRef=1:1.10,9|чамаванзо
 18	тикшинень	тикшине	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	19	obj	_	тикшинень
 19	ветнезь	ветнемс	VERB	V	Der/Озь	14	advcl	_	ветнезь
 20	.	.	PUNCT	CLB	CLB	7	punct	_	.
@@ -178,18 +178,18 @@
 # text = Седе тов апак кекшне , тетькинзе сельмензэ , кепедизе прянзо ды кавнозевсь кискакс .
 # text[eng] = Without hiding any further, Kechai opened his eyes, raised his head and began barking like a dog.
 # text[fin] = Hetkeäkään säästämättä, Ketshai räväytti silmänsä auki, nosti päätään ja alkoi haukkua kuin koira.
-1	Седе	седе	ADV	Adv	Case=Comp	2	advmod	_	Седе
+1	Седе	седе	ADV	Adv	Degree=Cmp	2	advmod	_	Седе
 2	тов	тов	ADV	Adv	Sem/Spat|Case=Lat	6	advmod	_	тов
 3	апак	апак	PART	Pcle	Polarity=Neg	4	aux:neg	_	апак
 4	кекшне	кекшнемс	VERB	V	ConNeg	6	advmod	_	кекшне
 5	,	,	PUNCT	CLB	CLB	4	punct	_	,
-6	тетькинзе	тетькемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	0	root	_	1:1.10,9|1:1.11,7|тетькинзе
-7	сельмензэ	сельме	NOUN	N	Sem/Body_part|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	6	obj	_	1:1.10,9|сельмензэ
+6	тетькинзе	тетькемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	0	root	_	SubjRef=1:1.10,9|ObjRef=1:1.11,7|тетькинзе
+7	сельмензэ	сельме	NOUN	N	Sem/Body_part|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	6	obj	_	PxRef=1:1.10,9|сельмензэ
 8	,	,	PUNCT	CLB	CLB	9	punct	_	,
-9	кепедизе	кепедемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	6	conj	_	1:1.10,9|1:1.11,10|кепедизе
-10	прянзо	пря	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	9	obj	_	1:1.10,9|прянзо
+9	кепедизе	кепедемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	6	conj	_	SubjRef=1:1.10,9|ObjRef=1:1.11,10|кепедизе
+10	прянзо	пря	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	9	obj	_	PxRef=1:1.10,9|прянзо
 11	ды	ды	CCONJ	CC	CC	12	cc	_	ды
-12	кавнозевсь	кавнозевемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	6	conj	_	1:1.10,9|кавнозевсь
+12	кавнозевсь	кавнозевемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	6	conj	_	SubjRef=1:1.10,9|кавнозевсь
 13	кискакс	киска	NOUN	N	Sem/Anim_Cnt|Number=Sing,Plur|Case=Tra|Definite=Ind	12	xcomp	_	кискакс
 14	.	.	PUNCT	CLB	CLB	6	punct	_	.
 
@@ -199,9 +199,9 @@
 # text[fin] = Lopine hätkähti tätä odottamatonta vaihdosta.
 1	Лопа	Лопа	PROPN	N	Sem/Ant_Fem|Number=Sing|Case=Nom|Definite=Ind	3	nsubj	_	Лопа
 2	тарск	тарск	INTJ	Interj	Ideoph	3	advmod	_	тарск
-3	тейсь	теемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:2.2,1|тейсь
+3	тейсь	теемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:2.2,1|тейсь
 4	ды	ды	CCONJ	CC	CC	5	cc	_	ды
-5	таймаскадсь	таймаскадомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	3	conj	_	1:2.2,1|таймаскадсь
+5	таймаскадсь	таймаскадомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	3	conj	_	SubjRef=1:2.2,1|таймаскадсь
 6	апак	апак	PART	Pcle	Polarity=Neg	7	aux:neg	_	апак
 7	учонь	учомс	VERB	V	Der/VGen	9	amod	_	учонь
 8	те	те	DET	Det	Number=Sing|Case=Nom|Definite=Ind	9	det	_	те
@@ -213,14 +213,14 @@
 # text[eng] = Kechai began howling like a wolf and reached out his two hands to try and catch his little sister.
 # text[fin] = Poika ulvahti kuin susi ja ojensi kätensä, ja yritti saada pikku siskonsa kiinni.
 1	Кечай	Кечай	PROPN	N	Sem/Ant_Mal|Number=Sing|Case=Nom|Definite=Ind	2	nsubj	_	Кечай
-2	урнозевсь	урнозевемс	VERB	V	Inch|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:2.3,1|урнозевсь
+2	урнозевсь	урнозевемс	VERB	V	Inch|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:2.3,1|урнозевсь
 3	верьгизэкс	верьгиз	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Tra|Definite=Ind	2	xcomp	_	верьгизэкс
 4	ды	ды	CCONJ	CC	CC	5	cc	_	ды
-5	венстинзе	венстямс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	2	conj	_	1:2.3,1|1:2.3,7|венстинзе
+5	венстинзе	венстямс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	2	conj	_	SubjRef=1:2.3,1|ObjRef=1:2.3,7|венстинзе
 6	кавонест	кавонек	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	7	acl:assoccoll	_	кавонест
-7	кедензэ	кедь	NOUN	N	Sem/Body_part|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	5	obj	_	1:2.3,1|кедензэ
+7	кедензэ	кедь	NOUN	N	Sem/Body_part|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	5	obj	_	PxRef=1:2.3,1|кедензэ
 8	,	,	PUNCT	CLB	CLB	9	punct	_	,
-9	снартнесь	снартнемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	2	conj	_	1:2.3,1|снартнесь
+9	снартнесь	снартнемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	2	conj	_	SubjRef=1:2.3,1|снартнесь
 10	кундамо	кундамс	VERB	V	VerbForm=Inf|Case=Loc	9	xcomp	_	кундамо
 11	сазорканть	сазорка	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Definite=Def	10	obj	_	сазорканть
 12	.	.	PUNCT	CLB	CLB	2	punct	_	.
@@ -233,8 +233,8 @@
 2	,	,	PUNCT	CLB	CLB	1	punct	_	,
 3	кода	кода	ADV	Adv	AdvType=Int	4	advmod	_	кода
 4	эрязасто	эрязасто	ADV	Adv	AdvType=Manner|Case=Ela	6	advmod	_	эрязасто
-5	тона	тона	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	1:2.3,11|тона
-6	либоргадсь	либоргадомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:2.3,11|либоргадсь
+5	тона	тона	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	SubjRef=1:2.3,11|тона
+6	либоргадсь	либоргадомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:2.3,11|либоргадсь
 7	!	!	PUNCT	CLB	CLB	6	punct	_	!
 
 #sent_id = chapID1:paragID2:sentID5
@@ -242,7 +242,7 @@
 # text[eng] = She flew out of the house full speed.
 # text[fin] = Heittämällä heittäytyi majasta.
 1	Ёртозь	ёртомс	VERB	V	Der/Озь|Prc|Number=Sing|Case=Nom|Definite=Ind	2	advcl	_	Ёртозь
-2	ёртовсь	ёртовомс	VERB	V	Der/ОвОмс|Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:2.3,11|ёртовсь
+2	ёртовсь	ёртовомс	VERB	V	Der/ОвОмс|Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:2.3,11|ёртовсь
 3	кудостонть	кудо	NOUN	N	Sem/Build|N|Number=Sing|Case=Ela|Definite=Def	2	obl	_	кудостонть
 4	.	.	PUNCT	CLB	CLB	2	punct	_	.
 
@@ -251,8 +251,8 @@
 # text[eng] = She did not even close the door behind her.
 # text[fin] = Ei hän edes sulkenut ovea perässään.
 1	Кенкшентькак	кенкш	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def|Clitic=Гак	4	obj	_	Кенкшентькак
-2	мельганзо	мельга	ADV	Adv	Case=Prl|Number[psor]=Sing|Person[psor]=3	4	advmod	_	1:2.3,11|мельганзо
-3	эзизе	эзь	AUX	V	Polarity=Neg|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	4	aux	_	1:2.3,11|1:2.6,1|эзизе
+2	мельганзо	мельга	ADV	Adv	Case=Prl|Number[psor]=Sing|Person[psor]=3	4	advmod	_	PxRef=1:2.3,11|мельганзо
+3	эзизе	эзь	AUX	V	Polarity=Neg|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	4	aux	_	SubjRef=1:2.3,11|ObjRef=1:2.6,1|эзизе
 4	сёлго	сёлгомс	VERB	V	ConNeg	0	root	_	сёлго
 5	.	.	PUNCT	CLB	CLB	4	punct	_	.
 
@@ -261,14 +261,14 @@
 # text[eng] = Kechai threw off the thin skin covers and hurried after her.
 # text[fin] = Ketšai repesi ohuen huopapeiton päältään ja kiirehti peräänsä.
 1	Кечай	Кечай	PROPN	N	Sem/Ant_Mal|Number=Sing|Case=Nom|Definite=Ind	2	nsubj	_	Кечай
-2	штавтызе	штавтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:2.7,1|1:2.7,6|штавтызе
-3	лангстонзо	ланго	ADP	Adp	Sem/Relat|N|Number=Sing,Plur|Case=Ela|Number[psor]=Sing|Person[psor]=3|Der/Adv|Adv	2	advmod	_	1:2.7,1|лангстонзо
+2	штавтызе	штавтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:2.7,1|ObjRef=1:2.7,6|штавтызе
+3	лангстонзо	ланго	ADP	Adp	Sem/Relat|N|Number=Sing,Plur|Case=Ela|Number[psor]=Sing|Person[psor]=3|Der/Adv|Adv	2	advmod	_	PxRef=1:2.7,1|лангстонзо
 4	вельтямо	вельтямо	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	6	amod	_	вельтямо
 5	чова	чова	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	6	amod	_	чова
 6	кенденть	кенде	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	2	obj	_	кенденть
 7	ды	ды	CCONJ	CC	CC	8	cc	_	ды
-8	ношкстась	ношкстамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	2	conj	_	1:2.7,1|ношкстась
-9	мельганзо	мельга	ADP	Adp	Po|Case=Prl|Number[psor]=Sing|Person[psor]=3	8	advmod	_	1:2.3,11|мельганзо
+8	ношкстась	ношкстамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	2	conj	_	SubjRef=1:2.7,1|ношкстась
+9	мельганзо	мельга	ADP	Adp	Po|Case=Prl|Number[psor]=Sing|Person[psor]=3	8	advmod	_	PxRef=1:2.3,11|мельганзо
 10	.	.	PUNCT	CLB	CLB	2	punct	_	.
 
 #sent_id = chapID1:paragID2:sentID8
@@ -279,15 +279,15 @@
 2	валгстыця	валгстыця	VERB	V	Derivation=NomAg|Number=Sing|Case=Nom|Definite=Ind	4	amod	_	валгстыця
 3	кузтема	кузтема	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	4	nmod	_	кузтема
 4	чалгамотнес	чалгамо	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Ill|Definite=Def	7	obl	_	чалгамотнес
-5	пильгензэ	пильге	NOUN	N	Sem/Body_part|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	7	obj	_	1:2.7,1|пильгензэ
+5	пильгензэ	пильге	NOUN	N	Sem/Body_part|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	7	obj	_	PxRef=1:2.7,1|пильгензэ
 6	апак	апак	PART	Pcle	Polarity=Neg	7	aux:neg	_	апак
 7	токавтояк	токавтомс	VERB	V	Valency=2|ConNeg|Clitic=Гак	10	advmod	_	токавтояк
 8	,	,	PUNCT	CLB	CLB	7	punct	_	,
 9	кирнявтозь	кирнявтомс	VERB	V	Valency=2|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	10	advcl	_	кирнявтозь
-10	кирнявтсь	кирнявтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:2.7,1|кирнявтсь
+10	кирнявтсь	кирнявтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:2.7,1|кирнявтсь
 11	верев	вере	ADV	Adv	Sem/Spat|Case=Lat|Definite=Ind	10	advmod	_	верев
 12	,	,	PUNCT	CLB	CLB	13	punct	_	,
-13	эскельдясь	эскельдямс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	10	conj	_	1:2.7,1|эскельдясь
+13	эскельдясь	эскельдямс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	10	conj	_	SubjRef=1:2.7,1|эскельдясь
 14	тарчксонь	тарчкс	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	13	obl	_	тарчксонь
 15	трокс	трокс	ADP	Adp	Po	14	case	_	трокс
 16	ушов	ушо	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Lat|Definite=Ind	13	advmod	_	ушов
@@ -297,8 +297,8 @@
 20	кузтембень	кузтембе	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	21	nmod	_	кузтембень
 21	латонть	лато	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	18	appos	_	латонть
 22	ало	ало	ADP	Adp	Sem/Relat|Po|Definite=Ind|Case=Loc|Definite=Ind	21	case	_	ало
-23	,	,	PUNCT	CLB	CLB	22	punct	_	,
-24	лоткась	лоткамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	10	conj	_	1:2.7,1|лоткась
+23	,	,	PUNCT	CLB	CLB	21	punct	_	,
+24	лоткась	лоткамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	10	conj	_	SubjRef=1:2.7,1|лоткась
 25	.	.	PUNCT	CLB	CLB	10	punct	_	.
 
 #sent_id = chapID1:paragID3:sentID1
@@ -311,15 +311,15 @@
 4	,	,	PUNCT	CLB	CLB	7	punct	_	,
 5	косо	косо	ADV	Adv	PronType=Rel|Case=Ine	7	advmod	_	косо
 6	свал	свал	ADV	Adv	Sem/Time_dur	7	advmod	_	свал
-7	эрсекшнеськак	эрсекшнемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Clitic=Гак	9	conj	_	1:3.1,10|эрсекшнеськак
+7	эрсекшнеськак	эрсекшнемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Clitic=Гак	9	conj	_	SubjRef=1:3.1,10|эрсекшнеськак
 8	,	,	PUNCT	CLB	CLB	7	punct	_	,
-9	цятнось	цятномс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:3.1,10|цятнось
+9	цятнось	цятномс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:3.1,10|цятнось
 10	толбандя	толбандя	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	9	nsubj	_	толбандя
 11	,	,	PUNCT	CLB	CLB	14	punct	_	,
 12	конань	кона	PRON	Pron	PronType=Rel|Number=Sing,Plur|Case=Gen|Definite=Ind	14	obl	_	конань
 13	вакссо	вакссо	ADP	Adp	Sem/Spat|PoS|Number=Sing,Plur|Case=Ine|Definite=Ind	12	case	_	вакссо
-14	котьмась	котьмамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	9	conj	_	1:3.1,15|котьмась
-15	авазо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	14	nsubj	_	1:2.7,1|авазо
+14	котьмась	котьмамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	10	acl:relcl	_	SubjRef=1:3.1,15|котьмась
+15	авазо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	14	nsubj	_	PxRef=1:2.7,1|авазо
 16	.	.	PUNCT	CLB	CLB	9	punct	_	.
 
 #sent_id = chapID1:paragID3:sentID2
@@ -333,34 +333,34 @@
 5	ды	ды	CCONJ	CC	CC	6	cc	_	ды
 6	Гур	Гур	PROPN	N	Sem/Ant_Mal|Number=Sing|Case=Nom|Definite=Ind	4	conj	_	Гур
 7	,	,	PUNCT	CLB	CLB	4	punct	_	,
-8	чарасть	чарамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	1:3.2,1|чарасть
+8	чарасть	чарамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	SubjRef=1:3.2,1|чарасть
 9	толбандянть	толбандя	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	8	obl	_	толбандянть
 10	перька	перька	ADP	Adp	Po|Case=Prl|Number=Sing|Case=Nom|Definite=Ind	9	case	_	перька
 11	ды	ды	CCONJ	CC	CC	13	cc	_	ды
 12	мельспаросо	мельспаро	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	13	advmod	_	мельспаросо
-13	тейсть	теемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	8	conj	_	1:3.2,1|тейсть
+13	тейсть	теемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	8	conj	_	SubjRef=1:3.2,1|тейсть
 14	эсь	эсь	DET	Det	PronType=Refl	15	det	_	эсь
-15	койсэст	кой	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3	13	advmod	_	1:3.2,1|койсэст
+15	койсэст	кой	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3	13	advmod	_	PxRef=1:3.2,1|койсэст
 16	покш	покш	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	17	amod	_	покш
 17	тев	тев	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	13	obj	_	тев
 18	,	,	PUNCT	CLB	CLB	19	punct	_	,
-19	лездасть	лездамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	8	conj	_	1:3.2,1|лездасть
-20	аваст	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Plur|Person[psor]=3	 19	obl	_	1:3.2,1|аваст
+19	лездасть	лездамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	8	conj	_	SubjRef=1:3.2,1|лездасть
+20	аваст	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Plur|Person[psor]=3	 19	obl	_	PxRef=1:3.2,1|аваст
 21	туртов	туртов	ADP	Adp	Po|Case=Dat	20	case	_	туртов
-22	:	:	PUNCT	CLB	CLB	23	punct	_	:
-23	ушодыльть	ушодомс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	8	conj	_	1:3.2,1|ушодыльть
+22	:	:	PUNCT	CLB	CLB	19	punct	_	:
+23	ушодыльть	ушодомс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	8	conj	_	SubjRef=1:3.2,1|ушодыльть
 24	толонть	тол	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	26	obl	_	толонть
 25	лангс	ланго	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Ill|Definite=Ind	24	case	_	лангс
 26	пувамо	пувамс	VERB	V	VerbForm=Inf|Case=Loc	23	xcomp	_	пувамо
 27	,	,	PUNCT	CLB	CLB	31	punct	_	,
 28	куш	куш	SCONJ	CS	CS	31	mark	_	куш
 29	толбандясь	толбандя	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Def	31	nsubj	_	толбандясь
-30	истякак	истяк	ADV	Adv	Number=Sing|Case=Nom|Definite=Ind|Clitic=Гак	31	advmov	_	истякак
-31	палсь	паломс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	23	xcomp	_	1:3.2,29|палсь
+30	истякак	истяк	ADV	Adv	Number=Sing|Case=Nom|Definite=Ind|Clitic=Гак	31	advmod	_	истякак
+31	палсь	паломс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	23	xcomp	_	SubjRef=1:3.2,29|палсь
 32	цятнозь	цятномс	VERB	V	Der/Озь	31	advcl	_	цятнозь
 33	,	,	PUNCT	CLB	CLB	35	punct	_	,
 34	эли	эли	CCONJ	CC	CC	35	cc	_	эли
-35	кармильть	кармамс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	23	conj	_	1:3.2,1|кармильть
+35	кармильть	кармамс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	23	conj	_	SubjRef=1:3.2,1|кармильть
 36	вейке	вейке	NUM	Num	Number=Sing|Case=Nom|Definite=Ind	35	obl	_	вейке
 37	омбоце	омбоце	DET	Det	Number=Sing|Case=Nom|Definite=Ind	36	flat	_	омбоце
 38	мельга	мельга	ADP	Adp	Po	36	case	_	мельга
@@ -374,14 +374,14 @@
 # text[eng] = It was not that they were doing work or not, they had gotten their faces all covered with soot.
 # text[fin] = Oli tämä sitten työ tai ei, he olivat saaneet  kasvonsa sydellä mustiksi.
 1	Тев	тев	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	3	obj	_	Тев
-2	сынь	сон	PRON	Pron	PronType=Prs|Pl3|Case=Nom	3	nsubj:prspron	_	1:3.2,1|сынь
-3	тейсть	теемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	1:3.2,1|тейсть
+2	сынь	сон	PRON	Pron	PronType=Prs|Pl3|Case=Nom	3	nsubj:prspron	_	SubjRef=1:3.2,1|сынь
+3	тейсть	теемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	SubjRef=1:3.2,1|тейсть
 4	эли	эли	CCONJ	CC	CC	5	cc	_	эли
-5	эзть	эзть	VERB	V	Polarity=Neg|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	3	conj	_	1:3.2,1|эзть
+5	эзть	эзть	VERB	V	Polarity=Neg|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	3	conj	_	SubjRef=1:3.2,1|эзть
 6	,	,	PUNCT	CLB	CLB	9	punct	_	,
 7	чаматнень	чама	NOUN	N	Sem/Body_part|Number=Plur|Case=Gen|Definite=Def	9	obj	_	чаматнень
 8	жо	жо	PART	Pcle	Emph	7	discourse	_	жо
-9	содыявтызь	содыявтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Obj3	3	conj	_	1:3.2,1|1:3.3,7|содыявтызь
+9	содыявтызь	содыявтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Obj3	3	conj	_	SubjRef=1:3.2,1|ObjRef=1:3.3,7|содыявтызь
 10	парсте	парсте	ADV	Adv	AdvType=Manner	9	advmod	_	парсте
 11	.	.	PUNCT	CLB	CLB	3	punct	_	.
 
@@ -392,7 +392,7 @@
 1	Кона	кона	DET	Det	PronType=Int|Number=Sing|Case=Nom	2	det	_	Кона
 2	шкане	шка	NOUN	N	Sem/Time|Number=Sing,Plur|Temp|Definite=Ind	4	obl	_	шкане
 3	ансяк	ансяк	ADV	Adv	Adv	4	advmod	_	ансяк
-4	кенерсть	кенеремс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	1:3.4,7|кенерсть
+4	кенерсть	кенеремс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	SubjRef=1:3.4,7|кенерсть
 5	стямо	стямс	VERB	V	VerbForm=Inf|Case=Loc	4	xcomp	_	стямо
 6	неть	не	PRON	Pron	PronType=Dem|Number=Plur|Case=Nom|Definite=Ind	7	amod	_	неть
 7	проявтне	прояв	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	4	nsubj	_	проявтне
@@ -402,7 +402,7 @@
 # text = Эзинзе маряяк .
 # text[eng] = He had not even heard them.
 # text[fin] = Eipä hän ollut kuullutkaan.
-1	Эзинзе	эзь	AUX	V	Polarity=Neg|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	2	aux	_	1:2.7,1|1:3.4,7|Эзинзе
+1	Эзинзе	эзь	AUX	V	Polarity=Neg|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	2	aux	_	SubjRef=1:2.7,1|ObjRef=1:3.4,7|Эзинзе
 2	маряяк	марямс	VERB	V	ConNeg|Clitic=Гак	0	root	_	маряяк
 3	.	.	PUNCT	CLB	CLB	2	punct	_	.
 
@@ -411,14 +411,14 @@
 # text[eng] = Little Lopa was hiding behind her mother, only venturing a look from behind her.
 # text[fin] = Lopine piileskeli äitinsä takana ja vain päätään paljasti tämän takaa.
 1	Лопине	Лопа	PROPN	N	Sem/Ant_Fem|Der/Ыне|N|Number=Sing|Case=Nom|Definite=Ind	2	nsubj	_	Лопине
-2	кекшсь	кекшемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:4.1,1|кекшсь
-3	аванзо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	2	obl	_	1:4.1,1|аванзо
+2	кекшсь	кекшемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:4.1,1|кекшсь
+3	аванзо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	2	obl	_	PxRef=1:4.1,1|аванзо
 4	удалов	удало	ADP	Adp	Sem/Spat|Po|Case=Lat|Definite=Ind	3	case	_	удалов
 5	ды	ды	CCONJ	CC	CC	8	cc	_	ды
 6	ансяк	ансяк	ADV	Adv	Adv	8	advmod	_	ансяк
-7	прянзо	пря	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	8	obj	_	1:4.1,1|прянзо
-8	ливтнилизе	ливтнемс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	2	conj	_	1:4.1,1|1:4.1,7|ливтнилизе
-9	экшстэнзэ	экше	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ela|Number[psor]=Sing|Person[psor]=3	8	obl	_	1:4.1,3|экшстэнзэ
+7	прянзо	пря	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	8	obj	_	PxRef=1:4.1,1|прянзо
+8	ливтнилизе	ливтнемс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	2	conj	_	SubjRef=1:4.1,1|ObjRef=1:4.1,7|ливтнилизе
+9	экшстэнзэ	экше	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ela|Number[psor]=Sing|Person[psor]=3	8	obl	_	PxRef=1:4.1,3|экшстэнзэ
 10	.	.	PUNCT	CLB	CLB	2	punct	_	.
 
 #sent_id = chapID1:paragID4:sentID2
@@ -426,13 +426,13 @@
 # text[eng] = Covering her smiling lips with her hand, she gave her big brother a mischievious look.
 # text[fin] = Peitellen hymyileviä huuliaan kädellä Lopine väläyttellen  silmillään katsoi ison veljensä suuntaan.
 1	Мизолдыця	мизолдыця	Prc	Prc	PrsPrc|Number=Sing|Case=Nom|Definite=Ind	2	amod	_	Мизолдыця
-2	турванзо	турва	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Number[psor]=Sing|Person[psor]=3	4	obj	_	1:4.1,1|турванзо
+2	турванзо	турва	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Number[psor]=Sing|Person[psor]=3	4	obj	_	PxRef=1:4.1,1|турванзо
 3	кедьсэ	кедь	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ine|Definite=Ind	4	obl	_	кедьсэ
 4	лепштязь	лепштямс	VERB	V	Der/Озь	7	advcl	_	лепштязь
 5	,	,	PUNCT	CLB	CLB	4	punct	_	,
 6	ёжовсто	ёжов	ADV	Adv	Der/A_стО|Adv	7	advmod	_	ёжовсто
-7	цитнесь	цитнемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:4.1,1|цитнесь
-8	сельмсэнзэ	сельме	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	7	obl	_	1:4.1,1|сельмсэнзэ
+7	цитнесь	цитнемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:4.1,1|цитнесь
+8	сельмсэнзэ	сельме	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	7	obl	_	PxRef=1:4.1,1|сельмсэнзэ
 9	лелянть	леля	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Definite=Def	7	obl	_	лелянть
 10	ёнов	ёно	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Lat|Definite=Ind	9	case	_	ёнов
 11	.	.	PUNCT	CLB	CLB	7	punct	_	.
@@ -448,7 +448,7 @@
 # text = Удовсь течи !
 # text[eng] = He had overslept today!
 # text[fin] = Olipa hän tänään nukkunut pitkään!
-1	Удовсь	удовомс	VERB	V	Der/ОвОмс|Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:4.2,9|Удовсь
+1	Удовсь	удовомс	VERB	V	Der/ОвОмс|Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:4.2,9|Удовсь
 2	течи	течи	ADV	Adv	Sem/Time_dur	1	advmod	_	течи
 3	!	!	PUNCT	CLB	CLB	1	punct	_	!
 
@@ -459,39 +459,39 @@
 1	Чизэ	чи	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	Чизэ
 2	чувттнэнь	чувто	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Gen|Definite=Def	5	obl	_	чувттнэнь
 3	пряс	пря	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ill|Definite=Ind	2	case	_	пряс
-4	эль	эль	ADV	Adv	Adv	5	adv	_	эль
-5	нежеди	нежедемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	1:5.3,1|нежеди
+4	эль	эль	ADV	Adv	Adv	5	advmod	_	эль
+5	нежеди	нежедемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:5.3,1|нежеди
 6	,	,	PUNCT	CLB	CLB	10	punct	_	,
-7	сон	сон	PRON	Pron	PronType=Prs|Sg3|Case=Nom	10	nsubj:prspron	_	1:4.2,9|сон
+7	сон	сон	PRON	Pron	PronType=Prs|Sg3|Case=Nom	10	nsubj:prspron	_	SubjRef=1:4.2,9|сон
 8	яла	яла	ADV	Adv	AdvType=Temp	10	advmod	_	яла
 9	кенде	кенде	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	10	obj	_	кенде
-10	матры	матрамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	5	conj	_	1:4.2,9|матры
+10	матры	матрамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	5	conj	_	SubjRef=1:4.2,9|матры
 11	.	.	PUNCT	CLB	CLB	5	punct	_	.
 
 #sent_id = chapID1:paragID5:sentID4
 # text = Нать , авазо истя васькавтыксэлизе ды ансяк ней , зярдо толонтькак сонсь верьгедизе , ведьгак кандсь , кучизе Лопань стявтомонзо .
 # text[eng] = His mother must have decided to let him take it easy and only now, after she had lit the fire herself and carried the water, did she send Lopa to wake him up.
 # text[fin] = Tietenkin, hänen äitinsä oli vain halunnut osoittaa pojalleen vähän lempeyttä, ja vasta nyt, kun itse oli sytyttänyt tulen, kantanut vedet, niin suvaitsi lähettää Lopan herättämään veljensä.
-1	Нать	нать	PART	Pcle	Pcle	5	advmod	_	Нать
+1	Нать	нать	ADV	Adv	Parenthetic	5	advmod	_	Нать
 2	,	,	PUNCT	CLB	CLB	1	punct	_	,
-3	авазо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	1:4.2,9|авазо
+3	авазо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	PxRef=1:4.2,9|авазо
 4	истя	истя	ADV	Adv	Adv	5	advmod	_	истя
-5	васькавтыксэлизе	васькавтомс	VERB	V	Valency=2|Des|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:5.4,3|1:4.2,9|васькавтыксэлизе
+5	васькавтыксэлизе	васькавтомс	VERB	V	Valency=2|Des|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:5.4,3|ObjRef=1:4.2,9|васькавтыксэлизе
 6	ды	ды	CCONJ	CC	CC	8	cc	_	ды
 7	ансяк	ансяк	ADV	Adv	Adv	8	advmod	_	ансяк
 8	ней	ней	ADV	Adv	AdvType=Temp	18	advmod	_	ней
 9	,	,	PUNCT	CLB	CLB	13	punct	_	,
 10	зярдо	зярдо	ADV	Adv	PronType=Rel|Sem/Time	13	advmod	_	зярдо
 11	толонтькак	тол	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def|Clitic=Гак	13	obj	_	толонтькак
-12	сонсь	сонсь	PRON	Pron	PronType=Refl|Sg3|Case=Nom	13	nsubj	_	1:5.4,3|сонсь
-13	верьгедизе	верьгедемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	8	advcl	_	1:5.4,11|верьгедизе
+12	сонсь	сонсь	PRON	Pron	PronType=Refl|Sg3|Case=Nom	13	nsubj	_	SubjRef=1:5.4,3|сонсь
+13	верьгедизе	верьгедемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	8	advcl	_	SubjRef=1:5.4,11|верьгедизе
 14	,	,	PUNCT	CLB	CLB	16	punct	_	,
 15	ведьгак	ведь	NOUN	N	Sem/Inanim_NCnt|Number=Sing|Case=Nom|Definite=Ind|Clitic=Гак	16	obj	_	ведьгак
-16	кандсь	кандомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	13	conj	_	1:5.4,3|кандсь
+16	кандсь	кандомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	13	conj	_	SubjRef=1:5.4,3|кандсь
 17	,	,	PUNCT	CLB	CLB	13	punct	_	,
-18	кучизе	кучомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	5	conj	_	1:5.4,3|1:5.4,19|кучизе
+18	кучизе	кучомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	5	conj	_	SubjRef=1:5.4,3|ObjRef=1:5.4,19|кучизе
 19	Лопань	Лопа	PROPN	N	Sem/Ant_Fem|Number=Sing,Plur|Case=Gen|Definite=Ind	18	obj	_	Лопань
-20	стявтомонзо	стявтомс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc|Number[psor]=Sing|Person[psor]=3	18	xcomp	_	1:4.2,9|стявтомонзо
+20	стявтомонзо	стявтомс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc|Number[psor]=Sing|Person[psor]=3	18	xcomp	_	PxRef=1:4.2,9|стявтомонзо
 21	.	.	PUNCT	CLB	CLB	5	punct	_	.
 
 #sent_id = chapID1:paragID5:sentID5
@@ -501,7 +501,7 @@
 1	Цёрынентень	цёрыне	NOUN	N	Sem/Anim_Cnt|Number=Sing|Case=Dat|Definite=Def	4	obl	_	Цёрынентень
 2	аламодо	аламо	ADV	Adv	Case=Abl	4	advmod	_	аламодо
 3	визькс	визькс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	4	nsubj	_	визькс
-4	теевсь	теевемс	VERB	V	Der/ОвОмс|Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:5.5,3|теевсь
+4	теевсь	теевемс	VERB	V	Der/ОвОмс|Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:5.5,3|теевсь
 5	.	.	PUNCT	CLB	CLB	4	punct	_	.
 
 #sent_id = chapID1:paragID5:sentID6
@@ -509,13 +509,13 @@
 # text[eng] = After his father had set off for Tsyardany, those chores had been his, Kechai's.
 # text[fin] = Sen jälkeen kun hänen isänsä oli lähtenyt Tsjardaniin, nämä työt olivat kuuluneet hänelle -- Ketshaille.
 1	Цярданев	Цярдань	PROPN	N	Sem/Settlement|Number=Sing,Plur|Case=Lat|Definite=Ind	3	obl	_	Цярданев
-2	тетянзо	тетя	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	3	nmod:poss	_	1:4.2,9|тетянзо
+2	тетянзо	тетя	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	3	nmod:poss	_	PxRef=1:4.2,9|тетянзо
 3	туемадо	туема	NOUN	N	Derivation=NomAct|Number=Sing,Plur|Case=Abl|Definite=Ind	4	nmod:cmpstandard	_	туемадо
 4	мейле	мейле	ADV	Adv	AdvType=Temp	8	advcl	_	мейле
 5	неть	не	PRON	Pron	PronType=Dem|Number=Plur|Case=Nom|Definite=Ind	6	det	_	неть
-6	тевтне	тев	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	8	nsubj:belong	_	тевтне
-7	ульнесть	ульнемс	AUX	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	8	cop:belong	_	1:5.6,6|ульнесть
-8	сонзэ	сон	PRON	Pron	PronType=Prs|Number=Sing|Person=3|Case=Gen	0	root	_	1:4.2,9|сонзэ
+6	тевтне	тев	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	8	nsubj:copbelong	_	тевтне
+7	ульнесть	ульнемс	AUX	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	8	cop:belong	_	SubjRef=1:5.6,6|ульнесть
+8	сонзэ	сон	PRON	Pron	PronType=Prs|Number=Sing|Person=3|Case=Gen	0	root	_	PxRef=1:4.2,9|сонзэ
 9	—	—	PUNCT	CLB	CLB	10	punct	_	—
 10	Кечаень	Кечай	PROPN	N	Sem/Ant_Mal|Number=Sing,Plur|Case=Gen|Definite=Ind	8	appos	_	Кечаень
 11	.	.	PUNCT	CLB	CLB	8	punct	_	.
@@ -556,7 +556,7 @@
 # text = Удовсь .
 # text[eng] = He slept in.
 # text[fin] = Hän nukkui pommiin.
-1	Удовсь	удовомс	VERB	V	Der/ОвОмс|Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:5.6,10|Удовсь
+1	Удовсь	удовомс	VERB	V	Der/ОвОмс|Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:5.6,10|Удовсь
 2	.	.	PUNCT	CLB	CLB	1	punct	_	.
 
 #sent_id = chapID1:paragID6:sentID1
@@ -566,18 +566,18 @@
 1	Кавто	кавто	NUM	Num	Number=Sing|Case=Nom|Definite=Ind	2	nummod	_	Кавто
 2	кедьсэ	кедь	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ine|Definite=Ind	5	obl	_	кедьсэ
 3	пондакш	пондакш	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	4	amod	_	пондакш
-4	прянзо	пря	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	5	obj	_	1:6.1,7|прянзо
+4	прянзо	пря	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	5	obj	_	PxRef=1:6.1,7|прянзо
 5	разедезь	разедемс	VERB	V	Der/Озь	9	advcl	_	разедезь
 6	,	,	PUNCT	CLB	CLB	5	punct	_	,
 7	Кечай	Кечай	PROPN	N	Sem/Ant_Mal|Number=Sing|Case=Nom|Definite=Ind	9	nsubj	_	Кечай
 8	марявиксстэ	марявикс	ADJ	A	DeverbalS|Number=Sing,Plur|Case=Ela|Definite=Ind	9	advmod	_	марявиксстэ
-9	автизе	автемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:6.1,7|1:6.1,10|автизе
-10	кургонзо	курго	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	9	obj	_	1:6.1,7|кургонзо
+9	автизе	автемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:6.1,7|ObjRef=1:6.1,10|автизе
+10	кургонзо	курго	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	9	obj	_	PxRef=1:6.1,7|кургонзо
 11	,	,	PUNCT	CLB	CLB	12	punct	_	,
-12	венстизе-таргатызе	венстямс-таргатомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	9	conj	_	1:6.1,7|1:6.1,15|венстизе-таргатызе
-13	рунгонзо	рунго	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	12	obj	_	1:6.1,7|рунгонзо
+12	венстизе-таргатызе	венстямс-таргатомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	9	conj	_	SubjRef=1:6.1,7|ObjRef=1:6.1,15|венстизе-таргатызе
+13	рунгонзо	рунго	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	12	obj	_	PxRef=1:6.1,7|рунгонзо
 14	—	—	PUNCT	CLB	CLB	15	punct	_	—
-15	пансесь	пансемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	9	conj	_	1:6.1,7|пансесь
+15	пансесь	пансемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	9	conj	_	SubjRef=1:6.1,7|пансесь
 16	кадовикс	кадовикс	ADJ	A	Der/V_Ыкс|A|Number=Sing|Case=Nom|Definite=Ind	17	amod	_	кадовикс
 17	удоманть	удома	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	15	obj	_	удоманть
 18	.	.	PUNCT	CLB	CLB	9	punct	_	.
@@ -589,7 +589,7 @@
 1	Сельмень	сельме	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Gen|Definite=Ind	2	obj	_	Сельмень
 2	ёзазь	ёзамс	VERB	V	Der/Озь	4	advcl	_	ёзазь
 3	,	,	PUNCT	CLB	CLB	2	punct	_	,
-4	мольсь	молемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:6.1,7|мольсь
+4	мольсь	молемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:6.1,7|мольсь
 5	весень	весе	PRON	Pron	PronType=Ind|Case=Gen	4	obl	_	весень
 6	ваксс	вакссо	ADP	Adp	Sem/Spat|PoS|Number=Sing,Plur|Case=Ill|Definite=Ind	5	case	_	ваксс
 7	.	.	PUNCT	CLB	CLB	4	punct	_	.
@@ -598,19 +598,19 @@
 # text = Прянзо аламодо чумокс марязь , каштмолезь кармась витнеме толбандянть , конань ёроктомо келемтизь кавтаськетне .
 # text[eng] = Feeling a little guilty, he began to straighten the fire in silence, which the twins had unwittingly spread out.
 # text[fin] = Tuntien itsensä pikkuisen syylliseksi hän alkoi sanaakaan sanomatta kohentaa nuotiota, jota kaksoset olivat taidottomasti levittäneet.
-1	Прянзо	пря	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	4	obj	_	1:6.1,7|Прянзо
+1	Прянзо	пря	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	4	obj	_	PxRef=1:6.1,7|Прянзо
 2	аламодо	аламо	ADV	Adv	Case=Abl	4	advmod	_	аламодо
 3	чумокс	чумо	ADJ	A	Number=Sing,Plur|Case=Tra|Definite=Ind	4	xcomp	_	чумокс
 4	марязь	марямс	VERB	V	Der/Озь	7	advcl	_	марязь
 5	,	,	PUNCT	CLB	CLB	4	punct	_	,
 6	каштмолезь	каштмолемс	VERB	V	Der/Озь	7	advcl	_	каштмолезь
-7	кармась	кармамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:6.1,7|кармась
+7	кармась	кармамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:6.1,7|кармась
 8	витнеме	витнемс	VERB	V	VerbForm=Inf|Case=Loc	7	xcomp	_	витнеме
 9	толбандянть	толбандя	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	8	obj	_	толбандянть
 10	,	,	PUNCT	CLB	CLB	13	punct	_	,
-11	конань	кона	PRON	Pron	PronType=Rel|Number=Sing,Plur|Case=Gen|Definite=Ind	13	obj	_	1:6.3,9|конань
-12	ёроктомо	ёрок	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Abe|Definite=Ind	advmod	13	_	ёроктомо
-13	келемтизь	келемтемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	9	acl:relcl	_	1:6.3,14|1:6.3,9|келемтизь
+11	конань	кона	PRON	Pron	PronType=Rel|Number=Sing,Plur|Case=Gen|Definite=Ind	13	obj	_	PxRef=1:6.3,9|конань
+12	ёроктомо	ёрок	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Abe|Definite=Ind	13	advmod	_	ёроктомо
+13	келемтизь	келемтемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	9	acl:relcl	_	SubjRef=1:6.3,14|ObjRef=1:6.3,9|келемтизь
 14	кавтаськетне	кавтаське	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	13	nsubj	_	кавтаськетне
 15	.	.	PUNCT	CLB	CLB	7	punct	_	.
 
@@ -630,9 +630,9 @@
 10	поладозь	поладомс	VERB	V	Der/Озь	13	advcl	_	поладозь
 11	,	,	PUNCT	CLB	CLB	12	punct	_	,
 12	стамбарнэ	стамбарнэ	ADV	Adv	Sem/Manner	13	advmod	_	стамбарнэ
-13	правтынзе	правтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	4	conj	_	1:7.1,15|1:7.1,14|правтынзе
+13	правтынзе	правтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	4	conj	_	SubjRef=1:7.1,15|ObjRef=1:7.1,14|правтынзе
 14	валтнэнь	вал	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Gen|Definite=Def	13	obj	_	валтнэнь
-15	авазо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	1:6.1,7|авазо
+15	авазо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	PxRef=1:6.1,7|авазо
 16	.	.	PUNCT	CLB	CLB	4	punct	_	.
 
 #sent_id = chapID1:paragID8:sentID1
@@ -642,37 +642,37 @@
 1	—	—	PUNCT	CLB	CLB	2	punct	_	—
 2	Угу	угу	INTJ	Interj	Ideoph	6	discourse	_	Угу
 3	,	,	PUNCT	CLB	CLB	2	punct	_	,
-4	—	—	PUNCT	CLB	CLB	2	punct	_	—
+4	—	—	PUNCT	CLB	CLB	6	punct	_	—
 5	нурькинестэ	нурькинестэ	ADV	Adv	Der/стО|Adv|AdvType=Manner	6	advmod	_	нурькинестэ
-6	нолдызе	нолдамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:8.1,10|1:8.1,9|нолдызе
+6	нолдызе	нолдамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:8.1,10|ObjRef=1:8.1,9|нолдызе
 7	удомадонть	удома	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Abl|Definite=Def	8	obl	_	удомадонть
-8	казякадозь	казякадомс	VERB	V	Der/Озь	9	advcl	_	казякадозь
-9	вайгелензэ	вайгель	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	6	obj	_	1:8.1,10|вайгелензэ
+8	казякадозь	казякадомс	VERB	V	Der/Озь	9	acl:ger	_	казякадозь
+9	вайгелензэ	вайгель	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	6	obj	_	PxRef=1:8.1,10|вайгелензэ
 10	Кечай	Кечай	PROPN	N	Sem/Ant_Mal|Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	Кечай
 11	,	,	PUNCT	CLB	CLB	12	punct	_	,
-12	невтизе	невтемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	6	conj	_	1:8.1,10|1:8.1,18|невтизе
+12	невтизе	невтемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	6	conj	_	SubjRef=1:8.1,10|ObjRef=1:8.1,18|невтизе
 13	,	,	PUNCT	CLB	CLB	18	punct	_	,
-14	аванзо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	15	nmod:poss	_	1:8.1,10|аванзо
+14	аванзо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	15	nmod:poss	_	PxRef=1:8.1,10|аванзо
 15	валтнэ	вал	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	18	nsubj	_	валтнэ
 16	стяко	стяко	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	18	advmod	_	стяко
 17	эзть	эзть	VERB	V	Polarity=Neg|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	18	aux	_	эзть
 18	юта	ютамс	VERB	V	ConNeg	12	ccomp	_	юта
-19	пилензэ	пиле	NOUN	N	Sem/Body_part|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	18	obl	_	1:8.1,10|пилензэ
+19	пилензэ	пиле	NOUN	N	Sem/Body_part|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	18	obl	_	PxRef=1:8.1,10|пилензэ
 20	вакска	вакссо	ADP	Adp	Sem/Spat|Po|Number=Sing,Plur|Case=Prl|Definite=Ind	19	case	_	вакска
 21	ды	ды	CCONJ	CC	CC	22	cc	_	ды
-22	козкстась	козкстамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	6	conj	_	1:8.1,10|козкстась
+22	козкстась	козкстамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	6	conj	_	SubjRef=1:8.1,10|козкстась
 23	—	—	PUNCT	CLB	CLB	24	punct	_	—
-24	ванськавтсь	ванськавтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	6	conj	_	1:8.1,10|ванськавтсь
-25	кирьгапарензэ	кирьгапарь	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	24	obj	_	1:8.1,10|кирьгапарензэ
+24	ванськавтсь	ванськавтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	6	conj	_	SubjRef=1:8.1,10|ванськавтсь
+25	кирьгапарензэ	кирьгапарь	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	24	obj	_	PxRef=1:8.1,10|кирьгапарензэ
 26	.	.	PUNCT	CLB	CLB	6	punct	_	.
 
 #sent_id = chapID1:paragID9:sentID1
 # text = Варштась толсо кутмордазь соргавксонтень .
 # text[eng] = He glanced into the cauldron embraced in the fire.
 # text[fin] = Hän vilkaisi liekkien syleilemään kattilaan.
-1	Варштась	варштамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:8.1,10|Варштась
+1	Варштась	варштамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:8.1,10|Варштась
 2	толсо	тол	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	3	obl	_	толсо
-3	кутмордазь	кутмордамс	VERB	V	Der/Озь	4	advcl	_	кутмордазь
+3	кутмордазь	кутмордамс	VERB	V	Der/Озь	4	acl:ger	_	кутмордазь
 4	соргавксонтень	соргавкс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Dat|Definite=Def	1	obl	_	соргавксонтень
 5	.	.	PUNCT	CLB	CLB	1	punct	_	.
 
@@ -682,7 +682,7 @@
 # text[fin] = Eipä vesi vielä kuplinutkaan.
 1	Ведесь	ведь	NOUN	N	Sem/Inanim_NCnt|Number=Sing|Case=Nom|Definite=Def	3	nsubj	_	Ведесь
 2	а	а	PART	Pcle	Polarity=Neg	3	advmod:neg	_	а
-3	булдордыяк	булдордомс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Clitic=Гак	0	root	_	1:9.2,1|булдордыяк
+3	булдордыяк	булдордомс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Clitic=Гак	0	root	_	SubjRef=1:9.2,1|булдордыяк
 4	.	.	PUNCT	CLB	CLB	3	punct	_	.
 
 #sent_id = chapID1:paragID9:sentID3
@@ -690,13 +690,13 @@
 # text[eng] = By the time it begins to boil, and the stew is ready, he will make the run up to the top of Koksha hill to the clay quarry.
 # text[fin] = Sillä aikaa, kun vesi alkaa kiehua ja keitto valmistuu, hän ehti juoksemaan Koksha-mäelle, savea hakemaan.
 1	Зярс	зярс	ADV	Adv	Der/Ill|Adv|AdvType=Temp	2	advmod	_	Зярс
-2	лаказеви	лаказевемс	VERB	V	Inch|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	8	advcl	_	1:9.3,6|лаказеви
+2	лаказеви	лаказевемс	VERB	V	Inch|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	8	advcl	_	SubjRef=1:9.3,6|лаказеви
 3	,	,	PUNCT	CLB	CLB	5	punct	_	,
 4	зярс	зярс	ADV	Adv	Der/Ill|Adv|AdvType=Temp	5	advmod	_	зярс
-5	пии	пиемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	2	conj	_	1:9.3,6|пии
+5	пии	пиемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	2	conj	_	SubjRef=1:9.3,6|пии
 6	ямось	ям	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Def	5	nsubj	_	ямось
-7	сон	сон	PRON	Pron	PronType=Prs|Sg3|Case=Nom	8	nsubj:prspron	_	1:8.1,10|сон
-8	кенери	кенеремс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	1:8.1,10|кенери
+7	сон	сон	PRON	Pron	PronType=Prs|Sg3|Case=Nom	8	nsubj:prspron	_	SubjRef=1:8.1,10|сон
+8	кенери	кенеремс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:8.1,10|кенери
 9	чийнеме	чийнемс	VERB	V	VerbForm=Inf|Case=Loc	8	xcomp	_	чийнеме
 10	Кокша	кокша	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	11	flat	_	Кокша
 11	пандонтень	пандо	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Dat|Definite=Def	9	obl	_	пандонтень
@@ -712,28 +712,28 @@
 1	Шкань	шка	NOUN	N	Sem/Time|Number=Sing,Plur|Case=Gen|Definite=Ind	3	obj	_	Шкань
 2	апак	апак	PART	Pcle	Polarity=Neg	3	aux:neg	_	апак
 3	сатстне	сатстнемс	VERB	V	ConNeg	4	advcl	_	сатстне
-4	карксызе	карксамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:8.1,10|1:10.1,5|карксызе
-5	карксонзо	каркс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	4	obj	_	1:8.1,10|карксонзо
+4	карксызе	карксамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:8.1,10|ObjRef=1:10.1,5|карксызе
+5	карксонзо	каркс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	4	obj	_	PxRef=1:8.1,10|карксонзо
 6	.	.	PUNCT	CLB	CLB	4	punct	_	.
 
 #sent_id = chapID1:paragID10:sentID2
 # text = Эйзэнзэ , пеельде башка , поводезельть куцьканонь костязь пильгине нармуненть налчирькесэ правтызе сонсь , чомболксонь валаськавтозь ды пижень кавто кирькссэ мазылгавтозь ловажа , нучконь пей пакарь — сынь лездасть ванстасть эрьва кодамо чопачадо ды сынстемест кудо маластояк эзь сыргсе .
 # text[eng] = In addition to the knife hanging on the belt, there was the dried foot of an eagle (he had dropped the bird with his own bow), the smoothed bone of an ermine that was decorated with two loops of copper, the jawbone of a pike these all helped ward off every kind of beast and without them he never went anywhere far from the house.
 # text[fin] = Puukon lisäksi, siihen oli ripustettu kuiva kotkanjalka (hän oli pudottanut linnun itse), sileä kärpänluu, joka oli koristeltu kahdella vaskirenkaalla, hauenleukaluu ― nämä auttoivat ja suojelivat kaikenlaisilta pedoilta, ja ilman niitä hän ei lähtenyt koskaan kauas kotipiiristä.
-1	Эйзэнзэ	эйс	PRON	Pron	Relational|Case=Ill|Number[psor]=Sing|Person[psor]=3	6	obl	_	1:10.1,5|Эйзэнзэ
+1	Эйзэнзэ	эйс	PRON	Pron	Relational|Case=Ill|Number[psor]=Sing|Person[psor]=3	6	obl	_	PxRef=1:10.1,5|Эйзэнзэ
 2	,	,	PUNCT	CLB	CLB	3	punct	_	,
 3	пеельде	пеель	NOUN	N	Sem/Tool|Number=Sing,Plur|Case=Abl|Definite=Ind	6	advmod	_	пеельде
 4	башка	башка	ADV	Adv	Adv	3	case	_	башка
 5	,	,	PUNCT	CLB	CLB	3	punct	_	,
-6	поводезельть	поводемс	VERB	V	Der/Озь|Clitic=Cop|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	0	root	_	1:10.2,9|поводезельть
+6	поводезельть	поводемс	VERB	V	Der/Озь|Clitic=Cop|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	0	root	_	SubjRef=1:10.2,9|поводезельть
 7	куцьканонь	куцькан	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	9	nmod:poss	_	куцьканонь
-8	костязь	костямс	VERB	V	Der/Озь	9	advcl	_	костязь
+8	костязь	костямс	VERB	V	Der/Озь	9	acl:ger	_	костязь
 9	пильгине	пильгине	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	6	nsubj:cop	_	пильгине
 10	(	(	PUNCT	PUNCT	PUNCT.LEFT	13	punct	_	(
 11	нармуненть	нармунь	NOUN	N	Sem/Anim_Cnt|Number=Sing|Case=Gen|Definite=Def	13	obj	_	нармуненть
 12	налчирькесэ	налчирьке	NOUN	N	Sem/Wpn|Number=Sing,Plur|Case=Ine|Definite=Ind	13	obl	_	налчирькесэ
-13	правтызе	правтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	6	acl	_	1:8.1,10|1:10.2,11|правтызе
-14	сонсь	сонсь	PRON	Pron	PronType=Refl|Sg3|Case=Nom	13	nsubj	_	1:8.1,10|сонсь
+13	правтызе	правтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	6	acl	_	SubjRef=1:8.1,10|ObjRef=1:10.2,11|правтызе
+14	сонсь	сонсь	PRON	Pron	PronType=Refl|Sg3|Case=Nom	13	nsubj	_	SubjRef=1:8.1,10|сонсь
 15	)	)	PUNCT	PUNCT	PUNCT.RIGHT	13	punct	_	)
 16	,	,	PUNCT	CLB	CLB	24	punct	_	,
 17	чомболксонь	чомболкс	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	24	nmod:poss	_	чомболксонь
@@ -749,16 +749,16 @@
 27	пей	пей	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	28	compound	_	пей
 28	пакарь	пакарь	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	пакарь
 29	—	—	PUNCT	CLB	CLB	31	punct	_	—
-30	сынь	сон	PRON	Pron	PronType=Prs|Pl3|Case=Nom	31	nsubj:prspron	_	1:10.2,9|сынь
-31	лездасть-ванстасть	лездамс-ванстамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	6	conj	_	1:10.2,9|лездасть
+30	сынь	сон	PRON	Pron	PronType=Prs|Pl3|Case=Nom	31	nsubj:prspron	_	SubjRef=1:10.2,9|сынь
+31	лездасть-ванстасть	лездамс-ванстамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	6	conj	_	SubjRef=1:10.2,9|лездасть
 32	эрьва	эрьва	DET	Det	Number=Sing|Case=Nom|Definite=Ind	33	fixed	_	эрьва
 33	кодамо	кодамо	PRON	Pron	PronType=Ind|Number=Sing|Case=Nom	34	amod	_	кодамо
 34	чопачадо	чопача	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Abl|Definite=Ind	31	obl	_	чопачадо
 35	ды	ды	CCONJ	CC	CC	40	cc	_	ды
-36	сынстемест	сынсь	PRON	Pron	PronType=Refl|Pl3|Case=Abe|3Pl	40	obl	_	1:10.2,9|сынстемест
+36	сынстемест	сынсь	PRON	Pron	PronType=Refl|Pl3|Case=Abe|3Pl	40	obl	_	PxRef=1:10.2,9|сынстемест
 37	кудо	кудо	NOUN	N	Sem/Build|N|Number=Sing|Case=Nom|Definite=Ind	40	obl	_	кудо
 38	маластояк	маласто	Po	Po	Der/стО|Po|Clitic=Гак	37	case	_	маластояк
-39	эзь	эзь	AUX	V	Polarity=Neg|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	40	aux	_	1:8.1,10|эзь
+39	эзь	эзь	AUX	V	Polarity=Neg|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	40	aux	_	SubjRef=1:8.1,10|эзь
 40	сыргсе	сыргсемс	VERB	V	ConNeg	6	conj	_	сыргсе
 41	.	.	PUNCT	CLB	CLB	6	punct	_	.
 
@@ -766,9 +766,9 @@
 # text = Кирьгазонзо каизе тетянзо казненть — овтонь кавто уро пейтнень .
 # text[eng] = He put his father's gift around his neck, the two canine teeth from a bear.
 # text[fin] = Hän laittoi kaulaan isän lahjan ― kaksi karhunkulmahammasta.
-1	Кирьгазонзо	кирьга	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ill|Number[psor]=Sing|Person[psor]=3	2	obl	_	1:8.1,10|Кирьгазонзо
-2	каизе	каямс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:8.1,10|1:10.3,4|каизе
-3	тетянзо	тетя	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	4	nmod:poss	_	1:8.1,10|тетянзо
+1	Кирьгазонзо	кирьга	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ill|Number[psor]=Sing|Person[psor]=3	2	obl	_	PxRef=1:8.1,10|Кирьгазонзо
+2	каизе	каямс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:8.1,10|ObjRef=1:10.3,4|каизе
+3	тетянзо	тетя	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	4	nmod:poss	_	PxRef=1:8.1,10|тетянзо
 4	казненть	казне	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	2	obj	_	казненть
 5	—	—	PUNCT	CLB	CLB	9	punct	_	—
 6	овтонь	овто	NOUN	N	Sem/Anim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	9	nmod:poss	_	овтонь
@@ -782,7 +782,7 @@
 # text[eng] = Every on knows that if you wear bear or wolf canines or teeth, then the strength of the animal and its cleverness are transferred to you.
 # text[fin] = Kaikkihan tietävät: jos pidät karhun, suden kulmahampaita tai kynsiä, niin voitetun eläimen voimat ja rohkeus siirtyvät suoraan sinulle.
 1	Весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	2	nsubj	_	Весе
-2	содасызь	содамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:10.4,1|1:10.4,5|содасызь
+2	содасызь	содамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:10.4,1|ObjRef=1:10.4,5|содасызь
 3	:	:	PUNCT	CLB	CLB	5	punct	_	:
 4	бути	бути	SCONJ	CS	Mood=Cnd	5	mark	_	бути
 5	кандтнят	кандтнемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=2	2	ccomp	_	кандтнят
@@ -794,12 +794,12 @@
 11	эли	эли	CCONJ	CC	CC	12	cc	_	эли
 12	кенжть	кенже	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Ind	6	conj	_	кенжть
 13	—	—	PUNCT	CLB	CLB	15	punct	_	—
-14	изнязь	изнямс	VERB	V	Der/Озь	15	acl	_	изнязь
+14	изнязь	изнямс	VERB	V	Der/Озь	15	acl:ger	_	изнязь
 15	идемканть	идемка	NOUN	N	Sem/Anim_Cnt|Number=Sing|Case=Gen|Definite=Def	16	nmod:poss	_	идемканть
-16	виезэ	вий	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	19	nsubj	_	1:10.4,15|виезэ
+16	виезэ	вий	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	19	nsubj	_	PxRef=1:10.4,15|виезэ
 17	ды	ды	CCONJ	CC	CC	18	cc	_	ды
-18	смелчизэ	смелчи	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	16	conj	_	1:10.4,15|смелчизэ
-19	ютыть	ютамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	2	conj	_	1:10.4,16|ютыть
+18	смелчизэ	смелчи	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	16	conj	_	PxRef=1:10.4,15|смелчизэ
+19	ютыть	ютамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	2	conj	_	SubjRef=1:10.4,16|ютыть
 20	тонеть	тон	PRON	Pron	PronType=Prs|2Sg|Case=Dat|Long	19	obl	_	тонеть
 21	.	.	PUNCT	CLB	CLB	2	punct	_	.
 
@@ -807,24 +807,24 @@
 # text = Нама уш , тетязо редизе , кодамо сявадыця сельмсэ свал ваны цёразо сонзэ кирьгаксонть лангс , косо поволезь истянь зняро ванстомкат !
 # text[eng] = Of course, Kechai's father had noticed, how the had always looked enviously at his necklace, which had so many talismans.
 # text[fin] = Totta kai, isä oli huomannut, miten kateellisella katseella poika aina katseli sen kaulusta, missä roikkui niin paljon suojelusesineitä!
-1	Нама	нама	PART	Pcle	Paren	5	discourse	_	Нама
+1	Нама	нама	ADV	Adv	Epist	5	advmod:epist	_	Нама
 2	уш	уш	ADV	Adv	Sem/Time	1	advmod	_	уш
 3	,	,	PUNCT	CLB	CLB	1	punct	_	,
-4	тетязо	тетя	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	1:8.1,10|тетязо
-5	редизе	редямс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:10.5,4|1:10.5,11|редизе
+4	тетязо	тетя	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	PxRef=1:8.1,10|тетязо
+5	редизе	редямс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:10.5,4|ObjRef=1:10.5,11|редизе
 6	,	,	PUNCT	CLB	CLB	11	punct	_	,
 7	кодамо	кодамо	ADJ	A	PronType=Int|Number=Sing|Case=Nom|Definite=Ind	9	amod	_	кодамо
 8	сявадыця	сявадыця	Prc	Prc	PrsPrc|Number=Sing|Case=Nom|Definite=Ind	9	amod	_	сявадыця
 9	сельмсэ	сельме	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ine|Definite=Ind	11	obl	_	сельмсэ
 10	свал	свал	ADV	Adv	Sem/Time_dur	11	advmod	_	свал
-11	ваны	ваномс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	5	ccomp	_	1:10.5,12|ваны
-12	цёразо	цёра	NOUN	N	Sem/Hum|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	11	nsubj	_	1:10.5,4|цёразо
-13	сонзэ	сон	PRON	Pron	PronType=Prs|Number=Sing|Person=3|Case=Gen	14	nmod:poss	_	1:10.5,4|сонзэ
+11	ваны	ваномс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	5	ccomp	_	SubjRef=1:10.5,12|ваны
+12	цёразо	цёра	NOUN	N	Sem/Hum|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	11	nsubj	_	PxRef=1:10.5,4|цёразо
+13	сонзэ	сон	PRON	Pron	PronType=Prs|Number=Sing|Person=3|Case=Gen	14	nmod:poss	_	PxRef=1:10.5,4|сонзэ
 14	кирьгаксонть	кирьгакс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	11	obl	_	кирьгаксонть
 15	лангс	ланго	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Ill|Definite=Ind	14	case	_	лангс
 16	,	,	PUNCT	CLB	CLB	18	punct	_	,
 17	косо	косо	ADV	Adv	Relat|Case=Ine	18	advmod	_	косо
-18	поволезь	поволемс	VERB	V	Der/Озь	14	acl:rel	_	поволезь
+18	поволезь	поволемс	VERB	V	Der/Озь	14	acl:ger	_	поволезь
 19	истянь	истя	ADV	Adv	Der/Онь|A	20	advmod	_	истянь
 20	зняро	зняро	DET	Det	Number=Sing|Case=Nom|Definite=Ind	21	det	_	зняро
 21	ванстомкат	ванстомка	NOUN	N	Der/Омка|N|Number=Plur|Case=Nom|Definite=Ind	18	obj	_	ванстомкат
@@ -841,8 +841,8 @@
 5	апак	апак	PART	Pcle	Polarity=Neg	6	aux:neg	_	апак
 6	учо	учомс	VERB	V	ConNeg	8	advmod	_	учо
 7	,	,	PUNCT	CLB	CLB	6	punct	_	,
-8	венстясь	венстямс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	punct	_	1:10.5,4|венстясь
-9	тензэ	сон	PRON	Pron	PronType=Prs|Sg3|Case=Dat|Short	8	obl	_	1:8.1,10|тензэ
+8	венстясь	венстямс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	punct	_	SubjRef=1:10.5,4|венстясь
+9	тензэ	сон	PRON	Pron	PronType=Prs|Sg3|Case=Dat|Short	8	obl	_	PxRef=1:8.1,10|тензэ
 10	овтонь	овто	NOUN	N	Sem/Anim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	13	nmod:poss	_	овтонь
 11	кавто	кавто	NUM	Num	Number=Sing|Case=Nom|Definite=Ind	13	nummod	_	кавто
 12	уро	уро	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	13	compound	_	уро
@@ -853,25 +853,25 @@
 # text = Зярошкаль цёрыненть кенярксозо !
 # text[eng] = You can imagine the boy's delight!
 # text[fin] = Poika ilahtui äärettömästi!
-1	Зярошкаль	зяро	ADV	Adv	Der/шка|Adv|Clitic=Cop|Tense=Prt2|Sg3	0	root	_	1:10.7,3|Зярошкаль
+1	Зярошкаль	зяро	ADV	Adv	Der/шка|Adv|Clitic=Cop|Tense=Prt2|Sg3	0	root	_	SubjRef=1:10.7,3|Зярошкаль
 2	цёрыненть	цёрыне	NOUN	N	Sem/Anim_Cnt|Number=Sing|Case=Gen|Definite=Def	3	nmod:poss	_	цёрыненть
-3	кенярксозо	кеняркс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	1	nsubj:qnt	_	1:10.7,2|кенярксозо
+3	кенярксозо	кеняркс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	1	nsubj:qnt	_	PxRef=1:10.7,2|кенярксозо
 4	!	!	PUNCT	CLB	CLB	1	punct	_	!
 
 #sent_id = chapID1:paragID10:sentID8
 # text = Сон сонсь умбодсь эйзэст варинеть , истя , кода тейнекшнить весе .
 # text[eng] = He bored little holes in them by himself, just like everyone does.
 # text[fin] = Sitten hän itse kaiveli niihin reiät, niin kuin kaikki tekevätkin.
-1	Сон	сон	PRON	Pron	PronType=Prs|Sg3|Case=Nom	3	nsubj:prspron	_	1:10.7,2|Сон
-2	сонсь	сонсь	PRON	Pron	PronType=Refl|Sg3|Case=Nom	3	nsubj	_	1:10.7,2|сонсь
-3	умбодсь	умбодомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:10.7,2|умбодсь
-4	эйзэст	эйс	PRON	Pron	Relational|Case=Ill|Number[psor]=Plur|Person[psor]=3	3	obl	_	1:10.6,13|эйзэст
+1	Сон	сон	PRON	Pron	PronType=Prs|Sg3|Case=Nom	3	nsubj:prspron	_	SubjRef=1:10.7,2|Сон
+2	сонсь	сонсь	PRON	Pron	PronType=Refl|Sg3|Case=Nom	1	det	_	SubjRef=1:10.7,2|сонсь
+3	умбодсь	умбодомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:10.7,2|умбодсь
+4	эйзэст	эйс	PRON	Pron	Relational|Case=Ill|Number[psor]=Plur|Person[psor]=3	3	obl	_	PxRef=1:10.6,13|эйзэст
 5	варинеть	варине	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Ind	3	obj	_	варинеть
 6	,	,	PUNCT	CLB	CLB	7	punct	_	,
 7	истя	истя	ADV	Adv	Adv	3	advmod	_	истя
 8	,	,	PUNCT	CLB	CLB	10	punct	_	,
 9	кода	кода	ADV	Adv	AdvType=Int|AdvType=Manner	10	advmod	_	кода
-10	тейнекшнить	тейнекшнемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	7	advcl	_	1:10.8,11|тейнекшнить
+10	тейнекшнить	тейнекшнемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	7	advcl	_	SubjRef=1:10.8,11|тейнекшнить
 11	весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	10	nsubj	_	весе
 12	.	.	PUNCT	CLB	CLB	3	punct	_	.
 
@@ -879,12 +879,12 @@
 # text = Сайсь пунянь чова ловажине , почодсь пеенть лангс лей чирень ашо пезеря чувар ды чаравтсь ловажанть сур ютксонзо , зярс тона эзь юта пеенть пачк .
 # text[eng] = He took a fine little bone from a quail, sprinkled fine white sand from the river bank on the tooth and spun the bone between his fingers, until it made a hole through the tooth.
 # text[fin] = Hän otti ohuen viiriäisenluun, sirotteli hienoa valkoista jokitörmänhietaa hampaalle ja pyöritteli luuta sormien välissä, kunnes luu oli mennyt hampaan läpi.
-1	Сайсь	саемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	1:10.7,2|Сайсь
+1	Сайсь	саемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:10.7,2|Сайсь
 2	пунянь	пуня	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	4	nmod:poss	_	пунянь
 3	чова	чова	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	4	amod	_	чова
 4	ловажине	ловажине	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	1	obj	_	ловажине
 5	,	,	PUNCT	CLB	CLB	6	punct	_	,
-6	почодсь	почодомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	1	conj	_	1:10.7,2|почодсь
+6	почодсь	почодомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	1	conj	_	SubjRef=1:10.7,2|почодсь
 7	пеенть	пей	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	6	obl	_	пеенть
 8	лангс	ланго	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Ill|Definite=Ind	7	case	_	лангс
 9	лей	лей	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	10	compound	_	лей
@@ -893,14 +893,14 @@
 12	пезеря	пезеря	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	13	amod	_	пезеря
 13	чувар	чувар	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	6	obj	_	чувар
 14	ды	ды	CCONJ	CC	CC	15	cc	_	ды
-15	чаравтсь	чаравтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	6	conj	_	1:10.7,2|чаравтсь
+15	чаравтсь	чаравтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	6	conj	_	SubjRef=1:10.7,2|чаравтсь
 16	ловажанть	ловажа	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	15	obj	_	ловажанть
 17	сур	сур	NOUN	N	Sem/Body_part|Number=Sing|Case=Nom|Definite=Ind	15	obl	_	сур
-18	ютксонзо	ютко	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	17	case	_	1:10.7,2|ютксонзо
+18	ютксонзо	ютко	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	17	case	_	PxRef=1:10.7,2|ютксонзо
 19	,	,	PUNCT	CLB	CLB	23	punct	_	,
 20	зярс	зярс	ADV	Adv	Der/Ill|Adv|AdvType=Temp	23	advmod	_	зярс
-21	тона	тона	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	23	nsubj	_	1:10.9,16|тона
-22	эзь	эзь	AUX	V	Polarity=Neg|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	23	aux	_	1:10.9,22|эзь
+21	тона	тона	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	23	nsubj	_	SubjRef=1:10.9,16|тона
+22	эзь	эзь	AUX	V	Polarity=Neg|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	23	aux	_	SubjRef=1:10.9,22|эзь
 23	юта	ютамс	VERB	V	ConNeg	15	advcl	_	юта
 24	пеенть	пей	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	23	obl	_	пеенть
 25	пачк	пачк	ADP	Adp	Po	24	case	_	пачк
@@ -911,7 +911,7 @@
 # text[eng] = Then he made a string for the necklace out of thin moose sinew.
 # text[fin] = Nauhan hän teki ohuesta hirvenjänteestä.
 1	Ветстенть	ветсть	NOUN	N	Sem/Inanim_Сnt|Number=Sing|Case=Gen|Definite=Def	2	obj	_	Ветстенть
-2	теизе	теемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:10.7,2|1:10.10,1|теизе
+2	теизе	теемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:10.7,2|ObjRef=1:10.10,1|теизе
 3	сярдонь	сярдо	NOUN	N	Sem/Anim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	5	nmod:poss	_	сярдонь
 4	чова	чова	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	5	amod	_	чова
 5	сансто	сан	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ela|Definite=Ind	2	obl	_	сансто
@@ -921,17 +921,17 @@
 # text = Нолдызе санонть варинетнева , кеместэ сюлминзе петнень — ды ванстомкась аноколь .
 # text[eng] = He threaded the sinew through the little holes, tied the ends firmly, and the amulet was ready.
 # text[fin] = Hän pujotteli jänteen reikien läpi, tiukasti solmi päät, ja suojelus olikin valmis.
-1	Нолдызе	нолдамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:10.7,2|1:10.11,2|Нолдызе
+1	Нолдызе	нолдамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:10.7,2|ObjRef=1:10.11,2|Нолдызе
 2	санонть	сан	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	1	obj	_	санонть
 3	варинетнева	варине	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Prl|Definite=Def	1	obl	_	варинетнева
 4	,	,	PUNCT	CLB	CLB	6	punct	_	,
 5	кеместэ	кеместэ	ADV	Adv	Der/A_стО|Adv	6	advmod	_	кеместэ
-6	сюлминзе	сюлмамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	1	conj	_	1:10.7,2|1:10.11,7|сюлминзе
+6	сюлминзе	сюлмамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	1	conj	_	SubjRef=1:10.7,2|ObjRef=1:10.11,7|сюлминзе
 7	петнень	пе	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Gen|Definite=Def	6	obj	_	петнень
 8	—	—	PUNCT	CLB	CLB	11	punct	_	—
 9	ды	ды	CCONJ	CC	CC	11	cc	_	ды
 10	ванстомкась	ванстомс	VERB	V	Der/Омка|N|Number=Sing|Case=Nom|Definite=Def	11	nsubj:cop	_	ванстомкась
-11	аноколь	анок	ADJ	A	Number=Sing|Case=Nom|Definite=Ind|Clitic=Cop|Tense=Prt2|Sg3	1	conj	_	1:10.11,10|аноколь
+11	аноколь	анок	ADJ	A	Number=Sing|Case=Nom|Definite=Ind|Clitic=Cop|Tense=Prt2|Sg3	1	conj	_	SubjRef=1:10.11,10|аноколь
 12	.	.	PUNCT	CLB	CLB	1	punct	_	.
 
 #sent_id = chapID1:paragID10:sentID12
@@ -941,12 +941,12 @@
 1	Ней	ней	ADV	Adv	AdvType=Temp	4	adv	_	Ней
 2	вирень	вирь	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Gen|Definite=Ind	3	nmod:poss	_	вирень
 3	чопачатне	чопача	NOUN	N	Sem/Anim_Cnt|Number=Plur|Case=Nom|Definite=Def	4	nsubj	_	чопачатне
-4	кармить	кармамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	1:10.12,3|кармить
-5	седе	седе	ADV	Adv	Case=Comp	6	advmod	_	седе
+4	кармить	кармамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	SubjRef=1:10.12,3|кармить
+5	седе	седе	ADV	Adv	Degree=Cmp	6	advmod	_	седе
 6	пелеме	пелемс	VERB	V	VerbForm=Inf|Case=Loc	4	xcomp	_	пелеме
-7	эйстэнзэ	эйстэ	PRON	Pron	Relational|Case=Ela|Number[psor]=Sing|Person[psor]=3	6	obl	_	1:10.7,2|эйстэнзэ
+7	эйстэнзэ	эйстэ	PRON	Pron	Relational|Case=Ela|Number[psor]=Sing|Person[psor]=3	6	obl	_	PxRef=1:10.7,2|эйстэнзэ
 8	:	:	PUNCT	CLB	CLB	9	punct	_	:
-9	кирьгакссонзо	кирьгакс	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3|Clitic=Cop|Tense=Pres|Number[subj]=Sing|Person[subj]=3	4	conj	_	1:10.7,2|кирьгакссонзо
+9	кирьгакссонзо	кирьгакс	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3|Clitic=Cop|Tense=Pres|Number[subj]=Sing|Person[subj]=3	4	conj	_	PxRef=1:10.7,2|кирьгакссонзо
 10	овтонь	овто	NOUN	N	Sem/Anim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	12	nmod:poss	_	овтонь
 11	уро	уро	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	12	compound	_	уро
 12	пейть	пей	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Ind	9	nsubj:exist	_	пейть
@@ -961,31 +961,31 @@
 # text[fin] = Vasta silloin, kun hän oli valmistanut suojeluksensa petoja vastaan, hän otti räystään alta kevyen vesoista kudotun kontin ja pani sen selkäänsä, hän otti lyhytvartisen keihänsä ja lähti savea hakemaan.
 1	Ансяк	ансяк	ADV	Adv	Adv	2	advmod	_	Ансяк
 2	зярдо	зярдо	SCONJ	CS	Sem/Time_dur	3	mark	_	зярдо
-3	анокстызе	анокстамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	9	advcl	_	1:10.7,2|1:11.1,4|анокстызе
+3	анокстызе	анокстамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	9	advcl	_	SubjRef=1:10.7,2|ObjRef=1:11.1,4|анокстызе
 4	прянзо	пря	NOUN	N	Sem/Body_part|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	3	obj	_	прянзо
 5	чопачатнеде	чопача	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Abl|Definite=Def	6	obl	_	чопачатнеде
 6	ванстомо	ванстомс	VERB	V	VerbForm=Inf|Case=Loc	3	xcomp	_	ванстомо
 7	,	,	PUNCT	CLB	CLB	3	punct	_	,
 8	сестэ	сестэ	ADV	Adv	PronType=Dem|AdvType=Temp	9	advmod	_	сестэ
-9	саизе	саемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	1:10.7,2|1:11.1,15|саизе
+9	саизе	саемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	SubjRef=1:10.7,2|ObjRef=1:11.1,15|саизе
 10	лато	лато	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	9	obl	_	лато
 11	алдо	алдо	Po	Po	Sem/Relat|Po	10	case	_	алдо
 12	илёвонь	илёв	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	15	nmod:poss	_	илёвонь
-13	кодазь	кодамс	VERB	V	Der/Озь	15	advcl	_	кодазь
+13	кодазь	кодамс	VERB	V	Der/Озь	15	acl:ger	_	кодазь
 14	шожда	шожда	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	15	amod	_	шожда
 15	куйменть	куйме	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	9	obj	_	куйменть
 16	,	,	PUNCT	CLB	CLB	17	punct	_	,
-17	поводизе	поводемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	9	conj	_	1:10.7,2|1:11.1,15|поводизе
+17	поводизе	поводемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	9	conj	_	SubjRef=1:10.7,2|ObjRef=1:11.1,15|поводизе
 18	кутьмерезэнзэ	кутьмере	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ill|Number[psor]=Sing|Person[psor]=3	17	obl	_	кутьмерезэнзэ
 19	,	,	PUNCT	CLB	CLB	20	punct	_	,
-20	каподизе	каподемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	9	conj	_	1:10.7,2|1:11.1,25|каподизе
+20	каподизе	каподемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	9	conj	_	SubjRef=1:10.7,2|ObjRef=1:11.1,25|каподизе
 21	нурька	нурька	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	22	amod	_	нурька
 22	недь	недь	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	25	nmod	_	недь
 23	марто	марто	ADP	Adp	Po	22	case	_	марто
 24	ёртнема	ёртнема	NOUN	N	Derivation=NomAct|Number=Sing|Case=Nom|Definite=Ind	25	compound	_	ёртнема
-25	сялгонзо	сялго	NOUN	N	Sem/Wpn|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	20	obj	_	1:10.7,2|сялгонзо
+25	сялгонзо	сялго	NOUN	N	Sem/Wpn|Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	20	obj	_	PxRef=1:10.7,2|сялгонзо
 26	ды	ды	CCONJ	CC	CC	27	cc	_	ды
-27	сыргась	сыргамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	9	conj	_	1:10.7,2|сыргась
+27	сыргась	сыргамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	9	conj	_	SubjRef=1:10.7,2|сыргась
 28	сёвонь	сёвонь	NOUN	N	Sem/Inanim|Sem/NCnt|Number=Sing|Case=Nom|Definite=Ind	27	obl	_	сёвонь
 29	мельга	мельга	ADP	Adp	Po	28	case	_	мельга
 30	.	.	PUNCT	CLB	CLB	9	punct	_	.
@@ -1159,7 +1159,7 @@
 # text = Сехте паро шка .
 # text[eng] = The best time of all.
 # text[fin] = Se on parasta aikaa.
-1	Сехте	сех	ADV	Adv	Case=Comp|Case=Abl|Definite=Ind	2	advmod:sup	_	Сехте
+1	Сехте	сех	ADV	Adv	Degree=Sup|Case=Abl|Definite=Ind	2	advmod:sup	_	Сехте
 2	паро	паро	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	3	amod	_	паро
 3	шка	шка	NOUN	N	Sem/Time|Number=Sing|Case=Nom|Definite=Ind	0	root	_	шка
 4	.	.	PUNCT	CLB	CLB	3	punct	_	.
@@ -1250,7 +1250,7 @@
 4	аволь	аволь	PART	Pcle	Polarity=Neg|Emph	5	advmod:neg	_	аволь
 5	вейке	вейке	NUM	Num	Number=Sing|Case=Nom|Definite=Ind	6	nummod	_	вейке
 6	чисэ	чи	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	3	obl	_	чисэ
-7	—	—	PUNCT	CLB	CLB	2	punct	_	—
+7	—	—	PUNCT	CLB	CLB	8	punct	_	—
 8	арсек	арсемс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2	0	root	_	арсек
 9	пертьпелькстэнть	пертьпелькс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Abl|Definite=Def	8	obl	_	пертьпелькстэнть
 10	.	.	PUNCT	CLB	CLB	8	punct	_	.
@@ -1275,7 +1275,7 @@
 14	,	,	PUNCT	CLB	CLB	15	punct	_	,
 15	три-касты	трямс-кастомс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	7	conj	_	три
 16	эйдензэ	эйде	NOUN	N	Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	15	obj	_	эйдензэ
-17	—	—	PUNCT	CLB	CLB	15	punct	_	—
+17	—	—	PUNCT	CLB	CLB	19	punct	_	—
 18	оцинямось	оцинямо	NOUN	N	Number=Sing|Case=Nom|Definite=Def	19	nsubj	_	оцинямось
 19	канды	кандомс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	канды
 20	покш	покш	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	21	amod	_	покш
@@ -1331,9 +1331,7 @@
 2	лангс	ланго	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Ill|Definite=Ind	1	case	_	лангс
 3	мейле	мейле	ADV	Adv	AdvType=Temp	4	advmod	_	мейле
 4	кемемс	кемемс	VERB	V	VerbForm=Inf	0	root	_	кемемс
-5	?	?	PUNCT	CLB	CLB	4	punct	_	?
-6	.	.	PUNCT	CLB	CLB	5	fixed	_	.
-7	.	.	PUNCT	CLB	CLB	5	fixed	_	.
+5	?..	?..	PUNCT	CLB	CLB	4	punct	_	?..
 
 #sent_id = chapID2:paragID2:sentID22
 # text = Секс те шканть кияк а яки оцинямо , аштить кудосо , секс лемдизьгак сонзэ аштема ковокс .
@@ -1487,7 +1485,7 @@
 2	валгить	валгомс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	валгить
 3	тей	тей	ADV	Adv	Sem/Spat|Case=Lat	2	advmod	_	тей
 4	кода	кода	ADV	Adv	Degree	5	advmod	_	кода
-5	седе	седе	ADV	Adv	Case=Comp	6	advmod	_	седе
+5	седе	седе	ADV	Adv	Degree=Cmp	6	advmod	_	седе
 6	ламо	ламо	PRON	Pron	Qnt|Number=Sing|Case=Nom|Definite=Ind	2	advmod	_	ламо
 7	,	,	PUNCT	CLB	CLB	11	punct	_	,
 8	пизэть	пизэ	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	11	obj	_	пизэть
@@ -1544,9 +1542,7 @@
 # text[eng] = It is a sin!
 # text[fin] = Se olisi häväistys!..
 1	Пежеть	пежеть	NOUN	N	Number=Sing|Case=Nom|Definite=Ind|Clitic=Cop|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	Пежеть
-2	!	!	PUNCT	CLB	CLB	1	punct	_	!
-3	.	.	PUNCT	CLB	CLB	2	fixed	_	.
-4	.	.	PUNCT	CLB	CLB	2	fixed	_	.
+2	!..	!..	PUNCT	CLB	CLB	1	punct	_	!..
 
 #sent_id = chapID2:paragID3:sentID1
 # text = Кечай мольсь пильгалонзо ацазь чевте кумбонть ланга , ансяк курок лоткась неемеде мазычинтькак , пертьпельксэнтькак .
@@ -1555,7 +1551,7 @@
 1	Кечай	Кечай	PROPN	N	Sem/Ant_Mal|Number=Sing|Case=Nom|Definite=Ind	2	nsubj	_	Кечай
 2	мольсь	молемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	мольсь
 3	пильгалонзо	пильгало	ADV	Adv	AdvType=Spat|Case=Loc|Number[psor]=Sing|Person[psor]=3	4	advmod	_	пильгалонзо
-4	ацазь	ацамс	VERB	V	Der/Озь	6	advcl	_	ацазь
+4	ацазь	ацамс	VERB	V	Der/Озь	6	acl:ger	_	ацазь
 5	чевте	чевте	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	6	amod	_	чевте
 6	кумбонть	кумбо	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	2	obl	_	кумбонть
 7	ланга	ланга	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Prl|Definite=Ind	6	case	_	ланга
@@ -1602,7 +1598,7 @@
 2	тензэ	сон	PRON	Pron	PronType=Prs|Sg3|Case=Dat|Short	1	obl	_	тензэ
 3	,	,	PUNCT	CLB	CLB	7	punct	_	,
 4	тетясь	тетя	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Definite=Def	7	nsubj	_	тетясь
-5	пек	пек	ADJ	A	Ad-A	6	advmod	_	пек
+5	пек	пек	ADV	Adv	Degree	6	advmod	_	пек
 6	умок	умок	ADV	Adv	AdvType=Temp	7	advmod	_	умок
 7	тусь	туемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	1	ccomp	_	тусь
 8	кудосто	кудо	NOUN	N	Sem/Build|N|Number=Sing,Plur|Case=Ela|Definite=Ind	7	obl	_	кудосто
@@ -1613,7 +1609,7 @@
 13	,	,	PUNCT	CLB	CLB	14	punct	_	,
 14	товгак	тов	ADV	Adv	AdvType=Spat|Case=Lat|Foc	21	advmod	_	товгак
 15	,	,	PUNCT	CLB	CLB	16	punct	_	,
-16	келя	келя	Parenthetic	Parenthetic	Parenthetic	12	advmod	_	келя
+16	келя	келя	PART	Pcle	Evid|Parenthetic	12	advmod:evid	_	келя
 17	,	,	PUNCT	CLB	CLB	20	punct	_	,
 18	зярс	зярс	ADV	Adv	Der/Ill|Adv|AdvType=Temp	20	advmod	_	зярс
 19	эзть	эзть	VERB	V	Polarity=Neg|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	20	aux	_	эзть
@@ -1721,8 +1717,8 @@
 47	весементь	весеме	PRON	Pron	Number=Sing|Case=Gen|Definite=Def	39	conj	_	весементь
 48	лиятанть	лията	PRON	Pron	A|Der/MWN|N|Number=Sing|Case=Gen|Definite=Def	47	fixed	_	лиятанть
 49	,	,	PUNCT	CLB	CLB	51	punct	_	,
-50	мезесь	мезе	PRON	Pron	Relat|Number=Sing|Case=Nom|Definite=Def	51	nsubj	_	мезесь
-51	арась	арась	ADJ	A	Polarity=Neg|Number=Sing|Case=Nom|Definite=Ind	52	aux	_	арась
+50	мезесь	мезе	PRON	Pron	Relat|Number=Sing|Case=Nom|Definite=Def	51	nsubj:coploc	_	мезесь
+51	арась	арась	AUX	V	Polarity=Neg|Number=Sing|Case=Nom|Definite=Ind	52	cop:existneg	_	арась
 52	тесэ	тесэ	ADV	Adv	Sem/Spat|Adv|Dem|Case=Ine	47	acl:rel	_	тесэ
 53	,	,	PUNCT	CLB	CLB	55	punct	_	,
 54	эсь	эсь	DET	Det	PronType=Refl	55	det	_	эсь
@@ -1741,14 +1737,14 @@
 6	,	,	PUNCT	CLB	CLB	10	punct	_	,
 7	конанень	кона	PRON	Pron	PronType=Rel|Number=Sing,Plur|Case=Dat|Definite=Ind	10	obl	_	конанень
 8	уш	уш	ADV	Adv	Sem/Time	10	advmod	_	уш
-9	савкшнось	савкшномс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	10	aux	_	савкшнось
-10	улемс	улемс	VERB	V	Valency=1|VerbForm=Inf	11	csubj	_	улемс
+9	савкшнось	савкшномс	AUX	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	10	aux	_	савкшнось
+10	улемс	улемс	AUX	V	Valency=1|VerbForm=Inf	11	csubj	_	улемс
 11	тосо	тосо	ADV	Adv	Sem/Spat|Adv	5	acl:relcl	_	тосо
 12	,	,	PUNCT	CLB	CLB	14	punct	_	,
 13	эрьва	эрьва	DET	Det	Number=Sing|Case=Nom|Definite=Ind	14	det	_	эрьва
 14	ёндо	ёно	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Abl|Definite=Ind	19	obl	_	ёндо
 15	,	,	PUNCT	CLB	CLB	19	punct	_	,
-16	пек	пек	ADJ	A	Ad-A	17	advmod	_	пек
+16	пек	пек	ADV	Adv	Degree	17	advmod	_	пек
 17	васоло	васоло	ADV	Adv	AdvType=Spat|Case=Loc	18	advmod	_	васоло
 18	масторсто	мастор	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ela|Definite=Ind	19	obl	_	масторсто
 19	сакшныть	сакшномс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	4	ccomp	_	сакшныть
@@ -1783,9 +1779,9 @@
 3	башка	башка	ADV	Adv	Adv	2	case	_	башка
 4	истямо	истямо	DET	Det	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	5	advmod	_	истямо
 5	покш	покш	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	6	amod	_	покш
-6	найман	найман	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	7	nsubj	_	найман
+6	найман	найман	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	7	nsubj:copexist	_	найман
 7	косояк	косояк	ADV	Adv	AdvType=Ind|Case=Ine	0	root	_	косояк
-8	арась	арась	ADJ	A	Polarity=Neg|Number=Sing|Case=Nom|Definite=Ind	7	aux	_	арась
+8	арась	арась	AUX	V	Polarity=Neg|Number=Sing|Case=Nom|Definite=Ind	7	cop:existneg	_	арась
 9	,	,	PUNCT	CLB	CLB	12	punct	_	,
 10	косто	косто	ADV	Adv	AdvType=Spat|Case=Ela	12	advmod	_	косто
 11	бу	бу	PART	Pcle	Number=Sing|Case=Nom|Definite=Ind	12	aux	_	бу
@@ -1831,7 +1827,7 @@
 # text = Нама , идем ракшань кедтькак саить .
 # text[eng] = Naturally, they also take wild animal hides along:
 # text[fin] = Villieläinten nahkojakin toki otetaan mukaan:
-1	Нама	нама	PART	Pcle	Paren	6	discourse	_	Нама
+1	Нама	нама	ADV	Adv	Epist|Parenthetic	6	advmod:epist	_	нама
 2	,	,	PUNCT	CLB	CLB	1	punct	_	,
 3	идем	идем	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	4	amod	_	идем
 4	ракшань	ракша	NOUN	N	Sem/Anim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	5	nmod:poss	_	ракшань
@@ -1895,9 +1891,9 @@
 4	Масторсост	мастор	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3|Clitic=Cop|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	Масторсост
 5	—	—	PUNCT	CLB	CLB	8	punct	_	—
 6	кодамояк	кодамояк	ADJ	A	PronType=Ind|Number=Sing|Case=Nom|Definite=Ind	7	amod	_	кодамояк
-7	пе	пе	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	8	nsubj:exist	_	пе
+7	пе	пе	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	8	nsubj:copexist	_	пе
 8	тензэ	сон	PRON	Pron	PronType=Prs|Sg3|Case=Dat|Short	4	conj	_	тензэ
-9	арась	арась	ADJ	A	Polarity=Neg|Number=Sing|Case=Nom|Definite=Ind	8	aux:neg	_	арась
+9	арась	арась	AUX	V	Polarity=Neg|Number=Sing|Case=Nom|Definite=Ind	8	cop:existneg	_	арась
 10	.	.	PUNCT	CLB	CLB	4	punct	_	.
 
 #sent_id = chapID2:paragID4:sentID14
@@ -1929,7 +1925,7 @@
 7	ят	ят	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	ят
 8	кодамояк	кодамояк	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind|Definite=Ind	7	amod	_	кодамояк
 9	!	!	PUNCT	CLB	CLB	6	punct	_	!
-10	—	—	PUNCT	CLB	CLB	6	punct	_	—
+10	—	—	PUNCT	CLB	CLB	13	punct	_	—
 11	секс	секс	ADV	Adv	Case=Tra	13	mark	_	секс
 12	Цярданев	Цярдань	PROPN	N	Sem/Settlement|Number=Sing,Plur|Case=Lat|Definite=Ind	13	obl	_	Цярданев
 13	яксить	яксемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	4	conj	_	яксить
@@ -1937,7 +1933,7 @@
 15	ков	ков	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	13	obl	_	ков
 16	ланга	ланга	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Prl|Definite=Ind	15	case	_	ланга
 17	кеменьшка-кеветеешка	кемень-кеветее	NUM	Num	Case=Comp	19	nummod	_	кеменьшка-кеветеешка
-18	кочказь	кочкамс	VERB	V	Der/Озь	19	advcl	_	кочказь
+18	кочказь	кочкамс	VERB	V	Der/Озь	19	acl:ger	_	кочказь
 19	цёрат	цёра	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	13	nsubj	_	цёрат
 20	.	.	PUNCT	CLB	CLB	4	punct	_	.
 
@@ -1970,7 +1966,7 @@
 # text = Путозь шкастонть вейсэндявить лия велетнестэ истят жо молицятнень марто — ды сыргить .
 # text[eng] = At the appointed time the merchants join their colleagues from other villages and set off.
 # text[fin] = Sovittuun aikaan kokoonnutaan toisista kylistä lähtevien kanssa ja - matkaan.
-1	Путозь	путомс	VERB	V	Der/Озь	2	advcl	_	Путозь
+1	Путозь	путомс	VERB	V	Der/Озь	2	acl:ger	_	Путозь
 2	шкастонть	шка	NOUN	N	Sem/Time|Number=Sing|Case=Ela|Definite=Def	3	obl	_	шкастонть
 3	вейсэндявить	вейсэндявомс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	вейсэндявить
 4	лия	лия	DET	Det	Number=Sing|Case=Nom|Definite=Ind	5	det	_	лия
@@ -2010,7 +2006,7 @@
 2	пуромитькак	пуромомс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	пуромитькак
 3	эрьва	эрьва	DET	Det	Number=Sing|Case=Nom|Definite=Ind	4	det	_	эрьва
 4	ёндо	ёно	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Abl|Definite=Ind	5	obl	_	ёндо
-5	кучозь	кучомс	VERB	V	Valency=2|Der/Озь	12	advcl	_	кучозь
+5	кучозь	кучомс	VERB	V	Valency=2|Der/Озь	12	acl:ger	_	кучозь
 6	эли	эли	CCONJ	CC	CC	9	cc	_	эли
 7	эсь	эсь	DET	Det	PronType=Refl	8	det	_	эсь
 8	мельсэ	мель	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	9	advmod	_	мельсэ
@@ -2198,15 +2194,13 @@
 9	туить	туемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	6	acl:relcl	_	туить
 10	Цёраксонь	цёракс	NOUN	N	Sem/Inanim|Sem/NCnt|Number=Sing,Plur|Case=Gen|Definite=Ind	11	nmod:poss	_	Цёраксонь
 11	кирдав	кирда	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Lat|Definite=Ind	9	obl	_	кирдав
-12	.	.	PUNCT	CLB	CLB	4	punct	_	.
-13	.	.	PUNCT	CLB	CLB	12	fixed	_	.
-14	.	.	PUNCT	CLB	CLB	12	fixed	_	.
+12	...	...	PUNCT	CLB	CLB	4	punct	_	...
 
 #sent_id = chapID2:paragID7:sentID1
 # text = Колезь ёжосо укстась ды кепедизе прянзо .
 # text[eng] = Unhappily, he sighed and raised his head.
 # text[fin] = Pahoilla mielin hän huokasi ja nosti päänsä.
-1	Колезь	колемс	VERB	V	Der/Озь	2	advcl	_	Колезь
+1	Колезь	колемс	VERB	V	Der/Озь	2	acl:ger	_	Колезь
 2	ёжосо	ёжо	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	3	obl	_	ёжосо
 3	укстась	укстамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	укстась
 4	ды	ды	CCONJ	CC	CC	5	cc	_	ды
@@ -2286,15 +2280,15 @@
 # text = Мода кургосонть чоподаль , прок ушосонть сельгень прамс сундерьгадсь .
 # text[eng] = It was dark in the cavity he had entered, just as though it had suddenly turned to dusk outside.
 # text[fin] = Luolassa oli pimeää, aivan kuin ulkona olisi yhtäkkiä hämärtynyt.
-1	Мода	мода	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	2	compound	_	Translation[eng]=earth|Мода
-2	кургосонть	курго	NOUN	N	Number=Sing|Case=Ine|Definite=Def	3	nmod:exist	_	Translation[eng]=mouth|кургосонть
-3	чоподаль	чопода	ADJ	A	Number=Sing|Case=Nom|Definite=Ind|Clitic=Cop|Tense=Prt2|Number[subj]=Sing|Person[subj]=3	0	root	_	Translation[eng]=dark|чоподаль
+1	Мода	мода	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	2	compound	_	Gloss[eng]=earth|Мода
+2	кургосонть	курго	NOUN	N	Number=Sing|Case=Ine|Definite=Def	3	nmod:exist	_	Gloss[eng]=mouth|кургосонть
+3	чоподаль	чопода	ADJ	A	Number=Sing|Case=Nom|Definite=Ind|Clitic=Cop|Tense=Prt2|Number[subj]=Sing|Person[subj]=3	0	root	_	Gloss[eng]=dark|чоподаль
 4	,	,	PUNCT	CLB	CLB	9	punct	_	,
-5	прок	прок	PART	Pcle	Pcle	9	mark	_	Translation[eng]=as.though|прок
-6	ушосонть	ушо	NOUN	N	Number=Sing|Case=Ine|Definite=Def	9	nmod:exist	_	Translation[eng]=outside|ушосонть
-7	сельгень	сельге	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	8	nmod:gsubj	_	Translation[eng]=spit|сельгень
-8	прамс	прамс	VERB	V	VerbForm=Inf	9	advcl	_	Translation[eng]=fall|прамс
-9	сундерьгадсь	сундерьгадомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	3	conj	_	Translation[eng]=get.dark|сундерьгадсь
+5	прок	прок	PART	Pcle	Pcle	9	mark	_	Gloss[eng]=as.though|прок
+6	ушосонть	ушо	NOUN	N	Number=Sing|Case=Ine|Definite=Def	9	nmod:exist	_	Gloss[eng]=outside|ушосонть
+7	сельгень	сельге	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	8	nmod:gsubj	_	Gloss[eng]=spit|сельгень
+8	прамс	прамс	VERB	V	VerbForm=Inf	9	advcl	_	Gloss[eng]=fall|прамс
+9	сундерьгадсь	сундерьгадомс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	3	conj	_	Gloss[eng]=get.dark|сундерьгадсь
 10	.	.	PUNCT	CLB	CLB	3	punct	_	.
 
 #sent_id = chapID2:paragID8:sentID5
@@ -2322,7 +2316,7 @@
 6	ломанесь	ломань	NOUN	N	Sem/Hum|Number=Sing|Case=Nom|Definite=Def	7	nsubj	_	ломанесь
 7	лепииль	лепиямс	VERB	V	Mood=Ind|Tense=Prt2|Number[subj]=Sing|Person[subj]=3	1	advcl	_	лепииль
 8	верде	верде	ADV	Adv	AdvType=Spat|Case=Abl	9	obl	_	верде
-9	сяворезь	сяворемс	VERB	V	Der/Озь	11	advcl	_	сяворезь
+9	сяворезь	сяворемс	VERB	V	Der/Озь	11	acl:ger	_	сяворезь
 10	стака	стака	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	11	amod	_	стака
 11	сёвоненть	сёвонь	NOUN	N	Sem/Inanim_NCnt|Number=Sing|Case=Gen|Definite=Def	7	obl	_	сёвоненть
 12	потс	потмо	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ill|Definite=Ind	11	case	_	потс
@@ -2376,7 +2370,7 @@
 5	аволь	аволь	PART	Pcle	Polarity=Neg|Emph	7	advmod:neg	_	аволь
 6	кода	кода	ADV	Adv	Adv	7	advmod	_	кода
 7	чияк	чияк	ADV	Adv	AdvType=Temp	1	conj	_	чияк
-8	—	—	PUNCT	CLB	CLB	_	punct	_	—
+8	—	—	PUNCT	CLB	CLB	14	punct	_	—
 9	сёвонде	сёвонь	NOUN	N	Sem/Inanim_NCnt|Number=Sing,Plur|Case=Abl|Definite=Ind	10	obl	_	сёвонде
 10	пешксе	пешксе	ADJ	A	A	11	amod	_	пешксе
 11	куймесь	куйме	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Def	14	nsubj	_	куймесь
@@ -2464,7 +2458,7 @@
 6	тейсть	теемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	3	acl:relcl	_	тейсть
 7	пертьпельксэнь	пертьпелькс	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	13	nmod:poss	_	пертьпельксэнь
 8	аволь	аволь	PART	Pcle	Polarity=Neg|Emph	9	advmod:neg	_	аволь
-9	пек	пек	ADJ	A	Ad-A	10	advmod	_	пек
+9	пек	пек	ADV	Adv	Degree	10	advmod	_	пек
 10	сэрей	сэрей	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	13	amod	_	сэрей
 11	ды	ды	CCONJ	CC	CC	12	cc	_	ды
 12	вандора	вандора	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	10	conj	_	вандора
@@ -2500,7 +2494,7 @@
 1	Превеельгак	превей	ADJ	A	Number=Sing|Case=Nom|Definite=Ind|Clitic=Cop|Tense=Prt2|Sg3|Clitic=Гак	0	root	_	Превеельгак
 2	веленть	веле	NOUN	N	Number=Sing|Case=Gen|Definite=Def	4	nmod:gobj	_	веленть
 3	тезэнь	тезэнь	ADV	Adv	PronType=Dem|Case=Ill	4	obl	_	тезэнь
-4	путыцязо	путыця	NOUN	N	Valency=2|Derivation=NomAg|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	1	nsubj	_	путыцязо
+4	путыцязо	путыця	NOUN	N	Valency=2|Derivation=NomAg|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	1	nsubj:cop	_	путыцязо
 5	!	!	PUNCT	CLB	CLB	1	punct	_	!
 
 #sent_id = chapID2:paragID11:sentID8
@@ -2533,9 +2527,9 @@
 # text = Нама , сонсь таркась ськамонзо а идетянзат .
 # text[eng] = Of course, the place alone will not save you from everything.
 # text[fin] = Tietenkään sijainti yksinään ei varjele paikkaa.
-1	Нама	нама	PART	Pcle	Paren	7	discourse	_	Нама
+1	Нама	нама	ADV	Adv	Epist|Parenthetic	7	advmod:epist	_	Нама
 2	,	,	PUNCT	CLB	CLB	1	punct	_	,
-3	сонсь	сонсь	PRON	Pron	PronType=Refl|Sg3|Case=Nom	4	advmod	_	сонсь
+3	сонсь	сонсь	PRON	Pron	PronType=Refl|Sg3|Case=Nom	4	det	_	сонсь
 4	таркась	тарка	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Def	7	nsubj	_	таркась
 5	ськамонзо	ськамонзо	PRON	Pron	Qnt|Sg3	4	advmod	_	ськамонзо
 6	а	а	PART	Pcle	Polarity=Neg	7	advmod:neg	_	а
@@ -2554,23 +2548,23 @@
 6	,	,	PUNCT	CLB	CLB	5	punct	_	,
 7	лей	лей	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	8	compound	_	лей
 8	менькссэнть	менькс	NOUN	N	Number=Sing|Case=Ine|Definite=Def	10	obl	_	менькссэнть
-9	ули	улемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	10	aux	_	ули
+9	ули	улемс	AUX	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	10	cop	_	ули
 10	теезь	теемс	VERB	V	Der/Озь|Clitic=Cop|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	теезь
 11	кородозь	кородомс	VERB	V	Der/Озь	12	advcl	_	кородозь
-12	ош-пандо	ош-пандо	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	10	nsubj	_	ош-пандо
+12	ош-пандо	ош-пандо	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	10	nsubj:cop	_	ош-пандо
 13	,	,	PUNCT	CLB	CLB	16	punct	_	,
 14	козонь	козонь	ADV	Adv	PronType=Rel|Case=Ill	16	mark	_	козонь
 15	яла	яла	ADV	Adv	AdvType=Temp	16	advmod	_	яла
 16	кекшнить	кекшнемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	12	advcl	_	кекшнить
 17	велень	веле	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	18	nmod:poss	_	велень
-18	эрицятне	эриця	VERB	V	Derivation=NomAg|Number=Plur|Case=Nom|Definite=Def	16	nsubj	_	эрицятне
+18	эрицятне	эриця	NOUN	N	Derivation=NomAg|Number=Plur|Case=Nom|Definite=Def	16	nsubj	_	эрицятне
 19	,	,	PUNCT	CLB	CLB	21	punct	_	,
 20	зярдо	зярдо	ADV	Adv	PronType=Rel|Sem/Time	21	advmod	_	зярдо
 21	пачколить	пачколемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	16	advcl	_	пачколить
 22	тей	тей	ADV	Adv	Sem/Spat|Case=Lat	21	obl	_	тей
 23	кедьёнкс	кедьёнкс	NOUN	N	Sem/Tool|Number=Sing|Case=Nom|Definite=Ind	25	nmod	_	кедьёнкс
 24	марто	марто	ADP	Adp	Po	23	case	_	марто
-25	азгондицят	азгондиця	NOUN	N	Derivation=NomAg|Number=Plur|Case=Nom|Definite=Ind	21	subj	_	азгондицят
+25	азгондицят	азгондиця	NOUN	N	Derivation=NomAg|Number=Plur|Case=Nom|Definite=Ind	21	nsubj	_	азгондицят
 26	.	.	PUNCT	CLB	CLB	10	punct	_	.
 
 #sent_id = chapID2:paragID12:sentID1
@@ -2610,7 +2604,7 @@
 7	конат	кона	PRON	Pron	PronType=Rel|Number=Plur|Case=Nom|Definite=Ind	10	nsubj	_	конат
 8	истя	истя	ADV	Adv	Adv	10	advmod	_	истя
 9	жо	жо	PART	Pcle	Emph	8	advmod	_	жо
-10	кородозь	кородомс	VERB	V	Der/Озь	5	acl:relcl	_	кородозь
+10	кородозь	кородомс	VERB	V	Der/Озь	5	acl:ger	_	кородозь
 11	кеме	кеме	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	12	amod	_	кеме
 12	здыйсэ	здый	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	10	obl	_	здыйсэ
 13	.	.	PUNCT	CLB	CLB	3	punct	_	.
@@ -2645,7 +2639,7 @@
 8	чаво	чаво	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	9	amod	_	чаво
 9	тарка	тарка	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	0	root	_	тарка
 10	:	:	PUNCT	CLB	CLB	9	punct	_	:
-11	ули	улемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	13	cop	_	ули
+11	ули	улемс	AUX	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	13	cop	_	ули
 12	козонь	козонь	ADV	Adv	Case=Ill	13	obl	_	козонь
 13	путомс	путомс	VERB	V	VerbForm=Inf	9	conj	_	путомс
 14	од	од	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	15	amod	_	од
@@ -2666,7 +2660,7 @@
 3	истя	истя	ADV	Adv	Adv	5	advmod	_	истя
 4	жо	жо	PART	Pcle	Emph	3	advmod	_	жо
 5	пирязь	пирямс	VERB	V	Der/Озь	0	root	_	пирязь
-6	сювозь	сювомс	VERB	V	Der/Озь	7	advcl	_	сювозь
+6	сювозь	сювомс	VERB	V	Der/Озь	7	acl:ger	_	сювозь
 7	пезэмкссэ	пезэмкс	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	5	obl	_	пезэмкссэ
 8	.	.	PUNCT	CLB	CLB	5	punct	_	.
 
@@ -2733,7 +2727,7 @@
 3	нетне	неть	PRON	Pron	PronType=Dem|Number=Plur|Case=Nom|Definite=Def	4	det	_	нетне
 4	кородовкстнэ	кородовкс	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	9	nsubj	_	кородовкстнэ
 5	,	,	PUNCT	CLB	CLB	6	punct	_	,
-6	нама	нама	PART	Pcle	Paren	9	discourse	_	нама
+6	нама	нама	ADV	Adv	Epist|Parenthetic	9	advmod:epist	_	нама
 7	,	,	PUNCT	CLB	CLB	6	punct	_	,
 8	а	а	PART	Pcle	Polarity=Neg	9	advmod:neg	_	а
 9	вансттадызь	ванстомс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Obj2	0	root	_	вансттадызь
@@ -2748,7 +2742,7 @@
 3	тень	те	PRON	Pron	PronType=Dem|Case=Gen|Definite=Ind	5	advmod	_	тень
 4	кисэ	кисэ	ADP	Adp	Po|Case=Ine	3	case	_	кисэ
 5	теезьгак	теемс	VERB	V	Der/Озь|Clitic=Гак	0	root	_	теезьгак
-6	—	—	PUNCT	CLB	CLB	5	punct	_	—
+6	—	—	PUNCT	CLB	CLB	9	punct	_	—
 7	вирень	вирь	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Gen|Definite=Ind	9	nmod:poss	_	вирень
 8	идем	идем	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	9	amod	_	идем
 9	ракшатнеде	ракша	NOUN	N	Sem/Anim_Cnt|Number=Plur|Case=Abl|Definite=Def	5	obl	_	ракшатнеде
@@ -2773,9 +2767,9 @@
 2	лиснить	лиснемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	лиснить
 3	,	,	PUNCT	CLB	CLB	8	punct	_	,
 4	но	но	PART	Pcle	Pcle	8	cc	_	но
-5	сехте	сех	ADV	Adv	Case=Comp|Case=Abl|Definite=Ind	6	advmod:sup	_	сехте
+5	сехте	сех	ADV	Adv	Degree=Sup|Case=Abl|Definite=Ind	6	advmod:sup	_	сехте
 6	сеедьстэ	сеедьстэ	ADV	Adv	AdvType=Temp	8	advmod	_	сеедьстэ
-7	—	—	PUNCT	CLB	CLB	6	punct	_	—
+7	—	—	PUNCT	CLB	CLB	8	punct	_	—
 8	веть	веть	ADV	Adv	AdvType=Temp	1	conj	_	веть
 9	.	.	PUNCT	CLB	CLB	2	punct	_	.
 
@@ -2810,7 +2804,7 @@
 6	,	,	PUNCT	CLB	CLB	7	punct	_	,
 7	бажась	бажамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	5	conj	_	бажась
 8	,	,	PUNCT	CLB	CLB	9	punct	_	,
-9	нать	нать	PART	Pcle	Pcle	7	advmod	_	нать
+9	нать	нать	ADV	Adv	Parenthetic	7	advmod	_	нать
 10	,	,	PUNCT	CLB	CLB	9	punct	_	,
 11	здыенть	здый	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	13	obl	_	здыенть
 12	алга	алга	ADP	Adp	Po|Case=Prl	11	obl	_	алга
@@ -2824,12 +2818,12 @@
 20	домкасто	домка	ADV	Adv	Der/A_стО|Adv	21	advmod	_	домкасто
 21	совавтозь	совавтомс	VERB	V	Valency=2|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	7	xcomp	_	совавтозь
 22	сынст	сон	PRON	Pron	PronType=Prs|Number=Plur|Person=3|Case=Gen	24	nmod:poss	_	сынст
-23	пултазь-чентязь	пултамс-чентямс	VERB	V	Der/Озь	24	advcl	_	пултазь-чентязь
+23	пултазь-чентязь	пултамс-чентямс	VERB	V	Der/Озь	24	acl:ger	_	пултазь-чентязь
 24	петне	пе	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	21	nsubj	_	петне
-25	—	—	PUNCT	CLB	CLB	21	punct	_	—
+25	—	—	PUNCT	CLB	CLB	27	punct	_	—
 26	илязт	иля	AUX	V	Polarity=Neg|Mood=Opt|Number[subj]=Plur|Person[subj]=3	27	aux:neg	_	илязт
 27	наксадо	наксадомс	VERB	V	Valency=1|ConNeg	21	advcl	_	наксадо
-28	—	—	PUNCT	CLB	CLB	27	punct	_	—
+28	—	—	PUNCT	CLB	CLB	29	punct	_	—
 29	мода	мода	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	27	obl	_	мода
 30	потс	потмо	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ill|Definite=Ind	29	case	_	потс
 31	.	.	PUNCT	CLB	CLB	7	punct	_	.
@@ -2846,7 +2840,7 @@
 6	верьгизэнь	верьгиз	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	8	nmod:poss	_	верьгизэнь
 7	сэрь	сэрь	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	8	compound	_	сэрь
 8	сулейтькак	сулей	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Ind|Clitic=Гак	5	obj	_	сулейтькак
-9	—	—	PUNCT	CLB	CLB	5	punct	_	—
+9	—	—	PUNCT	CLB	CLB	15	punct	_	—
 10	вай	вай	PART	Pcle	Pcle	15	discourse	_	вай
 11	,	,	PUNCT	CLB	CLB	10	punct	_	,
 12	ды	ды	CCONJ	CC	CC	15	cc	_	ды
@@ -2917,7 +2911,7 @@
 18	лемензэ	лем	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	20	nmod:gobj	_	лемензэ
 19	марямга	марямс	VERB	V	mgaInf|Case=Prl|Definite=Ind	20	advcl	_	марямга
 20	ёвтамозояк	ёвтамо	NOUN	N	Valency=2|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	21	nsubj	_	ёвтамозояк
-21	кардазь	кардамс	VERB	V	Der/Озь	14	acl:relcl	_	кардазь
+21	кардазь	кардамс	VERB	V	Der/Озь	14	acl:ger	_	кардазь
 22	ды	ды	CCONJ	CC	CC	23	cc	_	ды
 23	мерить	меремс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	21	conj	_	мерить
 24	тензэ	сон	PRON	Pron	PronType=Prs|Sg3|Case=Dat|Short	23	obl	_	тензэ
@@ -3071,9 +3065,9 @@
 2	пезэмкстнэнь	пезэмкс	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Gen|Definite=Def	10	obl	_	пезэмкстнэнь
 3	прява	пря	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Prl|Definite=Ind	2	case	_	прява
 4	,	,	PUNCT	CLB	CLB	6	punct	_	,
-5	седеяк	седе	ADV	Adv	Case=Abl|Clitic=Гак	6	advmod	_	седеяк
+5	седеяк	седе	ADV	Adv	Degree=Cmp|Clitic=Гак	6	advmod	_	седеяк
 6	сеедьстэ	сеедьстэ	ADV	Adv	AdvType=Temp	10	advmod	_	сеедьстэ
-7	—	—	PUNCT	CLB	CLB	6	punct	_	—
+7	—	—	PUNCT	CLB	CLB	8	punct	_	—
 8	кенкш	кенкш	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	2	conj	_	кенкш
 9	маласотнева	маласо	Po	Po	Case=Ine|Der/MWN|N|Number=Plur|Case=Prl|Definite=Def	8	case	_	маласотнева
 10	поволезь	поволемс	VERB	V	Der/Озь|Clitic=Cop|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	поволезь
@@ -3099,7 +3093,7 @@
 # text[fin] = Kaikki tämä on tehty pahojen voimien pelotelemiseksi.
 1	Весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	2	det	_	Весе
 2	те	те	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	те
-3	—	—	PUNCT	CLB	CLB	2	punct	_	—
+3	—	—	PUNCT	CLB	CLB	6	punct	_	—
 4	апаро	апаро	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	5	amod	_	апаро
 5	вийтнень	вий	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Gen|Definite=Def	6	obj	_	вийтнень
 6	тандавтнемс	тандавтнемс	VERB	V	VerbForm=Inf	0	root	_	тандавтнемс
@@ -3145,11 +3139,11 @@
 6	содык	содамс	VERB	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2|Number[obj]=Sing|Person[obj]=3	1	conj	_	содык
 7	:	:	PUNCT	CLB	CLB	6	punct	_	:
 8	панжадо	панжадо	ADV	Adv	Adv	9	advmod	_	панжадо
-9	кадовозь	кадовомс	VERB	V	Der/ОвОмс|Valency=1|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	10	advcl	_	кадовозь
+9	кадовозь	кадовомс	VERB	V	Der/ОвОмс|Valency=1|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	10	acl:ger	_	кадовозь
 10	кенкшесь	кенкш	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Def	12	nsubj	_	кенкшесь
 11	тесэ	тесэ	ADV	Adv	Sem/Spat|Adv|Dem|Case=Ine	12	advmod	_	тесэ
 12	чумо	чумо	NOUN	N	Number=Sing|Case=Nom|Definite=Ind|Clitic=Cop|Tense=Pres|Number[subj]=Sing|Person[subj]=3	6	ccomp	_	чумо
-13	—	—	PUNCT	CLB	CLB	12	punct	_	—
+13	—	—	PUNCT	CLB	CLB	14	punct	_	—
 14	туевсь	туевемс	VERB	V	Der/ОвОмс|Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	12	conj	_	туевсь
 15	ве	ве	NUM	Num	Num	16	fixed	_	ве
 16	ёнов	ёно	NOUN	N	Der/Spat|Number=Sing,Plur|Case=Lat|Definite=Ind	14	obl	_	ёнов
@@ -3194,9 +3188,7 @@
 1	Вант	ваномс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2	0	root	_	Вант
 2	ды	ды	CCONJ	CC	CC	3	cc	_	ды
 3	вант	ваномс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2	1	conj	_	вант
-4	!	!	PUNCT	CLB	CLB	1	punct	_	!
-5	.	.	PUNCT	CLB	CLB	4	fixed	_	.
-6	.	.	PUNCT	CLB	CLB	4	fixed	_	.
+4	!..	!..	PUNCT	CLB	CLB	1	punct	_	!..
 
 #sent_id = chapID2:paragID14:sentID1
 # text = Кечай муизе сельмсэнзэ вере кужосто эсест куронть .
@@ -3218,7 +3210,7 @@
 1	Ды	ды	CCONJ	CC	CC	3	cc	_	ды
 2	оно	оно	PART	Pcle	Pcle	3	discrourse	_	оно
 3	сон	сон	PRON	Pron	PronType=Prs|Sg3|Case=Nom	0	root	_	сон
-4	—	—	PUNCT	CLB	CLB	3	punct	_	—
+4	—	—	PUNCT	CLB	CLB	5	punct	_	—
 5	кудост	кудо	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Plur|Person[psor]=1	3	appos	_	кудост
 6	.	.	PUNCT	CLB	CLB	3	punct	_	.
 
@@ -3248,7 +3240,7 @@
 # text = Бульчом , ярсамоськак те шкас пись ?
 # text[eng] = It looks like it is time to eat, doesn't it?
 # text[fin] = Olisikohan ruoka jo valmista?
-1	Бульчом	бульчом	PART	Pcle	Number=Sing|Case=Nom|Definite=Ind	6	advmod	_	Бульчом
+1	Бульчом	бульчом	PART	Pcle	Pcle	6	advmod	_	Бульчом
 2	,	,	PUNCT	CLB	CLB	1	punct	_	,
 3	ярсамоськак	ярсамо	NOUN	N	Number=Sing|Case=Nom|Definite=Def	6	nsubj	_	ярсамоськак
 4	те	те	DET	Det	Number=Sing|Case=Nom|Definite=Ind	5	det	_	те
@@ -3270,7 +3262,7 @@
 8	ды	ды	CCONJ	CC	CC	16	cc	_	ды
 9	,	,	PUNCT	CLB	CLB	14	punct	_	,
 10	шкань	шка	NOUN	N	Sem/Time|Number=Sing,Plur|Case=Gen|Definite=Ind	14	nmod:gobj	_	шкань
-11	седе	седе	ADV	Adv	Case=Comp	12	advmod	_	седе
+11	седе	седе	ADV	Adv	Degree=Cmp	12	advmod	_	седе
 12	тов	тов	ADV	Adv	Sem/Spat|Case=Lat	14	advmod	_	тов
 13	апак	апак	PART	Pcle	Polarity=Neg	14	aux:neg	_	апак
 14	сатстне	сатстнемс	VERB	V	ConNeg	16	advcl	_	сатстне
@@ -3294,11 +3286,11 @@
 10	мейс	мейс	ADV	Adv	AdvType=Int|Case=Ill	11	advmod	_	мейс
 11	лотксесь	лотксемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	8	ccomp	_	лотксесь
 12	оймсеме	оймсемс	VERB	V	VerbForm=Inf|Case=Loc	11	xcomp	_	оймсеме
-13	—	—	PUNCT	CLB	CLB	11	punct	_	—
+13	—	—	PUNCT	CLB	CLB	19	punct	_	—
 14	те	те	DET	Det	Number=Sing|Case=Nom|Definite=Ind	15	det	_	те
 15	шкас	шка	NOUN	N	Sem/Time|Number=Sing,Plur|Case=Ill|Definite=Ind	19	advmod	_	шкас
 16	,	,	PUNCT	CLB	CLB	17	punct	_	,
-17	нама	нама	PART	Pcle	Paren	19	discourse	_	нама
+17	нама	нама	ADV	Adv	Epist|Parenthetic	19	advmod:epist	_	нама
 18	,	,	PUNCT	CLB	CLB	17	punct	_	,
 19	пачкодевель	пачкодемс	VERB	V	Valency=1|Mood=Cnj|Number[subj]=Sing|Person[subj]=3	11	conj	_	пачкодевель
 20	бу	бу	PART	Pcle	Number=Sing|Case=Nom|Definite=Ind	19	advmod	_	бу
@@ -3341,7 +3333,7 @@
 31	кенкштне	кенкш	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	34	nsubj	_	кенкштне
 32	свал	свал	ADV	Adv	Sem/Time_dur	33	advmod	_	свал
 33	пекстазь	пекстамс	VERB	V	Der/Озь	29	ccomp	_	пекстазь
-34	улезт	улемс	VERB	V	Valency=1|Mood=Opt|Number[subj]=Plur|Person[subj]=3	33	cop	_	улезт
+34	улезт	улемс	AUX	V	Valency=1|Mood=Opt|Number[subj]=Plur|Person[subj]=3	33	cop	_	улезт
 35	;	;	PUNCT	CLB	CLB	29	punct	_	;
 36	панжтнесызь	панжтнемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Obj3	26	conj	_	панжтнесызь
 37	келес	келес	ADV	Adv	Adv	36	advmod	_	келес
@@ -3350,7 +3342,7 @@
 40	марто	марто	ADP	Adp	Po	39	case	_	марто
 41	ды	ды	CCONJ	CC	CC	42	cc	_	ды
 42	чопоньбелев	чопоньбелев	ADV	Adv	Case=Lat	39	conj	_	чопоньбелев
-43	—	—	PUNCT	CLB	CLB	36	punct	_	—
+43	—	—	PUNCT	CLB	CLB	46	punct	_	—
 44	ракшань	ракша	NOUN	N	Sem/Anim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	45	nmod:gobj	_	ракшань
 45	ливтема-совавтома	ливтема-совавтома	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	36	nmod	_	ливтема-совавтома
 46	шкане	шка	NOUN	N	Sem/Time|Number=Sing,Plur|Temp|Definite=Ind	39	conj	_	шкане
@@ -3415,7 +3407,7 @@
 12	перька	перька	ADP	Adp	Po|Case=Prl|Number=Sing|Case=Nom|Definite=Ind	11	case	_	перька
 13	пирявксонть	пирявкс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	15	obl	_	пирявксонть
 14	потсо	потмо	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	13	case	_	потсо
-15	каразь	карамс	VERB	V	Der/Озь	16	advcl	_	каразь
+15	каразь	карамс	VERB	V	Der/Озь	16	acl:ger	_	каразь
 16	латкинентень	латкине	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Dat|Definite=Def	10	obl	_	латкинентень
 17	.	.	PUNCT	CLB	CLB	10	punct	_	.
 
@@ -3547,7 +3539,7 @@
 6	:	:	PUNCT	CLB	CLB	5	punct	_	:
 7	колмонест	колмо	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	8	orphan:subjassoccoll	_	колмонест
 8	ваднезельть	ваднемс	VERB	V	Der/Озь|Clitic=Cop|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	5	parataxis	_	ваднезельть
-9	—	—	PUNCT	CLB	CLB	8	punct	_	—
+9	—	—	PUNCT	CLB	CLB	12	punct	_	—
 10	сёвонь	сёвонь	NOUN	N	Sem/Mat|Number=Sing|Case=Nom|Definite=Ind	11	compound	_	сёвонь
 11	пандынекс	пандыне	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Tra|Definite=Ind	12	xcomp	_	пандынекс
 12	велявтсть	велявтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	5	conj	_	велявтсть
@@ -3612,14 +3604,14 @@
 5	пурнась	пурнамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	3	parataxis	_	пурнась
 6	пирявксонь	пирявкс	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	8	obl	_	пирявксонь
 7	томбалев	томбале	ADP	Adp	Sem/Spat|Po|Case=Lat|Definite=Ind	7	case	_	томбалев
-8	ёртнезь	ёртнемс	VERB	V	Der/Озь	5	advcl	_	ёртнезь
-9	колазь	коламс	VERB	V	Der/Озь	10	advcl	_	колазь
+8	ёртнезь	ёртнемс	VERB	V	Der/Озь	5	acl:ger	_	ёртнезь
+9	колазь	коламс	VERB	V	Der/Озь	10	acl:ger	_	колазь
 10	чакшонь	чакш	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	11	nmod:poss	_	чакшонь
 11	штелькст	штелькс	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	8	obj	_	штелькст
 12	ды	ды	CCONJ	CC	CC	13	cc	_	ды
 13	тапинзе-порксынзе	тапамс-порксамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	5	conj	_	тапинзе-порксынзе
 14	сынст	сон	PRON	Pron	PronType=Prs|Number=Plur|Person=3|Case=Gen	13	obj:prspron	_	сынст
-15	седеяк	седе	ADV	Adv	Case=Comp|Case=Abl|Clitic=Гак	16	advmod	_	седеяк
+15	седеяк	седе	ADV	Adv	Degree=Cmp|Case=Abl|Clitic=Гак	16	advmod	_	седеяк
 16	вишкинестэ	вишкинестэ	ADV	Adv	Case=Ela	13	advmod	_	вишкинестэ
 17	—	—	PUNCT	CLB	CLB	18	punct	_	—
 18	паморьксэкс	паморькс	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Tra|Definite=Ind	13	xcomp	_	паморьксэкс
@@ -3644,7 +3636,7 @@
 # text[eng] = He sprinkled the bits and pieces of pottery and rock into the trench, and his mother worked them into the clay, so the new pottery would be more durable.
 # text[fin] = Hän kaatoi ja sirotteli valmiita murusia ojaan, ja hänen äitinsä sotki niitä saveen, jotta ruukut olisivat vahvempia.
 1	Каинзе-почодынзе	каямс-почодомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	0	root	_	Каинзе-почодынзе
-2	анокстазь	анокстамс	VERB	V	Der/Озь	2	advcl	_	анокстазь
+2	анокстазь	анокстамс	VERB	V	Der/Озь	2	acl:ger	_	анокстазь
 3	паморькстнэнь	паморькс	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Gen|Definite=Def	1	obj	_	паморькстнэнь
 4	латконтень	латко	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Dat|Definite=Def	1	obl	_	латконтень
 5	,	,	PUNCT	CLB	CLB	8	punct	_	,
@@ -3655,9 +3647,9 @@
 10	сёвоненть	сёвонь	NOUN	N	Sem/Inanim_NCnt|Number=Sing|Case=Gen|Definite=Def	8	obl	_	сёвоненть
 11	юткс	ютко	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Ill|Definite=Ind	10	case	_	юткс
 12	—	—	PUNCT	CLB	CLB	14	punct	_	—
-13	седе	седе	ADV	Adv	Case=Comp	14	advmod	_	седе
+13	седе	седе	ADV	Adv	Degree=Cmp	14	advmod	_	седе
 14	кеметь	кеме	ADJ	A	Number=Plur|Case=Nom|Definite=Ind	8	advcl	_	кеметь
-15	улест	улемс	VERB	V	Mood=Opt|Number[subj]=Plur|Person[subj]=3	14	aux	_	улест
+15	улест	улемс	AUX	V	Mood=Opt|Number[subj]=Plur|Person[subj]=3	14	cop	_	улест
 16	чакштнэ	чакш	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	14	nsubj	_	чакштнэ
 17	.	.	PUNCT	CLB	CLB	1	punct	_	.
 
@@ -3750,7 +3742,7 @@
 22	эчкелмазо	эчкелма	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	26	nsubj	_	эчкелмазо
 23	эрьва	эрьва	DET	Det	Number=Sing|Case=Nom|Definite=Ind	24	det	_	эрьва
 24	таркасонть	тарка	NOUN	N	Number=Sing|Case=Ine|Definite=Def	26	obl	_	таркасонть
-25	улевель	улемс	VERB	V	Mood=Cnj|Number[subj]=Sing|Person[subj]=3	26	aux	_	улевель
+25	улевель	улемс	AUX	V	Mood=Cnj|Number[subj]=Sing|Person[subj]=3	26	cop	_	улевель
 26	секесь	секе	PRON	Pron	Number=Sing|Case=Nom|Definite=Def	16	xcomp	_	секесь
 27	жо	жо	PART	Pcle	Emph	26	advmod	_	жо
 28	.	.	PUNCT	CLB	CLB	1	punct	_	.
@@ -3817,7 +3809,7 @@
 2	лапужа	лапужа	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	3	amod	_	лапужа
 3	кирьксэсь	кирькс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Def	6	nsubj	_	кирьксэсь
 4	аламодо	аламо	ADV	Adv	Case=Abl	5	advmod	_	аламодо
-5	седе	седе	ADV	Adv	Case=Comp	6	advmod	_	седе
+5	седе	седе	ADV	Adv	Degree=Cmp	6	advmod	_	седе
 6	кувакаль	кувака	ADJ	A	Number=Sing|Case=Nom|Definite=Ind|Clitic=Cop|Tense=Prt2|Number[subj]=Sing|Person[subj]=3	0	root	_	кувакаль
 7	васенценть	васенце	DET	Det	Number=Sing|Case=Gen|Definite=Def	6	obl	_	васенценть
 8	коряс	коряс	ADP	Adp	Po|Case=Ill	7	case	_	коряс
@@ -3918,7 +3910,7 @@
 2	келей	келей	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	3	amod	_	келей
 3	пеельсэ	пеель	NOUN	N	Sem/Tool|Number=Sing,Plur|Case=Ine|Definite=Ind	4	obl	_	пеельсэ
 4	керизе-лутызе	керямс-лутамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	керизе-лутызе
-5	педявтозь	педявтомс	VERB	V	Valency=2|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	6	advcl	_	педявтозь
+5	педявтозь	педявтомс	VERB	V	Valency=2|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	6	acl:ger	_	педявтозь
 6	потмаксонть	потмакс	NOUN	N	Sem/Relat|Number=Sing|Case=Gen|Definite=Def	4	obj	_	потмаксонть
 7	кевенть	кев	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	4	obl	_	кевенть
 8	эйстэ	эйстэ	ADP	Adp	Po|Case=Ela	7	case	_	эйстэ
@@ -3955,13 +3947,13 @@
 # text[eng] = After the fresh pots have dried, she will stack them in an underground oven, which she will fire up, and then the brown clay pots will come out bright red and ringing clear as a bell.
 # text[fin] = Kun valmiit ruukut olivat kuivuneet, hän latoi ne maahan kaivettuun uuniin, kuumentaa sen ja tuoreesta ruskeasta savesta tehdyt ruukut tulivat ulos punertavina ja soivina.
 1	Зярдо	зярдо	ADV	Adv	Sem/Time	4	advmod	_	Зярдо
-2	тейнезь	тейнемс	VERB	V	Der/Озь	3	advcl	_	тейнезь
+2	тейнезь	тейнемс	VERB	V	Der/Озь	3	acl:ger	_	тейнезь
 3	чакштнэ	чакш	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	4	nsubj	_	чакштнэ
 4	сотыть	сотамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	6	advcl	_	сотыть
 5	,	,	PUNCT	CLB	CLB	4	punct	_	,
 6	вачкасынзе	вачкамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	0	root	_	вачкасынзе
 7	модас	мода	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ill|Definite=Ind	8	obl	_	модас
-8	каразь	карамс	VERB	V	Der/Озь	9	advcl	_	каразь
+8	каразь	карамс	VERB	V	Der/Озь	9	acl:ger	_	каразь
 9	каштомонтень	каштомо	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Dat|Definite=Def	6	obl	_	каштомонтень
 10	,	,	PUNCT	CLB	CLB	12	punct	_	,
 11	псистэ	псистэ	ADV	Adv	Adv	12	advmod	_	псистэ
@@ -4137,7 +4129,7 @@
 # text[fin] = Millaisia löytyikään kotoa.
 1	Кодат	Кодамо	ADJ	A	Number=Plur|Case=Nom|Definite=Ind	5	nsubj:exist	_	Кодат
 2	ансяк	ансяк	ADV	Adv	Adv	5	advmod	_	ансяк
-3	арасть	арамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	5	aux:neg	_	арасть
+3	арасть	арамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	5	cop:existneg	_	арасть
 4	кудо	кудо	NOUN	N	Sem/Build|N|Number=Sing|Case=Nom|Definite=Ind	5	compound	_	кудо
 5	юртсост	юрт	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3	0	root	_	юртсост
 6	.	.	PUNCT	CLB	CLB	5	punct	_	.
@@ -4165,7 +4157,7 @@
 # text[eng] = There are tall and slender ones.
 # text[fin] = Oli kapeampia ja korkeampia.
 1	Улить	Улемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	Улить
-2	седе	седе	ADV	Adv	Case=Comp	3	advmod:cmp	_	седе
+2	седе	седе	ADV	Adv	Degree=Cmp	3	advmod:cmp	_	седе
 3	теинеть	теине	ADJ	A	Der/MWN|Number=Plur|Case=Nom|Definite=Ind	1	nsubj:exist	_	теинеть
 4	,	,	PUNCT	CLB	CLB	5	punct	_	,
 5	сэрейть	сэрей	ADJ	A	Der/MWN|Number=Plur|Case=Nom|Definite=Ind	3	conj	_	сэрейть
@@ -4178,7 +4170,7 @@
 1	Улить	Улемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	Улить
 2	лапужа	лапужа	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	5	amod	_	лапужа
 3	ды	ды	CCONJ	CC	CC	5	cc	_	ды
-4	сювозь	сювомс	VERB	V	Der/Озь	5	acl	_	сювозь
+4	сювозь	сювомс	VERB	V	Der/Озь	5	acl:ger	_	сювозь
 5	алкс	алкс	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	1	nsubj:exist	_	алкс
 6	марто	марто	ADP	Adp	Po	5	case	_	марто
 7	—	—	PUNCT	CLB	CLB	9	punct	_	—
@@ -4378,7 +4370,7 @@
 5	коморонть	коморо	NOUN	N	Number=Sing|Case=Gen|Definite=Def	7	obl	_	коморонть
 6	эйстэ	эйстэ	ADP	Adp	Po|Case=Ela	5	case	_	эйстэ
 7	лиссть	лисемс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	лиссть
-8	сювозь	сювомс	VERB	V	Der/Озь	9	acl	_	сювозь
+8	сювозь	сювомс	VERB	V	Der/Озь	9	acl:ger	_	сювозь
 9	нерне	нерне	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	13	nmod	_	нерне
 10	марто	марто	ADP	Adp	Po	9	case	_	марто
 11	кавто	кавто	NUM	Num	Number=Sing|Case=Nom|Definite=Ind	13	nummod	_	кавто
@@ -4417,5 +4409,438 @@
 12	мезень	мезень	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	13	obj	_	мезень
 13	валомояк	валомс	VERB	V	VerbForm=Inf|Case=Loc|Clitic=Гак	6	conj	_	валомояк
 14	.	.	PUNCT	CLB	CLB	2	punct	_	.
+
+#sent_id = chapID3:paragID13:sentID5
+# text = Кшнинь нал пряткак валы , сялго пряткак , пижень уськеяк тарги , конаньстэ мейле сюлгамот пурды , карксос поволематкак , карксонь чочамоткак .
+# text[eng] = She casts iron arrow heads, and spear heads, she even draws copper wire for twisting brooches, pendents for belts, and belt buckles.
+# text[fin] = Hän valoi niin rautaisia nuolenkärkiä kuin keihäänkärkiä, hän valmisti kuparilankaa, ja sitten käämii siitä solkia, sekä vyönriipuksia ja vyönsolkia.
+1	Кшнинь	кшни	NOUN	N	Sem/Mat|Number=Sing,Plur|Case=Gen|Definite=Ind	3	nmod:poss	_	Кшнинь
+2	нал	нал	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	3	nmod:abs	_	нал
+3	пряткак	пря	NOUN	N	Number=Plur|Case=Nom|Definite=Ind|Clitic=Гак	4	obj	_	пряткак
+4	валы	валомс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	валы
+5	,	,	PUNCT	CLB	CLB	7	punct	_	,
+6	сялго	сялго	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	nmod:abs	_	сялго
+7	пряткак	пря	NOUN	N	Number=Plur|Case=Nom|Definite=Ind|Clitic=Гак	3	conj	_	пряткак
+8	,	,	PUNCT	CLB	CLB	11	punct	_	,
+9	пижень	пижень	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	10	nmod:poss	_	пижень
+10	уськеяк	уське	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind|Clitic=Гак	11	obj	_	уськеяк
+11	тарги	таргамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	4	conj	_	тарги
+12	,	,	PUNCT	CLB	CLB	16	punct	_	,
+13	конаньстэ	кона	PRON	Pron	Number=Sing,Plur|Case=Ela|Definite=Ind	16	obl	_	конаньстэ
+14	мейле	мейле	ADV	Adv	Sem/Time_dur	16	advmod	_	мейле
+15	сюлгамот	сюлгамо	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	16	obj	_	сюлгамот
+16	пурды	пурдамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	10	acl:relcl	_	пурды
+17	,	,	PUNCT	CLB	CLB	19	punct	_	,
+18	карксос	каркс	NOUN	N	Number=Sing,Plur|Case=Ill|Definite=Ind	19	obl	_	карксос
+19	поволематкак	поволема	NOUN	N	Number=Plur|Case=Nom|Definite=Ind|Clitic=Гак	15	conj	_	поволематкак
+20	,	,	PUNCT	CLB	CLB	22	punct	_	,
+21	карксонь	карксонь	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	22	nmod:poss	_	карксонь
+22	чочамоткак	чочамо	NOUN	N	Number=Plur|Case=Nom|Definite=Ind|Clitic=Гак	15	conj	_	чочамоткак
+23	.	.	PUNCT	CLB	CLB	4	punct	_	.
+
+#sent_id = chapID3:paragID13:sentID6
+# text = Сиясто эли сырнестэ валы кемс ды карксос эрьва кодат мазылгавтнемат : яксяргинеть , мацеень пильгинеть , алашинеть , кискинеть , кемнеть .
+# text[eng] = She makes all kinds of decorations for boots and belts out of silver and gold. There are «little ducks», «goose feet», «horses», «dogs» and «boots».
+# text[fin] = Hopeasta tai kullasta hän valoi saappaisiin ja vöihin kaikenlaisia pieniä koristeita: “sorsia”, “hanhenräpylöitä”, “hevosia”, “koiria”, “saappaita”.
+1	Сиясто	Сия	NOUN	N	Number=Sing,Plur|Case=Ela|Definite=Ind	4	obl	_	Сиясто
+2	эли	эли	CCONJ	CC	CC	3	cc	_	эли
+3	сырнестэ	сырне	NOUN	N	Sem/Mat|Number=Sing,Plur|Case=Ela|Definite=Ind	1	conj	_	сырнестэ
+4	валы	валомс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	валы
+5	кемс	кем	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ill|Definite=Ind	4	obl	_	кемс
+6	ды	ды	CCONJ	CC	CC	7	cc	_	ды
+7	карксос	каркс	NOUN	N	Number=Sing,Plur|Case=Ill|Definite=Ind	5	conj	_	карксос
+8	эрьва	эрьва	DET	Det	Number=Sing|Case=Nom|Definite=Ind	9	fixed	_	эрьва
+9	кодат	кодамо	ADJ	A	Number=Plur|Case=Nom|Definite=Ind	10	amod	_	кодат
+10	мазылгавтнемат	мазылгавтнема	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	4	obj	_	мазылгавтнемат
+11	:	:	PUNCT	CLB	CLB	4	punct	_	:
+12	«	«	PUNCT	PUNCT	PUNCT.LEFT	13	punct	_	«
+13	яксяргинеть	яксяргине	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	10	appos	_	яксяргинеть
+14	»	»	PUNCT	PUNCT	PUNCT.RIGHT	13	punct	_	»
+15	,	,	PUNCT	CLB	CLB	18	punct	_	,
+16	«	«	PUNCT	PUNCT	PUNCT.LEFT	18	punct	_	«
+17	мацеень	мацеень	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	18	nmod:poss	_	мацеень
+18	пильгинеть	пильгине	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	10	appos	_	пильгинеть
+19	»	»	PUNCT	PUNCT	PUNCT.RIGHT	18	punct	_	»
+20	,	,	PUNCT	CLB	CLB	22	punct	_	,
+21	«	«	PUNCT	PUNCT	PUNCT.LEFT	22	punct	_	«
+22	алашинеть	алашине	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	10	appos	_	алашинеть
+23	»	»	PUNCT	PUNCT	PUNCT.RIGHT	22	punct	_	»
+24	,	,	PUNCT	CLB	CLB	26	punct	_	,
+25	«	«	PUNCT	PUNCT	PUNCT.LEFT	26	punct	_	«
+26	кискинеть	кискине	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	10	appos	_	кискинеть
+27	»	»	PUNCT	PUNCT	PUNCT.RIGHT	26	punct	_	»
+28	,	,	PUNCT	CLB	CLB	30	punct	_	,
+29	«	«	PUNCT	PUNCT	PUNCT.LEFT	30	punct	_	«
+30	кемнеть	кемне	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	10	appos	_	кемнеть
+31	»	»	PUNCT	PUNCT	PUNCT.RIGHT	30	punct	_	»
+32	.	.	PUNCT	CLB	CLB	4	punct	_	.
+
+#sent_id = chapID3:paragID14:sentID1
+# text = Зяро ёрокчи эряви парцунонь анокстамс !
+# text[eng] = It takes a lot of skill to prepare the forms!
+# text[fin] = Kuinka paljon taitoa tarvittiinkaan muotin valmistamiseen!
+1	Зяро	зяро	DET	Det	Number=Sing|Case=Nom|Definite=Ind	2	amod	_	Зяро
+2	ёрокчи	ёрокчи	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	_	nsubj	_	ёрокчи
+3	эряви	эрявомс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	эряви
+4	парцунонь	парцун	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	5	obj	_	парцунонь
+5	анокстамс	анокстамс	VERB	V	VerbForm=Inf	3	obl	_	анокстамс
+6	!	!	PUNCT	CLB	CLB	3	punct	_	!
+
+#sent_id = chapID3:paragID14:sentID2
+# text = Кодамо виде сельме ды кеме кедь улезэ сень , кие кунды те тевентень .
+# text[eng] = Who ever does that has to have a good eye and steady hand, if they intend to accomplish anything.
+# text[fin] = Miten hyvä silmä ja vahva käsi pitääkin olla sillä, joka ryhtyy tällaiseen työhön.
+1	Кодамо	кодамо	ADJ	A	PronType=Int|Number=Sing|Case=Nom|Definite=Ind	3	amod	_	Кодамо
+2	виде	виде	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	3	amod	_	виде
+3	сельме	сельме	NOUN	N	Sem/Body_part|Number=Sing|Case=Nom|Definite=Ind	8	nsubj:own	_	сельме
+4	ды	ды	CCONJ	CC	CC	6	cc	_	ды
+5	кеме	кеме	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	6	amod	_	кеме
+6	кедь	кедь	NOUN	N	Sem/Body_part|Number=Sing|Case=Nom|Definite=Ind	3	conj	_	кедь
+7	улезэ	улемс	AUX	V	Mood=Opt|Number[subj]=Sing|Person[subj]=3	8	cop:own	_	улезэ
+8	сень	се	PRON	Pron	PronType=Ind|Case=Gen	0	root	_	сень
+9	,	,	PUNCT	CLB	CLB	11	punct	_	,
+10	кие	кие	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	11	nsubj	_	кие
+11	кунды	кундамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	8	acl:relcl	_	кунды
+12	те	те	DET	Det	Number=Sing|Case=Nom|Definite=Ind	13	det	_	те
+13	тевентень	тев	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Dat|Definite=Def	11	obl	_	тевентень
+14	.	.	PUNCT	CLB	CLB	8	punct	_	.
+
+#sent_id = chapID3:paragID15:sentID1
+# text = Васня анокставить кавто вейкеть кевть .
+# text[eng] = First you have to make two stones of the same shape.
+# text[fin] = Ensin tarvittiin kaksi samanlaista kiveä.
+1	Васня	васня	ADV	Adv	AdvType=Temp	2	advmod	_	Васня
+2	анокставить	анокставомс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	анокставить
+3	кавто	кавто	NUM	Num	Number=Sing|Case=Nom|Definite=Ind	5	nummod	_	кавто
+4	вейкеть	вейке	NUM	Num	Number=Plur|Case=Nom|Definite=Ind	5	amod	_	вейкеть
+5	кевть	кев	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	2	nsubj	_	кевть
+6	.	.	PUNCT	CLB	CLB	2	punct	_	.
+
+#sent_id = chapID3:paragID15:sentID2
+# text = Сыртязь кшнинь пшти пеель прясо карама эрьва пельксэнтень сень , мезе арсят валомс .
+# text[eng] = Each one must be carved with the sharp tip of an iron knife to make all the details wanted for casting
+# text[fin] = Hehkutetun rautateräisen veitsen kärjellä piti kaivertaa joka osaan se, minkä aikoi valaa.
+1	Сыртязь	сыртямс	VERB	V	Der/Озь	2	acl:ger	_	Сыртязь
+2	кшнинь	кшни	NOUN	N	Sem/Mat|Number=Sing,Plur|Case=Gen|Definite=Ind	4	nmod:poss	_	кшнинь
+3	пшти	пшти	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	4	amod	_	пшти
+4	пеель	пеель	NOUN	N	Sem/Tool|Number=Sing|Case=Nom|Definite=Ind	6	obl	_	пеель
+5	прясо	пря	NOUN	N	Sem/Body_part|Number=Sing,Plur|Case=Ine|Definite=Ind	4	case	_	прясо
+6	карама	карамс	VERB	V	Oblig	0	root	_	карама
+7	эрьва	эрьва	DET	Det	Number=Sing|Case=Nom|Definite=Ind	8	det	_	эрьва
+8	пельксэнтень	пелькс	NOUN	N	Number=Sing|Case=Dat|Definite=Def	6	obl	_	пельксэнтень
+9	сень	се	PRON	Pron	PronType=Ind|Case=Gen	6	obj	_	сень
+10	,	,	PUNCT	CLB	CLB	12	punct	_	,
+11	мезе	мезе	PRON	Pron	Relat|Number=Sing|Case=Nom	13	obj	_	мезе
+12	арсят	арсемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=2	9	acl:relcl	_	арсят
+13	валомс	валомс	VERB	V	VerbForm=Inf	12	xcomp	_	валомс
+14	.	.	PUNCT	CLB	CLB	6	punct	_	.
+
+#sent_id = chapID3:paragID15:sentID3
+# text = Ды истя вейкетьстэ , штобу вейс педявтомадост мейле нетне кавто кевтнес каразтне улевельть прок вейкекс .
+# text[eng] = And this has to be done so that when the two are put together they will appear as one.
+# text[fin] = Ja niin tehtiin samalla tavalla, että sen jälkeen, kun ne oli liitetty, niiden yhtymäkohta ei enää huomannut.
+1	Ды	ды	CCONJ	CC	CC	3	cc	_	ды
+2	истя	истя	ADV	Adv	Adv	3	advmod	_	истя
+3	вейкетьстэ	вейкетьстэ	ADV	Adv	Der/A_стО|Adv	15	advmod	_	вейкетьстэ
+4	,	,	PUNCT	CLB	CLB	15	punct	_	,
+5	штобу	штобу	SCONJ	CS	CS	15	mark	_	штобу
+6	вейс	вейс	ADV	Adv	Case=Ill	7	obl	_	вейс
+7	педявтомадост	педявтома	NOUN	N	Number=Sing,Plur|Case=Ela|Number[psor]=Plur|Person[psor]=3	8	obl	_	педявтомадост
+8	мейле	мейле	ADV	Adv	Sem/Time_dur	15	advmod	_	мейле
+9	нетне	неть	PRON	Pron	PronType=Dem|Number=Plur|Case=Nom|Definite=Def	12	det	_	нетне
+10	кавто	кавто	NUM	Num	Number=Sing|Case=Nom|Definite=Ind	11	nummod	_	кавто
+11	кевтнес	кев	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Ill|Definite=Def	12	obl	_	кевтнес
+12	каразтне	карамс	VERB	V	Der/Озь|Ger|Number=Plur|Case=Nom|Definite=Def	15	nsubj:cop	_	каразтне
+13	улевельть	улемс	AUX	V	Valency=1|Mood=Cnj|Number[subj]=Plur|Person[subj]=3	15	cop	_	улевельть
+14	прок	прок	PART	Pcle	Pcle	15	advmod	_	прок
+15	вейкекс	вейке	NUM	Num	Case=Tra	0	root	_	вейкекс
+16	.	.	PUNCT	CLB	CLB	15	punct	_	.
+
+#sent_id = chapID3:paragID15:sentID4
+# text = Мейле тень туртов кадозь вариневанть пшти нерне марто валома пенчсэнть каить солавтозь кшни , сия , сырне эли пиже .
+# text[eng] = Then molten iron, silver, gold or copper is poured from a sharp tipped spoon in the hole left left for this purpose.
+# text[fin] = Sitten tätä varten muottiin jätetystä reiästä valettiin sulaa rautaa, hopeaa, kultaa tai kuparia terävänokkaisella valinkauhalla.
+1	Мейле	мейле	ADV	Adv	Sem/Time_dur	11	advmod	_	Мейле
+2	тень	те	PRON	Pron	PronType=Dem|Case=Gen|Definite=Ind	4	obl	_	тень
+3	туртов	туртов	ADP	Adp	Po|Case=Dat	2	case	_	туртов
+4	кадозь	кадомс	VERB	V	Der/Озь	5	acl:ger	_	кадозь
+5	вариневанть	варине	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Prl|Definite=Def	11	obl	_	вариневанть
+6	пшти	пшти	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	7	amod	_	пшти
+7	нерне	нерне	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	10	obl	_	нерне
+8	марто	марто	ADP	Adp	Po	7	case	_	марто
+9	валома	валома	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	10	nmod:abs	_	валома
+10	пенчсэнть	пенч	NOUN	N	Number=Sing|Case=Ine|Definite=Def	11	obl	_	пенчсэнть
+11	каить	каямс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	каить
+12	солавтозь	солавтомс	VERB	V	Valency=2|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	13	acl:ger	_	солавтозь
+13	кшни	кшни	NOUN	N	Sem/Mat|Number=Sing|Case=Nom|Definite=Ind	11	obj	_	кшни
+14	,	,	PUNCT	CLB	CLB	15	punct	_	,
+15	сия	сия	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	13	conj	_	сия
+16	,	,	PUNCT	CLB	CLB	17	punct	_	,
+17	сырне	сырне	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	13	conj	_	сырне
+18	эли	эли	CCONJ	CC	CC	19	cc	_	эли
+19	пиже	пиже	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	13	conj	_	пиже
+20	.	.	PUNCT	CLB	CLB	11	punct	_	.
+
+#sent_id = chapID3:paragID16:sentID1
+# text = Тейни авазо лиякскак .
+# text[eng] = His mother has other methods too.
+# text[fin] = Ketšain äiti osasi tehdä toisinkin.
+1	Тейни	тейнемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	Тейни
+2	авазо	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	1	nsubj	_	авазо
+3	лиякскак	лиякс	ADV	Adv	AdvType=Manner|Foc|Гак	1	advmod	_	лиякскак
+4	.	.	PUNCT	CLB	CLB	1	punct	_	.
+
+#sent_id = chapID3:paragID16:sentID2
+# text = Валомс эрявиксэнть парцунонзо аволь кевс карасы , но сёвоньс тейсы .
+# text[eng] = She will make the forms out of clay instead of carving them in stone.
+# text[fin] = Hän ei välttämättä aina tehnyt valomuottia kivestä, vaan savesta.
+1	Валомс	валомс	VERB	V	VerbForm=Inf	2	obl	_	Валомс
+2	эрявиксэнть	эрявикс	NOUN	N	Number=Sing|Case=Gen|Definite=Def	3	nmod:poss	_	эрявиксэнть
+3	парцунонзо	парцун	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	6	obj	_	парцунонзо
+4	аволь	аволь	PART	Pcle	Polarity=Neg|Emph	5	advmod:neg	_	аволь
+5	кевс	кев	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ill|Definite=Ind	6	obl	_	кевс
+6	карасы	карамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	карасы
+7	,	,	PUNCT	CLB	CLB	10	punct	_	,
+8	но	но	CCONJ	CC	CC	10	cc	_	но
+9	сёвоньс	сёвонь	NOUN	N	Sem/Inanim_NCnt|Number=Sing,Plur|Case=Ill|Definite=Ind	10	obl	_	сёвоньс
+10	тейсы	теемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	6	conj	_	тейсы
+11	.	.	PUNCT	CLB	CLB	6	punct	_	.
+
+#sent_id = chapID3:paragID16:sentID3
+# text = Зярс тона летьке , лепшти эйзэнзэ карьксстэ теезь кискинеть , лишминеть эли кемнеть .
+# text[eng] = And while the clay is moist, she presses little dogs, horses or boots made of thong.
+# text[fin] = Kun muotti on vielä kostea, hän painelee siihen narusta tehtyjä pikku koiria, hevosia tai saappaita.
+1	Зярс	зярс	ADV	Adv	Der/Ill|Adv|AdvType=Temp	3	advmod	_	Зярс
+2	тона	тона	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	3	nsubj	_	тона
+3	летьке	летьке	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	5	advcl	_	летьке
+4	,	,	PUNCT	CLB	CLB	3	punct	_	,
+5	лепшти	лепштямс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	лепшти
+6	эйзэнзэ	эйс	PRON	Pron	Relational|Case=Ill|Number[psor]=Sing|Person[psor]=3	5	obl	_	эйзэнзэ
+7	карьксстэ	карькс	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ela|Definite=Ind	8	obl	_	карьксстэ
+8	теезь	теемс	VERB	V	Der/Озь	9	acl:ger	_	теезь
+9	кискинеть	кискине	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	5	obj	_	кискинеть
+10	,	,	PUNCT	CLB	CLB	_	punct	_	,
+11	лишминеть	лишмине	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	9	conj	_	лишминеть
+12	эли	эли	CCONJ	CC	CC	13	cc	_	эли
+13	кемнеть	кемне	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	9	conj	_	кемнеть
+14	.	.	PUNCT	CLB	CLB	5	punct	_	.
+
+#sent_id = chapID3:paragID16:sentID4
+# text = Истя жо — овсе вейкеть кавонест пелькстнэсэ .
+# text[eng] = Here too, she is careful to make both sides equal.
+# text[fin] = Tässäkin tapauksessa molemmat puoliskot ovat aivan samanlaiset.
+1	Истя	истя	ADV	Adv	Adv	5	advmod	_	Истя
+2	жо	жо	PART	Pcle	Emph	1	advmod	_	жо
+3	—	—	PUNCT	CLB	CLB	5	punct	_	—
+4	овсе	овсе	ADV	Adv	Adv	5	advmod	_	овсе
+5	вейкеть	вейке	NUM	Num	Number=Plur|Case=Nom|Definite=Ind	0	root	_	вейкеть
+6	кавонест	кавонек	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	7	acl:assoccoll	_	кавонест
+7	пелькстнэсэ	пелькс	NOUN	N	Number=Plur|Case=Ine|Definite=Def	5	obl	_	пелькстнэсэ
+8	.	.	PUNCT	CLB	CLB	5	punct	_	.
+
+#sent_id = chapID3:paragID16:sentID5
+# text = Мейле вейсэндясынзе пелькстнэнь ды пештьсынзе неть лепштявкстнэнь солавтозь сиясо эли сырнесэ .
+# text[eng] = Later she puts the pieces together and fills them with molten silver or gold.
+# text[fin] = Sitten hän yhdisti puoliskot ja täytti nämä käsin koristelemansa savimuotit sulalla hopealla tai kullalla.
+1	Мейле	мейле	ADV	Adv	Sem/Time_dur	2	advmod	_	Мейле
+2	вейсэндясынзе	вейсэндямс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	0	root	_	вейсэндясынзе
+3	пелькстнэнь	пелькс	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Gen|Definite=Def	2	obj	_	пелькстнэнь
+4	ды	ды	CCONJ	CC	CC	5	cc	_	ды
+5	пештьсынзе	пештемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	2	conj	_	пештьсынзе
+6	неть	не	PRON	Pron	PronType=Dem|Number=Plur|Case=Nom|Definite=Ind	7	det	_	неть
+7	лепштявкстнэнь	лепштявкс	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Gen|Definite=Def	5	obj	_	лепштявкстнэнь
+8	солавтозь	солавтомс	VERB	V	Valency=2|Der/Озь|Ger|Number=Sing|Case=Nom|Definite=Ind	9	acl:ger	_	солавтозь
+9	сиясо	сия	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	5	obl	_	сиясо
+10	эли	эли	CCONJ	CC	CC	11	cc	_	эли
+11	сырнесэ	сырне	NOUN	N	Sem/Mat|Number=Sing,Plur|Case=Ine|Definite=Ind	9	conj	_	сырнесэ
+12	.	.	PUNCT	CLB	CLB	2	punct	_	.
+
+#sent_id = chapID3:paragID16:sentID6
+# text = Лисить пек паро мазыльмат .
+# text[eng] = She makes excellent decorations.
+# text[fin] = Niistä tuli oikein hyviä koristeita.
+1	Лисить	Лисемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	Лисить
+2	пек	пек	ADV	Adv	Degree	3	advmod	_	пек
+3	паро	паро	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	4	amod	_	паро
+4	мазыльмат	мазыльма	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	1	nsubj	_	мазыльмат
+5	.	.	PUNCT	CLB	CLB	1	punct	_	.
+
+#sent_id = chapID3:paragID16:sentID7
+# text = Секе берянесь : сёвонень истямо парцунс валат ансяк весть .
+# text[eng] = What's bad is that you can only use a clay form once.
+# text[fin] = Niiden tekemisessä ongelma on siinä, että tällaista savimuottia voi käyttää vain kerran.
+1	Секе	секе	DET	Det	Number=Sing|Case=Nom|Definite=Ind	0	root	_	Секе
+2	берянесь	берянь	N	N	Number=Sing|Case=Nom|Definite=Def	1	nsubj	_	берянесь
+3	:	:	PUNCT	CLB	CLB	1	punct	_	:
+4	сёвонень	сёвонень	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	6	nmod:poss	_	сёвонень
+5	истямо	истямо	DET	Det	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	6	det	_	истямо
+6	парцунс	парцун	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ill|Definite=Ind	7	obl	_	парцунс
+7	валат	валомс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=2	1	parataxis	_	валат
+8	ансяк	ансяк	ADV	Adv	Adv	9	advmod	_	ансяк
+9	весть	весть	ADV	Adv	Mult	7	advmod:multprf	_	весть
+10	.	.	PUNCT	CLB	CLB	1	punct	_	.
+
+#sent_id = chapID3:paragID17:sentID1
+# text = Валозенть таргамга парцунонть тапама .
+# text[eng] = In order to get the cast out you have to break the mould.
+# text[fin] = Valosta esille otettaesa muotti piti rikkoa.
+1	Валозенть	валомс	VERB	V	Der/Озь|Ger|Number=Sing|Case=Gen|Definite=Def	2	obj	_	Валозенть
+2	таргамга	таргамс	VERB	V	mgaInf|Case=Prl|Definite=Ind	4	advcl	_	таргамга
+3	парцунонть	парцун	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	4	obj	_	парцунонть
+4	тапама	тапамс	VERB	V	Oblig	0	root	_	тапама
+5	.	.	PUNCT	CLB	CLB	4	punct	_	.
+
+#sent_id = chapID3:paragID17:sentID2
+# text = Кевенсентень жо валт , зяро мелеть , ансяк илязо лазово кодаяк .
+# text[eng] = A stone forms can be reused again as many times as you want, as long as they don't get cracked.
+# text[fin] = Kivimuottia voi sen sijaan käyttää, miten monta kertaa haluaa, kunhan se ei ala halkeilla.
+1	Кевенсентень	кевень	ADJ	A	Number=Sing,Plur|Case=Gen|Definite=Ind|Der/MWN|Det|Number=Sing|Case=Dat|Definite=Def	3	obl	_	Кевенсентень
+2	жо	жо	PART	Pcle	Emph	1	advmod	_	жо
+3	валт	валомс	V	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2	0	root	_	валт
+4	,	,	PUNCT	CLB	CLB	5	punct	_	,
+5	зяро	зяро	ADV	Adv	Qnt	3	advcl	_	зяро
+6	мелеть	мель	NOUN	N	Sem/Body_part|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=2	5	fixed	_	мелеть
+7	,	,	PUNCT	CLB	CLB	10	punct	_	,
+8	ансяк	ансяк	ADV	Adv	Adv	10	advmod	_	ансяк
+9	илязо	иля	AUX	V	Polarity=Neg|Mood=Opt|Number[subj]=Sing|Person[subj]=3	10	aux:neg	_	илязо
+10	лазово	лазовомс	VERB	V	Der/ОвОмс|Valency=1|ConNeg	3	advcl	_	лазово
+11	кодаяк	кодаяк	ADV	Adv	AdvType=Ind|AdvType=Manner	10	advmod	_	кодаяк
+12	.	.	PUNCT	CLB	CLB	3	punct	_	.
+
+#sent_id = chapID3:paragID17:sentID3
+# text = Ды вельть уш стака эйзэнзэ керсемась , ламо шка саи . . .
+# text[eng] = But it's quite a chore carving the stone, and it takes a long time.
+# text[fin] = Mutta sitä oli hankala vuolla, ja sitä paitsi se vei paljon aikaa...
+1	Ды	ды	CCONJ	CC	CC	4	cc	_	ды
+2	вельть	вельть	ADV	Adv	Adv	4	advmod	_	вельть
+3	уш	уш	ADV	Adv	Sem/Time	2	advmod	_	уш
+4	стака	стака	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	0	root	_	стака
+5	эйзэнзэ	эйс	PRON	Pron	Relational|Case=Ill|Number[psor]=Sing|Person[psor]=3	6	obl	_	эйзэнзэ
+6	керсемась	керсема	NOUN	N	Number=Sing|Case=Nom|Definite=Def	4	nsubj:cop	_	керсемась
+7	,	,	PUNCT	CLB	CLB	10	punct	_	,
+8	ламо	ламо	PRON	Pron	Qnt|Number=Sing|Case=Nom|Definite=Ind	9	advmod	_	ламо
+9	шка	шка	NOUN	N	Sem/Time|Number=Sing|Case=Nom|Definite=Ind	10	obj	_	шка
+10	саи	саемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	4	conj	_	саи
+11	...	...	PUNCT	CLB	CLB	4	punct	_	...
+
+#sent_id = chapID3:paragID18:sentID1
+# text = Окойники , велявтсть лей лангсто шлямо панезтне .
+# text[eng] = Finally, the ones who had been sent off to wash down at the river came back.
+# text[fin] = Pesulle lähetetyt lapset tulivat vihdoinkin takaisin joelta.
+1	Окойники	окойники	ADV	Adv	AdvType=Temp	3	advmod	_	Окойники
+2	,	,	PUNCT	CLB	CLB	1	punct	_	,
+3	велявтсть	велявтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	велявтсть
+4	лей	лей	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	3	obl	_	лей
+5	лангсто	ланго	NOUN	N	Relat|Number=Sing,Plur|Case=Ela|Definite=Ind	4	case	_	лангсто
+6	шлямо	шлямо	NOUN	N	Valency=1|VerbForm=Inf|Case=Loc	3	xcomp	_	шлямо
+7	панезтне	панемс	VERB	V	Der/Озь|Ger|Number=Plur|Case=Nom|Definite=Def	3	nsubj	_	панезтне
+8	.	.	PUNCT	CLB	CLB	3	punct	_	.
+
+#sent_id = chapID3:paragID18:sentID2
+# text = Бульчом , мелест молемс кольнесть пулькасть лей чиресэнть , секс састькак чатьмонезь , апак пижне , апак пелькста .
+# text[eng] = It was as if they had played and splashed down at the beach to their hearts' content, because they came back silent, they didn't holler or argue.
+# text[fin] = Oli kuin he olisivat leikkineet ja polskineet joella kyllikseen, ja siksi palasivat hiljaisina, eivät huutaneet eivätkä riidelleet.
+1	Бульчом	бульчом	PART	Pcle	Pcle	5	advmod	_	Бульчом
+2	,	,	PUNCT	CLB	CLB	1	punct	_	,
+3	мелест	мель	NOUN	N	Number=Plur|Case=Gen|Number[psor]=Plur|Person[psor]=3	4	nmod:gsubj	_	мелест
+4	молемс	молемс	VERB	V	VerbForm=Inf	5	advcl	_	молемс
+5	кольнесть-пулькасть	кольнемс-пулькамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	кольнесть
+6	лей	лей	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	7	nmod:abs	_	лей
+7	чиресэнть	чире	NOUN	N	Number=Sing|Case=Ine|Definite=Def	5	obl	_	чиресэнть
+8	,	,	PUNCT	CLB	CLB	10	punct	_	,
+9	секс	секс	ADV	Adv	Case=Tra	10	advmod	_	секс
+10	састькак	самс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Clitic=Гак	5	conj	_	састькак
+11	чатьмонезь	чатьмонемс	VERB	V	Der/Озь	10	advcl	_	чатьмонезь
+12	,	,	PUNCT	CLB	CLB	14	punct	_	,
+13	апак	апак	PART	Pcle	Polarity=Neg	14	aux:neg	_	апак
+14	пижне	пижнемс	VERB	V	ConNeg	11	appos	_	пижне
+15	,	,	PUNCT	CLB	CLB	17	punct	_	,
+16	апак	апак	PART	Pcle	Polarity=Neg	17	aux:neg	_	апак
+17	пелькста	пелькстамс	VERB	V	ConNeg	11	appos	_	пелькста
+28	.	.	PUNCT	CLB	CLB	5	punct	_	.
+
+#sent_id = chapID3:paragID18:sentID3
+# text = Сизесть .
+# text[eng] = They were worn out.
+# text[fin] = He olivat väsyneitä.
+1	Сизесть	сиземс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	Сизесть
+2	.	.	PUNCT	CLB	CLB	1	punct	_	.
+
+#sent_id = chapID3:paragID18:sentID4
+# text = Оймсемеяк озасть аваст ваксс истя жо каштмолезь .
+# text[eng] = And they sat down next to their mother to rest without a word.
+# text[fin] = He istuivat lepäämään äitinsä luo vaiteliaina.
+1	Оймсемеяк	оймсемс	VERB	V	VerbForm=Inf|Case=Loc|Clitic=Гак	2	xcomp	_	Оймсемеяк
+2	озасть	озамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	озасть
+3	аваст	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Gen|Number[psor]=Plur|Person[psor]=3	2	obl	_	аваст
+4	ваксс	вакссо	ADP	Adp	Sem/Spat|PoS|Number=Sing,Plur|Case=Ill|Definite=Ind	3	case	_	ваксс
+5	истя	истя	ADV	Adv	Adv	2	advmod	_	истя
+6	жо	жо	PART	Pcle	Emph	5	advmod	_	жо
+7	каштмолезь	каштмолемс	VERB	V	Der/Озь	2	orphan:subjacl	_	каштмолезь
+8	.	.	PUNCT	CLB	CLB	2	punct	_	.
+
+#sent_id = chapID4:paragID1:sentID1
+# text = Чопоньбелев ниленест апак кармавто — тевест содасызь — сыргасть ракшань совавтомо .
+# text[eng] = On towards evening the four of them went out after the cattle, they did not have to be told to do it, they knew what chores were theirs.
+# text[fin] = 
+1	Чопоньбелев	чопоньбелев	ADV	Adv	Case=Lat	9	advmod	_	Чопоньбелев
+2	ниленест	ниле	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	9	orphan:subjassocnum	_	ниленест
+3	апак	апак	PART	Pcle	Polarity=Neg	4	aux:neg	_	апак
+4	кармавто	кармавтомс	VERB	V	Valency=2|ConNeg	9	advcl	_	кармавто
+5	—	—	PUNCT	CLB	CLB	7	punct	_	—
+6	тевест	тев	NOUN	N	Number=Sing,Plur|Case=Gen|Number[psor]=Plur|Person[psor]=3	7	obj	_	тевест
+7	содасызь	содамс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Obj3	4	appos	_	содасызь
+8	—	—	PUNCT	CLB	CLB	9	punct	_	—
+9	сыргасть	сыргамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	сыргасть
+10	ракшань	ракша	NOUN	N	Sem/Anim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	11	obj	_	ракшань
+11	совавтомо	совавтомс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	9	xcomp	_	совавтомо
+12	.	.	PUNCT	CLB	CLB	9	punct	_	.
+
+#sent_id = chapID4:paragID1:sentID2
+# text = Вишкинетне кадовсть веле кенкшенть лангс , козонь кармасть пуромомо Паргелень пакшатне .
+# text[eng] = The little ones stayed at the village gate where the rest of the Pargele kids were gathering.
+# text[fin] = 
+1	Вишкинетне	вишкине	ADJ	A	DimNE|Number=Plur|Case=Nom|Definite=Def	2	nsubj	_	Вишкинетне
+2	кадовсть	кадовомс	VERB	V	Der/ОвОмс|Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	кадовсть
+3	веле	веле	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	4	nmod:abs	_	веле
+4	кенкшенть	кенкш	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Gen|Definite=Def	2	obl	_	кенкшенть
+5	лангс	ланго	NOUN	N	Sem/Relat|Number=Sing,Plur|Case=Ill|Definite=Ind	4	case	_	лангс
+6	,	,	PUNCT	CLB	CLB	8	punct	_	,
+7	козонь	козонь	ADV	Adv	PronType=Rel|Case=Ill	8	advmod	_	козонь
+8	кармасть	кармамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	4	acl:relcl	_	кармасть
+9	пуромомо	пуромомс	VERB	V	VerbForm=Inf|Case=Loc	8	xcomp	_	пуромомо
+10	Паргелень	Паргелень	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	11	nmod:poss	_	Паргелень
+11	пакшатне	пакша	NOUN	N	Sem/Inanim_Cnt|Number=Plur|Case=Nom|Definite=Def	8	nsubj	_	пакшатне
+12	.	.	PUNCT	CLB	CLB	8	punct	_	.
+
+#sent_id = chapID4:paragID1:sentID3
+# text = Конат састь седе икеле , кенерсть уш явновомо , ды ней веенст налксить эздасо , лият гичасо , кончкесэ , седе вишкинетне чийнить кулямосо .
+# text[eng] = The kids who had gotten there earlier had already split up into groups. Some were playing ???, cricket and blind man's bluff, and the little ones were playing tag.
+# text[fin] = 
+1	Конат	кона	PRON	Pron	Number=Plur|Case=Nom|Definite=Ind	2	nsubj	_	Конат
+2	састь	самс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	састь
+3	седе	седе	ADV	Adv	Degree=Cmp	4	advmod:cmp	_	седе
+4	икеле	икеле	ADV	Adv	AdvType=Temp	2	advmod	_	икеле
+5	,	,	PUNCT	CLB	CLB	6	punct	_	,
+6	кенерсть	кенеремс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	2	conj	_	кенерсть
+7	уш	уш	ADV	Adv	Sem/Time	6	advmod	_	уш
+8	явновомо	явновомс	VERB	V	Der/ОвОмс|Valency=1|VerbForm=Inf|Case=Loc	6	xcomp	_	явновомо
+9	,	,	PUNCT	CLB	CLB	13	punct	_	,
+10	ды	ды	CCONJ	CC	CC	13	cc	_	ды
+11	ней	ней	ADV	Adv	AdvType=Temp	13	advmod	_	ней
+12	веенст	веенст	NUM	Num	Card|Coll	13	nsubj	_	веенст
+13	налксить	налксемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	8	conj	_	налксить
+14	эздасо	эзда	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	13	obl	_	эздасо
+15	,	,	PUNCT	CLB	CLB	16	punct	_	,
+16	лият	лия	DET	Det	Number=Plur|Case=Nom|Definite=Ind	12	conj	_	лият
+17	гичасо	гича	NOUN	N	Sem/Anim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	16	orphan:obl	_	гичасо
+18	,	,	PUNCT	CLB	CLB	19	punct	_	,
+19	кончкесэ	кончке	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Definite=Ind	17	conj	_	кончкесэ
+20	,	,	PUNCT	CLB	CLB	23	punct	_	,
+21	седе	седе	ADV	Adv	Degree=Cmp	22	advmod:cmp	_	седе
+22	вишкинетне	вишкине	ADJ	A	DimNE|Number=Plur|Case=Nom|Definite=Def	23	nsubj	_	вишкинетне
+23	чийнить	чийнемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	13	conj	_	чийнить
+24	кулямосо	кулямо	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	23	obl	_	кулямосо
+25	.	.	PUNCT	CLB	CLB	2	punct	_	.
 
 #</text>
