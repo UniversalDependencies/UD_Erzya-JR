@@ -1,0 +1,45 @@
+#<?xml version="1.0" encoding="utf-8"?>
+#<text
+#title_myv=""
+#title_fin=""
+#title_eng=""
+#xml:lang="myv"
+#genre_myv=""
+#genre_fin=""
+#genre_eng=""
+#author_first_name=""
+#author_last_name=""
+#author_patronym=""
+#native_language="myv"
+#publication_status="published"
+#publisher=""
+#publicationPlace=""
+#publicationYear=""
+#firstPage=""
+#lastPage=""
+#wordCount=""
+#characterCount=""
+#corrector_first_name="Jack"
+#corrector_last_name="Rueter"
+#correctionYear="2017"
+#status_eng="scientific"
+#status_fin="tieteellinen"
+#license="">
+# THIS IS FOR ADDING INDIVIDUAL SENTENCES
+#
+#sent_id AuthorIDАбрамов:PublicationIDПургаз:PublicationYearID1988: pgNo="91"
+# text =  — Мон аволь иля пижне, нейке молян ёвтан тетятень.
+# text = You know, none of this \"don't\" scream, I'm gonna go right now and tell your father.
+1	—	—	PUNCT	_	_	5	punct	_	_
+2	Мон	мон	PRON	Pron	PronType=Prs|Person=1|Number=Sing|Case=Nom	8	nsubj	_	Gloss[eng]=I
+3	аволь	аволь	PART	Pcle	Polarity=Neg|Emphatic	8	parataxis	_	Gloss[eng]=none.of.this
+4	иля	иля	AUX	V	Mood=Imp|Polarity=Neg	5	aux:neg	_	Gloss[eng]=do.not
+5	пижне	пижнемс	VERB	V	Valency=1|Connegative=Yes	3	xcomp	_	Gloss[eng]=scream
+6	,	,	PUNCT	CLB	_	8	punct	_	_
+7	нейке	нейке	ADV	Adv	AdvType=Temp	8	advmod	_	Gloss[eng]=right.now
+8	молян	молемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=1	0	root	_	Gloss[eng]=go
+9	ёвтан	ёвтамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=1	8	conj	_	Gloss[eng]=tell
+10	тетятень	тетя	NOUN	N	Sem/Kin|Number=Sing,Plur|Case=Dat|Number[psor]=Sing|Person[psor]=2	9	obl	_	Gloss[eng]=father
+11	.	.	PUNCT	CLB	_	8	punct	_	_
+
+#</text>
