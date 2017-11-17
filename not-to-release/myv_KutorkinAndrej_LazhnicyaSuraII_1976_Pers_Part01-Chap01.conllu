@@ -811,7 +811,7 @@
 # text = — Илядо кавтолдо те сонсь Елеська.
 # text[eng] =
 1	—	—	PUNCT	_	_	3	punct	_	_
-2	Илядо	илямс	VERB	V	Valency=1|Mood=Imp|Number[subj]=Plur|Person[subj]=2	3	aux:neg	_	Gloss[eng]=don't
+2	Илядо	иля	AUX	V	Valency=1|Mood=Proh|Number[subj]=Plur|Person[subj]=2	3	aux:neg	_	Gloss[eng]=don't
 3	кавтолдо	кавтолдомс	VERB	V	Valency=1|Connegative=Yes	0	root	_	Gloss[eng]=doubt
 4	те	те	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	Gloss[eng]=it
 5	сонсь	сонсь	PRON	Pron	PronType=Refl|Person=3|Number=Sing|Case=Nom	6	det	_	Gloss[eng]=he.himself
@@ -2135,7 +2135,7 @@
 
 #sent_id = partID1:chapID2:paragID6:sentID1: pgNo="10"
 # text = — Иля сова, Рамко лелякай.
-1	Иля	иля	AUX	_	Neg|Imprt|ScSg2	2	aux:neg	_	_
+1	Иля	иля	AUX	_	Mood=Proh|ScSg2	2	aux:neg	_	_
 2	сова	совамс	VERB	V	Valency=1|Connegative=Yes	0	root	_	_
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	Рамко	Рамко	PROPN	N	Prop|NameType=Giv|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	5	nmod:name	_	_

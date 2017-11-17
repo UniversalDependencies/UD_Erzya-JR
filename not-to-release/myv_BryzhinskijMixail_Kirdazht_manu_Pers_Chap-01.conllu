@@ -56,7 +56,7 @@
 # text = Удомань пачк нузякссто зярыяксть аволдась кедьсэнзэ , бажась панемс , но тонат тандадыльть а куватьс .
 # text[eng] = In his sleep he lazily waved at them with his hand. He wanted to chase them away but they could not scared away for long.
 # text[fin] = Puoliunessa hän huitaisi laiskasti kädellään ja yritti ajaa ne pois, mutteivät ne pelästyneet pitkään.
-1	Удомань	удома	NOUN	N	V|VerbForm=Vnoun|Number=Sing,Plur|Case=Gen|Definite=Ind	5	advmod	_	Удомань
+1	Удомань	удома	NOUN	N	V|VerbForm=Vnoun|Number=Sing,Plur|Case=Gen|Definite=Ind	5	obl	_	Удомань
 2	пачк	пачк	ADP	Adp	Po	1	case	_	пачк
 3	нузякссто	нузякссто	ADV	Adv	AdvType=Manner|Case=Ela	5	advmod	_	нузякссто
 4	зярыяксть	зярыяксть	ADV	Adv	Qnt|Mult	5	advmod:multprf	_	зярыяксть
@@ -106,7 +106,7 @@
 1	Ды	ды	CCONJ	CC	CC	3	cc	_	Ды
 2	тесэ	тесэ	ADV	Adv	Sem/Spat|Adv|Dem|Case=Ine	3	advmod	_	тесэ
 3	марясь	марямс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	SubjRef=1:1.1,1|марясь
-4	салавинькань	салавинька	ADJ	A	Case=Prl|DimNYKA|Number=Sing,Plur|Case=Gen|Definite=Ind	5	nmod	_	салавинькань
+4	салавинькань	салавинькань	ADJ	A	Degree=Dim|GenAttr	5	amod	_	салавинькань
 5	пейдема	пейдема	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	3	nsubj	_	пейдема
 6	.	.	PUNCT	CLB	CLB	3	punct	_	.
 
@@ -1808,7 +1808,7 @@
 7	тумо	тумо	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	8	compound	_	тумо
 8	судке	судке	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	1	obj	_	судке
 9	—	—	PUNCT	CLB	CLB	10	punct	_	—
-10	понань	пона	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	15	nmod:poss	_	понань
+10	понань	пона	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	15	nmod:gobj	_	понань
 11	,	,	PUNCT	CLB	CLB	12	punct	_	,
 12	сурень	суре	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	10	conj	_	сурень
 13	,	,	PUNCT	CLB	CLB	14	punct	_	,
@@ -1905,7 +1905,7 @@
 3	эци	эцемс	VERB	V	Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	эци
 4	,	,	PUNCT	CLB	CLB	7	punct	_	,
 5	ансяк	ансяк	ADV	Adv	Adv	7	advmod	_	ансяк
-6	иля	иля	AUX	V	Polarity=Neg|Mood=Imp|Number[subj]=Sing|Person[subj]=2	7	aux:neg	_	иля
+6	иля	иля	AUX	V	Mood=Proh|Number[subj]=Sing|Person[subj]=2	7	aux:neg	_	иля
 7	нузялдо	нузялдомс	VERB	V	Connegative=Yes	3	conj	_	нузялдо
 8	,	,	PUNCT	CLB	CLB	9	punct	_	,
 9	витнек	витнемс	VERB	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2	3	conj	_	витнек
@@ -2065,7 +2065,7 @@
 # text = Сялгонь ёртнемеяк машты , налчирькестэяк ледни — а эрьвась ялгатнестэ мельганзо паневи .
 # text[eng] = He knows how to throw a spear and shoot arrows, and not all of his friends can keep up with him.
 # text[fin] = Hän osaa sekä heittää keihästä että ampua jousella - eivät kaikki hänen ystävistään pysty samaan.
-1	Сялгонь	сялго	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	2	nmod:poss	_	Сялгонь
+1	Сялгонь	сялго	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	2	obj	_	Сялгонь
 2	ёртнемеяк	ёртнемс	VERB	V	VerbForm=Inf|Case=Loc|Clitic=Гак	3	xcomp	_	ёртнемеяк
 3	машты	маштомс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	машты
 4	,	,	PUNCT	CLB	CLB	6	punct	_	,
@@ -2401,7 +2401,7 @@
 1	Цёрынесь	цёрыне	NOUN	N	Sem/Anim_Cnt|Number=Sing|Case=Nom|Definite=Def	2	nsubj	_	Цёрынесь
 2	озась	озамс	VERB	V	Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	озась
 3	пандочирентень	пандочире	NOUN	N	Number=Sing|Case=Dat|Definite=Def	2	obl	_	пандочирентень
-4	оймень	ойме	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	5	nmod:gobj	_	оймень
+4	оймень	ойме	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Gen|Definite=Ind	5	obj	_	оймень
 5	таргамо	таргамс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	2	xcomp	_	таргамо
 6	.	.	PUNCT	CLB	CLB	2	punct	_	.
 
@@ -3053,7 +3053,7 @@
 1	Вирьаванть	Вирьава	NOUN	N	Sem/Anim_Cnt|Number=Sing|Case=Gen|Definite=Def	5	obl	_	Вирьаванть
 2	пельдеяк	пельде	ADP	Adp	Po|Case=Ela|Clitic=Гак	1	case	_	пельдеяк
 3	партнэнь	паро	NOUN	N	Number=Plur|Case=Gen|Definite=Def	5	obj	_	партнэнь
-4	иля	иля	AUX	V	Polarity=Neg|Mood=Imp|Number[subj]=Sing|Person[subj]=2	5	aux:neg	_	иля
+4	иля	иля	AUX	V	Mood=Proh|Number[subj]=Sing|Person[subj]=2	5	aux:neg	_	иля
 5	учне	учнемс	VERB	V	Connegative=Yes	0	root	_	учне
 6	.	.	PUNCT	CLB	CLB	5	punct	_	.
 
@@ -3261,7 +3261,7 @@
 7	пекезэ	пеке	NOUN	N	Sem/Body_part|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	пекезэ
 8	ды	ды	CCONJ	CC	CC	16	cc	_	ды
 9	,	,	PUNCT	CLB	CLB	14	punct	_	,
-10	шкань	шка	NOUN	N	Sem/Time|Number=Sing,Plur|Case=Gen|Definite=Ind	14	nmod:gobj	_	шкань
+10	шкань	шка	NOUN	N	Sem/Time|Number=Sing,Plur|Case=Gen|Definite=Ind	14	obj	_	шкань
 11	седе	седе	ADV	Adv	Degree=Cmp	12	advmod	_	седе
 12	тов	тов	ADV	Adv	Sem/Spat|Case=Lat	14	advmod	_	тов
 13	апак	апак	PART	Pcle	Polarity=Neg	14	aux:neg	_	апак
@@ -3537,7 +3537,7 @@
 4	а	а	PART	Pcle	Polarity=Neg	5	aux:neg	_	а
 5	мезель	мезе	PRON	Pron	PronType=Int|Number=Sing|Case=Nom|Definite=Ind|Clitic=Cop|Mood=Ind|Tense=Prt2|Number[subj]=Sing|Person[subj]=3	0	root	_	мезель
 6	:	:	PUNCT	CLB	CLB	5	punct	_	:
-7	колмонест	колмо	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	8	orphan:subjassoccoll	_	колмонест
+7	колмонест	колмо	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	8	advcl:assoccoll	_	колмонест
 8	ваднезельть	ваднемс	VERB	V	Der/Озь|Clitic=Cop|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	5	parataxis	_	ваднезельть
 9	—	—	PUNCT	CLB	CLB	12	punct	_	—
 10	сёвонь	сёвонь	NOUN	N	Sem/Mat|Number=Sing|Case=Nom|Definite=Ind	11	compound	_	сёвонь
@@ -4784,7 +4784,7 @@
 # text[eng] = On towards evening the four of them went out after the cattle, they did not have to be told to do it, they knew what chores were theirs.
 # text[fin] = 
 1	Чопоньбелев	чопоньбелев	ADV	Adv	Case=Lat	9	advmod	_	Чопоньбелев
-2	ниленест	ниле	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	9	orphan:subjassocnum	_	ниленест
+2	ниленест	ниле	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	9	advcl:assoccoll	_	ниленест
 3	апак	апак	PART	Pcle	Polarity=Neg	4	aux:neg	_	апак
 4	кармавто	кармавтомс	VERB	V	Valency=2|Connegative=Yes	9	advcl	_	кармавто
 5	—	—	PUNCT	CLB	CLB	7	punct	_	—

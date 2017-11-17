@@ -634,7 +634,7 @@
 # text[eng] = Regardless of what kind it is, straight or even meandering, it will take you somewhere. 
 1	Кодамо	кодамо	ADJ	A	PronType=Int|Number=Sing|Case=Nom|Definite=Ind	14	acl:relcl	_	_
 2	сон	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Case=Nom	1	nsubj:cop	_	_
-3	илязо	илямс	VERB	V	Valency=1|Mood=Opt|Number[subj]=Sing|Person[subj]=3	4	aux:neg	_	_
+3	илязо	иля	AUX	V	Valency=1|Polarity=Neg|Mood=Opt|Number[subj]=Sing|Person[subj]=3	4	aux:neg	_	_
 4	уле	улемс	AUX	V	Valency=1|Connegative=Yes	1	cop	_	_
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	виде	виде	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	1	appos	_	_
@@ -724,7 +724,7 @@
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	цёра	цёра	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	6	vocative	_	_
 4	,	,	PUNCT	CLB	_	3	punct	_	_
-5	иля	иля	AUX	_	Neg|Imprt	6	aux:neg	_	_
+5	иля	иля	AUX	_	Mood=Proh|Number[subj]=Sing|Person[subj]=2	6	aux:neg	_	_
 6	маняво	манявомс	VERB	V	Valency=1|Connegative=Yes	0	root	_	_
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -1066,7 +1066,7 @@
 6	—	—	PUNCT	_	_	7	punct	_	_
 7	мерсь	меремс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	20	parataxis	_	Gloss[eng]=say
 8	каршом	каршо	ADP	Adp	Spat|Err/Orth|Number[psor]=Sing|Person[psor]=1	7	obl	_	Gloss[eng]=in.response
-9	Саша	Саша	PROPN	N	Sem/Ant_Mal|Prop|Number=Sing|Case=Nom|Definite=Ind	7	nsubj	_	Gloss[eng]=Sasha
+9	Саша	Саша	PROPN	N	NameType=Giv|Gender=Masc|Animacy=Hum|Prop|Number=Sing|Case=Nom|Definite=Ind	7	nsubj	_	Gloss[eng]=Sasha
 10	,	,	PUNCT	CLB	_	13	punct	_	_
 11	зярдо	зярдо	ADV	Adv	AdvType=Temp	13	advmod	_	Gloss[eng]=when
 12	мон	мон	PRON	Pron	PronType=Prs|Person=1|Number=Sing|Case=Nom	13	nsubj	_	Gloss[eng]=I
@@ -1137,7 +1137,7 @@
 4	—	—	PUNCT	_	_	5	punct	_	_
 5	кундась	кундамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	2	parataxis	_	Gloss[eng]=latch.onto
 6	валозом	вал	NOUN	N	Number=Sing,Plur|Case=Ill|Err/Orth|Number[psor]=Sing|Person[psor]=1	5	obl	_	Gloss[eng]=what.one.said
-7	Саша	Саша	PROPN	N	Sem/Ant_Mal|Prop|Number=Sing|Case=Nom|Definite=Ind	5	nsubj	_	Gloss[eng]=Sasha
+7	Саша	Саша	PROPN	N	NameType=Giv|Gender=Masc|Animacy=Hum|Prop|Number=Sing|Case=Nom|Definite=Ind	5	nsubj	_	Gloss[eng]=Sasha
 8	.	.	PUNCT	CLB	_	2	punct	_	_
 
 #</sentence>
@@ -1389,10 +1389,10 @@
 # text = Ансяк кодат иляст уле, весемеде мазыйтне эйстэдест, монень маряви, розась ды макось.">
 1	Ансяк	ансяк	ADV	Adv	Exclusive	2	advmod	_	_
 2	кодат	кодамо	ADJ	A	PronType=Int|Case=Nom|Number=Plur	13	acl:relcl	_	_
-3	иляст	иля	AUX	_	Neg|Imprt|ScPl3	4	aux:neg	_	_
+3	иляст	иля	AUX	_	Neg|Opt|ScPl3	4	aux:neg	_	_
 4	уле	улемс	AUX	V	Valency=1|Connegative=Yes	2	cop	_	_
 5	,	,	PUNCT	CLB	_	2	punct	_	_
-6	весемеде	весемеде	PART	Pcle	Superl	7	advmod:cmpstandard	_	_
+6	весемеде	весемеде	PART	Pcle	Degree=Sup	7	advmod:cmpstandard	_	_
 7	мазыйтне	мазый	ADJ	A	Der/MWN|N|Number=Plur|Case=Nom|Definite=Def	13	nsubj	_	_
 8	эйстэдест	эйстэ	ADP	Adp	Case=Ela|Number[psor]=Plur|Person[psor]=3	7	obl	_	_
 9	,	,	PUNCT	CLB	_	11	punct	_	_
@@ -1413,5 +1413,43 @@
 4	эсь	эсь	PRON	Pron	PronType=Refl|Adn	5	det	_	_
 5	ютковаст	ютко	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Prl|Number[psor]=Plur|Person[psor]=3	3	obl	_	_
 6	?	?	PUNCT	CLB	_	3	punct	_	_
+
+#</sentence>
+#</p>
+#<p storyIDЧахрат ды пелюма" paragID="12">
+#sent_id = storyIDЧахрат ды пелюма" paragID="12" sentID="1" pgNo="0009"
+# text = Ламотне, кеман, невтить розанть лангс.">
+1	Ламотне	ламо	DET	Det	Qnt|Der/MWN|N|Number=Plur|Case=Nom|Definite=Def	5	nsubj	_	_
+2	,	,	PUNCT	CLB	_	3	punct	_	_
+3	кеман	кемемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=1	5	parataxis	_	_
+4	,	,	PUNCT	CLB	_	3	punct	_	_
+5	невтить	невтемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+6	розанть	роза	NOUN	N	Number=Sing|Case=Gen|Definite=Def	5	obl	_	_
+7	лангс	лангс	ADP	Adp	Case=Ill	6	case	_	_
+8	.	.	PUNCT	CLB	_	5	punct	_	_
+
+#</sentence>
+#sent_id = storyIDЧахрат ды пелюма" paragID="12" sentID="2" pgNo="0009"
+# text = Мезе мерят, истя, нать, улияк.">
+1	Мезе	мезе	PRON	Pron	PronType=Int|Number=Sing|Case=Nom|Definite=Ind	2	obj	_	_
+2	мерят	меремс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=2	4	parataxis	_	_
+3	,	,	PUNCT	CLB	_	2	punct	_	_
+4	истя	истя	ADV	Adv	AdvType=Manner	0	root	_	_
+5	,	,	PUNCT	CLB	_	6	punct	_	_
+6	нать	нать	PART	Pcle	_	4	parataxis	_	_
+7	,	,	PUNCT	CLB	_	6	punct	_	_
+8	улияк	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Clitic=Гак	4	cop	_	_
+9	.	.	PUNCT	CLB	_	4	punct	_	_
+
+#</sentence>
+#sent_id = storyIDЧахрат ды пелюма" paragID="12" sentID="3" pgNo="0009"
+# text = Зяро стихть ды морот сондензэ сёрмадозь!">
+1	Зяро	зяро	NUM	_	Interr	2	nummod	_	_
+2	стихть	стих	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	6	nsubj	_	_
+3	ды	ды	CCONJ	CC	_	4	cc	_	_
+4	морот	моро	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	2	conj	_	_
+5	сондензэ	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Case=Abl	6	obl	_	_
+6	сёрмадозь	сёрмадомс	VERB	V	Valency=2|Der/Озь|Conv	0	root	_	_
+7	!	^excl	PUNCT	CLB	_	6	punct	_	_
 
 #</text>
