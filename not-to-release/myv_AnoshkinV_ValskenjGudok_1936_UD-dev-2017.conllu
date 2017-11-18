@@ -29,7 +29,7 @@
 # text =  Партизантнэ мольсть мельга мельсек теине тропава, пек тусто роштя юткова.
 1	Партизантнэ	партизан	NOUN	N	Number=Plur|Case=Nom|Definite=Def	2	nsubj	_	Gloss[eng]=guerrilla
 2	мольсть	молемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	Gloss[eng]=go
-3	мельга	мельга	ADP	Adp	Spat	2	advmod	_	Gloss[eng]=one.after.the.other
+3	мельга	мельга	ADP	Adp	AdvType=Loc	2	advmod	_	Gloss[eng]=one.after.the.other
 4	мельсек	мельсек	ADV	Adv	_	3	fixed	_	_
 5	теине	теине	ADJ	A	Attr	6	amod	_	Gloss[eng]=narrow
 6	тропава	тропа	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Prl|Definite=Ind	2	obl	_	Gloss[eng]=path
@@ -64,5 +64,16 @@
 7	росанть	роса	NOUN	N	Number=Sing|Case=Gen|Definite=Def	8	nmod:poss	_	_
 8	байгетне	байге	NOUN	N	Number=Plur|Case=Nom|Definite=Def	5	nsubj	_	_
 9	.	.	PUNCT	CLB	_	5	punct	_	_
+
+#</sentence>
+#sent_id storyIDВалскень гудок:paragID2:sentID1: pgNo="44"
+# text =  Весемеде икеле мольсь отрядонь командирэсь Ястребов.
+1	Весемеде	весемеде	ADV	Adv	Degree=Sup	2	obl	_	_
+2	икеле	икеле	ADP	Adp	AdvType=Loc|Case=Loc	3	obl	_	_
+3	мольсь	молемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	отрядонь	отряд	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	5	nmod:poss	_	_
+5	командирэсь	командир	NOUN	N	Number=Sing|Case=Nom|Definite=Def	3	nsubj	_	_
+6	Ястребов	Ястребов	PROPN	N	NameType=Sur|Gender=Masc|Animacy=Hum|Prop|Number=Sing|Case=Nom|Definite=Ind	5	appos	_	_
+7	.	.	PUNCT	CLB	_	3	punct	_	_
 
 #</text>
