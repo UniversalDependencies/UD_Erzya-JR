@@ -1,0 +1,103 @@
+##<?xml version="1.0" encoding="utf-8"?>
+##<text
+#title_myv="Кедровой пештть"
+#xml:lang="myv"
+#genre_myv="Ёвтнемат"
+#author_first_name="П."
+#author_last_name="Глухов"
+#native_language="myv"
+#native_village_myv="Цармунь"
+#native_village_rus="Малые Кармалы"
+#publicationYear="1929"
+#compiler_first_name="Алексей"
+#compiler_last_name="Дуняшин"
+#corrector_first_name="Jack"
+#corrector_last_name="Rueter"
+#correctionYear="2008"
+#status_eng="open"
+#status_fin="open"
+#license="">
+#sent_id = chapID="I" paragID="1" sentID="1" pgNo="122"
+# text = Колмо кочкамот Дёбаень Микол ульнесь велень советэнь председателькс.
+1	Колмо	колмо	Num	_	Card|Sg|Nom|Indef	2	nummod	_	_
+2	кочкамот	кочкамот	N	_	Pl|Nom|Indef	8	obl:tmod	_	_
+3	Дёбаень	Дёбай	N	_	Sem/Sur|Prop|SP|Gen|Indef	4	nmod:poss	_	_
+4	Микол	Микол	N	_	Prop|Sem/Ant_Mal|Sg|Nom|Indef	8	nsubj:cop	_	_
+5	ульнесь	ульнемс	V	_	IV|Ind|Prt1|ScSg3	8	cop	_	_
+6	велень	веле	N	_	Sem/Plc|SP|Gen|Indef	7	nmod:poss	_	_
+7	советэнь	совет	N	_	SP|Gen|Indef	8	nmod:poss	_	_
+8	председателькс	председатель	N	_	SP|Tra|Indef	0	root	_	_
+9	.	.	CLB	_	_	8	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="1" sentID="2" pgNo="122"
+# text = Председательнень велесэ ламо тевть.
+1	Председательнень	председатель	N	_	SP|Dat|Indef	2	obl	_	_
+2	велесэ	веле	N	_	Sem/Plc|SP|Ine|Indef	0	root	_	_
+3	ламо	ламо	Det	_	Qnt|Sg|Nom|Indef	4	det	_	_
+4	тевть	тев	N	_	Pl|Nom|Indef|Clt/Cop|Prs|ScPl3	2	nsubj	_	_
+5	.	.	CLB	_	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="1" sentID="3" pgNo="122"
+# text = Оймсима шкаяк Микол а неиль.
+1	Оймсима	оймсемс	V	_	IV|Der/NomAct|N|Sg|Nom|Indef	2	compound	_	_
+2	шкаяк	шка	N	_	Sg|Nom|Indef|Foc/Гак	5	obj	_	_
+3	Микол	Микол	N	_	Prop|Sem/Ant_Mal|Sg|Nom|Indef	5	nsubj	_	_
+4	а	а	Pcle	_	Neg	5	aux:neg	_	_
+5	неиль	неемс	V	_	TV|Ind|Prt2|ScSg3	0	root	_	_
+6	.	.	CLB	_	_	5	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="1" sentID="4" pgNo="122"
+# text[orig] = Эрявсь каявтомс продразверстка, усковтомс волостев пенк.
+# text = Эрявсь каявтомс продразверстка, усковтомс волостев пенгть.
+1	Эрявсь	эрявомс	Aux	_	IV|Ind|Prt1|ScSg3	2	aux	_	_
+2	каявтомс	каявтомс	V	_	TV|Inf	0	root	_	_
+3	продразверстка	продразвёрстка	N	_	Sg|Nom|Indef	2	obj	_	_
+4	,	,	CLB	_	_	5	punct	_	_
+5	усковтомс	усковтомс	V	_	TV|Inf	2	conj	_	_
+6	волостев	волость	N	_	Sem/Plc|SP|Lat|Indef	5	obl	_	_
+7	пенгть	пенге	N	_	Pl|Nom|Indef	5	obj	_	_
+8	.	.	CLB	_	_	5	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="1" sentID="5" pgNo="122"
+# text = Атятнень эрьва чистэ савкшнось панемс улавс.
+1	Атятнень	атя	N	_	Pl|Gen|Def	5	obj	_	_
+2	эрьва	эрьва	Pron	_	Qnt|Sg|Nom|Indef	3	det	_	_
+3	чистэ	чи	N	_	SP|Ela|Indef	5	obl:tmod	_	_
+4	савкшнось	савомс	V	_	IV|Der/ОкшнОмс|V|IV|Ind|Prt1|ScSg3	5	aux	_	_
+5	панемс	панемс	V	_	TV|Inf	0	root	_	_
+6	улавс	улав	N	_	SP|Ill|Indef	5	obl	_	_
+7	.	.	CLB	_	_	5	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="1" sentID="6" pgNo="122"
+# text = Сы Микол советстэ кудов, яла теке а кацызь.
+1	Сы	самс	V	_	IV|Ind|Prs|ScSg3	0	root	_	_
+2	Микол	Микол	N	_	Sem/Ant_Mal|Prop|Sg|Nom|Indef	1	nsubj	_	_
+3	советстэ	совет	N	_	SP|Ela|Indef	1	obl	_	_
+4	кудов	кудо	N	_	Sem/Plc|SP|Lat|Indef	1	obl	_	_
+5	,	,	CLB	_	_	9	punct	_	_
+6	яла	яла	Adv	_	Temp	7	fixed	_	_
+7	теке	теке	Pron	_	Dem|Sg|Nom|Indef	9	advmod	_	_
+8	а	а	Pcle	_	Neg	9	aux:neg	_	_
+9	кацызь	кадомс	V	_	TV|Ind|Prs|ScPl3|OcSg3	1	conj	_	_
+10	.	.	CLB	_	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="1" sentID="7" pgNo="122"
+# text = Вейкесь цёранзо марто эри беряньстэ—председательтеме а явовить.
+1	Вейкесь	вейке	Num	_	Card|Sg|Nom|Def	4	nsubj	_	_
+2	цёранзо	цёра	N	_	Sg|Gen|PxSg3	4	obl	_	_
+3	марто	марто	Adp	_	COM	2	case	_	_
+4	эри	эрямс	V	_	TV|Ind|Prs|ScSg3	0	root	_	_
+5	беряньстэ	беряньстэ	Adv	_	Manner|Ela	4	advmod	_	_
+6	—	—	PUNCT	_	_	9	punct	_	_
+7	председательтеме	председатель	N	_	SP|Abe|Indef	9	obl	_	_
+8	а	а	Pcle	_	Neg	9	aux:neg	_	_
+9	явовить	явовомс	V	_	IV|Ind|Prs|ScPl3	4	conj	_	_
+10	.	.	CLB	_	_	4	punct	_	_
+
+#</text>
