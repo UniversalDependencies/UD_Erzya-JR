@@ -23,10 +23,10 @@
 #
 #text_id dedication: dedicated_to_myv"АНДРЕЕВ МИШАНЕНЬ" dedicated_by="Алек Дуняшин" pgNo="0003"
 # text = сех вадря ды сех вечкема ялгам туртов казезь васень кинигам
-1	Сех	сех	ADV	_	Degree=Sup	2	advmod:sup	_	Gloss[eng]=most
+1	Сех	сех	ADV	_	Degree=Sup	2	advmod	_	Gloss[eng]=most
 2	вадря	вадря	ADJ	A	Attr	6	amod	_	Gloss[eng]=good
 3	ды	ды	CCONJ	CC	_	5	cc	_	Gloss[eng]=and
-4	сех	сех	ADV	_	Degree=Sup	5	advmod:sup	_	Gloss[eng]=most
+4	сех	сех	ADV	_	Degree=Sup	5	advmod	_	Gloss[eng]=most
 5	вечкема	вечкемс	VERB	V	Valency=2|VerbForm=Vnoun|Number=Sing|Case=Nom|Definite=Ind	6	amod	_	Gloss[eng]=beloved
 6	ялгам	ялга	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=1	8	obl	_	Gloss[eng]=friend
 7	туртов	туртов	ADP	Adp	Case=Dat	6	case	_	Gloss[eng]=for
@@ -221,7 +221,7 @@
 1	Кода	кода	ADV	Adv	PronType=Int|AdvType=Man	7	advmod	_	_
 2	понгсь	понгомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	1	fixed	_	_
 3	минь	минь	PRON	Pron	PronType=Prs|Person=1|Number=Plur|Case=Nom	7	nsubj	_	_
-4	сынст	сынь	PRON	Pron	PronType=Prs|Person=3|Number=Plur|Case=Gen	7	obj:prspron	_	_
+4	сынст	сынь	PRON	Pron	PronType=Prs|Person=3|Number=Plur|Case=Gen	7	obj	_	_
 5	ней	ней	ADV	Adv	AdvType=Tim	7	advmod	_	_
 6	а	а	PART	Pcle	Polarity=Neg	7	aux:neg	_	_
 7	виднесынек	виднемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1|Number[obj]=Plur|Person[obj]=3	0	root	_	_
@@ -269,7 +269,7 @@
 #sent_id storyID="«ПИДСИ-ПАЛАКСТНЭНЬ» СЁРМАДЫЦЯДОСТ" paragID="4" sentID="2" pgNo="0005"
 # text = Ней минек кона-кона сёрмадыцянть пельде сави вешемс аволь ансяк тонавтнема.
 1	Ней	ней	ADV	Adv	AdvType=Tim	7	advmod	_	_
-2	минек	минь	PRON	Pron	PronType=Prs|Person=1|Number=Plur|Case=Gen	4	nmod:poss	_	_
+2	минек	минь	PRON	Pron	PronType=Prs|Person=1|Number=Plur|Case=Gen	7	nmod:own	_	_
 3	кона-кона	кона-кона	PRON	Pron	Distr|Number=Sing|Case=Nom|Definite=Ind	4	det	_	_
 4	сёрмадыцянть	сёрмадыця	Act	_	DemPrc|Der/V2A|Sg|Gen|Def	7	obl	_	_
 5	пельде	пельде	ADP	Adp	AdvType=Loc|Case=Abl	4	case	_	_
@@ -287,13 +287,13 @@
 2	мертяно	меремс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	0	root	_	_
 3	тенст	сынь	PRON	Pron	PronType=Prs|Person=3|Number=Plur|Case=Dat|Variant=Short	2	obl	_	_
 4	:	:	PUNCT	CLB	_	2	punct	_	_
-5	кадык	кадомс	VERB	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2|Number[obj]=Sing|Person[obj]=3	7	aux:opt	_	_
+5	кадык	кадомс	AUX	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2|Number[obj]=Sing|Person[obj]=3	7	aux:opt	_	_
 6	сынь	сынь	PRON	Pron	PronType=Prs|Person=3|Number=Plur|Case=Nom	7	nsubj	_	_
 7	невтьсызь	невтемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	2	conj	_	_
 8	мезес	мезе	PRON	Pron	PronType=Int|Number=Sing,Plur|Case=Ill|Definite=Ind	9	obl	_	_
 9	тонадсть	тонадомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	7	ccomp	_	_
 10	,	,	PUNCT	CLB	_	12	punct	_	_
-11	кадык	кадомс	VERB	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2|Number[obj]=Sing|Person[obj]=3	12	aux:opt	_	_
+11	кадык	кадомс	AUX	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2|Number[obj]=Sing|Person[obj]=3	12	aux:opt	_	_
 12	невтьсызь	невтемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	2	conj	_	_
 13	мастерчист	мастерчи	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Plur|Person[psor]=3	12	obj	_	_
 14	.	.	PUNCT	CLB	_	2	punct	_	_

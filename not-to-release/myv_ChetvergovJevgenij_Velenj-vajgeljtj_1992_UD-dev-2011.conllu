@@ -40,7 +40,7 @@
 #<WILDtitle>ЛОВНЫЦЯНТЕНЬ#</WILDtitle> #<p>
 #sent_id = storyIDЛОВНЫЦЯНТЕНЬ:paragID1:sentID1: pgNo="0005"
 # text = Моданть лангсо ули мастор, кона моли ашосо копачазь умарь чувто ёнов.
-1	Моданть	мода	NOUN	N	Number=Sing|Case=Gen|Definite=Def	4	nmod:exist	_	_
+1	Моданть	мода	NOUN	N	Number=Sing|Case=Gen|Definite=Def	4	obl:exist	_	_
 2	лангсо	лангсо	ADP	Adp	Case=Ine	1	case	_	_
 3	ули	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	4	cop:exist	_	_
 4	мастор	мастор	NOUN	N	Sem/Plc|Number=Sing|Case=Nom|Definite=Ind	0	root	_	_
@@ -71,7 +71,7 @@
 2	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	3	aux:neg	_	_
 3	свал	свал	ADV	Adv	AdvType=Tim	6	advmod	_	_
 4	те	те	DET	Det	PronType=Dem|Number=Sing	5	det	_	_
-5	ёнкссонть	ёнкс	NOUN	N	Sem/Plc|Number=Sing|Case=Ine|Definite=Def	6	nmod:exist	_	_
+5	ёнкссонть	ёнкс	NOUN	N	Sem/Plc|Number=Sing|Case=Ine|Definite=Def	6	obl:exist	_	_
 6	тундо	тундо	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	18	advcl	_	_
 7	,	,	PUNCT	CLB	_	10	punct	_	_
 8	кадык	кадомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=2|Number[obj]=Sing|Person[obj]=3	10	advmod	_	_
@@ -117,7 +117,7 @@
 #sent_id = storyIDЛОВНЫЦЯНТЕНЬ: paragID3:sentID2: pgNo="0005"
 # text = Кода пангт эли нормальть?
 1	Кода	кода	ADV	Adv	PronType=Int|AdvType=Man	0	root	_	_
-2	пангт	панго	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	1	orphan:obj	_	_
+2	пангт	панго	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	1	orphan	_	_
 3	эли	эли	CCONJ	CC	_	4	cc	_	_
 4	нормальть	нормаль	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	2	conj	_	_
 5	?	?	PUNCT	CLB	_	1	punct	_	_
@@ -174,7 +174,7 @@
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	вельксэкс	велькс	NOUN	N	Number=Sing,Plur|Case=Tra|Definite=Ind	12	acl	_	Gloss[eng]=cover
 9	—	—	PUNCT	_	_	12	punct	_	_
-10	тештьсэ	теште	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	11	nmod:instr	_	Gloss[eng]=star
+10	тештьсэ	теште	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	11	obl	_	Gloss[eng]=star
 11	сялгонезь	сялгонемс	VERB	V	Valency=2|Der/Озь|VerbForm=Conv|A|Attr	12	acl:conv	_	Gloss[eng]=pierce
 12	менелесь	менель	NOUN	N	Sem/Plc|Number=Sing|Case=Nom|Definite=Def	conj	nsubj	_	Gloss[eng]=sky
 13	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -244,7 +244,7 @@
 9	,	,	PUNCT	CLB	_	13	punct	_	_
 10	аволь	аволь	AUX	V	Polarity=Neg|Mood=Cnj|Number[subj]=Sing|Person[subj]=3	11	aux:neg	_	_
 11	ульгак	ульгак	VERB	V	Connegative=Yes	13	cop:exist	_	_
-12	маласом	маласо	ADP	Adp	AdvType=Loc|Case=Ine|Number[psor]=Sing|Person[psor]=1|Err/Orth	13	nmod:exist	_	_
+12	маласом	маласо	ADP	Adp	AdvType=Loc|Case=Ine|Number[psor]=Sing|Person[psor]=1|Err/Orth	13	obl:exist	_	_
 13	авам	ава	NOUN	N	Sem/Kin|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=1	8	advcl	_	_
 14	.	.	PUNCT	CLB	_	8	punct	_	_
 
@@ -485,7 +485,7 @@
 #sent_id = storyIDЛОВНЫЦЯНТЕНЬ:paragID15:sentID6: pgNo="0006"
 # text = Каня сонзэ марто апарось аволь сюлмавкс умонь ды неень шкатнень марто?">
 1	Каня	каня	PART	Pcle	Qst	6	advmod	_	Gloss[eng]=could.it.be.that
-2	сонзэ	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Case=Gen	4	nmod:poss	_	Gloss[eng]=it
+2	сонзэ	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Case=Gen	4	obl	_	Gloss[eng]=it
 3	марто	марто	ADP	Adp	COM	2	case	_	Gloss[eng]=with
 4	апарось	апаро	NOUN	N	Number=Sing|Case=Nom|Definite=Def	6	nsubj:cop	_	Gloss[eng]=bad
 5	аволь	аволь	PART	Pcle	Polarity=Neg|Intensive	6	aux:neg	_	Gloss[eng]=not
@@ -554,7 +554,7 @@
 5	коцтонтень	коцт	NOUN	N	Number=Sing|Case=Dat|Definite=Def	6	obl	_	_
 6	совавтомсто	совавтомс	VERB	V	Valency=2|VerbForm=Conv|Case=Ela	10	advcl	_	_
 7	ульнесь	ульнемс	AUX	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	10	cop:exist	_	_
-8	превсэм	прев	NOUN	N	Number=Sing,Plur|Case=Ine|Err/Orth|Number[psor]=Sing|Person[psor]=1	10	nmod:exist	_	_
+8	превсэм	прев	NOUN	N	Number=Sing,Plur|Case=Ine|Err/Orth|Number[psor]=Sing|Person[psor]=1	10	obl:exist	_	_
 9	ве	ве	NUM	Num	Qnt|Adn	10	nummod	_	_
 10	мель	мель	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	0	root	_	_
 11	:	:	PUNCT	CLB	_	12	punct	_	_
@@ -791,7 +791,7 @@
 17	конась	кона	PRON	Pron	PronType=Rel|Sel|Number=Sing|Case=Nom|Definite=Def	11	conj	_	gloss[eng]=which
 18	тусто	тусто	ADJ	A	Attr	20	amod	_	gloss[eng]=dense
 19	чопода	чопода	ADJ	A	Attr	20	amod	_	gloss[eng]=dark
-20	таркас	тарка	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ill|Definite=Ind	17	orphan:obl	_	gloss[eng]=place
+20	таркас	тарка	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ill|Definite=Ind	17	orphan	_	gloss[eng]=place
 21	.	.	PUNCT	CLB	_	4	punct	_	_
 
 #</sentence>
@@ -855,7 +855,7 @@
 #sent_id = storyIDКить минь? " paragID="1" sentID="3" pgNo="0007"
 # text = Ней ашосо вельтявсть вакссонзо умаринась ды атямаресь.">
 1	Ней	ней	ADV	Adv	AdvType=Tim	3	advmod	_	Gloss[eng]=now
-2	ашосо	ашо	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	3	nmod:instr	_	Gloss[eng]=white
+2	ашосо	ашо	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	3	obl	_	Gloss[eng]=white
 3	вельтявсть	вельтявомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	Gloss[eng]=become.covered
 4	вакссонзо	вакссо	ADP	Adp	Case=Ine|Number[psor]=Sing|Person[psor]=3	5	obl	_	Gloss[eng]=next.to
 5	умаринась	умарина	NOUN	N	Number=Sing|Case=Nom|Definite=Def	3	nsubj	_	Gloss[eng]=apple.tree
@@ -1152,7 +1152,7 @@
 #</sentence>
 #sent_id = storyIDЧахрат ды пелюма" paragID="4" sentID="2" pgNo="0008"
 # text = Кортамскак мартонзо, кода мерить, ули мезде.">
-1	Кортамскак	кортамс	VERB	V	Valency=1|VerbForm=Inf|Clitic=Гак	8	xcomp:exist	_	Gloss[eng]=talk
+1	Кортамскак	кортамс	VERB	V	Valency=1|VerbForm=Inf|Clitic=Гак	8	xcomp	_	Gloss[eng]=talk
 2	мартонзо	марто	ADP	Adp	COM|Number[psor]=Sing|Person[psor]=3	1	obl	_	Gloss[eng]=with
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	кода	кода	ADV	Adv	AdvType=Man	5	advmod	_	Gloss[eng]=as
@@ -1178,7 +1178,7 @@
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	содазь	содазь	ADV	Adv	Parenthetic	1	advmod	_	Gloss[eng]=of.course
 4	,	,	PUNCT	CLB	_	3	punct	_	_
-5	ютксонок	ютксо	ADP	Adp	Case=Ine|Number[psor]=Plur|Person[psor]=1	1	nmod:exist	_	Gloss[eng]=amongst
+5	ютксонок	ютксо	ADP	Adp	Case=Ine|Number[psor]=Plur|Person[psor]=1	1	obl:exist	_	Gloss[eng]=amongst
 6	пелькстамоткак	пелькстамо	NOUN	N	Number=Plur|Case=Nom|Definite=Ind|Clitic=Гак	1	nsubj	_	Gloss[eng]=argument
 7	.	.	PUNCT	CLB	_	1	punct	_	_
 

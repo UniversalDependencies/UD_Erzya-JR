@@ -87,7 +87,7 @@
 6	секе	секе	DET	Det	Number=Sing|Case=Nom|Definite=Ind	7	fixed	_	_
 7	тев	тев	ADV	Adv	Case=Lat	8	advmod	_	_
 8	нерькстнесь	нерьгстнемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	2	conj	_	_
-9	пильксэнзэ	пильге	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	8	nmod:ins	_	_
+9	пильксэнзэ	пильге	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
 10	пеке	пеке	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	11	compound	_	_
 11	боканзо	бока	NOUN	N	Sem/Plc|Number=Plur|Case=Gen|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 12	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -118,7 +118,7 @@
 9	цёра	цёра	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	4	appos	_	_
 10	,	,	PUNCT	CLB	_	9	punct	_	_
 11	прясонзо	пря	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	3	conj	_	_
-12	ойсэ	ой	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	13	nmod:ins	_	_
+12	ойсэ	ой	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	13	obl	_	_
 13	вадневть	ваднемс	VERB	V	Valency=2|Der/Овт|Prc/Telic|N|Number=Sing|Case=Nom|Definite=Ind	14	acl	_	_
 14	картуз	картуз	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	11	nsubj:copexist	_	_
 15	,	,	PUNCT	CLB	_	16	punct	_	_
@@ -131,7 +131,7 @@
 22	тев	тев	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	23	advmod	_	_
 23	явнось	явномс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	3	conj	_	_
 24	кавто	кавто	NUM	Num	Card	25	nummod	_	_
-25	кедьсэнзэ	кедь	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	23	nmod:ins	_	_
+25	кедьсэнзэ	кедь	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	23	obl	_	_
 26	тарадтнэнь	тарад	NOUN	N	Number=Plur|Case=Gen|Definite=Def	23	obj	_	_
 27	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -172,7 +172,7 @@
 6	удалсе	удалце	DET	Det	_	7	det	_	_
 7	лукантень	лукантень	NOUN	N	Number=Sing|Case=Dat|Definite=Def	4	obl	_	_
 8	,	,	PUNCT	CLB	_	12	punct	_	_
-9	омбоцесэнть	омбоце	NUM	Num	Ord|Number=Sing|Case=Ine|Definite=Def	12	nmod:ins	_	_
+9	омбоцесэнть	омбоце	NUM	Num	Ord|Number=Sing|Case=Ine|Definite=Def	12	obl	_	_
 10	секе	секе	DET	Det	Attr	11	fixed	_	_
 11	тев	тев	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	12	advmod	_	_
 12	лепштясь	лепштямс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	4	conj	_	_
@@ -247,7 +247,7 @@
 8	Люба	Люба	PROPN	N	NameType=Giv|Gender=Fem|Animacy=Hum|Prop|Number=Sing|Case=Nom|Definite=Ind	7	nsubj	_	_
 9	ды	ды	CCONJ	CC	_	12	cc	_	_
 10	кавто	кавто	NUM	Num	Card	11	nummod	_	_
-11	кедьсэнзэ	кедь	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	12	nmod:ins	_	_
+11	кедьсэнзэ	кедь	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
 12	тапардызе	тапардамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	7	conj	_	_
 13	пекензэ	пеке	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	12	obj	_	_
 14	.	.	PUNCT	CLB	_	7	punct	_	_
@@ -353,7 +353,7 @@
 5	,	,	PUNCT	CLB	_	2	punct	_	_
 6	―	―	PUNCT	_	_	9	punct	_	_
 7	жалямонь	жалямс	VERB	V	Valency=2|VerbForm=Vnoun|N|Number=Sing,Plur|Case=Gen|Definite=Ind	8	nmod	_	_
-8	вайгельсэ	вайгель	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	9	nmod:ins	_	_
+8	вайгельсэ	вайгель	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	9	obl	_	_
 9	пшкалесть	пшкалемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	_
 10	Вострин	Вострин	PROPN	N	Prop|NameType=Sur|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	9	nsubj	_	_
 11	ды	ды	CCONJ	CC	_	12	cc	_	_
@@ -496,7 +496,7 @@
 3	мольсть	молемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	_
 4	ды	ды	CCONJ	CC	_	5	cc	_	_
 5	яжасть	яжамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	3	conj	_	_
-6	пильксэст	пильге	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3	5	nmod:ins	_	_
+6	пильксэст	пильге	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3	5	obl	_	_
 7	роштянь	роштя	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	8	nmod:poss	_	_
 8	тарадтнэнь	тарад	NOUN	N	Number=Plur|Case=Gen|Definite=Def	5	obj	_	_
 9	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -649,7 +649,7 @@
 12	валонзо	вал	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	_
 13	,	,	PUNCT	CLB	_	16	punct	_	_
 14	сорнозь	сорномс	VERB	V	Valency=2|Der/Озь|VerbForm=Conv	16	advcl	_	_
-15	кедьсэнзэ	кедь	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	16	nmod:ins	_	_
+15	кедьсэнзэ	кедь	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
 16	тулкадизе	тулкадемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	10	conj	_	_
 17	Ястребовонь	Ястребов	PROPN	N	Prop|NameType=Sur|Gender=Masc|Animacy=Hum|Number=Sing,Plur|Case=Gen|Definite=Ind	18	nmod:poss	_	_
 18	кедензэ	кедь	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	16	obj	_	_
@@ -795,7 +795,7 @@
 4	пандянть	пандя	NOUN	N	Number=Sing|Case=Gen|Definite=Def	2	obl	_	_
 5	велькссэ	велькс	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	4	case	_	_
 6	содов	содов	ADJ	A	Attr	7	amod	_	_
-7	чайниксэ	чайник	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	2	nmod:ins	_	_
+7	чайниксэ	чайник	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	2	obl	_	_
 8	костязь	костямс	VERB	V	Valency=2|Der/Озь|VerbForm=Conv	9	acl	_	_
 9	инзей	инзей	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	11	nmod	_	_
 10	марто	марто	ADP	Adp	COM	9	case	_	_
@@ -973,7 +973,7 @@
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	копачавсь	копачавомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	2	conj	_	_
 8	раужо	раужо	ADJ	A	Attr	9	amod	_	_
-9	пологсо	полог	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	7	nmod:ins	_	_
+9	пологсо	полог	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	7	obl	_	_
 10	тайгась	тайга	NOUN	N	Number=Sing|Case=Nom|Definite=Def	7	nsubj	_	_
 11	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -1197,7 +1197,7 @@
 7	,	,	PUNCT	CLB	_	9	punct	_	_
 8	лиятне	лия	DET	Det	Der/MWN|N|Number=Plur|Case=Nom|Definite=Def	9	nsubj	_	_
 9	таргить	таргамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	6	conj	_	_
-10	цилимкасо	цилимка	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	9	nmod:ins	_	_
+10	цилимкасо	цилимка	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	9	obl	_	_
 11	.	.	PUNCT	CLB	_	6	punct	_	_
 
 #</sentence>
@@ -1320,7 +1320,7 @@
 7	карадо	карадо	PART	Pcle	_	8	fixed	_	_
 8	каршо	каршо	ADP	Adp	AdvType=Loc	9	advmod	_	_
 9	васодемстэ	васодемс	VERB	V	Valency=2|VerbForm=Conv|Case=Ela	6	advcl:conv	_	_
-10	цяхамосост	цяхамс	VERB	V	Valency=1|VerbForm=Vnoun|N|Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3	6	nmod:ins	_	_
+10	цяхамосост	цяхамс	VERB	V	Valency=1|VerbForm=Vnoun|N|Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3	6	obl	_	_
 11	.	.	PUNCT	CLB	_	6	punct	_	_
 
 #</sentence>
@@ -1495,7 +1495,7 @@
 # text =  Рябов васень валсонзо кевкстсь Любань шумбра чинзэ эйсэ.
 1	Рябов	Рябов	PROPN	N	Prop|NameType=Sur|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	4	nsubj	_	_
 2	васень	васень	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	3	det	_	_
-3	валсонзо	вал	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	4	nmod:ins	_	_
+3	валсонзо	вал	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	кевкстсь	кевкстемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
 5	Любань	Люба	PROPN	N	NameType=Giv|Gender=Fem|Animacy=Hum|Prop|Number=Sing,Plur|Case=Gen|Definite=Ind	7	nmod:poss	_	_
 6	шумбра	шумбра	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	7	compound	_	_
@@ -1665,7 +1665,7 @@
 # text[eng] = The ones that don't go with him he shoots and takes their belongings.
 1	―	―	PUNCT	_	_	4	punct	_	_
 2	Конат	кона	PRON	Pron	Number=Plur|Case=Nom|Definite=Ind	4	nsubj	_	Gloss[eng]=the.ones
-3	а	а	PART	Pcle	Polarity=Neg	4	advmod:neg	_	Gloss[eng]=not
+3	а	а	PART	Pcle	Polarity=Neg	4	aux:neg	_	Gloss[eng]=not
 4	молить	молемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	7	ccomp	_	Gloss[eng]=go
 5	мартонзо	марто	ADP	Adp	COM|Number[psor]=Sing|Person[psor]=3	4	obl	_	Gloss[eng]=with
 6	―	―	PUNCT	_	_	7	punct	_	_
@@ -1769,7 +1769,7 @@
 5	таргась	таргамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	2	conj	_	_
 6	эйстэнзэ	эйстэ	ADP	Adp	AdvType=Loc|Case=Ela|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 7	тюжа	тюжа	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	8	amod	_	_
-8	конёвсо	конёв	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	9	nmod:ins	_	_
+8	конёвсо	конёв	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	9	obl	_	_
 9	тапардавт	тапардамс	VERB	V	Valency=2|Der/Овт|Prc/Telic|N|Number=Sing|Case=Nom|Definite=Ind	10	compound	_	_
 10	бинт	бинт	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	5	obj	_	_
 11	,	,	PUNCT	CLB	_	15	punct	_	_
@@ -2116,7 +2116,7 @@
 3	эрьва	эрьва	PRON	Pron	Qnt|Number=Sing|Case=Nom|Definite=Ind	4	fixed	_	_
 4	кодамо	кодамо	ADJ	A	PronType=Int|Number=Sing|Case=Nom|Definite=Ind	7	amod	_	_
 5	ламо	ламо	DET	Det	Qnt|Number=Sing|Case=Nom|Definite=Ind	6	nummod	_	_
-6	вальгейсэ	вальгей	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	7	nmod:ins	_	_
+6	вальгейсэ	вальгей	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	7	obl	_	_
 7	урниця	урнемс	VERB	V	Valency=1|Act|Tense=Pres|VerbForm=Part|A|Number=Sing|Case=Nom|Definite=Ind	8	acl	_	_
 8	тайгань	тайга	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	9	nmod:poss	_	_
 9	бурясь	буря	NOUN	N	Number=Sing|Case=Nom|Definite=Def	2	nsubj:exist	_	_
@@ -2570,7 +2570,7 @@
 15	прятнева	пря	NOUN	N	Sem/Plc|Number=Plur|Case=Prl|Definite=Def	12	obl	_	_
 16	ды	ды	CCONJ	CC	_	17	cc	_	_
 17	нолсесть	нолсемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	2	conj	_	_
-18	лембесэст	лембе	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3	17	nmod:ins	_	_
+18	лембесэст	лембе	NOUN	N	Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3	17	obl	_	_
 19	тайганть	тайга	NOUN	N	Number=Sing|Case=Gen|Definite=Def	17	obj	_	_
 20	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -3146,7 +3146,7 @@
 1	Маскин	Маскин	_	_	_	2	nsubj	_	_
 2	кандсь	кандомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
 3	содов	содов	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	4	amod	_	_
-4	чайниксэнть	чайник	NOUN	N	Number=Sing|Case=Ine|Definite=Def	2	nmod:ins	_	_
+4	чайниксэнть	чайник	NOUN	N	Number=Sing|Case=Ine|Definite=Def	2	obl	_	_
 5	пси	пси	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	6	amod	_	_
 6	ведь	ведь	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	2	obj	_	_
 7	,	,	PUNCT	CLB	_	8	punct	_	_

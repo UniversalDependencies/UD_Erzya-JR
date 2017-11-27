@@ -126,21 +126,22 @@
 
 #sent_id = partID1:chapID1:paragID4:sentID2: pgNo="5"
 # text = — Монь эряза баба ялгась, Ховра, чарькоди, што ли, сонсь служавтозь ведь мельга чиеме».
+# comment = check deprel 2<->5 and translation
 1	—	—	PUNCT	_	_	9	punct	_	_
 2	Монь	мон	PRON	Pron	PronType=Prs|Person=1|Number=Sing|Case=Gen	5	nmod:poss	_	Gloss[eng]=I
 3	эряза	эряза	ADJ	A	Attr	5	amod	_	Gloss[eng]=lively
 4	баба	баба	NOUN	N	Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	5	nmod	_	Gloss[eng]=old.lady
-5	ялгась	ялга	NOUN	N	Number=Sing|Case=Nom|Definite=Def	9	nsubj	_	Gloss[eng]=friend
+5	ялгась	ялга	NOUN	N	Number=Sing|Case=Nom|Definite=Def	15	nsubj:pass	_	Gloss[eng]=friend
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	Ховра	Ховра	PROPN	N	NameType=Giv|Gender=Fem|Animacy=Hum|Number=Sing|Case=Nom|Definite=Def	5	appos	_	Gloss[eng]=Khovra
 8	,	,	PUNCT	CLB	_	7	punct	_	_
-9	чарькоди	чарькодемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	1-1:4.2,5|Gloss[eng]=understand
+9	чарькоди	чарькодемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	15	parataxis	_	1-1:4.2,5|Gloss[eng]=understand
 10	,	,	PUNCT	CLB	_	11	punct	_	_
 11	што	што	SCONJ	CS	_	9	parataxis	_	Gloss[eng]=I.wonder
 12	ли	ли	PART	Pcle	Qst	11	fixed	_	_
 13	,	,	PUNCT	CLB	_	15	punct	_	_
-14	сонсь	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Intensive|Case=Nom	5	nmod	_	1-1:4.2,5|Gloss[eng]=herself
-15	служавтозь	служавтомс	VERB	V	Valency=2|Der/Озь|VerbForm=Conv	9	advcl	_	Gloss[eng]=serve
+14	сонсь	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Intensive|Case=Nom	5	det	_	1-1:4.2,5|Gloss[eng]=herself
+15	служавтозь	служавтомс	VERB	V	Valency=2|Der/Озь|VerbForm=Conv	0	root	_	Gloss[eng]=serve
 16	ведь	ведь	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	18	obl	_	Gloss[eng]=water
 17	мельга	мельга	ADP	Adp	AdpType=Post|AdvType=Loc	16	case	_	Gloss[eng]=after
 18	чиеме	чиемс	VERB	V	Valency=1|VerbForm=Inf|Case=Loc	15	xcomp	_	Gloss[eng]=run
@@ -784,7 +785,7 @@
 # CHECKME
 1	Ведь	ведь	PART	Pcle	_	7	advmod	_	_
 2	мон	мон	PRON	Pron	PronType=Prs|Person=1|Number=Sing|Case=Nom	7	nsubj	_	_
-3	Листар	листар	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	6	nmod:poss	_	_
+3	Листар	листар	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	6	compound:appos	_	_
 4	братот	брат	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=2	3	flat	_	_
 5	од	од	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	6	fixed	_	_
 6	цёраксчинь	цёраксчинь	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	7	nmod:poss	_	_
@@ -1720,7 +1721,7 @@
 # text[eng] =
 1	А	а	PART	Pcle	Polarity=Neg	2	aux:neg	_	_
 2	истя	истя	ADV	Adv	AdvType=Man	6	advmod	_	_
-3	ли	ли	PART	Pcle	Qst	2	advmod:q	_	_
+3	ли	ли	PART	Pcle	Qst	2	aux:q	_	_
 4	вирьсэ	вирь	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ine|Definite=Ind	6	obl	_
 5	нармушкине	нармушкине	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	_
 6	ливтни	ливтнемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	2	parataxis	_	_
@@ -1839,7 +1840,7 @@
 3	кунды	кундамс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	5	advcl	_	_
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	леди	ледемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	_
-6	сонзэ	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Case=Gen	7	nmod	_	_
+6	сонзэ	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Case=Gen	7	nmod:poss	_	_
 7	мельс	мель	NOUN	N	Number=Sing,Plur|Case=Ill|Definite=Ind	5	obl	_	_
 8	таго	таго	ADV	Adv	AdvType=Tim|Mult	5	advmod	_	_
 9	теке	теке	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	10	det	_	Gloss[eng]=the.same
