@@ -120,12 +120,12 @@
 11	прясонзо	пря	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ine|Number[psor]=Sing|Person[psor]=3	3	conj	_	_
 12	ойсэ	ой	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	13	obl	_	_
 13	вадневть	ваднемс	VERB	V	Valency=2|Der/Овт|Prc/Telic|N|Number=Sing|Case=Nom|Definite=Ind	14	acl	_	_
-14	картуз	картуз	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	11	nsubj:copexist	_	_
+14	картуз	картуз	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	11	nsubj:exist	_	_
 15	,	,	PUNCT	CLB	_	16	punct	_	_
 16	лангсонзо	лангсо	ADP	Adp	Case=Ine|Number[psor]=Sing|Person[psor]=3	3	conj	_	_
 17	оршавт	оршамс	VERB	V	Valency=2|Der/Овт|Prc/Telic|N|Number=Sing|Case=Nom|Definite=Ind	19	acl	_	_
 18	нулав	нулав	ADJ	A	Attr	19	amod	_	_
-19	пальта	пальта	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	16	nsubj:copexist	_	_
+19	пальта	пальта	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	16	nsubj:exist	_	_
 20	,	,	PUNCT	CLB	_	23	punct	_	_
 21	секе	секе	DET	Det	Number=Sing|Case=Nom|Definite=Ind	22	fixed	_	_
 22	тев	тев	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	23	advmod	_	_
@@ -272,7 +272,7 @@
 2	Седе	седе	PART	Pcle	Degree=Cmp	3	advmod:comp	_	_
 3	васов	васов	ADV	Adv	AdvType=Loc|Case=Lat	4	obl	_	_
 4	молемс	молемс	VERB	V	Valency=1|VerbForm=Inf	0	root	_	_
-5	вием	вий	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=1	4	nsubj:copexist	_	_
+5	вием	вий	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=1	4	nsubj:exist	_	_
 6	арась	арась	VERB	V	VerbType=Aux|Polarity=Neg|Tense=Pres|Number[subj]=Sing|Person[subj]=3	5	aux:negexist	_	_
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	ох	ох	INTJ	Interj	_	10	discourse	_	_
@@ -556,7 +556,7 @@
 12	седеяк	седеяк	ADV	Adv	Degree=Cmp	13	advmod:comp	_	_
 13	чевтестэ	чевтестэ	ADV	Adv	AdvType=Man|Case=Ela	10	advmod	_	_
 14	ды	ды	CCONJ	CC	_	17	cc	_	_
-15	кавал	кавал	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	16	compournd	_	_
+15	кавал	кавал	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	16	compound	_	_
 16	алдо	алдо	ADP	Adp	AdvType=Loc|Case=Abl	17	obl	_	_
 17	кирдсь	кирдемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	4	conj	_	_
 18	Любань	Люба	PROPN	N	NameType=Giv|Gender=Fem|Animacy=Hum|Prop|Number=Sing,Plur|Case=Gen|Definite=Ind	17	obj	_	_
@@ -1773,7 +1773,7 @@
 9	тапардавт	тапардамс	VERB	V	Valency=2|Der/Овт|Prc/Telic|N|Number=Sing|Case=Nom|Definite=Ind	10	compound	_	_
 10	бинт	бинт	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	5	obj	_	_
 11	,	,	PUNCT	CLB	_	15	punct	_	_
-12	ловонь	лов	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	13	compound:nn	_	_
+12	ловонь	лов	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	13	compound	_	_
 13	кондямо	кондямо	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	15	amod	_	_
 14	ашо	ашо	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	15	amod	_	_
 15	ватка	ватка	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	5	obj	_	_
@@ -1826,7 +1826,7 @@
 # text =  ― Эшо а мезть учомс, давайте седе курок таргадо ды оймседе, а вандый чопудава тевенть тейсынек, можот Любаяк вейке пе теи, ― сонсь саизе Звездовонь кучозь гостинецтнэде папироска пачканть ды панжизе.
 1	―	―	PUNCT	_	_	5	punct	_	_
 2	Эшо	Эшо	ADV	_	Temp	5	advmod	_	_
-3	а	а	PART	Pcle	Polarity=Neg	4	ax:neg	_	_
+3	а	а	PART	Pcle	Polarity=Neg	4	aux:neg	_	_
 4	мезть	мезе	PRON	Pron	PronType=Int|Case=Nom|Number=Plur	5	nubj	_	_
 5	учомс	учомс	VERB	V	Valency=2|VerbForm=Inf	0	root	_	_
 6	,	,	PUNCT	CLB	_	7	punct	_	_
@@ -1982,7 +1982,7 @@
 3	колмо	колмо	NUM	Num	Card|Number=Sing|Case=Nom|Definite=Ind	6	nummod:equ	_	_
 4	―	―	PUNCT	_	_	5	punct	_	_
 5	ниле	ниле	NUM	Num	Card|Number=Sing|Case=Nom|Definite=Ind	3	compound:equ	_	_
-6	раз	раз	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	nmod:iter	_	_
+6	раз	раз	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	obl	_	_
 7	чаравтсь	чаравтомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
 8	отрядонть	отряд	NOUN	N	Number=Sing|Case=Gen|Definite=Def	7	obl	_	_
 9	перька	перька	ADP	Adp	AdvType=Loc|Case=Prl	8	case	_	_
@@ -3039,7 +3039,7 @@
 23	ашотнеде	ашо	NOUN	N	Number=Plur|Case=Abl|Definite=Def	21	obl	_	_
 24	,	,	PUNCT	CLB	_	26	punct	_	_
 25	весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	26	obj	_	_
-26	тапизь	тапамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	27	compound:vsc	_	_
+26	тапизь	тапамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	27	compound:svc	_	_
 27	керсизь	керсемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Number[obj]=Plur|Person[obj]=3	_	_	_	_
 28	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -3677,7 +3677,7 @@
 4	поптнэнь	поп	NOUN	N	Number=Plur|Case=Gen|Definite=Def	8	nmod:poss	_	_
 5	пейдема	пейдема	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	8	nmod	_	_
 6	―	―	PUNCT	_	_	7	punct	_	_
-7	нарьгамо	нарьгамо	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	5	compound:vsc	_	_
+7	нарьгамо	нарьгамо	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	5	compound:svc	_	_
 8	таркас	таркас	ADP	Adp	_	2	obl	_	_
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 

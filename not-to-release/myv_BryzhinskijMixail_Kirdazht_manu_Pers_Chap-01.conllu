@@ -1779,7 +1779,7 @@
 3	башка	башка	ADV	Adv	Adv	2	case	_	башка
 4	истямо	истямо	DET	Det	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	5	advmod	_	истямо
 5	покш	покш	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	6	amod	_	покш
-6	найман	найман	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	7	nsubj:copexist	_	найман
+6	найман	найман	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	7	nsubj:exist	_	найман
 7	косояк	косояк	ADV	Adv	PronType=Ind|Case=Ine	0	root	_	косояк
 8	арась	арась	AUX	V	Polarity=Neg|Number=Sing|Case=Nom|Definite=Ind	7	cop:negexist	_	арась
 9	,	,	PUNCT	CLB	CLB	12	punct	_	,
@@ -1891,7 +1891,7 @@
 4	Масторсост	мастор	NOUN	N	Sem/Inanim_Cnt|Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=3|Clitic=Cop|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	Масторсост
 5	—	—	PUNCT	CLB	CLB	8	punct	_	—
 6	кодамояк	кодамояк	ADJ	A	PronType=Ind|Number=Sing|Case=Nom|Definite=Ind	7	amod	_	кодамояк
-7	пе	пе	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	8	nsubj:copexist	_	пе
+7	пе	пе	NOUN	N	Sem/Inanim_Cnt|Number=Sing|Case=Nom|Definite=Ind	8	nsubj:exist	_	пе
 8	тензэ	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Case=Dat|Variant=Short	4	conj	_	тензэ
 9	арась	арась	AUX	V	Polarity=Neg|Number=Sing|Case=Nom|Definite=Ind	8	cop:negexist	_	арась
 10	.	.	PUNCT	CLB	CLB	4	punct	_	.
@@ -3208,7 +3208,7 @@
 # text[eng] = And there it was, their house.
 # text[fin] = Siellä se onkin - heidän kotinsa.
 1	Ды	ды	CCONJ	CC	CC	3	cc	_	ды
-2	оно	оно	PART	Pcle	Pcle	3	discrourse	_	оно
+2	оно	оно	PART	Pcle	Pcle	3	discourse	_	оно
 3	сон	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Case=Nom	0	root	_	сон
 4	—	—	PUNCT	CLB	CLB	5	punct	_	—
 5	кудост	кудо	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Plur|Person[psor]=1	3	appos	_	кудост
@@ -3537,7 +3537,7 @@
 4	а	а	PART	Pcle	Polarity=Neg	5	aux:neg	_	а
 5	мезель	мезе	PRON	Pron	PronType=Int|Number=Sing|Case=Nom|Definite=Ind|Clitic=Cop|Mood=Ind|Tense=Prt2|Number[subj]=Sing|Person[subj]=3	0	root	_	мезель
 6	:	:	PUNCT	CLB	CLB	5	punct	_	:
-7	колмонест	колмо	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	8	advcl:assoccoll	_	колмонест
+7	колмонест	колмо	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	8	advcl	_	колмонест
 8	ваднезельть	ваднемс	VERB	V	Der/Озь|Clitic=Cop|Tense=Prt2|Number[subj]=Plur|Person[subj]=3	5	parataxis	_	ваднезельть
 9	—	—	PUNCT	CLB	CLB	12	punct	_	—
 10	сёвонь	сёвонь	NOUN	N	Sem/Mat|Number=Sing|Case=Nom|Definite=Ind	11	compound	_	сёвонь
@@ -4056,7 +4056,7 @@
 1	Аволь	аволь	PART	Pcle	Polarity=Neg|Emph	2	aux:neg	_	аволь
 2	ансяк	ансяк	ADV	Adv	Adv	4	advmod	_	ансяк
 3	«	«	PUNCT	PUNCT	PUNCT.LEFT	4	punct	_	«
-4	кузтеминеть	кузтемине	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	10	nsubj:exit	_	кузтеминеть
+4	кузтеминеть	кузтемине	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	10	nsubj:exist	_	кузтеминеть
 5	»	»	PUNCT	PUNCT	PUNCT.RIGHT	4	punct	_	»
 6	ды	ды	CCONJ	CC	CC	8	cc	_	ды
 7	«	«	PUNCT	PUNCT	PUNCT.LEFT	8	punct	_	«
@@ -4784,7 +4784,7 @@
 # text[eng] = On towards evening the four of them went out after the cattle, they did not have to be told to do it, they knew what chores were theirs.
 # text[fin] = 
 1	Чопоньбелев	чопоньбелев	ADV	Adv	Case=Lat	9	advmod	_	Чопоньбелев
-2	ниленест	ниле	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	9	advcl:assoccoll	_	ниленест
+2	ниленест	ниле	NUM	Num	Assoc_Coll|Number[psor]=Plur|Person[psor]=3	9	advcl	_	ниленест
 3	апак	апак	PART	Pcle	Polarity=Neg	4	aux:neg	_	апак
 4	кармавто	кармавтомс	VERB	V	Valency=2|Connegative=Yes	9	advcl	_	кармавто
 5	—	—	PUNCT	CLB	CLB	7	punct	_	—
