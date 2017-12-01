@@ -530,7 +530,7 @@
 #sent_id = chapID="I" paragID="6" sentID="20" pgNo="124"
 # text = Друк кирнавтнезь чийсь Волчок кедра чувто алов.
 1	Друк	друк	ADV	Adv	Case=Temp	3	advmod	_	_
-2	кирнавтнезь	кирнавтомс	VERB	V	Valency=2|Der/немс|V|TV|Der/Озь|VerbForm=Conv	3	advcl	_	_
+2	кирнавтнезь	кирнавтомс	VERB	V	Valency=2|Der/немс|V|Valency=2|Der/Озь|VerbForm=Conv	3	advcl	_	_
 3	чийсь	чиемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
 4	Волчок	Волчок	PROPN	N	Prop|Sem/Sur|Number=Sing|Case=Nom|Definite=Ind	3	nsubj	_	_
 5	кедра	кедра	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	6	compound	_	_
@@ -595,7 +595,7 @@
 #</sentence>
 #sent_id = chapID="I" paragID="6" sentID="26" pgNo="124"
 # text = Велязь-велязь прась алов якстере пуло марто мазы урнэ.
-1	Велязь-велязь	велямс	VERB	V	Valency=1|Der/Озь|Ger|SerialVerb|Cmp-велямс|V|IV|Der/Озь|VerbForm=Conv	2	advcl	_	_
+1	Велязь-велязь	велямс	VERB	V	Valency=1|Der/Озь|VerbForm=Conv|SerialVerb|Cmp-велямс|V|Valency=1|Der/Озь|VerbForm=Conv	2	advcl	_	_
 2	прась	прамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
 3	алов	алов	ADV	Adv	AdvType=Loc	2	obl	_	_
 4	якстере	якстере	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	5	amod	_	_
@@ -843,5 +843,684 @@
 5	кармат	кармамс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=2	2	conj	_	_
 6	оймсеме	оймсемс	VERB	V	Valency=1|VerbForm=Inf|Case=Loc	5	xcomp	_	_
 7	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="12">
+#sent_id = chapID="I" paragID="12" sentID="1" pgNo="125"
+# text = Бертяз прок чаркоць, мезде корты Микол.
+1	Бертяз	Бертяз	PROPN	N	Prop|Number=Sing|Case=Nom|Definite=Ind	3	nsubj	_	_
+2	прок	прок	ADV	Adv	_	3	advmod	_	_
+3	чаркоць	чаркодемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+4	,	,	PUNCT	CLB	_	6	punct	_	_
+5	мезде	мезе	PRON	Pron	PronType=Int|Number=Sing,Plur|Case=Abl|Definite=Ind	6	obl	_	_
+6	корты	кортамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	3	conj	_	_
+7	Микол	Микол	PROPN	N	Prop|NameType=Giv|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	_
+8	.	.	PUNCT	CLB	_	3	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="12" sentID="2" pgNo="125"
+# text = Варштась азоронзо ланкс ды пулонзо юхаезь кармась онгомо.
+1	Варштась	варштамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	азоронзо	азор	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
+3	ланкс	лангс	ADP	Adp	AdvType=Loc|Case=Ill	2	case	_	_
+4	ды	ды	CCONJ	CC	_	7	cc	_	_
+5	пулонзо	пуло	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
+6	юхаезь	юхаемс	VERB	V	Valency=1|Der/Озь|VerbForm=Conv	_	_	_	_
+7	кармась	кармамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	1	conj	_	_
+8	онгомо	онгомс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	7	xcomp	_	_
+9	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="12" sentID="3" pgNo="125"
+# text = Сонськак Микол пек сизесь.
+1	Сонськак	сонсь	PRON	Pron	PronType=Refl|Person=3|Number=Sing|Case=Nom|Clitic=Гак	2	det	_	_
+2	Микол	Микол	PROPN	N	NameType=Giv|Gender=Masc|Animacy=Hum|Prop|Number=Sing|Case=Nom|Definite=Ind	4	nsubj	_	_
+3	пек	пек	ADV	Adv	_	4	advmod	_	_
+4	сизесь	сиземс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+5	.	.	PUNCT	CLB	_	4	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="12" sentID="4" pgNo="125"
+# text = Тайгасо китне арасть.
+1	Тайгасо	тайга	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	0	root	_	_
+2	китне	ки	NOUN	N	Hom1|Number=Plur|Case=Nom|Definite=Def	1	nsubj:exist	_	_
+3	арасть	арась	ADJ	A	Clitic=Cop|Tense=Pres|Number[subj]=Plur|Person[subj]=3	1	cop:exist	_	_
+4	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="12" sentID="5" pgNo="125"
+# text = Течи чоп савсь якамс лутконь-латконь, кундонь-кандонь трокс.
+1	Течи	течи	ADV	Adv	Case=Temp	4	advmod	_	_
+2	чоп	чоп	ADV	Adv	Case=Temp	4	advmod	_	_
+3	савсь	савомс	AUX	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	4	aux	_	_
+4	якамс	якамс	VERB	V	Valency=2|VerbForm=Inf	0	root	_	_
+5	лутконь-латконь	луткот-латкот	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Gen|Definite=Ind	4	obl	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7	кундонь-кандонь	кундот-кандот	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	5	conj	_	_
+8	трокс	трокс	ADP	Adp	_	5	case	_	_
+9	.	.	PUNCT	CLB	_	4	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="13">
+#sent_id = chapID="I" paragID="13" sentID="1" pgNo="125"
+# text = Куйсть сэрей пандо пряс.
+1	Куйсть	куземс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+2	сэрей	сэрей	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	3	amod	_	_
+3	пандо	пандо	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	1	obl	_	_
+4	пряс	пря	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ill|Definite=Ind	3	case	_	_
+5	.	.	PUNCT	CLB	_	1	appos	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="13" sentID="2" pgNo="125"
+# text = Васов перть пелев неяви.
+1	Васов	васов	ADV	Adv	AdvType=Loc	4	advmod	_	_
+2	перть	перть	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	4	advmod	_	_
+3	пелев	пелев	ADV	Adv	AdvType=Loc	2	fixed	_	_
+4	неяви	неявомс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+5	.	.	PUNCT	CLB	_	4	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="13" sentID="3" pgNo="125"
+# text = Ков а варштат, яла вирь.
+1	Ков	ков	ADV	Adv	PronType=Int|Case=Lat	3	advmod	_	_
+2	а	а	PART	Pcle	Polarity=Neg	3	aux:neg	_	_
+3	варштат	варштамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=2	0	root	_	_
+4	,	,	PUNCT	CLB	_	6	punct	_	_
+5	яла	яла	ADV	Adv	Case=Temp	6	orphan	_	_
+6	вирь	вирь	NOUN	N	Sem/Plc|Number=Sing|Case=Nom|Definite=Ind	3	conj	_	_
+7	.	.	PUNCT	CLB	_	3	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="13" sentID="4" pgNo="125"
+# text = Тайганть прок лезэяк косояк арась.
+1	Тайганть	тайга	NOUN	N	Number=Sing|Case=Gen|Definite=Def	0	root	_	_
+2	прок	прок	ADV	Adv	_	1	advmod	_	_
+3	лезэзэяк	лезэ	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3|Clitic=Гак	1	nsubj:exist	_	_
+4	косояк	косояк	ADV	Adv	Definite=Ind|Case=Ine	1	advmod	_	_
+5	арась	арась	AUX	Aux	Polarity=Neg|Tense=Pres|Number[subj]=Sing|Person[subj]=3	1	aux:neg	_	_
+6	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="13" sentID="5" pgNo="125"
+# text = Алкукскак, ютак те таркастонть пелеве ёнов сядо вайгельбеть, эрицят а вастат: ютак ветесят, тысча вайгельбе—виренть пезэ яла а машты.
+1	Алкукскак	алкукскак	ADV	Adv	_	3	discourse	_	_
+2	,	,	PUNCT	CLB	_	1	punct	_	_
+3	ютак	ютамс	VERB	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2	0	root	_	_
+4	те	те	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	5	det	_	_
+5	таркастонть	тарка	NOUN	N	Sem/Plc|Number=Sing|Case=Ela|Definite=Def	6	obl	_	_
+6	пелеве	пелеве	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	3	obl	_	_
+7	ёнов	ёнов	ADP	Adp	AdvType=Loc|Case=Lat	6	case	_	_
+8	сядо	сядо	NUM	Num	Card|Number=Sing|Case=Nom|Definite=Ind	9	nummod	_	_
+9	вайгельбеть	вайгельпе	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	3	obj	_	_
+10	,	,	PUNCT	CLB	_	13	punct	_	_
+11	эрицят	эриця	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	13	obj	_	_
+12	а	а	PART	Pcle	Polarity=Neg	13	aux:neg	_	_
+13	вастат	вастомс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=2	3	conj	_	_
+14	:	:	PUNCT	CLB	_	3	punct	_	_
+15	ютак	ютамс	VERB	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2	3	conj	_	_
+16	ветесят	ветесядт	NUM	Num	Card|Number=Plur|Case=Nom|Definite=Ind	15	obj	_	_
+17	,	,	PUNCT	CLB	_	19	punct	_	_
+18	тысча	тысча	_	_	_	19	nummod	_	_
+19	вайгельбе	вайгельпе	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	16	conj	_	_
+20	—	—	PUNCT	_	_	25	punct	_	_
+21	виренть	вирь	NOUN	N	Sem/Plc|Number=Sing|Case=Gen|Definite=Def	22	nmod:poss	_	_
+22	пезэ	пе	NOUN	N	Sem/Plc|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	25	nsubj	_	_
+23	яла	яла	ADV	Adv	Case=Temp	25	advmod	_	_
+24	а	а	PART	Pcle	Polarity=Neg	25	aux:neg	_	_
+25	машты	маштомс	VERB	V	Hom3|Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	3	conj	_	_
+26	.	.	PUNCT	CLB	_	3	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="13" sentID="6" pgNo="125"
+# text = Касыть чувтнэ сядонь-сядонь ие, ломань узерень апак варша.
+1	Касыть	касомс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+2	чувтнэ	чувто	NOUN	N	Number=Plur|Case=Nom|Definite=Def	1	nsubj	_	_
+3	сядонь-сядонь	сядонь-сядонь	_	_	_	4	nummod	_	_
+4	ие	ие	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	1	obj	_	_
+5	,	,	PUNCT	CLB	_	9	punct	_	_
+6	ломань	ломань	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	compound	_	_
+7	узерень	узере	NOUN	N	Number=Sing,Plur|Case=Gen|Definite=Ind	9	obj	_	_
+8	апак	апак	PART	Pcle	Polarity=Neg	9	aux:neg	_	_
+9	варша	варшамс	VERB	V	Valency=2|Connegative=Yes	1	advmod	_	_
+10	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="13" sentID="7" pgNo="125"
+# text = Пингест печтясызь—сяворить, наксадыть.
+1	Пингест	пинге	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Plur|Person[psor]=3	2	obj	_	_
+2	печтясызь	печтемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	_
+3	—	—	PUNCT	_	_	4	punct	_	_
+4	сяворить	сяворемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	2	conj	_	_
+5	,	,	PUNCT	CLB	_	6	punct	_	_
+6	наксадыть	наксадомс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	2	conj	_	_
+7	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="13" sentID="8" pgNo="125"
+# text = Кулозь чувтонть кияк рунгонзо а токасы.
+1	Кулозь	куломс	VERB	V	Valency=1|Der/Озь|VerbForm=Conv	2	advcl	_	_
+2	чувтонть	чувто	NOUN	N	Number=Sing|Case=Gen|Definite=Def	6	dislocated	_	_
+3	кияк	кияк	PRON	Pron	PronType=Ind|Number=Sing|Case=Nom	6	nsubj	_	_
+4	рунгонзо	рунго	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
+5	а	а	PART	Pcle	Polarity=Neg	6	aux:neg	_	_
+6	токасы	токамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	_
+7	.	.	PUNCT	CLB	_	6	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="13" sentID="9" pgNo="125"
+# text = Чуросто ансяк охотник эли овто эскельди троксканзо.
+1	Чуросто	чуросто	ADV	Adv	Iter	6	advmod	_	_
+2	ансяк	ансяк	ADV	Adv	Exclusive	3	advmod	_	_
+3	охотник	охотник	NOUN	N	Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	_
+4	эли	эли	CCONJ	CC	_	5	cc	_	_
+5	овто	овто	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	3	nsubj	_	_
+6	эскельди	эскельдямс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+7	троксканзо	трокс	NOUN	N	Number=Sing,Plur|Case=Prl|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
+8	.	.	PUNCT	CLB	_	6	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="14">
+#sent_id = chapID="I" paragID="14" sentID="1" pgNo="126"
+# text = Чизэ кармась чопотеме.
+1	Чизэ	чи	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
+2	кармась	кармамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	чопотеме	чопотемс	VERB	V	Valency=1|VerbForm=Inf|Case=Loc	2	xcomp	_	_
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="14" sentID="2" pgNo="126"
+# text = Нусмакацть чувтнэ, прок кежейстэ ваныть ютковаст молиця ломаненть ланкс.
+1	Нусмакацть	нусмакадомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	_	_	_	_
+2	чувтнэ	чувто	NOUN	N	Number=Plur|Case=Nom|Definite=Def	1	nsubj	_	_
+3	,	,	PUNCT	CLB	_	6	punct	_	_
+4	прок	прок	ADV	Adv	_	6	advmod	_	_
+5	кежейстэ	кежей	ADJ	A	Number=Sing,Plur|Case=Ela|Definite=Ind	6	advmod	_	_
+6	ваныть	ваномс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	1	conj	_	_
+7	ютковаст	юткова	ADP	Adp	AdvType=Loc|Case=Prl|Number[psor]=Plur|Person[psor]=3	8	obl	_	_
+8	молиця	молемс	VERB	V	Valency=1|Act|Tense=Pres|VerbForm=Part|A|Number=Sing|Case=Nom|Definite=Ind	9	acl	_	_
+9	ломаненть	ломань	NOUN	N	Number=Sing|Case=Gen|Definite=Def	6	obl	_	_
+10	ланкс	лангс	ADP	Adp	AdvType=Loc|Case=Ill	9	case	_	_
+11	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="14" sentID="3" pgNo="126"
+# text = Микол соды, аволь васоло те таркастонть лей чиресэ ули кудыне, козонь лотксить удомо охотникт ды кедровой пеште мельга якиця ломать.
+1	Микол	Микол	PROPN	N	NameType=Giv|Gender=Masc|Animacy=Hum|Prop|Number=Sing|Case=Nom|Definite=Ind	2	nsubj	_	_
+2	соды	содамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	_	_	_	_
+3	,	,	PUNCT	CLB	_	5	punct	_	_
+4	аволь	аволь	PART	Pcle	Polarity=Neg|Emphatic	5	aux:neg	_	_
+5	васоло	васоло	ADV	Adv	AdvType=Loc|Case=Loc	2	ccomp	_	_
+6	те	те	PRON	Pron	PronType=Dem|Number=Sing|Case=Nom|Definite=Ind	7	det	_	_
+7	таркастонть	тарка	NOUN	N	Sem/Plc|Number=Sing|Case=Ela|Definite=Def	9	nmod	_	_
+8	лей	лей	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	9	compound	_	_
+9	чиресэ	чире	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ine|Definite=Ind	5	appos	_	_
+10	ули	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	5	cop:exist	_	_
+11	кудыне	кудыне	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	5	nsubj:exist	_	_
+12	,	,	PUNCT	CLB	_	14	punct	_	_
+13	козонь	козонь	ADV	Adv	PronType=Int|Case=Ill	14	advmod	_	_
+14	лотксить	лотксемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	11	acl:relcl	_	_
+15	удомо	удомс	VERB	V	Valency=1|VerbForm=Inf|Case=Loc	14	xcomp	_	_
+16	охотникт	охотникт	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	14	nsubj	_	_
+17	ды	ды	CCONJ	CC	_	22	cc	_	_
+18	кедровой	кедровой	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	19	amod	_	_
+19	пеште	пеште	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	21	obl	_	_
+20	мельга	мельга	ADP	Adp	AdvType=Loc|Case=Prl	19	case	_	_
+21	якиця	якамс	VERB	V	Valency=2|Act|Tense=Pres|VerbForm=Part|A|Number=Sing|Case=Nom|Definite=Ind	22	acl	_	_
+22	ломать	ломань	NOUN	N	Number=Plur|Case=Nom|Definite=Ind|Err/Orth	16	conj	_	_
+23	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="14" sentID="4" pgNo="126"
+# text = Валксь Микол пандонть алов, муизе кудыненть.
+1	Валксь	валгомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	Микол	Микол	PROPN	N	Prop|NameType=Giv|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	1	nsubj	_	_
+3	пандонть	пандо	NOUN	N	Number=Sing|Case=Gen|Definite=Def	1	obl	_	_
+4	алов	алов	ADV	Adv	AdvType=Loc|Case=Lat	3	case	_	_
+5	,	,	PUNCT	CLB	_	6	punct	_	_
+6	муизе	муемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	1	conj	_	_
+7	кудыненть	кудыне	NOUN	N	Number=Sing|Case=Gen|Definite=Def	6	obj	_	_
+8	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="14" sentID="5" pgNo="126"
+# text = Канць коське тарат, тейсь кудонть куншкас тол.
+1	Канць	кандомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	коське	коське	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	3	amod	_	_
+3	тарат	тарад	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	1	obj	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	тейсь	теемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	1	conj	_	_
+6	кудонть	кудо	NOUN	N	Sem/Plc|Number=Sing|Case=Gen|Definite=Def	5	obl	_	_
+7	куншкас	куншкасо	ADP	Adp	AdvType=Loc|Case=Ill	6	case	_	_
+8	тол	тол	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	5	obj	_	_
+9	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="14" sentID="6" pgNo="126"
+# text = Ведрынензэ ведь марто ладизе тол вельксс, сонсь маць нар ланкс.
+1	Ведрынензэ	ведрыне	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
+2	ведь	ведь	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	1	nmod	_	_
+3	марто	марто	ADP	Adp	COM	2	case	_	_
+4	ладизе	ладямс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	_
+5	тол	тол	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	4	obl	_	_
+6	вельксс	велькс	NOUN	N	Number=Sing,Plur|Case=Ill|Definite=Ind	5	case	_	_
+7	,	,	PUNCT	CLB	_	9	punct	_	_
+8	сонсь	сонсь	PRON	Pron	PronType=Refl|Person=3|Number=Sing|Case=Nom	9	nsubj	_	_
+9	маць	мадемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	4	conj	_	_
+10	нар	нар	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	9	obl	_	_
+11	ланкс	лангс	ADP	Adp	AdvType=Loc|Case=Ill	10	case	_	_
+12	.	.	PUNCT	CLB	_	4	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="14" sentID="7" pgNo="126"
+# text = Кисканзо ушосот,
+1	Кисканзо	киска	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Sing|Person[psor]=3	2	nsubj:exist	_	_
+2	ушосот	ушосо	NOUN	N	Spat|Case=Ine|Clitic=Cop|Tense=Pres|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+3	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="15">
+#sent_id = chapID="I" paragID="15" sentID="1" pgNo="126"
+# text = Друк Бертяз ды Волчок кармасть онгомо.
+1	Друк	друк	ADV	Adv	Case=Temp	5	advmod	_	_
+2	Бертяз	Бертяз	PROPN	N	Prop|Number=Sing|Case=Nom|Definite=Ind	5	nsubj	_	_
+3	ды	ды	CCONJ	CC	_	4	cc	_	_
+4	Волчок	Волчок	PROPN	N	Prop|Number=Sing|Case=Nom|Definite=Ind	2	conj	_	_
+5	кармасть	кармамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+6	онгомо	онгомс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	5	xcomp	_	_
+7	.	.	PUNCT	CLB	_	5	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="15" sentID="2" pgNo="126"
+# text = Лиссь ушов Микол.
+1	Лиссь	лисемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+2	ушов	ушо	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Lat|Definite=Ind	1	obl	_	_
+3	Микол	Микол	PROPN	N	Prop|NameType=Giv|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	1	nsubj	_	_
+4	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="15" sentID="3" pgNo="126"
+# text = Марясы аволь васоло тожо киска онги.
+1	Марясы	марямс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	_
+2	аволь	аволь	PART	Pcle	Polarity=Neg|Emphatic	3	aux:neg	_	_
+3	васоло	васоло	ADV	Adv	AdvType=Loc|Case=Loc	6	obl	_	_
+4	тожо	тожо	ADV	Adv	Err/Lex	3	advmod	_	_
+5	киска	киска	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	_
+6	онги	онгомс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	1	ccomp	_	_
+7	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="15" sentID="4" pgNo="126"
+# text = Аламос аштезь, чувтнэ ютксто лиссь ломань киска марто.
+1	Аламос	аламос	ADV	Adv	Case=Temp	2	advmod	_	_
+2	аштезь	аштемс	VERB	V	Valency=1|Der/Озь|VerbForm=Conv	6	advcl	_	_
+3	,	,	PUNCT	CLB	_	2	punct	_	_
+4	чувтнэ	чувто	NOUN	N	Number=Plur|Case=Nom|Definite=Def	6	obl	_	_
+5	ютксто	ютксто	ADP	Adp	AdvType=Loc|Case=Ela	4	case	_	_
+6	лиссь	лисемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+7	ломань	ломань	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	_
+8	киска	киска	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	nmod	_	_
+9	марто	марто	ADP	Adp	COM	8	case	_	_
+10	.	.	PUNCT	CLB	_	6	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="15" sentID="5" pgNo="126"
+# text = Ломанесь сэрей, здоров, сакалонзо раужот.
+1	Ломанесь	ломань	NOUN	N	Number=Sing|Case=Nom|Definite=Def	2	nsubj	_	_
+2	сэрей	сэрей	ADJ	A	Clitic=Cop|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	,	,	PUNCT	CLB	_	4	punct	_	_
+4	здоров	здоров	ADJ	A	Clitic=Cop|Tense=Pres|Number[subj]=Sing|Person[subj]=3	2	conj	_	_
+5	,	,	PUNCT	CLB	_	7	punct	_	_
+6	сакалонзо	сакал	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
+7	раужот	раужо	ADJ	A	Clitic=Cop|Tense=Pres|Number[subj]=Plur|Person[subj]=3	2	conj	_	_
+8	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="16">
+#sent_id = chapID="I" paragID="16" sentID="1" pgNo="126"
+# text = —Шумбраят!—эчке вайгельсэ пшкаць ломанесь.
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Шумбраят	Шумбра	ADJ	A	Clitic=Cop|Tense=Pres|Number[subj]=Sing|Person[subj]=2	0	root	_	_
+3	!	^excl	PUNCT	CLB	_	2	punct	_	_
+4	—	—	PUNCT	_	_	7	punct	_	_
+5	эчке	эчке	ADJ	A	Number=Sing|Case=Nom|Definite=Ind	6	amod	_	_
+6	вайгельсэ	вайгель	NOUN	N	Number=Sing,Plur|Case=Ine|Definite=Ind	7	obl	_	_
+7	пшкаць	пшкадемс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	2	parataxis	_	_
+8	ломанесь	ломань	NOUN	N	Number=Sing|Case=Nom|Definite=Def	7	nsubj	_	_
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="17">
+#sent_id = chapID="I" paragID="17" sentID="1" pgNo="126"
+# text = Микол ваны лангозонзо, косто бутн некшнизе ломаненть, мельс кодаяк а леди.
+1	Микол	Микол	PROPN	N	Prop|NameType=Giv|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	2	nsubj	_	_
+2	ваны	ваномс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	лангозонзо	ланго	NOUN	N	Number=Sing,Plur|Case=Ill|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+4	,	,	PUNCT	CLB	_	7	punct	_	_
+5	косто	косто	ADV	Adv	PronType=Int|Case=Ela	7	obl	_	_
+6	бути	бути	SCONJ	CS	_	5	fixed	_	_
+7	некшнизе	некшнемс	VERB	V	Valency=2|Stem/е|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	2	conj	_	_
+8	ломаненть	ломань	NOUN	N	Number=Sing|Case=Gen|Definite=Def	7	obj	_	_
+9	,	,	PUNCT	CLB	_	13	punct	_	_
+10	мельс	мель	NOUN	N	Number=Sing,Plur|Case=Ill|Definite=Ind	13	obl	_	_
+11	кодаяк	кодаяк	ADV	Adv	Definite=Ind|AdvType=Man	13	advmod	_	_
+12	а	а	PART	Pcle	Polarity=Neg	13	aux:neg	_	_
+13	леди	ледемс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	2	conj	_	_
+14	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="18">
+#sent_id = chapID="I" paragID="18" sentID="1" pgNo="126"
+# text = — Тон аволь Керязь- пиле Тёпунь, цёразо?—кевкстизе Микол.
+# text[eng] = Aren't not Cut-earred Tyopu's boy? - Mikol asked.
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Тон	тон	PRON	Pron	PronType=Prs|Person=2|Number=Sing|Case=Nom	0	root	_	_
+3	аволь	аволь	PART	Pcle	Polarity=Neg|Emphatic	2	aux:neg	_	_
+4	Керязь	Керязь-	_	_	_	6	advcl	_	_
+5	-	_	_	_	_	6	fixed	_	_
+6	пиле	пиле	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	nmod:bahuv	_	_
+7	Тёпунь	Тёпунь	_	_	_	9	nmod:poss	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
+9	цёразо	цёра	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
+10	?	?	PUNCT	CLB	_	2	punct	_	_
+11	—	—	PUNCT	_	_	12	punct	_	_
+12	кевкстизе	кевкстемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	2	parataxis	_	_
+13	Микол	Микол	PROPN	N	NameType=Giv|Gender=Masc|Animacy=Hum|Prop|Number=Sing|Case=Nom|Definite=Ind	12	nsubj	_	_
+14	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="19">
+#sent_id = chapID="I" paragID="19" sentID="1" pgNo="126"
+# text = — Сон.
+# text[eng] = That's me.
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Сон	сон	PRON	Pron	PronType=Prs|Person=3|Number=Sing|Case=Nom	0	root	_	_
+3	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="19" sentID="2" pgNo="126"
+# text = Чей тельня эщо улавс якинь тынк велес.
+1	Чей	чей	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	5	discourse	_	_
+2	тельня	тельня	ADV	Adv	Case=Temp	5	advmod	_	_
+3	эщо	ещё	ADV	Adv	Err/Lex|Case=Temp	5	advmod	_	_
+4	улавс	улав	NOUN	N	Number=Sing,Plur|Case=Ill|Definite=Ind	5	obl	_	_
+5	якинь	якамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=1	0	root	_	_
+6	тынк	тон	PRON	Pron	PronType=Prs|Person=2|Number=Plur|Case=Gen	7	nmod:poss	_	_
+7	велес	веле	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ill|Definite=Ind	5	obl	_	_
+8	.	.	PUNCT	CLB	_	5	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="19" sentID="3" pgNo="126"
+# text = Тон сестэ председателькс ульнить.
+1	Тон	тон	PRON	Pron	PronType=Prs|Person=2|Number=Sing|Case=Nom	3	nsubj	_	_
+2	сестэ	сестэ	ADV	Adv	Case=Ela	3	advmod	_	_
+3	председателькс	председатель	NOUN	N	Number=Sing,Plur|Case=Tra|Definite=Ind	0	root	_	_
+4	ульнить	ульнемс	AUX	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=2	3	cop	_	_
+5	.	.	PUNCT	CLB	_	3	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="19" sentID="4" pgNo="126"
+# text = Лемем Кирё.
+1	Лемем	лем	NOUN	N	Hom1|Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	_
+2	Кирё	Кирё	PROPN	N	Prop|NameType=Giv|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	0	root	_	_
+3	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="19" sentID="5" pgNo="126"
+# text = Совасть кавонест кудынентень.
+1	Совасть	совамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	0	root	_	_
+2	кавонест	кавонест	NUM	Num	AssocColl|Number[psor]=Plur|Person[psor]=3	1	advcl	_	_
+3	кудынентень	кудыне	NOUN	N	Number=Sing|Case=Dat|Definite=Def	1	obl	_	_
+4	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="20">
+#sent_id = chapID="I" paragID="20" sentID="1" pgNo="126"
+# text = —Тонть чаетькак уш путозь,—мерсь Кирё.
+1	—	—	PUNCT	_	_	5	punct	_	_
+2	Тонть	тон	PRON	Pron	PronType=Prs|Person=2|Number=Sing|Err/Orth|Dial|Case=Gen	5	obl	_	_
+3	чаетькак	чай	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=2|Clitic=Гак	5	nsubj	_	_
+4	уш	уш	ADV	Adv	Case=Temp	5	advmod	_	_
+5	путозь	путомс	VERB	V	Valency=2|Der/Озь|VerbForm=Conv	0	root	_	_
+6	,	,	PUNCT	CLB	_	5	punct	_	_
+7	—	—	PUNCT	_	_	8	punct	_	_
+8	мерсь	меремс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	_	_	_	_
+9	Кирё	Кирё	PROPN	N	Prop|NameType=Giv|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	8	nsubj	_	_
+10	.	.	PUNCT	CLB	_	5	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="20" sentID="2" pgNo="126"
+# text = —Парсте минь течи ярстанок.
+1	—	—	PUNCT	_	_	5	punct	_	_
+2	Парсте	парсте	ADV	Adv	_	5	advmod	_	_
+3	минь	мон	PRON	Pron	PronType=Prs|Person=1|Number=Plur|Case=Nom	5	nsubj	_	_
+4	течи	течи	ADV	Adv	Case=Temp	5	advmod	_	_
+5	ярстанок	ярсамс	VERB	V	Err/Orth|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=1	0	root	_	_
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="20" sentID="3" pgNo="126"
+# text = Монь, ванат, сувозеем чавозь ули.
+1	Монь	мон	PRON	Pron	PronType=Prs|Person=1|Number=Sing|Case=Gen	6	obl	_	_
+2	,	,	PUNCT	CLB	_	3	punct	_	_
+3	ванат	ваномс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=2	6	discourse	_	_
+4	,	,	PUNCT	CLB	_	3	punct	_	_
+5	сувозеем	сувозей	NOUN	N	Number=Sing|Case=Nom|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
+6	чавозь	чавомс	VERB	V	Valency=2|Der/Озь|VerbForm=Conv	0	root	_	_
+7	ули	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	6	cop	_	_
+8	.	.	PUNCT	CLB	_	6	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="20" sentID="4" pgNo="126"
+# text = Ваньськавт эйсэнзэ, мон молян ведь кандан.
+1	Ваньськавт	Ваньськавт	VERB	V	Valency=1|Mood=Imp|Number[subj]=Sing|Person[subj]=2	0	root	_	_
+2	эйсэнзэ	эйсэ	ADP	Adp	Case=Ine|Number[psor]=Sing|Person[psor]=3	1	obj	_	_
+3	,	,	PUNCT	CLB	_	5	punct	_	_
+4	мон	мон	PRON	Pron	PronType=Prs|Person=1|Number=Sing|Case=Nom	5	nsubj	_	_
+5	молян	молемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=1	1	conj	_	_
+6	ведь	ведь	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	7	obj	_	_
+7	кандан	кандомс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=1	5	compound:svc	_	_
+8	.	.	PUNCT	CLB	_	1	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="20" sentID="5" pgNo="127"
+# text = Микол кармась сувозеенть ваньськавтомо.
+1	Микол	Микол	PROPN	N	NameType=Giv|Gender=Masc|Animacy=Hum|Prop|Number=Sing|Case=Nom|Definite=Ind	2	nsubj	_	_
+2	кармась	кармамс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	сувозеенть	сувозей	NOUN	N	Number=Sing|Case=Gen|Definite=Def	4	obj	_	_
+4	ваньськавтомо	ваньськавтомо	_	_	_	2	xcomp	_	_
+5	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="20" sentID="6" pgNo="127"
+# text = Кирё канць ведь.
+1	Кирё	Кирё	PROPN	N	Prop|NameType=Giv|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	2	nsubj	_	_
+2	канць	кандомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+3	ведь	ведь	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	2	obj	_	_
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="20" sentID="7" pgNo="127"
+# text = Сувозееньть путызь пидеме.
+1	Сувозееньть	Сувозееньть	NOUN	N	Number=Sing|Case=Gen|Definite=Def	2	obj	2:obj|3:obj	_
+2	путызь	путомс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	0	root	_	_
+3	пидеме	пидемс	VERB	V	Valency=2|VerbForm=Inf|Case=Loc	2	xcomp	_	_
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="20" sentID="8" pgNo="127"
+# text = — Микол, тонь улить табакот?
+1	—	—	PUNCT	_	_	4	punct	_	_
+2	Микол	Микол	PROPN	N	Prop|NameType=Giv|Gender=Masc|Animacy=Hum|Number=Sing|Case=Nom|Definite=Ind	4	vocative	_	_
+3	,	,	PUNCT	CLB	_	2	punct	_	_
+4	тонь	тон	PRON	Pron	PronType=Prs|Person=2|Number=Sing|Case=Gen	0	root	_	_
+5	улить	улемс	AUX	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Plur|Person[subj]=3	4	cop:exist	_	_
+6	табакот	табак	NOUN	N	Number=Plur|Case=Nom|Number[psor]=Sing|Person[psor]=2	4	nsubj:exist	_	_
+7	?	?	PUNCT	CLB	_	4	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="20" sentID="9" pgNo="127"
+# text = — Таргак, монь ламо эщо кисетсэнть.
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Таргак	таргамс	VERB	V	Valency=2|Mood=Imp|Number[subj]=Sing|Person[subj]=2	0	root	_	_
+3	,	,	PUNCT	CLB	_	7	punct	_	_
+4	монь	мон	PRON	Pron	PronType=Prs|Person=1|Number=Sing|Case=Gen	7	nmod	_	_
+5	ламо	ламо	DET	Det	Qnt|Number=Sing|Case=Nom|Definite=Ind	7	nsubj:exist	_	_
+6	эщо	ещё	ADV	Adv	Err/Lex|Case=Temp	7	advmod	_	_
+7	кисетсэнть	кисет	NOUN	N	Number=Sing|Case=Ine|Definite=Def	2	conj	_	_
+8	.	.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="21">
+#sent_id = chapID="I" paragID="21" sentID="1" pgNo="127"
+# text = — Вана косо таланось.
+1	—	—	PUNCT	_	_	3	punct	_	_
+2	Вана	вана	INTJ	Interj	_	3	discourse	_	_
+3	косо	косо	ADV	Adv	PronType=Int|Case=Ine	0	root	_	_
+4	таланось	талан	NOUN	N	Number=Sing|Case=Nom|Definite=Def	3	nsubj:exist	_	_
+5	.	.	PUNCT	CLB	_	3	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="21" sentID="2" pgNo="127"
+# text = Мон кисетам козонь бути ёмавтыя.
+1	Мон	мон	PRON	Pron	PronType=Prs|Person=1|Number=Sing|Case=Nom	5	nsubj	_	_
+2	кисетам	кисетам	NOUN	N	Number=Sing|Case=Gen|Number[psor]=Sing|Person[psor]=1	5	obj	_	_
+3	козонь	козонь	ADV	Adv	PronType=Int|Case=Ill	5	obl	_	_
+4	бути	бути	SCONJ	CS	_	3	fixed	_	_
+5	ёмавтыя	ёмамс	VERB	V	Valency=2|Der/ОвтОмс|V|TV|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=1|Number[obj]=Sing|Person[obj]=3	0	root	_	_
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="21" sentID="3" pgNo="127"
+# text = Омбоце чи якан апак тарга.
+1	Омбоце	омбоце	NUM	Num	Ord	2	det	_	_
+2	чи	чи	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	3	obj	_	_
+3	якан	якамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=1	0	root	_	_
+4	апак	апак	PART	Pcle	Polarity=Neg	5	aux:neg	_	_
+5	тарга	таргамс	VERB	V	Valency=2|Connegative=Yes	3	advcl	_	_
+6	.	.	PUNCT	CLB	_	3	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="21" sentID="4" pgNo="127"
+# text = Превстэнь таргамось чоп а лисьни.
+1	Превстэнь	прев	NOUN	N	Number=Sing,Plur|Case=Ela|Number[psor]=Sing|Person[psor]=1	5	obl	_	_
+2	таргамось	таргамо	NOUN	N	Number=Sing|Case=Nom|Definite=Def	5	nsubj	_	_
+3	чоп	чоп	ADV	Adv	Case=Temp	5	advmod	_	_
+4	а	а	PART	Pcle	Polarity=Neg	5	aux:neg	_	_
+5	лисьни	лиснемс	VERB	V	Valency=1|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=3	0	root	_	_
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="21" sentID="5" pgNo="127"
+# text = — Микол, тон умок кудосто?
+# text[eng] = Mikol, have you been away from home a long time? 
+1	—	—	PUNCT	_	_	6	punct	_	_
+2	Микол	Микол	PROPN	N	NameType=Giv|Gender=Masc|Animacy=Hum|Prop|Number=Sing|Case=Nom|Definite=Ind	6	orphan	_	Gloss[eng]=Mikol
+3	,	,	PUNCT	CLB	_	2	punct	_	_
+4	тон	тон	PRON	Pron	PronType=Prs|Person=2|Number=Sing|Case=Nom	6	orphan	_	Gloss[eng]=you.sg2
+5	умок	умок	ADV	Adv	Case=Temp	6	orphan	_	Gloss[eng]=long.time.ago
+6	кудосто	кудо	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ela|Definite=Ind	0	root	_	Gloss[eng]=from.home
+7	?	?	PUNCT	CLB	_	6	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="21" sentID="6" pgNo="127"
+# text = — Омбоце недля якан тайгава.
+1	—	—	PUNCT	_	_	4	punct	_	_
+2	Омбоце	омбоце	NUM	Num	Ord	3	det	_	_
+3	недля	недля	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	4	obj	_	_
+4	якан	якамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=1	0	root	_	_
+5	тайгава	тайга	NOUN	N	Number=Sing,Plur|Case=Prl|Definite=Ind	4	obl	_	_
+6	.	.	PUNCT	CLB	_	4	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="22">
+#sent_id = chapID="I" paragID="22" sentID="1" pgNo="127"
+# text = — Э..!
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Э	Э	INTJ	Interj	_	0	root	_	_
+3	..!	..^excl	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="22" sentID="2" pgNo="127"
+# text = Тонтеметь нать весе тевтне ульнесть велесэнк?
+1	Тонтеметь	тон	PRON	Pron	PronType=Prs|Person=2|Number=Sing|Case=Abe	6	obl	_	_
+2	нать	нать	ADV	Adv	Parenthetic	1	advmod	_	_
+3	весе	весе	PRON	Pron	Number=Sing|Case=Nom|Definite=Ind	4	det	_	_
+4	тевтне	тев	NOUN	N	Number=Plur|Case=Nom|Definite=Def	6	nsubj:exist	_	_
+5	ульнесть	ульнемс	AUX	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	6	cop:exist	_	_
+6	велесэнк	веле	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=2	0	root	_	_
+7	?	?	PUNCT	CLB	_	6	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="22" sentID="3" pgNo="127"
+# text = — Кодат тевть?
+# text[eng] = What things?
+1	—	—	PUNCT	_	_	3	punct	_	_
+2	Кодат	кодамо	ADJ	A	PronType=Int|Case=Nom|Number=Plur	3	det	_	_
+3	тевть	тев	NOUN	N	Number=Plur|Case=Nom|Definite=Ind	0	root	_	_
+4	?	?	PUNCT	CLB	_	3	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="23">
+#sent_id = chapID="I" paragID="23" sentID="1" pgNo="127"
+# text = —Ютась недлясто велесэнк бандит ульнесть, маштызь председателенть.
+1	—	—	PUNCT	_	_	4	punct	_	_
+2	Ютась	ютамс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	3	advcl	_	_
+3	недлясто	недля	NOUN	N	Number=Sing,Plur|Case=Ela|Definite=Ind	4	obl:tmod	_	_
+4	велесэнк	веле	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=2	0	root	_	_
+5	бандит	бандит	NOUN	N	Number=Sing|Case=Nom|Definite=Ind	6	nsubj	_	_
+6	ульнесть	ульнемс	AUX	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	4	cop:exist	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
+8	маштызь	маштызь	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3|Number[obj]=Sing|Person[obj]=3	4	conj	_	_
+9	председателенть	председатель	NOUN	N	Number=Sing|Case=Gen|Definite=Def	8	obj	_	_
+10	.	.	PUNCT	CLB	_	4	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="24">
+#sent_id = chapID="I" paragID="24" sentID="1" pgNo="127"
+# text = — Ну!?.
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Ну	ну	INTJ	Interj	_	0	root	_	_
+3	!?.	^excl?.	PUNCT	CLB	_	2	punct	_	_
+
+#</sentence>
+#sent_id = chapID="I" paragID="24" sentID="2" pgNo="127"
+# text = Тон косто содат?—Микол мик ловташкаць.
+1	Тон	тон	PRON	Pron	PronType=Prs|Person=2|Number=Sing|Case=Nom	3	nsubj	_	_
+2	косто	косто	ADV	Adv	PronType=Int|Case=Ela	3	obl	_	_
+3	содат	содамс	VERB	V	Valency=2|Mood=Ind|Tense=Pres|Number[subj]=Sing|Person[subj]=2	0	root	_	_
+4	?	?	PUNCT	CLB	_	3	punct	_	_
+5	—	—	PUNCT	_	_	8	punct	_	_
+6	Микол	Микол	PROPN	N	NameType=Giv|Gender=Masc|Animacy=Hum|Prop|Number=Sing|Case=Nom|Definite=Ind	8	nsubj	_	_
+7	мик	мик	ADV	Adv	_	8	advmod	_	_
+8	ловташкаць	ловташкадомс	VERB	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Sing|Person[subj]=3	3	parataxis	_	_
+9	.	.	PUNCT	CLB	_	3	punct	_	_
+
+#</sentence>
+#</p>
+#<p chapID="I" paragID="25">
+#sent_id = chapID="I" paragID="25" sentID="1" pgNo="127"
+# text = — Велесэнек тынк велень ломать ульнесть, ёвтнесть.
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Велесэнек	веле	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Ine|Number[psor]=Plur|Person[psor]=1	0	root	_	_
+3	тынк	тон	PRON	Pron	PronType=Prs|Person=2|Number=Plur|Case=Gen	4	nmod:poss	_	_
+4	велень	веле	NOUN	N	Sem/Plc|Number=Sing,Plur|Case=Gen|Definite=Ind	5	nmod:poss	_	_
+5	ломать	ломань	NOUN	N	Number=Plur|Case=Nom|Definite=Ind|Err/Orth	2	nsubj:exist	_	_
+6	ульнесть	ульнемс	AUX	V	Valency=1|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	2	cop:exist	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
+8	ёвтнесть	ёвтнемс	VERB	V	Valency=2|Mood=Ind|Tense=Prt1|Number[subj]=Plur|Person[subj]=3	2	conj	_	_
+9	.	.	PUNCT	CLB	_	2	punct	_	_
 
 #</text>
