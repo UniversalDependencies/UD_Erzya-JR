@@ -24,5 +24,4 @@ Relations: manual native
 Contributors: Rueter, Jack; Tyers, Francis
 Contributing: here
 Contact: rueter.jack@gmail.com
-Paragraphs to web: 1
 ===============================================================================
