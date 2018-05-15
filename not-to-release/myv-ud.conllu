@@ -138,7 +138,7 @@
 # text = ― Исяк вейке шалон ютась фронтов, ней Колчак пурны Сибирень сокицятнень ды манчи эйсэст эстензэ.
 1	―	―	PUNCT	PUNCT	_	5	punct	_	_
 2	Исяк	исяк	ADV	Adv|Temp	Case=Temp	5	advmod	_	_
-3	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	4	nummod	_	_
+3	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	4	nummod	_	_
 4	шалон	шалон	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	_
 5	ютась	ютамс	VERB	V|TV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	_
 6	фронтов	фронт	NOUN	N|Sem/Plc|SP|Lat|Indef	Case=Lat|Definite=Ind|Number=Plur,Sing	5	obl	_	SpaceAfter=No
@@ -217,7 +217,7 @@
 1	―	―	PUNCT	PUNCT	_	6	punct	_	_
 2	Колчаконь	Колчак	PROPN	N|Prop|Sem/Sur|SP|Gen|Indef	Case=Gen|Definite=Ind|Number=Plur,Sing	3	nmod	_	_
 3	армиясто	армия	NOUN	N|SP|Ela|Indef	Case=Ela|Definite=Ind|Number=Plur,Sing	6	obl	_	_
-4	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	5	nummod	_	_
+4	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	5	nummod	_	_
 5	полкт	полк	NOUN	N|Sem/Plc|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	6	nsubj	_	_
 6	калавтсть	калавтомс	VERB	V|TV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
@@ -273,7 +273,7 @@
 15	ватка	ватка	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	5	obj	_	SpaceAfter=No
 16	,	,	PUNCT	CLB	_	23	punct	_	_
 17	ды	ды	CCONJ	CC	_	23	cc	_	_
-18	кеменьшка	кемень	NUM	Num|Card|SP|Cmpr|Indef	Case=Comp|Definite=Ind|NumType=Card|Number=Plur,Sing	23	nummod	_	_
+18	кеменьшка	кемень	NUM	Num|Card|SP|Cmpr|Indef	Case=Comp|Definite=Ind|Number=Plur,Sing|NumType=Card	23	nummod	_	_
 19	эрьва	эрьва	DET	Det|Qnt|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	21	amod	_	_
 20	кодамо	кодамо	ADJ	A|Interr|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	19	fixed	_	_
 21	лекарства	лекарства	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	23	obl	_	_
@@ -330,7 +330,7 @@
 19	,	,	PUNCT	CLB	_	24	punct	_	_
 20	можот	можот	ADV	Adv	_	24	advmod	_	_
 21	Любаяк	Люба	PROPN	N|Prop|Ant_Fem|Sg|Nom|Indef|Clitic=Gak	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Fem|NameType=Giv|Number=Sing|Clitic=Gak	24	nsubj	_	_
-22	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	23	nummod	_	_
+22	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	23	nummod	_	_
 23	пе	пе	NOUN	N|Sem/Plc|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	24	obj	_	_
 24	теи	теемс	VERB	V|TV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	5	conj	_	SpaceAfter=No
 25	,	,	PUNCT	CLB	_	24	punct	_	_
@@ -375,7 +375,7 @@
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:117
 # text = Кавто партизант яксесть лишметнень перть, Юрченко кутмордызе пулемётонть, прок вечкима од козиканзо ды уды корнозь, сонзэ марто.
-1	Кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	2	nummod	_	Gloss=two
+1	Кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	2	nummod	_	Gloss=two
 2	партизант	партизан	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	3	nsubj	_	Gloss=guerrilla
 3	яксесть	яксемс	VERB	V|TV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	Gloss=walk-around
 4	лишметнень	лишме	NOUN	N|Pl|Gen|Def	Case=Gen|Definite=Def|Number=Plur	3	obl	_	Gloss=horse
@@ -420,8 +420,8 @@
 3	эзь	эзь	VERB	V|VerbType=Aux|Neg|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	4	aux:neg	_	_
 4	матедевть	матедевемс	VERB	V|IV|Err/Orth|Ind|ConNeg	Connegative=Yes|Mood=Ind|Valency=1	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	9	punct	_	_
-6	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	8	nummod	_	_
-7	ниле	ниле	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	6	conj	_	_
+6	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	8	nummod	_	_
+7	ниле	ниле	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	6	conj	_	_
 8	папироска	папироска	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	9	obj	_	_
 9	пултась	пултамс	VERB	V|TV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	4	conj	_	_
 10	апак	апак	PART	Pcle|Neg	Polarity=Neg	11	aux:neg	_	_
@@ -467,9 +467,9 @@
 # text = Сон уш колмо ― ниле раз чаравтсь отрядонть перька, буто горясо сявордазь ава комавсь кулома лангсо сэредиця пакшанзо вельксэс.
 1	Сон	сон	PRON	Pron|Pers|Sg3|Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 2	уш	уш	ADV	Adv|Temp	Case=Temp	7	advmod	_	_
-3	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	6	nummod	_	_
+3	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	6	nummod	_	_
 4	―	-	PUNCT	PUNCT	_	3	goeswith	_	_
-5	ниле	ниле	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	3	goeswith	_	_
+5	ниле	ниле	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	goeswith	_	_
 6	раз	раз	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	7	obl	_	_
 7	чаравтсь	чаравтомс	VERB	V|TV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	_
 8	отрядонть	отряд	NOUN	N|Sg|Gen|Def	Case=Gen|Definite=Def|Number=Sing	7	obl	_	_
@@ -569,7 +569,7 @@
 9	эзь	эзь	VERB	V|VerbType=Aux|Neg|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	10	aux:neg	_	_
 10	сявордькштне	сявордькшнемс	VERB	V|IV|Err/Orth|Ind|ConNeg	Connegative=Yes|Mood=Ind|Valency=1	2	conj	_	_
 11	колеяк	колияк	ADV	Adv|Indef|Temp	Case=Temp|Definite=Ind	10	advmod	_	_
-12	сядодо	сядо	NUM	Num|Card|SP|Abl|Indef	Case=Abl|Definite=Ind|NumType=Card|Number=Plur,Sing	13	advmod	_	_
+12	сядодо	сядо	NUM	Num|Card|SP|Abl|Indef	Case=Abl|Definite=Ind|Number=Plur,Sing|NumType=Card	13	advmod	_	_
 13	ламо	ламо	DET	Det|Qnt|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	14	nummod	_	_
 14	иесэ	ие	NOUN	N|SP|Ine|Indef	Case=Ine|Definite=Ind|Number=Plur,Sing	16	obl	_	_
 15	пиже	пиже	ADJ	A|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	16	amod	_	_
@@ -1269,8 +1269,8 @@
 10	,	,	PUNCT	CLB	_	11	punct	_	_
 11	кутморясть	кутморямс	VERB	V|TV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	7	conj	_	SpaceAfter=No
 12	,	,	PUNCT	CLB	_	15	punct	_	_
-13	вейкест	вейке	NUM	Num|Card|Sg|Gen|PxPl3	Case=Gen|NumType=Card|Number=Sing|Number[psor]=Plur|Person[psor]=3	14	compound:redup	_	_
-14	вейкест	вейке	NUM	Num|Card|Sg|Gen|PxPl3	Case=Gen|NumType=Card|Number=Sing|Number[psor]=Plur|Person[psor]=3	15	obj	_	_
+13	вейкест	вейке	NUM	Num|Card|Sg|Gen|PxPl3	Case=Gen|Number=Sing|NumType=Card|Number[psor]=Plur|Person[psor]=3	14	compound:redup	_	_
+14	вейкест	вейке	NUM	Num|Card|Sg|Gen|PxPl3	Case=Gen|Number=Sing|NumType=Card|Number[psor]=Plur|Person[psor]=3	15	obj	_	_
 15	палсесть	палсемс	VERB	V|TV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	7	conj	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -1432,10 +1432,10 @@
 3	стувтови	стувтовомс	VERB	V|IV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	16	punct	_	_
 5	кода	кода	ADV	Adv|Interr|Manner	AdvType=Man|PronType=Int	16	mark	_	_
-6	сисем	сисем	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	7	nummod	_	_
+6	сисем	сисем	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	7	nummod	_	_
 7	чиде	чи	NOUN	N|SP|Abl|Indef	Case=Abl|Definite=Ind|Number=Plur,Sing	8	obl	_	_
 8	икеле	икеле	ADV	Adv|Temp	Case=Temp	16	advmod:tmod	_	_
-9	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	10	nummod	_	_
+9	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	10	nummod	_	_
 10	станция	станция	NOUN	N|Sem/Plc|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	16	obl	_	_
 11	маласо	маласо	ADP	Adp|Spat|Ine	AdvType=Loc|Case=Ine	10	case	_	SpaceAfter=No
 12	,	,	PUNCT	CLB	_	16	punct	_	_
@@ -1592,7 +1592,7 @@
 # sent_id = AnoshkinV_ValskenjGudok_1936:193
 # text = Ансяк вейке туремасо томбавсь Люба ― Громовонь козиказо, секс пек стакат ульнесть сонзэ шачтоманзо...
 1	Ансяк	ансяк	ADV	Adv|Exclusive	_	4	advmod	_	_
-2	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	3	nummod	_	_
+2	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	nummod	_	_
 3	туремасо	туремс	VERB	V|IV|NomAct|N|SP|Ine|Indef	Case=Ine|Valency=1|VerbForm=Vnoun|Definite=Ind|Number=Plur,Sing	4	obl	_	_
 4	томбавсь	томбавомс	VERB	V|IV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	_
 5	Люба	Люба	PROPN	N|Ant_Fem|Prop|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Fem|NameType=Giv|Number=Sing	4	nsubj	_	_
@@ -1678,10 +1678,10 @@
 # sent_id = AnoshkinV_ValskenjGudok_1936:197
 # text = Колмо частнэ марявсть колмо чинь кувалмосот учомс партизантнэнень пек стакаль.
 # text_en = The three days seemed like they were three days in length, it was hard for the guerrillas to wait.
-1	Колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	2	nummod	_	Gloss=three
+1	Колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	2	nummod	_	Gloss=three
 2	частнэ	час	NOUN	N|Pl|Nom|Def	Case=Nom|Definite=Def|Number=Plur	6	nsubj	_	Gloss=hour
 3	марявсть	марявомс	VERB	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	6	parataxis	_	Gloss=feel
-4	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	5	nummod	_	Gloss=three
+4	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	5	nummod	_	Gloss=three
 5	чинь	чи	NOUN	N|SP|Gen|Indef	Case=Gen|Definite=Ind|Number=Plur,Sing	6	nmod	_	Gloss=day
 6	кувалмосот	кувалмо	NOUN	N|SP|Ine|PxSg2	Case=Ine|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=2	0	root	_	Gloss=length
 7	учомс	учомс	VERB	V|TV|Inf	Valency=2|VerbForm=Inf	10	advcl	_	Gloss=wait
@@ -1863,8 +1863,8 @@
 # text = Ястребов, кавто колмо эскельдявкст тейсь ве ёнов, ды вансь пек покш мельс паросо.
 1	Ястребов	Ястребов	PROPN	N|Prop|Sur_Mal|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	6	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	_
-3	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	5	nummod	_	_
-4	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	3	fixed	_	_
+3	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	5	nummod	_	_
+4	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	fixed	_	_
 5	эскельдявкст	эскельдявкс	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	6	obj	_	_
 6	тейсь	теемс	VERB	V|TV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	_
 7	ве	ве	NUM	Num|Adn	Adn	8	nummod	_	_
@@ -2407,7 +2407,7 @@
 39	―	―	PUNCT	PUNCT	_	43	punct	_	_
 40	мон	мон	PRON	Pron|Pers|Sg1|Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	_
 41	а	а	PART	Pcle|Neg	Polarity=Neg	42	aux:neg	_	_
-42	вейксэ	вейксэ	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	43	obl:tmod	_	_
+42	вейксэ	вейксэ	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	43	obl:tmod	_	_
 43	кандынь	кандомс	VERB	V|TV|Ind|Prt1|ScSg1	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Prt1|Valency=2	3	conj	_	_
 44	седеем	седей	NOUN	N|Sg|Gen|PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	43	obl	_	_
 45	ало	ало	ADP	Adp|Spat|Loc	AdvType=Loc|Case=Loc	44	case	_	_
@@ -2478,19 +2478,20 @@
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:237
 # text = ― Виде! виде! ― рангстасть весе партизантнэ ды цяпасть кедь ладошкасост.
-1	Виде	виде	INTJ	Interj	_	0	root	_	SpaceAfter=No
-2	!	!	PUNCT	CLB	_	1	punct	_	_
-3	виде	виде	INTJ	Interj	_	1	conj	_	SpaceAfter=No
-4	!	!	PUNCT	CLB	_	3	punct	_	_
-5	―	―	PUNCT	PUNCT	_	6	punct	_	_
-6	рангстасть	рангстамс	VERB	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	1	parataxis	_	_
-7	весе	весе	PRON	Pron|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	8	det	_	_
-8	партизантнэ	партизан	NOUN	N|Pl|Nom|Def	Case=Nom|Definite=Def|Number=Plur	6	nsubj	_	_
-9	ды	ды	CCONJ	CC	_	10	cc	_	_
-10	цяпасть	цяпамс	VERB	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	6	conj	_	_
-11	кедь	кедь	NOUN	N|Hom1|Sg|Nom|Indef	Hom1|Case=Nom|Definite=Ind|Number=Sing	10	obl	_	_
-12	ладошкасост	ладошка	NOUN	N|SP|Ine|PxPl3	Case=Ine|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	11	goeswith	_	SpaceAfter=No
-13	.	.	PUNCT	CLB	_	1	punct	_	_
+1	―	―	PUNCT	PUNCT	_	2	punct	_	_
+2	Виде	виде	INTJ	Interj	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	CLB	_	2	punct	_	_
+4	виде	виде	INTJ	Interj	_	2	conj	_	SpaceAfter=No
+5	!	!	PUNCT	CLB	_	3	punct	_	_
+6	―	―	PUNCT	PUNCT	_	7	punct	_	_
+7	рангстасть	рангстамс	VERB	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	2	parataxis	_	_
+8	весе	весе	PRON	Pron|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	9	det	_	_
+9	партизантнэ	партизан	NOUN	N|Pl|Nom|Def	Case=Nom|Definite=Def|Number=Plur	7	nsubj	_	_
+10	ды	ды	CCONJ	CC	_	11	cc	_	_
+11	цяпасть	цяпамс	VERB	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	7	conj	_	_
+12	кедь	кедь	NOUN	N|Hom1|Sg|Nom|Indef	Hom1|Case=Nom|Definite=Ind|Number=Sing	10	obl	_	_
+13	ладошкасост	ладошка	NOUN	N|SP|Ine|PxPl3	Case=Ine|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	12	goeswith	_	SpaceAfter=No
+14	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:238
 # text = ― Любань кортамонть полавтызе Ястребов!
@@ -2561,7 +2562,7 @@
 12	тензэ	сон	PRON	Pron|Pers|Sg3|Dat|Short	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obl	_	_
 13	«	«	PUNCT	CLB	_	14	punct	_	SpaceAfter=No
 14	Октябрёнок	Октябрёнок	PROPN	N|Prop|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	11	obj	_	SpaceAfter=No
-15	»	»	PUNCT	CLB	_	14	punct	_	_
+15	»	»	PUNCT	CLB	_	14	punct	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	10	punct	_	_
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:241
@@ -2570,7 +2571,7 @@
 2	«	«	PUNCT	CLB	_	4	punct	_	SpaceAfter=No
 3	Вишка	вишка	ADJ	A|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	4	amod	_	_
 4	партизан	партизан	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	0	root	_	SpaceAfter=No
-5	!	!	PUNCT	CLB	_	4	punct	_	_
+5	!	!	PUNCT	CLB	_	4	punct	_	SpaceAfter=No
 6	»	»	PUNCT	CLB	_	4	punct	_	_
 7	―	―	PUNCT	PUNCT	_	8	punct	_	_
 8	сергедсь	серьгедемс	VERB	V|TV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	4	parataxis	_	_
@@ -2583,7 +2584,7 @@
 2	«	«	PUNCT	CLB	_	4	punct	_	SpaceAfter=No
 3	Од	од	ADJ	A|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	4	amod	_	_
 4	бороциця	бороциця	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	0	root	_	SpaceAfter=No
-5	!	!	PUNCT	CLB	_	4	punct	_	_
+5	!	!	PUNCT	CLB	_	4	punct	_	SpaceAfter=No
 6	»	»	PUNCT	CLB	_	4	punct	_	_
 7	―	―	PUNCT	PUNCT	_	10	punct	_	_
 8	пек	пек	ADV	Adv	_	9	advmod	_	_
@@ -2627,7 +2628,7 @@
 17	«	«	PUNCT	CLB	_	19	punct	_	SpaceAfter=No
 18	Октябрянь	октября	NOUN	N|SP|Gen|Indef	Case=Gen|Definite=Ind|Number=Plur,Sing	19	nmod	_	_
 19	левкс	левкс	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	16	obj	_	SpaceAfter=No
-20	»	»	PUNCT	CLB	_	19	punct	_	_
+20	»	»	PUNCT	CLB	_	19	punct	_	SpaceAfter=No
 21	,	,	PUNCT	CLB	_	3	punct	_	_
 22	а	а	PART	Pcle|Neg	Polarity=Neg	23	aux:neg	_	_
 23	берянь	берянь	ADJ	A|Clitic=Cop|Prs|ScSg3	Clitic=Cop|Number[subj]=Sing|Person[subj]=3|Tense=Pres	14	conj	_	SpaceAfter=No
@@ -2644,7 +2645,7 @@
 7	«	«	PUNCT	CLB	_	9	punct	_	SpaceAfter=No
 8	Од	од	ADJ	A|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	9	amod	_	_
 9	бороциця	бороциця	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	13	appos	_	SpaceAfter=No
-10	»	»	PUNCT	CLB	_	9	punct	_	_
+10	»	»	PUNCT	CLB	_	9	punct	_	SpaceAfter=No
 11	,	,	PUNCT	CLB	_	9	punct	_	_
 12	истяжо	истяжо	ADV	Adv	_	14	advmod	_	_
 13	лемесь	лем	NOUN	N|Hom1|Sg|Nom|Def	Hom1|Case=Nom|Definite=Def|Number=Sing	14	nsubj	_	_
@@ -2683,7 +2684,8 @@
 # text = ― Марясынек гудоконть? ― Ястребов покшолгавтызе вальгеензэ.
 1	―	―	PUNCT	PUNCT	_	2	punct	_	_
 2	Марясынек	марямс	VERB	V|TV|Ind|Prs|ScPl1|OcSg3	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	_
-3	гудоконть	гудок	NOUN	N|Sg|Gen|Def	Case=Gen|Definite=Def|Number=Sing	2	obj	_	_
+3	гудоконть	гудок	NOUN	N|Sg|Gen|Def	Case=Gen|Definite=Def|Number=Sing	2	obj	_	SpaceAfter=No
+4	?	?	PUNCT	CLB	_	2	punct	_	_
 5	―	―	PUNCT	PUNCT	_	3	punct	_	_
 6	Ястребов	Ястребов	PROPN	N|Prop|Sur_Mal|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	7	nsubj	_	_
 7	покшолгавтызе	покшолгавтомс	VERB	V|TV|Ind|Prt1|ScSg3|OcSg3	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	2	parataxis	_	_
@@ -2745,7 +2747,7 @@
 5	«	«	PUNCT	CLB	_	7	punct	_	SpaceAfter=No
 6	Валскень	валске	NOUN	N|SP|Gen|Indef	Case=Gen|Definite=Ind|Number=Plur,Sing	7	nmod	_	_
 7	Гудок	гудок	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	4	appos	_	SpaceAfter=No
-8	!	!	PUNCT	CLB	_	3	punct	_	_
+8	!	!	PUNCT	CLB	_	3	punct	_	SpaceAfter=No
 9	»	»	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:251
@@ -2763,7 +2765,7 @@
 4	!	!	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:253
-# text = ― Валскень Гудок! ― весе партизантнэнь кеменьшкаксть мельсек ёвтызь те од лементь.
+# text = ― Валскень Гудок! ― весе партизантнэ кеменьшкаксть мельсек ёвтызь те од лементь.
 1	―	―	PUNCT	PUNCT	_	3	punct	_	_
 2	Валскень	валске	NOUN	N|SP|Gen|Indef	Case=Gen|Definite=Ind|Number=Plur,Sing	3	nmod	_	_
 3	Гудок	гудок	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	0	root	_	SpaceAfter=No
@@ -3140,7 +3142,7 @@
 # sent_id = AnoshkinV_ValskenjGudok_1936:42
 # text = Киненьгак вейке вал эзь пшкадть, саизе Любань лишменть марто эсинзэнтень, ветинзе тусто роштятнэнь потс ды сюлминзе башка чувтс.
 1	Киненьгак	кияк	PRON	Pron|Indef|SP|Dat	Case=Dat|Number=Plur,Sing|PronType=Ind	5	obl	_	_
-2	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	3	nummod	_	_
+2	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	nummod	_	_
 3	вал	вал	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	5	obj	_	_
 4	эзь	эзь	VERB	V|VerbType=Aux|Neg|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	5	aux:neg	_	_
 5	пшкадть	пшкадемс	VERB	V|IV|Imprt|ScSg2	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Valency=1	0	root	_	SpaceAfter=No
@@ -3600,7 +3602,7 @@
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:69
 # text = Вейке валгак кияк эзь пшкадть.
-1	Вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	2	nummod	_	_
+1	Вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	2	nummod	_	_
 2	валгак	вал	NOUN	N|Sg|Nom|Indef|Clitic=Gak	Case=Nom|Definite=Ind|Number=Sing|Clitic=Gak	5	obj	_	_
 3	кияк	кияк	PRON	Pron|Indef|Sg|Nom	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	_
 4	эзь	эзь	VERB	V|VerbType=Aux|Neg|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	5	aux:neg	_	_
@@ -3695,8 +3697,8 @@
 1	Роштятнень	роштя	NOUN	N|Pl|Gen|Def	Case=Gen|Definite=Def|Number=Plur	3	obl	_	_
 2	потсто	потсто	ADP	Adp|Spat|Ela	AdvType=Loc|Case=Ela	1	case	_	_
 3	кирнавтсть	кирнавтомс	VERB	V|TV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	_
-4	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	3	advmod	_	_
-5	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	4	fixed	_	_
+4	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	advmod	_	_
+5	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	4	fixed	_	_
 6	мельга	мельга	ADP	Adp|Spat	AdvType=Loc	4	case	_	_
 7	колмо	колмо	NUM	Num|Card	NumType=Card	8	nummod	_	_
 8	лишметь	лишме	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	3	nsubj	_	SpaceAfter=No
@@ -3918,14 +3920,14 @@
 # sent_id = AnoshkinV_ValskenjGudok_1936:9
 # text = Любань вейке кедезэ кундазь седланть удалсе лукантень, омбоцесэнть секе тев лепштясь пекенть.
 1	Любань	Люба	PROPN	N|Ant_Fem|Prop|SP|Gen|Indef	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Fem|NameType=Giv|Number=Plur,Sing	3	nmod	_	_
-2	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	3	nummod	_	_
+2	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	nummod	_	_
 3	кедезэ	кедь	NOUN	N|Sg|Nom|PxSg3	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	кундазь	кундамс	VERB	V|TV|Der/Озь|Ger	Derivation=Ozj|Valency=2|VerbForm=Conv	0	root	_	_
 5	седланть	седла	NOUN	N|Sg|Gen|Def	Case=Gen|Definite=Def|Number=Sing	7	nmod	_	_
 6	удалсе	удалце	DET	Det	_	7	det	_	_
 7	лукантень	лукантень	NOUN	N|Sg|Dat|Def	Case=Dat|Definite=Def|Number=Sing	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	12	punct	_	_
-9	омбоцесэнть	омбоце	NUM	Num|Ord|Sg|Ine|Def	Case=Ine|Definite=Def|NumType=Ord|Number=Sing	12	obl	_	_
+9	омбоцесэнть	омбоце	NUM	Num|Ord|Sg|Ine|Def	Case=Ine|Definite=Def|Number=Sing|NumType=Ord	12	obl	_	_
 10	секе	секе	DET	Det|Attr	_	12	advmod	_	_
 11	тев	тев	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	10	fixed	_	_
 12	лепштясь	лепштямс	VERB	V|TV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	4	conj	_	_
@@ -4016,7 +4018,7 @@
 # sent_id = AnoshkinV_ValskenjGudok_1936:98
 # text = ― Мезе-мезе ускиде? ― кевкссь сон сыцятнень.
 1	―	―	PUNCT	PUNCT	_	3	punct	_	_
-2	Мезе-мезе	Мезе-мезе	PRON	Pron|Distr|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Dist|Number=Sing	3	obj	_	_
+2	Мезе-мезе	Мезе-мезе	PRON	Pron|Distr|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Dist	3	obj	_	_
 3	ускиде	ускомс	VERB	V|TV|Ind|Prt1|ScPl2	Mood=Ind|Number[subj]=Plur|Person[subj]=2|Tense=Prt1|Valency=2	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	CLB	_	3	punct	_	_
 5	―	―	PUNCT	PUNCT	_	6	punct	_	_
@@ -7833,7 +7835,7 @@
 # text = Колмоцесь — омбоценть коряс .
 # text_en = And the third one was even bigger than the second.
 # text_fi = Kolmas taas oli hieman pidempi kuin toinen.
-1	Колмоцесь	колмоце	DET	Det|Ord|Sg|Nom|Def	Case=Nom|Definite=Def|NumType=Ord|Number=Sing	0	root	_	_
+1	Колмоцесь	колмоце	DET	Det|Ord|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing|NumType=Ord	0	root	_	_
 2	—	—	PUNCT	CLB	_	3	punct	_	_
 3	омбоценть	омбоце	DET	Det|Sg|Gen|Def	Case=Gen|Definite=Def|Number=Sing	1	orphan	_	_
 4	коряс	коряс	ADP	Adp|Po|Ill	AdpType=Post|Case=Ill	3	case	_	SpaceAfter=No
@@ -9714,7 +9716,7 @@
 3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	кенярдовтыть	кенярдовтомс	VERB	V|TV|Ind|Prs|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	1	conj	_	_
 5	весень	весе	PRON	Pron|Gen|Indef	Case=Gen|Definite=Ind	4	obj	_	SpaceAfter=No
-6	»	»	PUNCT	CLB	_	1	punct	_	_
+6	»	»	PUNCT	CLB	_	1	punct	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1838
@@ -10116,7 +10118,7 @@
 5	чийнесь	чийнемс	VERB	V|TV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	2	advcl	_	Gloss=run-around
 6	пакша	пакша	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	Gloss=child
 7	пингем	пинге	NOUN	N|Sg|Nom|PxSg1	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	goeswith	_	Gloss=time|SpaceAfter=No
-8	»	»	PUNCT	PUNCT	_	2	punct	_	_
+8	»	»	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3295
@@ -10201,7 +10203,7 @@
 # text = Кажось вейке.
 # text_en = There's one bad thing about it.
 1	Кажось	кажо	NOUN	N|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	Gloss=bad-thing
-2	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	0	root	_	Gloss=one|SpaceAfter=No
+2	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	0	root	_	Gloss=one|SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3501
@@ -10737,7 +10739,7 @@
 # text = — «Ансяк»...
 1	«	«	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	Ансяк	ансяк	ADV	Adv	_	0	root	_	Gloss=but|SpaceAfter=No
-3	»	»	PUNCT	PUNCT	_	2	punct	_	_
+3	»	»	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 4	...	...	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5139
@@ -10966,7 +10968,7 @@
 6	ялгам	ялга	NOUN	N|Sg|Gen|PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	obl	_	Gloss=friend
 7	туртов	туртов	ADP	Adp|Dat	Case=Dat	6	case	_	Gloss=for
 8	казезь	каземс	VERB	V|TV|Der/Озь|Ger	Derivation=Ozj|Valency=2|VerbForm=Conv	0	root	_	Gloss=give-as-present
-9	васень	васень	NUM	Num|Ord|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Ord|Number=Sing	10	det	_	Gloss=first
+9	васень	васень	NUM	Num|Ord|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Ord	10	det	_	Gloss=first
 10	кинигам	кинига	NOUN	N|Sg|Nom|PxSg1	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	nsubj	_	Gloss=book|SpaceAfter=No
 11	.	.	PUNCT	CLB	_	8	punct	_	_
 
@@ -11500,7 +11502,7 @@
 
 # sent_id = DunjashinAlex_Pidsi-palakst_1930:209
 # text = Комсьсисемге иеть уш служи попокс, весе церьковань службанть вете суронзо ладсо содасы, проповетнеде тысщат ловнось, содасы, кодамо вал марто лисемс народонть икелев.
-1	Комсьсисемге	комсьсисемге	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	2	nummod	_	_
+1	Комсьсисемге	комсьсисемге	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	2	nummod	_	_
 2	иеть	ие	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	4	obj	_	_
 3	уш	уш	ADV	Adv|Temp	Case=Temp	4	advmod	_	_
 4	служи	служамс	VERB	V|IV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	_
@@ -11509,7 +11511,7 @@
 7	весе	весе	PRON	Pron|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	9	det	_	_
 8	церьковань	церькова	NOUN	N|Sem/Plc|SP|Gen|Indef	Case=Gen|Definite=Ind|Number=Plur,Sing	9	nmod	_	_
 9	службанть	служба	NOUN	N|Sg|Gen|Def	Case=Gen|Definite=Def|Number=Sing	13	obj	_	_
-10	вете	вете	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	11	nummod	_	_
+10	вете	вете	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	11	nummod	_	_
 11	суронзо	сур	NOUN	N|Pl|Gen|PxSg3	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	13	obl	_	_
 12	ладсо	ладсо	ADP	Adp|Ine	Case=Ine	11	case	_	_
 13	содасы	содамс	VERB	V|TV|Ind|Prs|ScSg3|OcSg3	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|Valency=2	4	conj	_	SpaceAfter=No
@@ -11741,15 +11743,15 @@
 2	юткс	ютко	NOUN	N|Sem/Plc|SP|Ill|Indef	Case=Ill|Definite=Ind|Number=Plur,Sing	1	case	_	_
 3	кода-бути	кода-бути	ADV	Adv|Indef|Manner	Definite=Ind|AdvType=Man	4	advmod	_	_
 4	пальдявсть	пальдявомс	VERB	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	_
-5	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	6	nummod	_	_
+5	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	6	nummod	_	_
 6	эйкакшт	эйкакш	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	4	nsubj	_	SpaceAfter=No
 7	:	:	PUNCT	CLB	_	4	punct	_	_
-8	вейкесь	вейке	NUM	Num|Card|Sg|Nom|Def	Case=Nom|Definite=Def|NumType=Card|Number=Sing	11	nsubj	_	_
+8	вейкесь	вейке	NUM	Num|Card|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing|NumType=Card	11	nsubj	_	_
 9	ведьгев	ведьгев	NOUN	N|Sem/Plc|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	11	nmod	_	_
 10	азоронь	азор	NOUN	N|SP|Gen|Indef	Case=Gen|Definite=Ind|Number=Plur,Sing	9	goeswith	_	_
 11	цёра	цёра	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	4	conj	_	SpaceAfter=No
 12	,	,	PUNCT	CLB	_	17	punct	_	_
-13	омбоцесь	омбоце	NUM	Num|Ord|Sg|Nom|Def	Case=Nom|Definite=Def|NumType=Ord|Number=Sing	17	nsubj	_	_
+13	омбоцесь	омбоце	NUM	Num|Ord|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing|NumType=Ord	17	nsubj	_	_
 14	―	―	PUNCT	PUNCT	_	13	punct	_	_
 15	Кандрань	Кандра	PROPN	N|Prop|Ant_Mal|SP|Gen|Indef	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Giv|Number=Plur,Sing	16	nmod	_	_
 16	Петрань	Петра	PROPN	N|Prop|Ant_Mal|SP|Gen|Indef	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Giv|Number=Plur,Sing	17	nmod	_	_
@@ -11864,7 +11866,7 @@
 3	нать	нать	ADV	Adv|Parenthetic	Parenthetic	8	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	Федоров	Фёдоров	PROPN	N|Prop|Sur_Mal|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	8	nsubj	_	_
-6	кемень	кемень	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	7	nummod	_	_
+6	кемень	кемень	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	7	nummod	_	_
 7	иеть	ие	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	8	obj	_	_
 8	служась	служамс	VERB	V|IV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	_
 9	епархиальной	епархиальной	ADJ	A|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	10	amod	_	_
@@ -12008,7 +12010,7 @@
 8	чись	чи	NOUN	N|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing	9	nsubj	_	_
 9	эжди	эждемс	VERB	V|TV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	1	conj	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	18	punct	_	_
-11	омбоце	омбоце	NUM	Num|Ord|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Ord|Number=Sing	12	det	_	_
+11	омбоце	омбоце	NUM	Num|Ord|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Ord	12	det	_	_
 12	ёндо	ён	NOUN	N|Sem/Plc|SP|Abl|Indef	Case=Abl|Definite=Ind|Number=Plur,Sing	18	orphan	_	_
 13	―	―	PUNCT	PUNCT	_	12	punct	_	_
 14	ойме	ойме	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	16	obl	_	_
@@ -12519,7 +12521,7 @@
 9	тень	мон	PRON	Pron|Pers|Sg1|Dat|Variant=Short	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	8	obl	_	_
 10	исень	исень	ADJ	A|Der/GenAttr	_	11	amod	_	_
 11	вене	вене	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	8	obl	_	_
-12	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	13	nummod	_	_
+12	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	13	nummod	_	_
 13	видения	видения	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	8	nsubj	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	4	conj	_	_
 
@@ -12731,7 +12733,7 @@
 
 # sent_id = DunjashinAlex_Pidsi-palakst_1930:298
 # text = Комсь иеть уш ашти уголсонть те пазавась.
-1	Комсь	комсь	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	2	nummod	_	_
+1	Комсь	комсь	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	2	nummod	_	_
 2	иеть	ие	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	4	obj	_	_
 3	уш	уш	ADV	Adv|Temp	Case=Temp	4	advmod	_	_
 4	ашти	аштемс	VERB	V|IV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	_
@@ -13389,7 +13391,7 @@
 #license="">
 # sent_id = GluxovP_KedrovojPeshtj_1929:0
 # text = Колмо кочкамот Дёбаень Микол ульнесь велень советэнь председателькс.
-1	Колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	2	nummod	_	_
+1	Колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	2	nummod	_	_
 2	кочкамот	кочкамот	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	8	obl:tmod	_	_
 3	Дёбаень	Дёбай	PROPN	N|Sem/Sur|Prop|SP|Gen|Indef	Case=Gen|Definite=Ind|Number=Plur,Sing	4	nmod	_	_
 4	Микол	Микол	PROPN	N|Prop|Ant_Mal|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	8	nsubj	_	_
@@ -13425,7 +13427,7 @@
 14	:	:	PUNCT	CLB	_	12	punct	_	_
 15	низэ	ни	NOUN	N|Sg|Nom|PxSg3	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	nsubj	_	_
 16	Маря	Маря	PROPN	N|Prop|Ant_Fem|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Fem|NameType=Giv|Number=Sing	15	appos	_	_
-17	ниле	ниле	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	18	nummod	_	_
+17	ниле	ниле	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	18	nummod	_	_
 18	иесэ	ие	NOUN	N|SP|Ine|Indef	Case=Ine|Definite=Ind|Number=Plur,Sing	19	obl	_	_
 19	церьгаест	цёрьгай	NOUN	N|Sg|Nom|PxPl3	Sg|Nom|PxPl3	10	conj	_	_
 20	Палько	Палько	PROPN	N|Sem/Sur|Prop|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	19	obl	_	_
@@ -13778,7 +13780,7 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:131
 # text = Колмосят ломать ульнесть бандитнэде.
-1	Колмосят	колмосядт	NUM	Num|Card|Pl|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Plur	2	nummod	_	_
+1	Колмосят	колмосядт	NUM	Num|Card|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur|NumType=Card	2	nummod	_	_
 2	ломать	ломань	NOUN	N|Pl|Nom|Indef|Err/Orth	Case=Nom|Definite=Ind|Number=Plur	0	root	_	_
 3	ульнесть	ульнемс	AUX	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	2	cop	_	_
 4	бандитнэде	бандит	NOUN	N|Pl|Abl|Def	Case=Abl|Definite=Def|Number=Plur	2	obl	_	SpaceAfter=No
@@ -13796,7 +13798,7 @@
 # sent_id = GluxovP_KedrovojPeshtj_1929:133
 # text = Сон колоньгемень ломань марто ашолгадмо ланга кода эци виренть ёндо веленть ланкс!
 1	Сон	сон	PRON	Pron|Pers|Sg3|Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-2	колоньгемень	колмоньгемень	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	3	nummod	_	_
+2	колоньгемень	колмоньгемень	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	nummod	_	_
 3	ломань	ломань	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	1	nmod	_	_
 4	марто	марто	ADP	Adp|COM	_	3	case	_	_
 5	ашолгадмо	ашолгадомс	VERB	V|IV|Err/Orth|Inf|Loc	Case=Loc|Valency=1|VerbForm=Inf	8	obl	_	_
@@ -13813,7 +13815,7 @@
 # text = Бандитнэ арьсесть сядошка ломань эцить лангозост.
 1	Бандитнэ	бандит	NOUN	N|Pl|Nom|Def	Case=Nom|Definite=Def|Number=Plur	2	nsubj	_	_
 2	арьсесть	арсемс	VERB	V|Hom2|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	_
-3	сядошка	сядо	NUM	Num|Card|SP|Cmpr|Indef	Case=Comp|Definite=Ind|NumType=Card|Number=Plur,Sing	4	nummod	_	_
+3	сядошка	сядо	NUM	Num|Card|SP|Cmpr|Indef	Case=Comp|Definite=Ind|Number=Plur,Sing|NumType=Card	4	nummod	_	_
 4	ломань	ломань	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	_
 5	эцить	эцемс	VERB	V|TV|Ind|Prs|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	2	ccomp	_	_
 6	лангозост	ланго	NOUN	N|SP|Ill|PxPl3	Case=Ill|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	5	obl	_	SpaceAfter=No
@@ -13834,10 +13836,10 @@
 1	Сестэ	сестэ	ADV	Adv|Ela	Case=Ela	2	advmod	_	_
 2	чавсть	чавомс	VERB	V|TV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	_
 3	бандитнэде	бандит	NOUN	N|Pl|Abl|Def	Case=Abl|Definite=Def|Number=Plur	2	obl	_	_
-4	кемнилее	кемнилее	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	5	nummod	_	_
+4	кемнилее	кемнилее	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	5	nummod	_	_
 5	ломань	ломань	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	2	obj	_	_
 6	ды	ды	CCONJ	CC	_	9	cc	_	_
-7	колоньгеменьшка	колмоньгемень	NUM	Num|Card|SP|Cmpr|Indef	Case=Comp|Definite=Ind|NumType=Card|Number=Plur,Sing	8	nummod	_	_
+7	колоньгеменьшка	колмоньгемень	NUM	Num|Card|SP|Cmpr|Indef	Case=Comp|Definite=Ind|Number=Plur,Sing|NumType=Card	8	nummod	_	_
 8	лишметь	лишме	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	9	obj	_	_
 9	сайсть	саемс	VERB	V|TV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	2	conj	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -13869,7 +13871,7 @@
 # sent_id = GluxovP_KedrovojPeshtj_1929:139
 # text = Мейле вейкесь веши, омбоцесь веши.
 1	Мейле	мейле	ADV	Adv|Temp	Case=Temp	3	obl:tmod	_	_
-2	вейкесь	вейке	NUM	Num|Card|Sg|Nom|Def	Case=Nom|Definite=Def|NumType=Card|Number=Sing	3	nsubj	_	_
+2	вейкесь	вейке	NUM	Num|Card|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing|NumType=Card	3	nsubj	_	_
 3	веши	вешемс	VERB	V|TV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	омбоцесь	омбоце	NUM	Num|Ord|Der/MWN|N|Sg|Nom|Def	NumType=Ord|Derivation=MWN|Case=Nom|Definite=Def|Number=Sing	6	nsubj	_	_
@@ -14066,7 +14068,7 @@
 1	Совасть	совамс	VERB	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	_
 2	промкс	промкс	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	1	obl	_	_
 3	кудос	кудо	NOUN	N|Sem/Plc|SP|Ill|Indef	Case=Ill|Definite=Ind|Number=Plur,Sing	2	goeswith	_	_
-4	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	6	nummod	_	_
+4	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	6	nummod	_	_
 5	военной	военной	ADJ	A|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	6	amod	_	_
 6	ломать	ломань	NOUN	N|Pl|Nom|Indef|Err/Orth	Case=Nom|Definite=Ind|Number=Plur	1	nsubj	_	_
 7	винтовка	винтовка	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	1	obl	_	SpaceAfter=No
@@ -14084,7 +14086,7 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:155
 # text = Вейкесь сэрей, рижой, парсте оршазь.
-1	Вейкесь	вейке	NUM	Num|Card|Sg|Nom|Def	Case=Nom|Definite=Def|NumType=Card|Number=Sing	2	nsubj	_	_
+1	Вейкесь	вейке	NUM	Num|Card|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing|NumType=Card	2	nsubj	_	_
 2	сэрей	сэрей	ADJ	A|Clitic=Cop|Prs|ScSg3	Clitic=Cop|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	рижой	рыжой	ADJ	A|Clitic=Cop|Prs|ScSg3	Clitic=Cop|Number[subj]=Sing|Person[subj]=3|Tense=Pres	2	conj	_	SpaceAfter=No
@@ -14137,7 +14139,7 @@
 6	мон	мон	PRON	Pron|Pers|Sg1|Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 7	ансяк	ансяк	ADV	Adv|Exclusive	_	6	advmod	_	_
 8	коммунистан	коммунист	NOUN	N|Hum|Sg|Nom|Indef|Clitic=Cop|Prs|ScSg1	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing|Clitic=Cop|Number[subj]=Sing|Person[subj]=1|Tense=Pres	2	ccomp	_	SpaceAfter=No
-9	»	»	PUNCT	PUNCT|RIGHT	RIGHT	8	punct	_	_
+9	»	»	PUNCT	PUNCT|RIGHT	RIGHT	8	punct	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:16
@@ -14170,7 +14172,7 @@
 1	Мон	мон	PRON	Pron|Pers|Sg1|Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
 2	бандит	бандит	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	3	compound	_	_
 3	Чернов	Чернов	PROPN	N|Prop|Sur_Mal|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	1	nsubj	_	SpaceAfter=No
-4	»	»	PUNCT	PUNCT|RIGHT	RIGHT	1	punct	_	_
+4	»	»	PUNCT	PUNCT|RIGHT	RIGHT	1	punct	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:162
@@ -14486,7 +14488,7 @@
 1	Муя	Муя	PROPN	N|Sem/Plc|Prop|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	5	nmod	_	_
 2	веленть	веле	NOUN	N|Sem/Plc|Sg|Gen|Def	Case=Gen|Definite=Def|Number=Sing	1	nmod	_	_
 3	весе	весе	PRON	Pron|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	5	det	_	_
-4	ниленьгемень	ниленьгемень	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	5	nummod	_	_
+4	ниленьгемень	ниленьгемень	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	5	nummod	_	_
 5	кудонзо	кудо	NOUN	N|Sem/Plc|Pl|Nom|PxSg3	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 6	аштить	аштемс	VERB	V|IV|Ind|Prs|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	_
 7	Муя	Муя	PROPN	N|Sem/Plc|Prop|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	6	obl	_	_
@@ -15064,7 +15066,7 @@
 3	ней	ней	ADV	Adv|Temp	Case=Temp	2	obl	_	_
 4	тейнеме	тейнемс	VERB	V|TV|Inf|Loc	Case=Loc|Valency=2|VerbForm=Inf	2	xcomp	_	_
 5	низэ	ни	NOUN	N|Sg|Nom|PxSg3	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
-6	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	7	nummod	_	_
+6	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	7	nummod	_	_
 7	эйкакш	эйкакш	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	4	obl	_	_
 8	марто	марто	ADP	Adp|COM	_	7	case	_	SpaceAfter=No
 9	?	?	PUNCT	CLB	_	2	punct	_	_
@@ -15125,12 +15127,12 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:242
 # text = Комсь урт панды разверсткас, колоньгеменьшка ур максы кооперативс порохонь ды лия долконь кис.
-1	Комсь	комсь	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	2	nummod	_	_
+1	Комсь	комсь	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	2	nummod	_	_
 2	урт	ур	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	3	obj	_	_
 3	панды	пандомс	VERB	V|TV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	_
 4	разверсткас	разверстка	NOUN	N|SP|Ill|Indef	Case=Ill|Definite=Ind|Number=Plur,Sing	3	obl	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	8	punct	_	_
-6	колоньгеменьшка	колмоньгемень	NUM	Num|Card|SP|Cmpr|Indef	Case=Comp|Definite=Ind|NumType=Card|Number=Plur,Sing	7	nummod	_	_
+6	колоньгеменьшка	колмоньгемень	NUM	Num|Card|SP|Cmpr|Indef	Case=Comp|Definite=Ind|Number=Plur,Sing|NumType=Card	7	nummod	_	_
 7	ур	ур	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	8	obj	_	_
 8	максы	максомс	VERB	V|TV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	3	conj	_	_
 9	кооперативс	кооператив	NOUN	N|SP|Ill|Indef	Case=Ill|Definite=Ind|Number=Plur,Sing	8	obl	_	_
@@ -15317,7 +15319,7 @@
 1	Микол	Микол	PROPN	N|Prop|Ant_Mal|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	_
 2	чавсь	чавомс	VERB	V|TV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	_
 3	ансяк	ансяк	ADV	Adv|Exclusive	_	4	advmod	_	_
-4	сядошка	сядо	NUM	Num|Card|SP|Cmpr|Indef	Case=Comp|Definite=Ind|NumType=Card|Number=Plur,Sing	5	nummod	_	_
+4	сядошка	сядо	NUM	Num|Card|SP|Cmpr|Indef	Case=Comp|Definite=Ind|Number=Plur,Sing|NumType=Card	5	nummod	_	_
 5	ур	ур	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	2	obj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -15478,13 +15480,13 @@
 1	Мельганзо	мельга	ADP	Adp|Spat|Prl|PxSg3	AdvType=Loc|Case=Prl|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
 2	совасть	совамс	VERB	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	_
 3	эщо	ещё	ADV	Adv|Err/Lex|Temp	Case=Temp	2	advmod	_	_
-4	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	5	nummod	_	_
+4	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	5	nummod	_	_
 5	ломать	ломань	NOUN	N|Pl|Nom|Indef|Err/Orth	Case=Nom|Definite=Ind|Number=Plur	2	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:273
 # text = 
-1	Вейкесь	вейке	PRON	Pron|Card|Sg|Nom|Def	Case=Nom|Definite=Def|NumType=Card|Number=Sing	2	nsubj	_	_
+1	Вейкесь	вейке	PRON	Pron|Card|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing|NumType=Card	2	nsubj	_	_
 2	сэрей	сэрей	ADJ	A|Clitic=Cop|Prs|ScSg3	Clitic=Cop|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	рябой	рябой	ADJ	A|Clitic=Cop|Prs|ScSg3	Clitic=Cop|Number[subj]=Sing|Person[subj]=3|Tense=Pres	2	conj	_	SpaceAfter=No
@@ -15492,7 +15494,7 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:274
 # text = Омбоцесь сакалов, рижой.
-1	Омбоцесь	омбоце	NUM	Num|Ord|Sg|Nom|Def	Case=Nom|Definite=Def|NumType=Ord|Number=Sing	2	nsubj	_	_
+1	Омбоцесь	омбоце	NUM	Num|Ord|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing|NumType=Ord	2	nsubj	_	_
 2	сакалов	сакалов	ADJ	A|Clitic=Cop|Prs|ScSg3	Clitic=Cop|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	рижой	рыжой	ADJ	A|Err/Orth|Clitic=Cop|Prs|ScSg3	Clitic=Cop|Number[subj]=Sing|Person[subj]=3|Tense=Pres	2	conj	_	SpaceAfter=No
@@ -15610,7 +15612,7 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:285
 # text = Кавтотне сеске лиссть.
-1	Кавтотне	кавто	NUM	Num|Card|Pl|Nom|Def	Case=Nom|Definite=Def|NumType=Card|Number=Plur	3	nsubj	_	_
+1	Кавтотне	кавто	NUM	Num|Card|Pl|Nom|Def	Case=Nom|Definite=Def|Number=Plur|NumType=Card	3	nsubj	_	_
 2	сеске	сеске	ADV	Adv|Ine	Case=Ine	3	advmod	_	_
 3	лиссть	лисемс	VERB	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -15990,7 +15992,7 @@
 8	эщо	ещё	ADV	Adv|Err/Lex|Temp	Case=Temp	9	advmod	_	_
 9	совсесть	совсемс	VERB	V|IV|Ind|Prt1|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	3	conj	_	_
 10	тенст	сон	PRON	Pron|Pers|Pl3|Dat|Variant=Short	Case=Dat|Number=Plur|Person=3|PronType=Prs|Variant=Short	9	obl	_	_
-11	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	12	nummod	_	_
+11	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	12	nummod	_	_
 12	салдат	салдат	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	9	nsubj	_	_
 13	ружия	ружия	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	12	nmod	_	_
 14	марто	марто	ADP	Adp|COM	_	13	case	_	SpaceAfter=No
@@ -16396,7 +16398,7 @@
 20	истямо	истямо	PRON	Pron|Dem|Der/MWN|Sg|Nom|Indef	PronType=Dem|Derivation=MWN|Case=Nom|Definite=Ind|Number=Sing	21	advmod	_	_
 21	мазы	мазы	ADJ	A|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	22	amod	_	_
 22	шишка	шишка	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	15	obj	_	SpaceAfter=No
-23	»	»	PUNCT	PUNCT|RIGHT	RIGHT	3	punct	_	_
+23	»	»	PUNCT	PUNCT|RIGHT	RIGHT	3	punct	_	SpaceAfter=No
 24	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:352
@@ -16719,7 +16721,7 @@
 # text = Икелензэ чиить кавто кисканзо—Бертяз ды Волчок.
 1	Икелензэ	икеле	ADP	Adp|Spat|Loc|PxSg3	AdvType=Loc|Case=Loc|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
 2	чиить	чиемс	VERB	V|IV|Ind|Prs|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	_
-3	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	4	nummod	_	_
+3	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	4	nummod	_	_
 4	кисканзо	киска	NOUN	N|Pl|Nom|PxSg3	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
 5	—	—	PUNCT	PUNCT	_	6	punct	_	_
 6	Бертяз	Бертяз	PROPN	N|Prop|Sem/Sur|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	4	appos	_	_
@@ -17189,7 +17191,7 @@
 # text = Маря течи колмоцеде столь пурны.
 1	Маря	Маря	PROPN	N|Prop|Ant_Fem|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Fem|NameType=Giv|Number=Sing	5	nsubj	_	_
 2	течи	течи	ADV	Adv|Temp	Case=Temp	5	obl:tmod	_	_
-3	колмоцеде	колмоцеде	ADV	Adv|Ord|SP|Abl|Indef	Case=Abl|Definite=Ind|NumType=Ord|Number=Plur,Sing	5	advmod	_	_
+3	колмоцеде	колмоцеде	ADV	Adv|Ord|SP|Abl|Indef	Case=Abl|Definite=Ind|Number=Plur,Sing|NumType=Ord	5	advmod	_	_
 4	столь	столь	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	5	obj	_	_
 5	пурны	пурнамс	VERB	V|TV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
@@ -17203,7 +17205,7 @@
 5	Лапшов	Лапшов	PROPN	N|Prop|Sur_Mal|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	3	appos	_	_
 6	ды	ды	CCONJ	CC	_	9	cc	_	_
 7	эщо	ещё	ADV	Adv|Err/Lex|Temp	Case=Temp	8	advmod	_	_
-8	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	9	nummod	_	_
+8	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	9	nummod	_	_
 9	якстереармеецт	якстереармеец	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	5	conj	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	13	punct	_	_
 11	Лапшов	Лапшов	PROPN	N|Prop|Sur_Mal|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	13	nsubj	_	_
@@ -17352,11 +17354,11 @@
 2	ялгай	ялгай	INTJ	Interj|Voc	Derivation=Voc	1	compound	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	1	punct	_	_
 4	эщо	ещё	ADV	Adv|Err/Lex|Temp	Case=Temp	7	advmod	_	_
-5	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	6	nummod	_	_
+5	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	6	nummod	_	_
 6	бандит	бандит	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	7	obj	_	_
 7	кундынек	кундамс	VERB	V|TV|Ind|Prt1|ScPl1	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Prt1|Valency=2	0	root	_	_
 8	ды	ды	CCONJ	CC	_	13	cc	_	_
-9	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	10	nummod	_	_
+9	колмо	колмо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	10	nummod	_	_
 10	лишметь	лишме	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	13	nsubj	_	_
 11	камбраз	камбраз	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	10	nmod	_	_
 12	марто	марто	ADP	Adp|COM	_	11	case	_	_
@@ -17540,7 +17542,7 @@
 9	Микол	Микол	PROPN	N|Prop|Ant_Mal|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	10	nsubj	_	_
 10	несы	неемс	VERB	V|TV|Ind|Prs|ScSg3|OcSg3	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|Valency=2	2	conj	_	_
 11	ульцява	ульця	NOUN	N|Sem/Plc|SP|Prl|Indef	Case=Prl|Definite=Ind|Number=Plur,Sing	14	obl	_	_
-12	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	13	nummod	_	_
+12	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	13	nummod	_	_
 13	улавсо	улав	NOUN	N|SP|Ine|Indef	Case=Ine|Definite=Ind|Number=Plur,Sing	14	obl	_	_
 14	ускить	ускомс	VERB	V|TV|Ind|Prs|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	10	ccomp	_	_
 15	бандитнэнь	бандит	NOUN	N|Pl|Gen|Def	Case=Gen|Definite=Def|Number=Plur	14	obj	_	SpaceAfter=No
@@ -17561,7 +17563,7 @@
 2	вакссо	вакссо	ADP	Adp|Spat|Ine	AdvType=Loc|Case=Ine	1	case	_	_
 3	ласте	ласте	ADV	Adv|Pred2	AdvType=Sta	4	advmod	_	_
 4	молить	молемс	VERB	V|IV|Ind|Prs|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	_
-5	ниле	ниле	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	6	nummod	_	_
+5	ниле	ниле	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	6	nummod	_	_
 6	якстереармеецт	якстереармеец	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	4	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -17571,7 +17573,7 @@
 2	ваны	ваномс	VERB	V|TV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	_
 3	вальмаванть	вальма	NOUN	N|Sg|Prl|Def	Case=Prl|Definite=Def|Number=Sing	2	obl	_	SpaceAfter=No
 4	:	:	PUNCT	CLB	_	2	punct	_	_
-5	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	6	nummod	_	_
+5	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	6	nummod	_	_
 6	бандитэсь	бандит	NOUN	N|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing	9	nsubj	_	_
 7	тензэ	сон	PRON	Pron|Pers|Sg3|Dat|Variant=Short	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Short	9	obl	_	_
 8	прок	прок	ADV	Adv	_	9	advmod	_	_
@@ -17659,7 +17661,7 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:454
 # text = Вейке ломань, неяви, стяко понксь бандитнэнь юткс, сон аволь бандит.
-1	Вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	2	nummod	_	_
+1	Вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	2	nummod	_	_
 2	ломань	ломань	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	неяви	неявомс	VERB	V|IV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	7	parataxis	_	SpaceAfter=No
@@ -17688,7 +17690,7 @@
 10	—	—	PUNCT	PUNCT	_	11	punct	_	_
 11	мерсь	меремс	VERB	V|TV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	2	parataxis	_	_
 12	Лапшов	Лапшов	PROPN	N|Prop|Sur_Mal|Sg|Nom|Indef	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	11	nsubj	_	_
-13	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	14	nummod	_	_
+13	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	14	nummod	_	_
 14	якстереармеецнэнь	якстереармеец	NOUN	N|Pl|Gen|Def	Case=Gen|Definite=Def|Number=Plur	11	obl	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -17924,7 +17926,7 @@
 7	чии	чиемс	VERB	V|IV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	1	ccomp	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	12	punct	_	_
 9	мельганзо	мельга	ADP	Adp|Spat|Prl|PxSg3	AdvType=Loc|Case=Prl|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
-10	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	12	nsubj	_	_
+10	кавто	кавто	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	12	nsubj	_	_
 11	ласте	ласте	ADV	Adv|Pred2	AdvType=Sta	12	advcl	_	_
 12	панить	панемс	VERB	V|IV|Hom1|Ind|Prs|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	7	conj	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	1	punct	_	_
@@ -18352,7 +18354,7 @@
 # text = Сорновць вейке чувто, верьде ламо прасть шишкатнеде.
 # text_en = He shook a tree, and there were a lot of cones that fell from above.
 1	Сорновць	сорновтомс	VERB	V|TV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	Gloss=shake
-2	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	3	nummod	_	Gloss=one
+2	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	nummod	_	Gloss=one
 3	чувто	чувто	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	1	obj	_	Gloss=tree|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	7	punct	_	_
 5	верьде	верде	ADV	Adv|Spat|Abl	AdvType=Loc|Case=Abl	7	obl	_	Gloss=from-above
@@ -18388,7 +18390,7 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:6
 # text = Вейкесь цёранзо марто эри беряньстэ—председательтеме а явовить.
-1	Вейкесь	вейке	NUM	Num|Card|Sg|Nom|Def	Case=Nom|Definite=Def|NumType=Card|Number=Sing	4	nsubj	_	_
+1	Вейкесь	вейке	NUM	Num|Card|Sg|Nom|Def	Case=Nom|Definite=Def|Number=Sing|NumType=Card	4	nsubj	_	_
 2	цёранзо	цёра	NOUN	N|Sg|Gen|PxSg3	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 3	марто	марто	ADP	Adp|COM	_	2	case	_	_
 4	эри	эрямс	VERB	V|TV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	_
@@ -18410,7 +18412,7 @@
 # text = Сельмезэнзэ понксь вейке мазы покш шишка.
 1	Сельмезэнзэ	сельме	NOUN	N|SP|Ill|PxSg3	Case=Ill|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
 2	понксь	понгомс	VERB	V|IV|Ind|Prt1|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	_
-3	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	6	nummod	_	_
+3	вейке	вейке	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	6	nummod	_	_
 4	мазы	мазы	ADJ	A|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	6	amod	_	_
 5	покш	покш	ADJ	A|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	6	amod	_	_
 6	шишка	шишка	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	SpaceAfter=No
@@ -18599,7 +18601,7 @@
 5	таркастонть	тарка	NOUN	N|Sem/Plc|Sg|Ela|Def	Case=Ela|Definite=Def|Number=Sing	6	obl	_	_
 6	пелеве	пелеве	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	3	obl	_	_
 7	ёнов	ёнов	ADP	Adp|Spat|Lat	AdvType=Loc|Case=Lat	6	case	_	_
-8	сядо	сядо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	9	nummod	_	_
+8	сядо	сядо	NUM	Num|Card|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	9	nummod	_	_
 9	вайгельбеть	вайгельпе	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	3	obj	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	13	punct	_	_
 11	эрицят	эриця	NOUN	N|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur	13	obj	_	_
@@ -18607,7 +18609,7 @@
 13	вастат	вастомс	VERB	V|TV|Ind|Prs|ScSg2	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres|Valency=2	3	conj	_	SpaceAfter=No
 14	:	:	PUNCT	CLB	_	3	punct	_	_
 15	ютак	ютамс	VERB	V|TV|Imprt|ScSg2	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Valency=2	3	conj	_	_
-16	ветесят	ветесядт	NUM	Num|Card|Pl|Nom|Indef	Case=Nom|Definite=Ind|NumType=Card|Number=Plur	15	obj	_	SpaceAfter=No
+16	ветесят	ветесядт	NUM	Num|Card|Pl|Nom|Indef	Case=Nom|Definite=Ind|Number=Plur|NumType=Card	15	obj	_	SpaceAfter=No
 17	,	,	PUNCT	CLB	_	19	punct	_	_
 18	тысча	тысча	NUM	Num|Card|Sg|Nom|Indef	Card|Sg|Nom|Indef	19	nummod	_	_
 19	вайгельбе	вайгельпе	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	16	conj	_	_
@@ -19189,7 +19191,7 @@
 3	,	,	PUNCT	CLB	_	8	punct	_	_
 4	кода	кода	ADV	Adv|Interr|Manner	AdvType=Man|PronType=Int	8	mark	_	_
 5	кудотне	кудо	NOUN	N|Sem/Plc|Pl|Nom|Def	Case=Nom|Definite=Def|Number=Plur	8	nsubj	_	_
-6	вейкест	вейке	NUM	NUM|Card|Pl|Gen|PxPl3	Case=Gen|NumType=Card|Number=Plur|Number[psor]=Plur|Person[psor]=3	8	advmod	_	_
+6	вейкест	вейке	NUM	NUM|Card|Pl|Gen|PxPl3	Case=Gen|Number=Plur|NumType=Card|Number[psor]=Plur|Person[psor]=3	8	advmod	_	_
 7	пес	пес	ADV	Adv|Spat	AdvType=Loc	6	case	_	_
 8	молить	молемс	VERB	V|IV|Ind|Prs|ScPl3	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	2	advcl	_	_
 9	азорост	азор	NOUN	N|Sg|Gen|PxPl3	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=3	8	obl	_	_
@@ -19486,7 +19488,7 @@
 9	мезеяк	мезеяк	PRON	Pron|Indef|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	obj	_	_
 10	теи	теемс	VERB	V|TV|Ind|Prs|ScSg3	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	_
 11	лангсонзо	лангсо	ADP	Adp|Po|Ine|PxSg3	AdpType=Post|Case=Ine|Number[psor]=Sing|Person[psor]=3	10	obl	_	SpaceAfter=No
-12	»	»	PUNCT	CLB	_	10	punct	_	_
+12	»	»	PUNCT	CLB	_	10	punct	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	10	punct	_	_
 
 # sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:178
@@ -19885,7 +19887,7 @@
 13	но	но	X	X	_	7	flat	_	_
 14	имени	имени	X	X	_	7	flat	_	_
 15	твоему	твоему	X	X	_	7	flat	_	SpaceAfter=No
-16	»	»	PUNCT	CLB	_	7	punct	_	_
+16	»	»	PUNCT	CLB	_	7	punct	_	SpaceAfter=No
 17	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:4019
@@ -20025,7 +20027,7 @@
 9	курок	курок	ADV	Adv|Sem/Time	AdvType=Tim	10	advmod	_	_
 10	путсамизь	путомс	VERB	V|TV|Ind|Prs|ScPl3|OcSg1	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1|Person[subj]=3|Tense=Pres|Valency=2	3	parataxis	_	_
 11	кандолазс	кандолазт	NOUN	N|SP|Ill|Indef	Case=Ill|Definite=Ind|Number=Plur,Sing	10	obl	_	SpaceAfter=No
-12	»	»	PUNCT	CLB	_	10	punct	_	_
+12	»	»	PUNCT	CLB	_	10	punct	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:4727
@@ -20129,7 +20131,7 @@
 # sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:4968
 # text = Васенце мирдензэ кудов истя самось талакавтызе ды тандавтызе пайстомонть.
 # text_en = 
-1	Васенце	васенце	DET	Det|Ord|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Ord|Number=Sing	2	det	_	Gloss=first
+1	Васенце	васенце	DET	Det|Ord|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Ord	2	det	_	Gloss=first
 2	мирдензэ	мирде	NOUN	N|Sem/Kin_Mal|Sg|Gen|PxSg3	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	1-1:31.1,19|Gloss=husband
 3	кудов	кудо	NOUN	N|Sem/Plc|SP|Lat|Indef	Case=Lat|Definite=Ind|Number=Plur,Sing	5	obl	_	_
 4	истя	истя	ADV	Adv|Manner	AdvType=Man	5	advmod	_	_
@@ -20317,7 +20319,7 @@
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	кода	кода	ADV	Adv|Interr|Manner	AdvType=Man|PronType=Int	6	advmod	_	_
 6	отвечамс	отвечамс	VERB	V|IV|Inf	Valency=1|VerbForm=Inf	3	conj	_	_
-7	васенце	васенце	DET	Det|Ord|Sg|Nom|Indef	Case=Nom|Definite=Ind|NumType=Ord|Number=Sing	8	det	_	_
+7	васенце	васенце	DET	Det|Ord|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing|NumType=Ord	8	det	_	_
 8	мирденстэнь	мирде	NOUN	N|Sem/Kin_Mal|SP|Dat|PxSg3	Case=Dat|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	CLB	_	13	punct	_	_
 10	зярдо	зярдо	SCONJ	CS|Sem/Time	AdvType=Tim	13	mark	_	_
@@ -20843,7 +20845,7 @@
 16	ведь	ведь	NOUN	N|Sg|Nom|Indef	Case=Nom|Definite=Ind|Number=Sing	18	obl	_	Gloss=water
 17	мельга	мельга	ADP	Adp|Po|Spat	AdpType=Post|AdvType=Loc	16	case	_	Gloss=after
 18	чиеме	чиемс	VERB	V|IV|Inf|Loc	Case=Loc|Valency=1|VerbForm=Inf	15	xcomp	_	Gloss=run|SpaceAfter=No
-19	»	»	PUNCT	CLB|RIGHT	_	9	punct	_	_
+19	»	»	PUNCT	CLB|RIGHT	_	9	punct	_	SpaceAfter=No
 20	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:8973
