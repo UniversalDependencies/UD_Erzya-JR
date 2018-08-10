@@ -564,7 +564,7 @@
 # text = Лангсонзо шинель.
 # text[eng] = With a trench coat on.
 1	Лангсонзо	ланго	NOUN	N	SP|Ine|PxSg3	0	root	_	1-1:22.1,16
-2	шинель	шинель	NOUN	N	Sg|Nom|Indef|Clt/Cop|Prs|ScSg3	2	nsubj	_	_
+2	шинель	шинель	NOUN	N	Sg|Nom|Indef|Clt/Cop|Prs|ScSg3	1	nsubj	_	_
 3	.	.	PUNCT	CLB	_	1	punct	_	_
 
 #sent_id = partID1:chapID1:paragID22:sentID4: pgNo="6
@@ -907,7 +907,7 @@
 8	кутмордынзе	кутмордамс	VERB	V	TV|Ind|Prt1|ScSg3|OcPl3	1	conj	_	1-1:31.6,2|1-1:31.6,11
 9	васень	васень	ADJ	A	_	10	amod	_	_
 10	мирденть	мирде	NOUN	N	Sem/Kin_Mal|Sg|Gen|Def	11	nmod:poss	_	_
-11	пильгензэ	пильгензэ	_	_	8	obj	_	_	_
+11	пильгензэ	пильгензэ	_	_	_	8	obj	_	_
 12	.	.	PUNCT	CLB	_	1	punct	_	_
 
 #sent_id = partID1:chapID1:paragID32:sentID1: pgNo="7"
@@ -1181,7 +1181,7 @@
 # text = — Лоткадоя пижнемадонть.
 # text[eng] = Now stop that hollering.
 1	—	—	PUNCT	_	_	2	punct	_	_
-2	Лоткадоя	Лоткадоя	_	_	0	root	_	_	_
+2	Лоткадоя	Лоткадоя	_	_	_	0	root	_	_
 3	пижнемадонть	пижнемс	VERB	V	IV|Inf|Sg|Abl|Def	2	xcomp	_	_
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -1893,7 +1893,7 @@
 # text[fin] = Ketšai heräsi ikäviin kärpäsiin.
 1	Кечаень	Кечай	PROPN	N	Sem/Ant_Mal|Prop|SP|Gen|Indef	2	obj	_	Кечаень
 2	сыргозтизь	сыргозтемс	VERB	V	TV|Ind|Prt1|ScPl3|OcSg3	0	root	_	1:1.1,1|1:1.1,4|сыргозтизь
-3	налкставтыця	налкставтомс	PRC	Prc	TV|Der/NomAg|Sg|Nom|Indef	4	amod	налкставтыця
+3	налкставтыця	налкставтомс	PRC	Prc	TV|Der/NomAg|Sg|Nom|Indef	4	amod	_	налкставтыця
 4	карвот	карво	NOUN	N	Sem/Ani|Pl|Nom|Indef	2	nsubj	_	карвот
 5	.	.	PUNCT	CLB	CLB	2	punct	_	.
 
@@ -2206,7 +2206,7 @@
 17	тев	тев	NOUN	N	Sem/Inanim_Cnt|Sg|Nom|Indef	13	obj	_	тев
 18	,	,	PUNCT	CLB	CLB	19	punct	_	,
 19	лездасть	лездамс	VERB	V	Ind|Prt1|ScPl3	8	conj	_	1:3.2,1|лездасть
-20	аваст	ава	NOUN	N	Sem/Kin|Sg|Gen|PxPl3	 19	obl	_	1:3.2,1|аваст
+20	аваст	ава	NOUN	N	Sem/Kin|Sg|Gen|PxPl3	19	obl	_	1:3.2,1|аваст
 21	туртов	туртов	ADP	Adp	Po|Dat	20	case	_	туртов
 22	:	:	PUNCT	CLB	CLB	23	punct	_	:
 23	ушодыльть	ушодомс	VERB	V	Ind|Prt2|ScPl3	8	conj	_	1:3.2,1|ушодыльть
@@ -2470,7 +2470,7 @@
 9	толбандянть	толбандя	NOUN	N	Sem/Inanim_Cnt|Sg|Gen|Def	8	obj	_	толбандянть
 10	,	,	PUNCT	CLB	CLB	13	punct	_	,
 11	конань	кона	PRON	Pron	Rel|SP|Gen|Indef	13	obj	_	1:6.3,9|конань
-12	ёроктомо	ёрок	NOUN	N	Sem/Inanim_Cnt|SP|Abe|Indef	advmod	13	_	ёроктомо
+12	ёроктомо	ёрок	NOUN	N	Sem/Inanim_Cnt|SP|Abe|Indef	13	advmod	_	ёроктомо
 13	келемтизь	келемтемс	VERB	V	TV|Ind|Prt1|ScPl3|OcSg3	9	acl:relcl	_	1:6.3,14|1:6.3,9|келемтизь
 14	кавтаськетне	кавтаське	NOUN	N	Sem/Inanim_Cnt|Pl|Nom|Def	13	nsubj	_	кавтаськетне
 15	.	.	PUNCT	CLB	CLB	7	punct	_	.
