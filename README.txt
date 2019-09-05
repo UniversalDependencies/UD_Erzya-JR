@@ -11,7 +11,7 @@ UD Erzya is the	original annotation (CoNLL-U) for texts	in the Erzya language. T
 
 The original annotation has been performed by Jack Rueter at the University of Helsinki using morphological tools facilitated at the Norwegian Arctic University in Tromsø and with continuous consultation from Francis Tyers. Without the Erzya writers themselves, we would be no where…
 
-If you use this data in your work, please cite: 
+If you use this data in your work, please cite:
 
    @inproceedings{rueter2018towards,
    title={Towards an open-source universal-dependency treebank for Erzya},
@@ -20,6 +20,14 @@ If you use this data in your work, please cite:
    pages={106--118},
    year={2018}
    }
+
+
+# Changelog
+
+* 2019-05-15 v2.4
+  * Fixed errors found by new validation tests.
+* 2018-11-15 v2.3
+  * Initial release in Universal Dependencies.
 
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
