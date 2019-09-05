@@ -9,7 +9,12 @@ UD Erzya is the	original annotation (CoNLL-U) for texts	in the Erzya language. T
 
 # Acknowledgements
 
-The original annotation has been performed by Jack Rueter at the University of Helsinki using morphological tools facilitated at the Norwegian Arctic University in Tromsø and with continuous consultation from Francis Tyers. Without the Erzya writers themselves, we would be no where…
+The original annotation has been performed by Jack Rueter at the University of Helsinki using morphological tools
+facilitated at the Norwegian Arctic University in Tromsø and with continuous consultation from Francis Tyers. 
+The idea and funding for the first three months of the project came from Anssi Yli-Jyrä, Research Fellow at
+the Academy of Finland (dec. No 270354 - A Usable Finite-State Model for Adequate
+Syntactic Complexity), who made it possible to work with Erzya UD.
+Without the Erzya writers themselves, we would be no where…
 
 If you use this data in your work, please cite:
 
