@@ -9,7 +9,12 @@ UD Erzya is the	original annotation (CoNLL-U) for texts	in the Erzya language. T
 
 # Acknowledgements
 
-The original annotation has been performed by Jack Rueter at the University of Helsinki using morphological tools facilitated at the Norwegian Arctic University in Tromsø and with continuous consultation from Francis Tyers. Without the Erzya writers themselves, we would be no where…
+The original annotation has been performed by Jack Rueter at the University of Helsinki using morphological tools
+facilitated at the Norwegian Arctic University in Tromsø and with continuous consultation from Francis Tyers. 
+The idea and funding for the first three months of the project came from Anssi Yli-Jyrä, Research Fellow at
+the Academy of Finland (dec. No 270354 - A Usable Finite-State Model for Adequate
+Syntactic Complexity), who made it possible to work with Erzya UD.
+Without the Erzya writers themselves, we would be no where…
 
 If you use this data in your work, please cite:
 
@@ -24,6 +29,8 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2019-10-30 v2.5
+   * Work has been done with AUX types including aux:neg, aux:imp, aux:cnd for dealing with what were  earlier modal particles. This work also included balancing with the beginning Moksha-JR, Komi_Permyak-UH, Skolt_Sami-Giellagas as well as the Komi_Zyrian projects and Livvi-KKPP. 
 * 2019-05-15 v2.4
   * Fixed errors found by new validation tests.
 * 2018-11-15 v2.3
@@ -40,7 +47,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: manual native
-Contributors: Rueter, Jack; Tyers, Francis
+Contributors: Rueter, Jack; Tyers, Francis; Klementieva, Elena; Erina, Olga; Riabov, Ivan
 Contributing: here
 Contact: rueter.jack@gmail.com
 ===============================================================================
