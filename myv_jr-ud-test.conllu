@@ -1488,11 +1488,11 @@
 6	а	а	AUX	Pcle	Polarity=Neg	7	aux:neg	_	GTtags=Neg
 7	ков	ков	ADV	Adv	AdvType=Loc|Case=Lat|PronType=Int	5	advmod	_	GTtags=Interr,Spat,Lat|SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
-9	кулома	куломс	VERB	V	Derivation=Oma|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1|VerbForm=Part	3	conj	_	GTtags=IV,Oblig,Prs,ScSg3
+9	кулома	куломс	VERB	V	Case=Nom|Definite=Ind|Derivation=Vnoun|Number=Sing|Valency=1	3	conj	_	GTtags=IV,Oblig,Prs,ScSg3
 10	ашотнеде	ашо	NOUN	N	Case=Abl|Definite=Def|Number=Plur	9	obl	_	GTtags=Pl,Abl,Def|SpaceAfter=No
 11	,	,	PUNCT	CLB	_	14	punct	_	_
 12	эли	эли	CCONJ	CC	_	14	cc	_	_
-13	изнямот	изнямс	VERB	V	Derivation=Oma|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2|VerbForm=Part	3	conj	_	GTtags=TV,Dial,Oblig,Prs,ScSg3
+13	изнямот	изнямс	VERB	V	Case=Nom|Definite=Ind|Derivation=Vnoun|Number=Plur|Valency=2	3	conj	_	GTtags=TV,Dial,Oblig,Prs,ScSg3
 14	сынст	сон	PRON	Pron	Case=Gen|Number=Plur|Person=3|PronType=Prs	13	obj	_	GTtags=Pers,Pl3,Gen|SpaceAfter=No
 15	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -3747,7 +3747,7 @@
 7	колмо	колмо	NUM	Num	NumType=Card	8	nummod	_	GTtags=Card
 8	лишметь	лишме	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	3	nsubj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
 9	,	,	PUNCT	CLB	_	11	punct	_	_
-10	дуборсо	дуборсо	ADV	Adv	Case=Ine	11	advmod	_	GTtags=Ideoph,Ine
+10	дуборсо	дуборсо	ADV	Adv	AdvType=Ideoph|Case=Ine	11	advmod	_	GTtags=Ideoph,Ine
 11	мольсть	молемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	3	conj	_	GTtags=IV,Ind,Prt1,ScPl3
 12	тол	тол	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	13	compound	_	GTtags=Sg,Nom,Indef
 13	пандянть	пандя	NOUN	N	Case=Gen|Definite=Def|Number=Sing	11	obl	_	GTtags=Sg,Gen,Def
@@ -4765,7 +4765,7 @@
 2	енть	ось	PRON	Pron	Case=Gen|Definite=Def|Number=Sing	3	obj	_	GTtags=Sg,Gen,Def
 3	таргамга	таргамс	VERB	V	Case=Prl|Definite=Ind|VerbForm=Vnoun	5	advcl	_	GTtags=mgaInf,Prl,Indef
 4	парцунонть	парцун	NOUN	N	Case=Gen|Definite=Def|Number=Sing	5	obj	_	GTtags=Sem/Inanim_Cnt,Sg,Gen,Def
-5	тапама	тапамс	VERB	V	Derivation=Oma|VerbForm=Conv	0	root	_	GTtags=Oblig|SpaceAfter=No
+5	тапама	тапамс	VERB	V	Derivation=Oma|Mood=Nec|VerbForm=Conv	0	root	_	GTtags=Oblig|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = BryzhinskijMixail_Kirdazht_manu:153
@@ -5743,7 +5743,7 @@
 8	ниле	ниле	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	9	nummod	_	GTtags=Sg,Nom,Indef
 9	лейга	лей	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	11	obl	_	GTtags=Sem/Inanim_Cnt,SP,Prl,Indef
 10	мик	мик	ADV	Adv	_	9	advmod	_	_
-11	уема	уемс	VERB	V	Derivation=Oma|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1|VerbForm=Conv	1	conj	_	GTtags=IV,Oblig,Prs,ScSg3|SpaceAfter=No
+11	уема	уемс	VERB	V	Derivation=Oma|Mood=Nec|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1|VerbForm=Conv	1	conj	_	GTtags=IV,Oblig,Prs,ScSg3|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	14	punct	_	_
 13	зярс	зярс	ADV	Adv	AdvType=Tim|Derivation=Ill	14	mark	_	GTtags=Der/Ill,Adv,Sem/Time
 14	понгат	понгомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres|Valency=1	11	advcl	_	GTtags=IV,Ind,Prs,ScSg2
@@ -6258,7 +6258,7 @@
 4	тей	тей	ADV	Adv	AdvType=Loc|Case=Lat	3	obl	_	GTtags=Spat,Lat
 5	пек	пек	ADV	Adv	AdvType=Deg	3	advmod	_	GTtags=Degree
 6	—	—	PUNCT	CLB	_	7	punct	_	_
-7	важодема	важодемс	VERB	V	Derivation=Oma|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Conv	3	conj	_	GTtags=Oblig,Prs,ScSg3
+7	важодема	важодемс	VERB	V	Derivation=Oma|Mood=Nec|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Conv	3	conj	_	GTtags=Oblig,Prs,ScSg3
 8	весенень	весе	PRON	Pron	Case=Dat|Definite=Ind|PronType=Tot	7	obl:agent	_	GTtags=Tot,Dat,Indef|SpaceAfter=No
 9	,	,	PUNCT	CLB	_	11	punct	_	_
 10	пенчень	пенчень	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	11	obj	_	GTtags=SP,Gen,Indef
@@ -7304,7 +7304,7 @@
 27	те	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	29	nsubj	_	GTtags=Dem,Sg,Nom,Indef|Gloss=this
 28	свал	свал	ADV	Adv	AdvType=Tim|PronType=Tot	29	advmod	_	GTtags=Tot,Sem/Time_dur|Gloss=always
 29-30	тейнема	_	_	_	_	_	_	_	SpaceAfter=No
-29	тейнема	тейнемс	VERB	V	Derivation=Oma|Valency=2|VerbForm=Conv	3	parataxis	_	GTtags=TV,Oblig|Gloss=do
+29	тейнема	тейнемс	VERB	V	Derivation=Oma|Mood=Nec|Valency=2|VerbForm=Conv	3	parataxis	_	GTtags=TV,Oblig|Gloss=do
 30	_	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=3|Tense=Pres	29	cop	_	GTtags=Prs,ScSg3|Gloss=do
 31	,	,	PUNCT	CLB	_	34	punct	_	_
 32	кенкштне	кенкш	NOUN	N	Case=Nom|Definite=Def|Number=Plur	34	nsubj	_	GTtags=Sem/Inanim_Cnt,Pl,Nom,Def|Gloss=gate
@@ -8118,7 +8118,7 @@
 3	пшти	пшти	ADJ	A	_	4	amod	_	_
 4	пеель	пеель	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	obl	_	GTtags=Sem/Tool,Sg,Nom,Indef
 5	прясо	пря	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	4	case	_	GTtags=Sem/Body_part,SP,Ine,Indef
-6	карама	карамс	VERB	V	Derivation=Oma|VerbForm=Conv	0	root	_	GTtags=Oblig
+6	карама	карамс	VERB	V	Derivation=Oma|Mood=Nec|VerbForm=Conv	0	root	_	GTtags=Oblig
 7	эрьва	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	8	det	_	GTtags=Sg,Nom,Indef
 8	пельксэнтень	пелькс	NOUN	N	Case=Dat|Definite=Def|Number=Sing	6	obl	_	GTtags=Sg,Dat,Def
 9	сень	се	PRON	Pron	Case=Gen|PronType=Ind	6	obj	_	GTtags=Indef,Gen|SpaceAfter=No
@@ -9740,7 +9740,6 @@
 #status_fin="tieteellinen"
 #license="">
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2429
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:1:1 # src="Эрзянь моросто"
 # text = Вай, веле, веле, жой веле...
 1	Вай	вай	INTJ	Interj	_	3	discourse	_	GTtags=|SpaceAfter=No
@@ -9749,12 +9748,11 @@
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	веле	веле	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	conj	_	GTtags=Sem/Plc,Sg,Nom,Indef|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	8	punct	_	_
-7	жой	жой	ADV	Adv	_	8	advmod	_	GTtags=Ideoph
+7	жой	жой	ADV	Adv	AdvType=Ideoph	8	advmod	_	GTtags=Ideoph
 8	веле	веле	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	conj	_	GTtags=Sem/Plc,Sg,Nom,Indef|SpaceAfter=No
 9	...	...	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4007
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:1:1
 # text = Моданть лангсо ули мастор, кона моли ашосо копачазь умарь чувто ёнов.
 1	Моданть	мода	NOUN	N	Case=Gen|Definite=Def|Number=Sing	0	root	_	GTtags=Sg,Gen,Def
@@ -9772,7 +9770,6 @@
 13	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5405
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:1:2
 # text = Сонзэ лемезэ — Эйкакш пинге.
 1	Сонзэ	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod	_	GTtags=Pers,Sg3,Gen
@@ -9783,7 +9780,6 @@
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3905
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:1:3
 # text = Кадык аволь свал те ёнкссонть тундо, кадык а лымби маласонзо иневедь, сондензэ мазый ялатеке а муят.
 1	Кадык	кадык	AUX	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Valency=2	6	aux:opt	_	GTtags=TV,Imprt,ScSg2,OcSg3
@@ -9807,7 +9803,6 @@
 19	.	.	PUNCT	CLB	_	18	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5350
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:1:4
 # text = Мазый сон мик стакачисэнзэяк.
 1	Мазый	мазый	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	_
@@ -9817,7 +9812,6 @@
 5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3336
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:2:1
 # text = Лиясто кевкстнить эйсэнь.
 1	Лиясто	лиясто	ADV	Adv	AdvType=Tim	2	advmod	_	GTtags=Sem/Time
@@ -9826,7 +9820,6 @@
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4898
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:3:1
 # text = Кода тон кочкат ёвтнеминетнень?
 1	Кода	кода	ADV	Adv	AdvType=Man|PronType=Int	3	advmod	_	GTtags=Interr,Manner
@@ -9836,7 +9829,6 @@
 5	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5200
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:3:2
 # text = Кода пангт эли нормальть?
 1	Кода	кода	ADV	Adv	AdvType=Man|PronType=Int	0	root	_	GTtags=Interr,Manner
@@ -9846,14 +9838,12 @@
 5	?	?	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3844
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:3:3
 # text = Кува?
 1	Кува	кува	ADV	Adv	Case=Prl|PronType=Int	0	root	_	GTtags=Interr,Prl|SpaceAfter=No
 2	?	?	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3751
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:4:1
 # text = Мерян яла истя.
 1	Мерян	меремс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg1
@@ -9862,7 +9852,6 @@
 4	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3116
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:5:1
 # text = Эйкакшонь масторга.
 1	Эйкакшонь	эйкакш	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	2	nmod	_	GTtags=SP,Gen,Indef
@@ -9870,7 +9859,6 @@
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3068
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:6:1
 # text = Ды те истя улияк.
 1	Ды	ды	CCONJ	CC	_	3	cc	_	_
@@ -9880,7 +9868,6 @@
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3974
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:7:1
 # text = Чачинь-касынь мон эрзянь покш велесэ.
 1	Чачинь-касынь	чачомс-касомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg1
@@ -9891,7 +9878,6 @@
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4665
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:7:2
 # text = Ацамокс тень сеетьстэ эрсесь пиже нарось, вельксэкс — тештьсэ сялгонезь менелесь.
 1	Ацамокс	ацамо	NOUN	N	Case=Tra|Definite=Ind|Number=Plur,Sing	4	acl	_	GTtags=SP,Tra,Indef|Gloss[eng]=bedding
@@ -9909,7 +9895,6 @@
 13	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1700
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:7:3
 # text = Малавикс ялгакс ульнесть веленек перька келейстэ сравтнезь паксятне, васов чииця китне, кстыйде якстердиця вирь кужотне...
 1	Малавикс	малавикс	ADJ	A	_	2	amod	_	_
@@ -9932,7 +9917,6 @@
 18	...	...	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1049
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:7:4
 # text = Сынь тонавтсть эйсэнь мазычинть редямо, марямо ды тееме.
 1	Сынь	сынь	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Pl3,Nom
@@ -9947,7 +9931,6 @@
 10	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3833
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:8:1
 # text = Те масторсонть васенцеде мария, кода каштордыть пшти сельме тештне.
 1	Те	те	DET	Det	Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg
@@ -9963,7 +9946,6 @@
 11	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:239
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:9:1
 # text = Ансяк, кеман, ламодонть аволинь карма чарькодеме, аволь ульгак маласом авам.
 1	Ансяк	ансяк	ADV	Adv	_	8	advmod	_	GTtags=Exclusive|SpaceAfter=No
@@ -9982,7 +9964,6 @@
 14	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3628
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:5:9:2
 # text = Сон тонавтымим вирьга-укшторга якамо, паро тевень тееме.
 1	Сон	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
@@ -9996,7 +9977,6 @@
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:304
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:9:3
 # text = Шкинем, яла тень сонсь ледстниль, понгавтнесь лавсензэ пиземе чирькес ды нурсиль эйсэнь Пургине паздонть апак пеле.»
 1	Шкинем	Шки	PROPN	N	Case=Nom|Derivation=Dimin|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	discourse	_	GTtags=Prop,Der/Dimin,N,Sg,Nom,PxSg1|SpaceAfter=No
@@ -10021,7 +10001,6 @@
 20	»	»	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1079
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:10:1
 # text = ... «Ков сыргить?» — кевкстни эйсэнь лиясто седеем.
 1	...	...	PUNCT	PUNCT	_	4	punct	_	_
@@ -10038,7 +10017,6 @@
 12	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3255
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:11:1
 # text = «Тов, кува чийнесь пакша пингем».
 1	«	«	PUNCT	PUNCT	_	2	punct	_	GTtags=|SpaceAfter=No
@@ -10052,7 +10030,6 @@
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5196
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:12:1
 # text = Ды якинь тов а стяко.
 1	Ды	ды	CCONJ	CC	_	2	cc	_	GTtags=|Gloss[eng]=and
@@ -10063,7 +10040,6 @@
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:402
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:12:2
 # text = Чаво эзинь велявтне.
 1	Чаво	чаво	ADJ	A	_	3	acl	_	_
@@ -10072,7 +10048,6 @@
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3555
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:12:3
 # text = Пештором свал пештния сиякс жойниця валдо ды домка арсемадо.
 1	Пештором	Пештором	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obj	_	GTtags=Sg,Gen,PxSg1
@@ -10087,7 +10062,6 @@
 10	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2542
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:13:1
 # text = Истя вана Эйкакш пингень мастором марто вастнематне лездасть тень пурнамс ве таркас неть велень вайгельтнень.
 1	Истя	истя	ADV	Adv	AdvType=Man	8	advmod	_	GTtags=Manner
@@ -10108,7 +10082,6 @@
 16	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2726
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:13:2
 # text = Сынь ёвтнить аволь шождынестэ эрязь иетнеде, ёжомарямотнеде, паксятнень-виртнень певтеме мазычидест...
 1	Сынь	сынь	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Pl3,Nom
@@ -10129,7 +10102,6 @@
 15	...	...	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4691
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:14:1
 # text = Лездасть тень сёрмадомо аволь ансяк умонь читне.
 1	Лездасть	лездамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3
@@ -10142,7 +10114,6 @@
 8	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3744
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:14:2
 # text = Сонсь течинь шкась, кона теи тевензэ киньгак апак кевкстне, эзь ульне тень нежекс?
 1	Сонсь	сонсь	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	det	_	GTtags=Refl,Sg3,Nom
@@ -10163,7 +10134,6 @@
 16	?	?	PUNCT	CLB	_	14	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:904
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:14:3
 # text = Кие мерсь, чивалгома эрси чилисемавтомо?
 1	Кие	кие	PRON	Pron	Animacy=Hum|Case=Nom|Number=Sing|PronType=Int	2	nsubj	_	GTtags=Interr,Hum,Sg,Nom
@@ -10175,7 +10145,6 @@
 7	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5260
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:15:1
 # text = Меельце иетнестэ пек берякадсь перть пельксэнть ёжозо.
 1	Меельце	меельце	ADJ	A	_	2	amod	_	GTtags=Ord|Gloss[eng]=last
@@ -10188,7 +10157,6 @@
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3976
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:15:2
 # text = Ансяк седеяк беряньстэ мари прянзо тиринь келенек.
 1	Ансяк	ансяк	ADV	Adv	_	3	advmod	_	GTtags=Exclusive
@@ -10201,7 +10169,6 @@
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3489
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:15:3
 # text = Ёми сон сельмень неезь.
 1	Ёми	ёмамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3|Gloss[eng]=disappear
@@ -10211,7 +10178,6 @@
 5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2864
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:15:4
 # text = Мезе теемс?
 1	Мезе	Мезе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	2	obj	_	GTtags=Interr,Sg,Nom,Indef|Gloss[eng]=what
@@ -10219,7 +10185,6 @@
 3	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1982
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:15:5
 # text = Кода ванстомс мельганок сыцятненень?
 1	Кода	кода	ADV	Adv	AdvType=Man|PronType=Int	2	advmod	_	GTtags=Interr,Manner|Gloss[eng]=how
@@ -10229,7 +10194,6 @@
 5	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:597
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:15:6
 # text = Каня сонзэ марто апарось аволь сюлмавкс умонь ды неень шкатнень марто?
 1	Каня	каня	PART	Pcle	_	6	advmod	_	GTtags=Qst|Gloss[eng]=could.it.be.that
@@ -10246,7 +10210,6 @@
 12	?	?	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1093
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:16:1
 # text = Книганть ловномсто вастоват, вечкевикс ялгай, стувтовиця валтнэнь мартояк.
 1	Книганть	книга	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	obj	_	GTtags=Sg,Gen,Def|Gloss[eng]=book
@@ -10262,7 +10225,6 @@
 11	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4292
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:16:2
 # text = Лиятне эйстэст, мезеяк а теят, сыредсть.
 1	Лиятне	лия	DET	Det	Case=Nom|Definite=Def|Number=Plur	8	nsubj	_	GTtags=Der/MWN,N,Pl,Nom,Def|Gloss[eng]=other
@@ -10276,7 +10238,6 @@
 9	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2919
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:16:3
 # text = Ламотне вана, седеяк седей ризкс сайтянзат, полавтовсть ды яла полавтовить рузонь валсо.
 1	Ламотне	ламо	DET	Det	Case=Nom|Definite=Def|Number=Plur	9	nsubj	_	GTtags=Qnt,Der/MWN,N,Pl,Nom,Def|Gloss[eng]=many
@@ -10296,7 +10257,6 @@
 15	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:259
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:ЛОВНЫЦЯНТЕНЬ:6:17:1
 # text = Чуросто вастневиця валтнэнь сёрмадомань коцтонтень совавтомсто ульнесь превсэм ве мель: сюпалгавтомс, кода маштан, течи истя сэредиця чачома келем.
 1	Чуросто	чуросто	ADV	Adv	_	2	advmod	_	GTtags=Qnt
@@ -10323,7 +10283,6 @@
 22	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1315
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:1:1
 # text = Лиясто эрси истяяк: кись, кува ансяк эскелить мелявксонь апак сода, а фатяткак, кода туи лия ёнов.
 1	Лиясто	лиясто	ADV	Adv	AdvType=Tim	2	advmod	_	GTtags=Sem/Time
@@ -10349,7 +10308,6 @@
 21	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4684
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:2:1
 # text = Мезе теемс?
 1	Мезе	мезе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	2	obj	_	GTtags=Interr,Sg,Nom,Indef
@@ -10357,7 +10315,6 @@
 3	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4230
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:3:1
 # text = Арсят-теят ды сыргат седе тов, ков вети.
 1	Арсят-теят	арсемс-теемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg2
@@ -10371,7 +10328,6 @@
 9	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:391
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:3:2
 # text = Кодамо сон илязо уле, виде эли кадык тей-тов менчевиця, козоньгак ды ветятанзат.
 # text[eng] = Regardless of what kind it is, straight or even meandering, it will take you somewhere. 
@@ -10392,7 +10348,6 @@
 15	.	.	PUNCT	CLB	_	14	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3681
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:3:3
 # text = Парсте-беряньстэ — ве таркасо а аштят.
 1	Парсте-беряньстэ	Парсте-беряньстэ	ADV	Adv	AdvType=Man	6	advmod	_	GTtags=Manner
@@ -10404,7 +10359,6 @@
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4174
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:4:1
 # text = Эрси лиякскак: молят — моро морат, токны седееть паро ёжодонть, ды апак учо — киуло.
 1	Эрси	эрсемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3
@@ -10428,7 +10382,6 @@
 19	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5139
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:5:1
 # text = Ков пурдамс?
 # text[eng] = Which way to turn?
@@ -10437,7 +10390,6 @@
 3	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2383
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:5:2
 # text = Кона ёно ашосо лексить умарь пиретне?
 1	Кона	кона	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	4	obl	_	GTtags=Interr,Sg,Nom,Indef
@@ -10449,7 +10401,6 @@
 7	?	?	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1529
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:5:3
 # text = Кона пелев ноцковтомс ветямо пиксэнть?
 1	Кона	кона	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	3	obl	_	GTtags=Interr,Sg,Nom,Indef
@@ -10460,7 +10411,6 @@
 6	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:6:1
 # text = Ва, цёра, иля маняво.
 1	Ва	ва	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2	6	discourse	_	GTtags=Imprt,ScSg2|SpaceAfter=No
@@ -10472,7 +10422,6 @@
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5086
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:7:1
 # text = Талномадонть лангат валови прок пси ведь.
 1	Талномадонть	талнома	NOUN	N	Case=Abl|Definite=Def|Number=Sing	3	obl	_	GTtags=Sg,Abl,Def
@@ -10484,7 +10433,6 @@
 7	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:325
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:7:2
 # text = Кавтолдоматнеде, секень вант, лазови прят.
 1	Кавтолдоматнеде	кавтолдома	NOUN	N	Case=Abl|Definite=Def|Number=Plur	6	obl	_	GTtags=Pl,Abl,Def|SpaceAfter=No
@@ -10497,7 +10445,6 @@
 8	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3547
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:8:1
 # text = Истят стака таркат Эрямонь кинть лангсо вастневить аволь чуросто.
 1	Истят	истямо	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	3	det	_	GTtags=Dem,Pl,Nom,Indef
@@ -10512,7 +10459,6 @@
 10	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4522
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:8:2
 # text = Лиясто истямо кирашкос эртеват, а содат — конась эйстэст терди валдодо пешксе вирень кужос, конась тусто чопода таркас.
 1	Лиясто	лиясто	ADV	Adv	AdvType=Tim	4	advmod	_	GTtags=Sem/Time€|gloss[eng]=sometimes
@@ -10538,14 +10484,12 @@
 21	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3829
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:9:1
 # text = Киулот...
 1	Киулот	киуло	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	0	root	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
 2	...	...	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4679
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:10:1
 # text = Ков эйстэст туят?
 1	Ков	ков	ADV	Adv	Case=Lat|PronType=Int	3	obl	_	GTtags=Interr,Lat
@@ -10554,7 +10498,6 @@
 4	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5008
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Киулот:7:11:1
 # text = Козонь, ёвтык, кекшат седейс токиця «ков?» кевкстемадонть?
 1	Козонь	козонзь	ADV	Adv	Case=Ill|PronType=Int	5	obl	_	GTtags=Interr,Ill|SpaceAfter=No
@@ -10572,7 +10515,6 @@
 13	?	?	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4515
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :7:1:1
 # text = Ютасть мазый шканзо лёмзёр чувтыненть.
 1	Ютасть	ютамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScPl3|Gloss[eng]=pass
@@ -10583,14 +10525,12 @@
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1204
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :7:1:2
 # text = Оймась.
 1	Оймась	оймамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3|Gloss[eng]=begin.to.rest|SpaceAfter=No
 2	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2160
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :7:1:3
 # text = Ней ашосо вельтявсть вакссонзо умаринась ды атямаресь.
 1	Ней	ней	ADV	Adv	AdvType=Tim	3	advmod	_	GTtags=Sem/Time|Gloss[eng]=now
@@ -10603,7 +10543,6 @@
 8	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4262
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :7:1:4
 # text = Мерят валгсть менельстэнть моданть лангс оймсеме кавто пельнеть.
 1	Мерят	меремс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg2
@@ -10617,7 +10556,6 @@
 9	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:660
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:2:1
 # text = Монень маряви, тундонь неть читнестэ ашолгадыть аволь ансяк чувттнэ-куракштне.
 1	Монень	мон	PRON	Pron	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Long	2	obl	_	GTtags=Pers,Sg1,Dat,Variant=Long|Gloss[eng]=I
@@ -10636,7 +10574,6 @@
 13	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:644
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:2:2
 # text = Ашодонть валдоми седей ойменекак.
 1	Ашодонть	ашо	NOUN	N	Case=Abl|Definite=Def|Number=Sing	2	obl	_	GTtags=Sg,Abl,Def|Gloss[eng]=white.color
@@ -10646,7 +10583,6 @@
 5	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3009
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:2:3
 # text = Тееви эрьвась эйстэнек седе седеймарицякс ды мель ваныцякс.
 1	Тееви	теевемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3|Gloss[eng]=become
@@ -10660,7 +10596,6 @@
 9	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1463
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:2:4
 # text = Мазыйгады, теке басом, сонсь эрямоськак.
 1	Мазыйгады	мазыйгадомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3|Gloss[eng]=become.beautiful|SpaceAfter=No
@@ -10673,7 +10608,6 @@
 8	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4729
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:3:1
 # text = Зярдо, кона шкане, видеяк, перьканок седе аламо теевить зыянтнэде ды нулготькс тевтнеде?
 1	Зярдо	зярдо	ADV	Adv	AdvType=Tim|PronType=Int	11	advmod	_	GTtags=Interr,Sem/Time|Gloss[eng]=when|SpaceAfter=No
@@ -10694,7 +10628,6 @@
 16	?	?	PUNCT	CLB	_	11	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5179
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:3:2
 # text = Тунда, ламартнень панжома шкава, эли, паряк, сёксня?
 1	Тунда	тунда	ADV	Adv	AdvType=Tim	0	root	_	GTtags=Sem/Time|Gloss[eng]=in.the.spring|SpaceAfter=No
@@ -10711,7 +10644,6 @@
 12	?	?	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3991
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:4:1
 # text = Седеем тень истя тошкси: майстэ, майстэ...
 1	Седеем	седей	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	GTtags=Sg,Nom,PxSg1|Gloss[eng]=heart
@@ -10725,7 +10657,6 @@
 9	...	...	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3413
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:4:2
 # text = Те шкастонть эрьвась бажи улемс лиякс, эрьванть седе валдоми чачозо.
 1	Те	те	DET	Det	Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg|Gloss[eng]=this
@@ -10742,7 +10673,6 @@
 12	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3437
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:4:3
 # text = Те ковось — паро мелень видема ков.
 1	Те	те	DET	Det	Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg|Gloss[eng]=this
@@ -10755,7 +10685,6 @@
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1666
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:5:1
 # text = Видестэ-арась тошкси сон, седеем?
 1-3	Видестэ-арась	_	_	_	_	_	_	_	_
@@ -10769,7 +10698,6 @@
 8	?	?	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2788
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:5:2
 # text = Ильветькс а маряви сонзэ валтнэсэ?
 1	Ильветькс	ильветькс	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	nsubj	_	GTtags=Sg,Nom,Indef|Gloss[eng]=error
@@ -10780,7 +10708,6 @@
 6	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3501
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Кить минь? :8:6:1
 # text = Бути, алкукскак, а истя ды ламотне эйстэнек неть ашо моронь морыця шкатнева тейнить чопода тевть... сестэ кить минь?
 1	Бути	бути	SCONJ	CS	_	6	mark	_	GTtags=|Gloss[eng]=if|SpaceAfter=No
@@ -10807,7 +10734,6 @@
 22	?	?	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3351
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:1:1
 # text = — Седеяк парсте туи... — мерсь каршом Саша, зярдо мон невтинь тикшень ледицятнень лангс, — одс кепети, седеяк мазыйстэ карми пижелдэме.
 1	—	—	PUNCT	PUNCT	_	4	punct	_	_
@@ -10838,7 +10764,6 @@
 26	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2076
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:2:1
 # text = — Содазь, туи...
 1	—	—	PUNCT	PUNCT	_	4	punct	_	_
@@ -10848,7 +10773,6 @@
 5	...	...	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5035
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:2:2
 # text = Прындеряй теке марто пиземе.
 1	Прындеряй	прамс	VERB	V	Mood=Cnd|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Der/Cond,V,Ind,Prs,ScSg3|Gloss[eng]=fall
@@ -10858,7 +10782,6 @@
 5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:907
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:2:3
 # text = «Ансяк...» — арсезевинь ды эзия ёвта, мезе ёвтыксэлинь.
 1	«	«	PUNCT	CLB	_	2	punct	_	GTtags=|SpaceAfter=No
@@ -10876,7 +10799,6 @@
 13	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5116
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:3:1
 # text = — «Ансяк»...
 1	—	—	PUNCT	PUNCT	_	3	punct	_	_
@@ -10886,7 +10808,6 @@
 5	...	...	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3738
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:3:2
 # text = Мезе мериксэлить? — кундась валозом Саша.
 1	Мезе	мезе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	2	obj	_	GTtags=Interr,Sg,Nom,Indef|Gloss[eng]=whatt
@@ -10899,7 +10820,6 @@
 8	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4504
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:4:1
 # text = Цёрась сон а берянь.
 1	Цёрась	цёра	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	GTtags=Sg,Nom,Def|Gqloss[neg]=man
@@ -10909,7 +10829,6 @@
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:224
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:4:2
 # text = Кортамскак мартонзо, кода мерить, ули мезде.
 1	Кортамскак	кортамс	VERB	V	Clitic=Gak|Valency=1|VerbForm=Inf	0	root	_	GTtags=IV,Inf,Clitic=Gak|Gloss[eng]=talk
@@ -10923,7 +10842,6 @@
 9	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:988
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:4:3
 # text = Чарькодтяно вейкенек-вейкенек пель валсто.
 1	Чарькодтяно	чарькодемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScPl1|Gloss[eng]=understand
@@ -10933,7 +10851,6 @@
 5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2520
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:4:4
 # text = Эрсить, содазь, ютксонок пелькстамоткак.
 1	Эрсить	эрсемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3|Gloss[eng]=occur|SpaceAfter=No
@@ -10945,7 +10862,6 @@
 7	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4335
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:4:5
 # text = Аволь тентеме.
 1	Аволь	аволь	AUX	Pcle	PartType=Emp|Polarity=Neg	2	aux:neg	_	GTtags=Neg,Intensive|Gloss[eng]=not
@@ -10953,7 +10869,6 @@
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1661
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:4:6
 # text = Ялатеке, мезде арсинь ней, ве мельс, содан, аволинек пра.
 1	Ялатеке	ялатеке	ADV	Adv	_	13	advmod	_	GTtags=|Gloss[eng]=who.cares|SpaceAfter=No
@@ -10972,7 +10887,6 @@
 14	.	.	PUNCT	CLB	_	13	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3090
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:4:7
 # text = Секс валомгак эзинь прядо.
 1	Секс	секс	ADV	Adv	_	4	advmod	_	GTtags=|Gloss[eng]=for.this.reason
@@ -10982,7 +10896,6 @@
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1159
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:5:1
 # text = ... Аволить пелюмасост школань умарь пиресэ кавто цёрат.
 1	...	...	PUNCT	CLB	_	2	punct	_	_
@@ -10996,7 +10909,6 @@
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:818
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:5:2
 # text = Ледить кувтолдыця чахратнеде нар панкскенть.
 1	Ледить	ледемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScPl3|Gloss[eng]=mow
@@ -11007,7 +10919,6 @@
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5336
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:5:3
 # text = Прок сырнень тештинеть сыреждить чувттнэнь ялга-юткова.
 1	Прок	прок	PART	Pcle	_	3	advmod	_	GTtags=|Gloss[eng]=like
@@ -11019,7 +10930,6 @@
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3910
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:5:4
 # text = Ванан лангозост, ды маряви тень, морыть ансяк монень марявиця моро.
 1	Ванан	ваномс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg1
@@ -11037,7 +10947,6 @@
 13	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3726
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:5:5
 # text = Ансяк вана кичкере пеельтне...
 1	Ансяк	ансяк	ADV	Adv	_	4	advmod	_	GTtags=Exclusive
@@ -11047,7 +10956,6 @@
 5	...	...	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3295
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:6:1
 # text = Чахрат ды... пелюма.
 1	Чахрат	чахра	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	0	root	_	GTtags=Pl,Nom,Indef
@@ -11057,7 +10965,6 @@
 5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3805
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:7:1
 # text = Варштынь эсест, ледицятнень, лангс, ды теке сардынеть сялгсть седейзэм.
 1	Варштынь	варштамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg1
@@ -11075,7 +10982,6 @@
 13	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4534
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:8:1
 # text = «Кадынк, кадынк пелюманк, цёрат! — ульнесь мелем серьгедемс тенст.
 1	«	«	PUNCT	CLB	_	2	punct	_	GTtags=|SpaceAfter=No
@@ -11094,7 +11000,6 @@
 14	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1031
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:8:2
 # text = — Кадык ютавтсызь балягатне пеетькшнема шкаст.
 1	—	—	PUNCT	PUNCT	_	3	punct	_	_
@@ -11106,7 +11011,6 @@
 7	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1935
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:8:3
 # text = Кольнить ояст-ялгаст марто.
 1	Кольнить	кольнемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3
@@ -11118,7 +11022,6 @@
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1822
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:8:4
 # text = Кенярдыть мазычисэст, кенярдовтыть весень».
 1	Кенярдыть	кенярдомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3
@@ -11130,7 +11033,6 @@
 7	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2579
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:10:1
 # text = Панжовкскетнеде перьканок певтеме.
 1	Панжовкскетнеде	панжовкске	NOUN	N	Case=Abl|Definite=Def|Number=Plur	3	obl	_	GTtags=Pl,Abl,Def
@@ -11139,7 +11041,6 @@
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1838
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:10:2
 # text = Тундонь, кизэнь, сэнть, теке менель, якстереть, ожот...
 1	Тундонь	тундо	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	GTtags=SP,Gen,Indef|Gloss[eng]=spring|SpaceAfter=No
@@ -11157,7 +11058,6 @@
 13	...	...	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2671
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:10:3
 # text = Ансяк кодат иляст уле, весемеде мазыйтне эйстэдест, монень маряви, розась ды макось.
 1	Ансяк	ансяк	ADV	Adv	_	2	advmod	_	GTtags=Exclusive
@@ -11178,7 +11078,6 @@
 16	.	.	PUNCT	CLB	_	13	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3145
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:11:1
 # text = Конась седе мазый эсь ютковаст?
 1	Конась	кона	DET	Det	Case=Nom|Definite=Def|Number=Sing|PronType=Int	3	nsubj	_	GTtags=Interr,Sg,Nom,Def
@@ -11191,7 +11090,6 @@
 7	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3654
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:12:1
 # text = Ламотне, кеман, невтить розанть лангс.
 1	Ламотне	ламо	DET	Det	Case=Nom|Definite=Def|Number=Plur	5	nsubj	_	GTtags=Qnt,Der/MWN,N,Pl,Nom,Def|SpaceAfter=No
@@ -11204,7 +11102,6 @@
 8	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2880
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:12:2
 # text = Мезе мерят, истя, нать, улияк.
 1	Мезе	мезе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	2	obj	_	GTtags=Interr,Sg,Nom,Indef
@@ -11218,7 +11115,6 @@
 9	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2053
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:12:3
 # text = Зяро стихть ды морот сондензэ сёрмадозь!
 1	Зяро	зяро	DET	Adv	PronType=Int	2	det	_	GTtags=Interr
@@ -11230,7 +11126,6 @@
 7	!	^excl	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1560
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:12:4
 # text = Кодамо свадьба, кодамо чачома чи эрси розавтомо?
 1	Кодамо	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	2	amod	_	GTtags=Interr,Sg,Nom,Indef
@@ -11244,7 +11139,6 @@
 9	?	?	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:673
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:12:5
 # text = Розат, розат, розат..
 1	Розат	роза	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	0	root	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
@@ -11255,7 +11149,6 @@
 6	..	..	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2420
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:12:6
 # text = Теке сялгонзояк те касовксонть арасть.
 # text[eng] = As if this plant didn't have any spines.
@@ -11267,7 +11160,6 @@
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4560
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:13:1
 # text = Кадык кольневтить те панжовксонть.
 1	Кадык	кадык	AUX	V	Mood=Opt	2	aux	_	GTtags=TV,Imprt,ScSg2,OcSg3
@@ -11277,14 +11169,12 @@
 5	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3073
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:13:2
 # text = Кадык.
 1	Кадык	кадык	AUX	Aux	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Valency=2	0	root	_	GTtags=|SpaceAfter=No
 2	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2068
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:13:3
 # text = Кинь мельс мезе тукшны.
 1	Кинь	кие	PRON	_	Animacy=Hum|Case=Gen|PronType=Int	2	nmod	_	GTtags=Pron,Interr,Sem/Hum,Gen
@@ -11294,7 +11184,6 @@
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5122
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:13:4
 # text = Мезе тень каршо мерят?
 1	Мезе	мезе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	4	obj	_	GTtags=Interr,Sg,Nom,Indef
@@ -11304,7 +11193,6 @@
 5	?	?	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:22
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:13:5
 # text = Ансяк... ансяк монень маряви весемеде мазыйкс макось.
 1	Ансяк	ансяк	Adv	Adv	_	5	advmod	_	GTtags=Exclusive|SpaceAfter=No
@@ -11318,7 +11206,6 @@
 9	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:570
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:13:6
 # text = Сонензэ мон максовлия апак кавтолдо васенце тарканть.
 1	Сонензэ	сон	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Long	3	obl	_	GTtags=Pers,Sg3,Dat,Long
@@ -11327,11 +11214,10 @@
 4	апак	апак	AUX	Pcle	Polarity=Neg	5	aux	_	GTtags=Neg
 5	кавтолдо	кавтолдомс	VERB	V	Connegative=Yes|Valency=1	3	advcl	_	GTtags=IV,ConNeg
 6	васенце	васенце	DET	Pron	Case=Nom|Definite=Ind|Number=Sing|NumType=Ord|PronType=Dem	7	det	_	GTtags=Dem,Ord,Sg,Nom,Indef
-7	тарканть	тарка	NOUN	N	Sem/Plc|Case=Gen|Definite=Def|Number=Sing	3	obj	_	GTtags=Sem/Plc,Sg,Gen,Def|SpaceAfter=No
+7	тарканть	тарка	NOUN	N	Case=Gen|Definite=Def|Number=Sing	3	obj	_	GTtags=Sem/Plc,Sg,Gen,Def|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3355
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:14:1
 # text = — Маконтень?
 1	—	—	PUNCT	PUNCT	_	2	punct	_	_
@@ -11339,7 +11225,6 @@
 3	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:93
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:15:1
 # text = — Сонензэ, седейбелькскем, сонензэ.
 1	—	—	PUNCT	PUNCT	_	2	punct	_	_
@@ -11351,7 +11236,6 @@
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3347
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:16:1
 # text = — Мезень сельмень сявадома муить эйстэнзэ?
 1	—	—	PUNCT	PUNCT	_	5	punct	_	_
@@ -11363,7 +11247,6 @@
 7	?	?	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3912
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:16:2
 # text = Мейсэ токизе седееть?
 1	Мейсэ	мезе	PRON	Pron	Case=Ine|Definite=Ind|Number=Plur,Sing	2	obl	_	GTtags=SP,Ine,Indef
@@ -11372,7 +11255,6 @@
 4	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3363
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:16:3
 # text = Кинь арсят кецневтемс те чахрасонть?
 1	Кинь	кие	PRON	Pron	Animacy=Hum|Case=Gen|PronType=Int	2	obj	_	GTtags=Interr,Sem/Hum,Gen
@@ -11383,7 +11265,6 @@
 6	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3644
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:17:1
 # text = — Эсень.
 1	—	—	PUNCT	PUNCT	_	2	punct	_	_
@@ -11391,7 +11272,6 @@
 3	.	.	PUNCT	CLB	_	2	punct	_	_
         
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4953
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:18:1
 # text = Розась моли мазый, каштан тейтерь ёнов.
 1	Розась	роза	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Def
@@ -11404,7 +11284,6 @@
 8	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3663
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:18:2
 # text = Прянзо сон лови кие соды мезекс.
 1	Прянзо	пря	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	GTtags=Sg,Gen,PxSg3
@@ -11416,7 +11295,6 @@
 7	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1103
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:18:3
 # text = Мазый, мазый цецясь!
 1	Мазый	мазый	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	4	amod	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
@@ -11426,7 +11304,6 @@
 5	!	!	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3777
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:18:4
 # text = Чинезэ ансяк, корьмай, мезе ашти.
 1	Чинезэ	чине	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	GTtags=Sg,Nom,PxSg3
@@ -11439,7 +11316,6 @@
 8	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:808
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:18:5
 # text = Иредят, секень вант.
 1	Иредят	иредемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg2|SpaceAfter=No
@@ -11448,7 +11324,6 @@
 4	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4407
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:18:6
 # text = Истямс истя, ансяк седей марямка пельдензэ иля кевкстне.
 1	Истямс	истямо	PRON	Pron	Case=Ill|Der|Definite=Ind|Number=Plur,Sing|PronType=Dem|Derivation=MWN	9	advcl	_	GTtags=Dem,Der,Der/MWN,SP,Ill,Indef
@@ -11463,14 +11338,13 @@
 10	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1930
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:18:7
 # text = Чачома тарканзо сонзэ лембе масторт, ансяк вана вановтозо кельме, теке пелеве ёнксонь эрицянь.
 1	Чачома	чачомс	VERB	V	Case=Nom|Definite=Ind|NomAct|Number=Sing	5	nsubj	_	GTtags=NomAct,Sg,Nom,Indef
 2	тарканзо	тарка	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	1	compound	_	GTtags=Pl,Nom,PxSg3
 3	сонзэ	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nmod	_	GTtags=Pers,Sg3,Gen
 4	лембе	лембе	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	5	amod	_	GTtags=Sg,Nom,Indef
-5	масторт	мастор	NOUN	N	Sem/Plc|Case=Nom|Definite=Ind|Number=Plur	0	root	_	GTtags=Sem/Plc,Pl,Nom,Indef|SpaceAfter=No
+5	масторт	мастор	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	0	root	_	GTtags=Sem/Plc,Pl,Nom,Indef|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	10	punct	_	_
 7	ансяк	ансяк	ADV	Adv	_	10	advmod	_	GTtags=Exclusive
 8	вана	вана	Interj	_	_	10	discourse	_	_
@@ -11484,7 +11358,6 @@
 16	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2446
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:19:1
 # text = Варштат панжовкс маконть лангс — мерят тол поколь якстерди.
 1	Варштат	варштамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres|Valency=2	6	advcl	_	GTtags=TV,Ind,Prs,ScSg2
@@ -11499,7 +11372,6 @@
 10	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:75
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:19:2
 # text = Эрьва бельгинезэ ве ёндо неяви липниця толнэкс.
 1	Эрьва	эрьва	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing	2	det	_	GTtags=Qnt,Sg,Nom,Indef
@@ -11512,7 +11384,6 @@
 8	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:641
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:19:3
 # text = Венстик кедеть ды марясак, кода сангат туи лембе.
 1	Венстик	венстемс	VERB	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Valency=2	0	root	_	GTtags=TV,Imprt,ScSg2,OcSg3
@@ -11527,7 +11398,6 @@
 10	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:219
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:19:4
 # text = Каня розась эждьсы ёжот?
 1	Каня	каня	PART	Pcle	_	3	discourse	_	_
@@ -11537,7 +11407,6 @@
 5	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3694
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:20:1
 # text = Нурькине мако панжовксонть эрямонь пингезэ — ансяк кавто-колмо чи.
 1	Нурькине	нурькине	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef
@@ -11552,7 +11421,6 @@
 10	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2048
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:20:2
 # text = Кирвайсь, гувнозь палсь ды мадсь-оймась.
 1	Кирвайсь	кирваземс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	_	x	_	GTtags=IV,Ind,Prt1,ScSg3|SpaceAfter=No
@@ -11564,7 +11432,6 @@
 7	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3676
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:20:3
 # text = Палозь палы сонзэ мазычизэ.
 1	Палозь	паломс	VERB	V	Derivation=Ozj|Der|Valency=1|VerbForm=Conv	2	advcl	_	GTtags=IV,Der,Der/Ozj,Ger
@@ -11574,12 +11441,11 @@
 5	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3256
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:21:1
 # text = Тень кис самай истя вечкса те цецянть.
 1	Тень	те	PRON	Pron	Case=Gen|Definite=Ind|Number=Sing|PronType=Dem	5	obl	_	GTtags=Dem,Sg,Gen,Indef
 2	кис	кис	ADP	Adp	_	1	case	_	_
-3	самай	самай	ADV	Adv	Deg	4	advmod	_	GTtags=Deg
+3	самай	самай	ADV	Adv	AdvType=Deg	4	advmod	_	GTtags=Deg
 4	истя	истя	ADV	Adv	AdvType=Man	5	advmod	_	GTtags=Manner
 5	вечкса	вечкемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg1,OcSg3
 6	те	те	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	7	det	_	GTtags=Dem,Sg,Nom,Indef
@@ -11587,11 +11453,10 @@
 8	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4314
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:9:23:1-2
 # text = Те аволь сэрей, келей лопа тикшесь вастневи эрьва кува. Седе сеетьстэ вирь ки-яннэ ланга, шешкезь таркава.
 1	Те	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	7	det	_	GTtags=Dem,Sg,Nom,Indef
-2	аволь	аволь	PART	Pcle	Emphatic|Polarity=Neg	3	aux:neg	_	GTtags=Neg,Emphatic
+2	аволь	аволь	PART	Pcle	PartType=Emp|Polarity=Neg	3	aux:neg	_	GTtags=Neg,Emphatic
 3	сэрей	сэрей	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	7	amod	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	cc	_	_
 5	келей	келей	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	6	amod	_	GTtags=Sg,Nom,Indef
@@ -11603,16 +11468,15 @@
 11	.	.	PUNCT	CLB	Typo=Yes	8	punct	_	CorrectForm=,
 12	Седе	седе	ADV	Adv	Degree=Cmp|Typo=Yes	13	advmod:deg	_	CorrectForm=седе|GTtags=Comp
 13	сеетьстэ	сеедьстэ	ADV	Adv	Iter|Typo=Yes	14	orphan	_	GTtags=Iter
-14	вирь	вирь	NOUN	N	Sem/Plc|Case=Nom|Definite=Ind|Number=Sing	9	conj	_	GTtags=Sem/Plc,Sg,Nom,Indef
+14	вирь	вирь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	conj	_	GTtags=Sem/Plc,Sg,Nom,Indef
 15	ки-яннэ	ки-яннэ	NOUN	N	_	14	compound	_	_
 16	ланга	ланга	ADP	Adp	Case=Prl	14	case	_	GTtags=Prl|SpaceAfter=No
 17	,	,	PUNCT	CLB	_	19	cc	_	_
 18	шешкезь	шешкемс	VERB	V	Derivation=Ozj|Der|Valency=2|VerbForm=Conv	19	advcl	_	GTtags=TV,Der,Der/Ozj,Ger
-19	таркава	тарка	NOUN	N	Sem/Plc|Case=Prl|Definite=Ind|Number=Plur,Sing	9	conj	_	GTtags=Sem/Plc,SP,Prl,Indef|SpaceAfter=No
+19	таркава	тарка	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	9	conj	_	GTtags=Sem/Plc,SP,Prl,Indef|SpaceAfter=No
 20	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4212
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:9:23:3
 # text = Рузтнэ а стяко лемдизь подорожникекс.
 1	Рузтнэ	руз	NOUN	N	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	4	nsubj	_	GTtags=Sem/Hum,Pl,Nom,Def
@@ -11623,18 +11487,16 @@
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1911
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:9:23:4
 # text = Минек велесэ мерить тензэ шешктикше.
 1	Минек	мон	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	det	_	GTtags=Pers,Pl1,Gen
-2	велесэ	веле	NOUN	N	Sem/Plc|Case=Ine|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=Sem/Plc,SP,Ine,Indef
+2	велесэ	веле	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=Sem/Plc,SP,Ine,Indef
 3	мерить	меремс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScPl3
 4	тензэ	сон	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Short	3	obl	_	GTtags=Pers,Sg3,Dat,Short
 5	шешктикше	шешктикше	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	obj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:656
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:9:23:5
 # text = Паряк, минек кельстэ истямо виде лемесь соваськак рузонь кельс?
 1	Паряк	паряк	PART	Pcle	Epist	8	discourse	_	GTtags=Epist|SpaceAfter=No
@@ -11650,7 +11512,6 @@
 11	?	?	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1197
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:9:24:1
 # text = Те касовкскесь лезды ламо ормадо.
 1	Те	те	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg,Nom,Indef
@@ -11676,7 +11537,6 @@
 11	.	.	PUNCT	CLB	_	10	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2233
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:10:24:1
 # text = Сезть шешктикше лопа, вельтик эйсэнзэ сэредиця тарканть, пувсик, теке басом, кода тейнелить вишка-вишка пингстэть, ды ормат ойми.
 1	Сезть	сеземс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Valency=2	0	root	_	GTtags=TV,Imprt,ScSg2
@@ -11686,7 +11546,7 @@
 5	вельтик	вельтямс	VERB	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Valency=2	1	conj	_	GTtags=TV,Imprt,ScSg2,OcSg3
 6	эйсэнзэ	эйсэ	ADP	Adp	Case=Ine|Number[psor]=Sing|Person[psor]=3	5	obl	_	GTtags=Ine,PxSg3
 7	сэредиця	сэредемс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Tense=Pres|Valency=1|VerbForm=Part	8	advcl	_	GTtags=IV,Act,PrsPrc,A,Sg,Nom,Indef
-8	тарканть	тарка	NOUN	N	Sem/Plc|Case=Gen|Definite=Def|Number=Sing	5	obj	_	GTtags=Sem/Plc,Sg,Gen,Def|SpaceAfter=No
+8	тарканть	тарка	NOUN	N	Case=Gen|Definite=Def|Number=Sing	5	obj	_	GTtags=Sem/Plc,Sg,Gen,Def|SpaceAfter=No
 9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	пувсик	пувсемс	VERB	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Valency=2	1	conj	_	GTtags=TV,Imprt,ScSg2,OcSg3|SpaceAfter=No
 11	,	,	PUNCT	CLB	_	12	punct	_	_
@@ -11703,7 +11563,6 @@
 22	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2360
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:10:25:1
 # text = А содан вейкеде: седеень моць аразде лезды-арась?
 1	А	а	PART	Pcle	Polarity=Neg	2	aux:neg	_	GTtags=Neg
@@ -11720,7 +11579,6 @@
 11	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:37
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:10:25:2
 # text = Лиясто истя куродтанзат, а содат, мезе теемс, ков ношкстамс.
 1	А	а	AUX	Pcle	Polarity=Neg	2	aux:neg	_	GTtags=Neg
@@ -11737,7 +11595,6 @@
 11	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:999
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:10:25:3
 # text = Кинь кевкстемс, идитянзат-арась истямо майсемадо шешктикшесь?
 1	Кинь	кие	PRON	Pron	Animacy=Hum|Case=Gen|PronType=Int	2	obj	_	GTtags=Interr,Sem/Hum,Gen
@@ -11753,7 +11610,6 @@
 10	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3309
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:10:25:4
 # text = Кие соды?
 1	Кие	кие	PRON	Pron	Animacy=Hum|Case=Nom|Number=Sing|PronType=Int	2	nsubj	_	GTtags=Interr,Sem/Hum,Sg,Nom
@@ -11761,7 +11617,6 @@
 3	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:286
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:10:26:1
 # text = Содавлиньгак — видевлинь те содавикс касынькадонть келей покш пире.
 1	Содавлиньгак	содамс	VERB	V	Clitic=Add|Mood=Cnj|Number[subj]=Sing|Person[subj]=1|Valency=2	3	advcl	_	GTtags=TV,Conj,ScSg1,Clt/Gak
@@ -11772,11 +11627,10 @@
 6	касынькадонть	касынькадонть	NOUN	N	Case=Abl|Definite=Def|Number=Sing	_	_	_	GTtags=Sg,Abl,Def
 7	келей	келей	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	9	amod	_	GTtags=Sg,Nom,Indef
 8	покш	покш	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	9	amod	_	GTtags=Sg,Nom,Indef
-9	пире	пире	NOUN	N	Sem/Plc|Case=Nom|Definite=Ind|Number=Sing	3	obj	_	GTtags=Sem/Plc,Sg,Nom,Indef|SpaceAfter=No
+9	пире	пире	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	obj	_	GTtags=Sem/Plc,Sg,Nom,Indef|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4008
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:10:26:2
 # text = Чинь-чоп кармавлинь шешкеме моданть, ансяк седе куроксто лисевель, седе курок касоволь.
 1	Чинь-чоп	Чинь-чоп	ADV	Adv	Case=Temp	2	advmod:tmod	_	GTtags=Temp
@@ -11795,7 +11649,6 @@
 14	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3254
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:10:26:3
 # text = Зяро ломаннень казевлинь паро ёжот ды ванькс мельть...
 1	Зяро	зяро	DET	Det	Case=Nom|Definite=Ind|Number=Sing	2	det	_	GTtags=Qnt,Sg,Nom,Indef
@@ -11809,7 +11662,6 @@
 9	...	...	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4999
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:10:27:1
 # text = Истяяк арсеват.
 1	Истяяк	истя	ADV	Adv	AdvType=Man|Clitic=Add	2	advmod	_	GTtags=Manner,Clt/Gak
@@ -11817,7 +11669,6 @@
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3670
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Шешктикше:10:28:1
 # text = Ды мезень те эрямо, седей сэредьксэнь апак сода?
 1	Ды	ды	CCONJ	CC	_	2	cc	_	_
@@ -11832,7 +11683,6 @@
 10	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5127
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:1:1
 # text = Тикшень ледеме?
 1	Тикшень	тикше	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	2	obj	_	GTtags=SP,Gen,Indef
@@ -11840,16 +11690,14 @@
 3	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5370
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:2:1
 # text = Лисема, лисема...
-1	Лисема	лисемс	VERB	V	Valency=1|Oblig	0	root	_	GTtags=IV,Oblig|SpaceAfter=No
+1	Лисема	лисемс	VERB	V	Mood=Nec|Valency=1	0	root	_	GTtags=IV,Oblig|SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
-3	лисема	лисемс	VERB	V	Valency=1|Oblig	1	conj	_	GTtags=IV,Oblig|SpaceAfter=No
+3	лисема	лисемс	VERB	V	Mood=Nec|Valency=1	1	conj	_	GTtags=IV,Oblig|SpaceAfter=No
 4	...	...	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1341
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:2:2
 # text = Шказо, кортамскак а мезть!
 1	Шказо	шка	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	GTtags=Sg,Nom,PxSg3|SpaceAfter=No
@@ -11872,7 +11720,6 @@
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2873
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:3:2
 # text = Весемень мелест прасть вейс: ванды эряви лисемс тикше ледеме.
 1	Весемень	весеме	PRON	Pron	Case=Gen|Definite=Ind|Number=Plur,Sing	2	nmod	_	GTtags=Qnt,SP,Gen,Indef
@@ -11888,7 +11735,6 @@
 11	.	.	PUNCT	CLB	_	_	_	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1390
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:3:3
 # text = Чокшнень перть эзть валгоне кельбрясто неть валтнэ.
 1	Чокшнень	чокшне	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	4	obl:tmod	_	GTtags=SP,Gen,Indef
@@ -11901,7 +11747,6 @@
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2851
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:3:4
 # text = Весемень мелест прасть вейс: ванды эряви лисемс тикше ледеме.
 1	Весемень	весеме	PRON	Pron	Case=Gen|Definite=Ind|Number=Plur,Sing	2	nmod	_	GTtags=Qnt,SP,Gen,Indef
@@ -11917,7 +11762,6 @@
 11	.	.	PUNCT	CLB	_	_	_	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4060
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:4:1
 # text = Меельцекс ёвтызе мелензэ колхозонь прявтоськак: «Ледеме», теке ваявтсь лазс весть вачкодемстэ эске.
 1	Меельцекс	меельцекс	ADV	Adv	_	2	advmod:tmod	_	_
@@ -11939,7 +11783,6 @@
 17	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2735
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:5:1
 # text = Чатьмонсь ансяк агрономось.
 1	Чатьмонсь	чатьмонемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
@@ -11948,16 +11791,14 @@
 4	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3440
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:5:2
 # text = Тунь од цёра.
-1	Тунь	тунь	ADV	Adv	Deg	2	advmod	_	GTtags=Deg
+1	Тунь	тунь	ADV	Adv	AdvType=Deg	2	advmod	_	GTtags=Deg
 2	од	од	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	3	amod	_	GTtags=Sg,Nom,Indef
 3	цёра	цёра	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3217
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:5:3
 # text = Ансяк тедеде тунда прядызе тонавтнеманзо.
 1	Ансяк	ансяк	ADV	Adv	_	4	advmod	_	GTtags=Exclusive
@@ -11968,7 +11809,6 @@
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:879
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:5:4
 # text = Вал сайсь меельцекс, прявттонть мейле.
 1	Вал	вал	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	obj	_	GTtags=Sg,Nom,Indef
@@ -11980,7 +11820,6 @@
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5159
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:5:5
 # text = Стясь те од, келей лавтово цёрась ды мерсь:
 1	Стясь	стямс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
@@ -11995,7 +11834,6 @@
 10	:	:	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:218
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:6:1
 # text = — Норовжорчтнэ ды кочкодыктне курок ципакаст стявтсызь, кода мерить, сёлмо лангс.
 1	—	—	PUNCT	PUNCT	_	7	punct	_	_
@@ -12014,7 +11852,6 @@
 14	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1276
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:6:2
 # text = Эряви тенек учомс колмо-ниле чи...
 1	Эряви	эрявомс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	3	aux	_	GTtags=IV,Ind,Prs,ScSg3
@@ -12025,7 +11862,6 @@
 6	...	...	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4370
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:7:1
 # text = Весе чатьмонезевсть.
 1	Весе	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Indef
@@ -12033,7 +11869,6 @@
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1127
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:8:1
 # text = — Виде, виде, — сезизе општ молеманть Аржай Грига, колхозонь утомтнень лангсо азорось, — превейстэ корты алясь.
 1	—	—	PUNCT	PUNCT	_	2	punct	_	_
@@ -12043,13 +11878,13 @@
 5	,	,	PUNCT	CLB	_	4	punct	_	_
 6	—	—	PUNCT	PUNCT	_	7	punct	_	_
 7	сезизе	сеземс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	2	parataxis	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3
-8	општ	општ	ADV	Adv	Ideoph	9	advmod	_	GTtags=Ideoph
+8	општ	општ	ADV	Adv	AdvType=Ideoph	9	advmod	_	GTtags=Ideoph
 9	молеманть	молемс	VERB	V	Case=Gen|Definite=Def|Derivation=Vnoun|Der|Number=Sing|Valency=1	_	_	_	GTtags=IV,Der,Der/NomAct,N,Sg,Gen,Def
 10	Аржай	Аржай	NOUN	N	Case=Nom|Definite=Ind|Number=Sing|Sem/Sur	_	_	_	GTtags=Prop,Sem/Sur,Sg,Nom,Indef
 11	Грига	Грига	NOUN	N	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	10	flat:name	_	GTtags=Prop,Sem/Mal,Sg,Nom,Indef|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	16	punct	_	_
 13	колхозонь	колхоз	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	14	nmod	_	GTtags=SP,Gen,Indef
-14	утомтнень	утом	NOUN	N	Sem/Plc|Case=Gen|Definite=Def|Number=Plur	16	nmod	_	GTtags=Sem/Plc,Pl,Gen,Def
+14	утомтнень	утом	NOUN	N	Case=Gen|Definite=Def|Number=Plur	16	nmod	_	GTtags=Sem/Plc,Pl,Gen,Def
 15	лангсо	лангсо	ADP	Adp	AdvType=Loc|Case=Ine	14	case	_	GTtags=Spat,Ine
 16	азорось	азор	NOUN	N	Case=Nom|Definite=Def|Number=Sing	10	appos	_	GTtags=Sg,Nom,Def|SpaceAfter=No
 17	,	,	PUNCT	CLB	_	16	punct	_	_
@@ -12060,7 +11895,6 @@
 22	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1065
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:8:2
 # text = Ков, алкукскак, истя капшамс.
 1	Ков	ков	ADV	Adv	Case=Lat|PronType=Int	6	advmod:lmod	_	GTtags=Interr,Lat|SpaceAfter=No
@@ -12072,7 +11906,6 @@
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2537
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:9:1
 # text = Ладизь се чокшнестэнть ушодомс тикшень урядамонть сестэ, зярдо мери агрономось.
 1	Ладизь	ладямс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3,OcSg3
@@ -12089,7 +11922,6 @@
 12	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2944
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:10:1
 # text = — Ну-у, истят тевть, шишмат трескавлизь, — моткодсь эстензэ марямга Грига атя «кучнемадо» мейле кудов молемстэ, — арасельть, те кода истя покшонок меельць валонть максызе те нолгарь цёрантень?
 1	—	—	PUNCT	PUNCT	_	5	punct	_	_
@@ -12111,7 +11943,7 @@
 17	кучнемадо	кучнемс	VERB	V	Case=Abl|Definite=Ind|Derivation=Vnoun|Der|Number=Plur,Sing|Valency=2	19	nmod	_	GTtags=TV,Der,Der/NomAct,N,SP,Abl,Indef|SpaceAfter=No
 18	»	»	PUNCT	PUNCT	_	17	punct	_	GTtags=RIGHT
 19	мейле	мейле	ADV	Adv	Case=Temp	11	advcl:tmod	_	GTtags=Temp
-20	кудов	кудо	NOUN	N	Sem/Plc|Case=Lat|Definite=Ind|Number=Plur,Sing	21	obl:lmod	_	GTtags=Sem/Plc,SP,Lat,Indef
+20	кудов	кудо	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	21	obl:lmod	_	GTtags=Sem/Plc,SP,Lat,Indef
 21	молемстэ	молемс	VERB	V	Case=Ela|Valency=1|VerbForm=Conv	19	appos	_	GTtags=IV,Ger,Ela|SpaceAfter=No
 22	,	,	PUNCT	CLB	_	21	punct	_	_
 23	—	—	PUNCT	PUNCT	_	11	punct	_	_
@@ -12130,7 +11962,6 @@
 36	?	?	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3882
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:10:2
 # text = Те мезе-бути а истя...
 1	Те	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	4	nsubj:cop	_	GTtags=Dem,Sg,Nom,Indef
@@ -12140,19 +11971,17 @@
 5	...	...	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4862
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чатьмонемаськак — вий:10:11:1
 # text = Иень ютазь агрономонть веленек путызь предэкс.
 1	Иень	ие	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	2	obl	_	GTtags=SP,Gen,Indef
 2	ютазь	ютамс	VERB	V	Derivation=Ozj|Der|Valency=2|VerbForm=Conv	5	advcl:tmod	_	GTtags=TV,Der,Der/Ozj,Ger
 3	агрономонть	агроном	NOUN	N	Case=Gen|Definite=Def|Number=Sing	5	obj	_	GTtags=Sg,Gen,Def
-4	веленек	веле	NOUN	N	Sem/Plc|Case=Com|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=Sem/Plc,SP,Com,Indef
+4	веленек	веле	NOUN	N	Case=Com|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=Sem/Plc,SP,Com,Indef
 5	путызь	путомс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3,OcSg3
 6	предэкс	пред	NOUN	N	Case=Tra|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=SP,Tra,Indef|SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4585
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Мекс истя?:11:1:1
 # text = Аштевинь течи талайс.
 1	Аштевинь	аштевемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg1
@@ -12161,7 +11990,6 @@
 4	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4295
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Мекс истя?:11:2:1
 # text = А куш а каш.
 1	А	а	AUX	Pcle	Polarity=Neg	2	aux:neg	_	GTtags=Neg
@@ -12171,7 +11999,6 @@
 5	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4841
-# aannotation="yes" 
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Мекс истя?:11:2:2
 # text = Атякштне, кунсолан, сыргойсть омбоцеде.
 1	Атякштне	атякш	NOUN	N	Case=Nom|Definite=Def|Number=Plur	5	nsubj	_	GTtags=Pl,Nom,Def|SpaceAfter=No
@@ -14025,7 +13852,7 @@
 9	валовсь	валовомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	13	punct	_	_
 11	прячерень	прячерь	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	13	nsubj	_	GTtags=SP,Gen,Indef
-12	дубушки	дубушки	ADV	Adv	_	13	advmod	_	GTtags=Ideoph
+12	дубушки	дубушки	ADV	Adv	AdvType=Ideoph	13	advmod	_	GTtags=Ideoph
 13	стясть	стямс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	9	conj	_	GTtags=IV,Ind,Prt1,ScPl3|SpaceAfter=No
 14	...	...	PUNCT	CLB	_	9	punct	_	_
 
@@ -14588,7 +14415,7 @@
 1	Кундынек	кундамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Past|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl1
 2	тееме	теемс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	1	xcomp	_	GTtags=TV,Inf,Loc
 3	аволь	аволь	AUX	Pcle	NegationType=Contrastive|Polarity=Neg	4	aux:neg	_	GTtags=Neg,Emphatic
-4	тяп-ляп	тяп-ляп	ADV	Adv	_	2	advmod	_	GTtags=Ideoph|SpaceAfter=No
+4	тяп-ляп	тяп-ляп	ADV	Adv	AdvType=Ideoph	2	advmod	_	GTtags=Ideoph|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	кильдинек	кильдемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Past|Valency=2	1	conj	_	GTtags=TV,Ind,Prt1,ScPl1
 7	тееме	теемс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	6	xcomp	_	GTtags=TV,Inf,Loc
@@ -14640,7 +14467,7 @@
 
 # sent_id = DunjashinAlex_Pidsi-palakst_1930:62
 # text = Тяп-ляп сёрмадовкст Дуняшинэнь пельде а учотано.
-1	Тяп-ляп	Тяп-ляп	ADV	Adv	_	2	advmod	_	GTtags=Ideoph
+1	Тяп-ляп	Тяп-ляп	ADV	Adv	AdvType=Ideoph	2	advmod	_	GTtags=Ideoph
 2	сёрмадовкст	сёрмадовкс	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	6	obj	_	GTtags=Pl,Nom,Indef
 3	Дуняшинэнь	Дуняшин	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Sur|Number=Plur,Sing	6	obl	_	GTtags=Sur_Mal,Prop,SP,Gen,Indef
 4	пельде	пельде	ADP	Adp	AdvType=Loc|Case=Abl	3	case	_	GTtags=Spat,Abl
@@ -17076,7 +16903,7 @@
 5	не	не	DET	Det	PronType=Dem	6	det	_	GTtags=Dem,Attr
 6	читнестэ	чи	NOUN	N	Case=Ela|Definite=Def|Number=Plur	7	obl	_	GTtags=Pl,Ela,Def
 7-8	самаль	_	_	_	_	_	_	_	_
-7	сама	самс	VERB	V	Derivation=Oma|VerbForm=Conv	1	conj	_	GTtags=IV,Oblig
+7	сама	самс	VERB	V	Derivation=Oma|Mood=Nec|VerbForm=Conv	1	conj	_	GTtags=IV,Oblig
 8	ль	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	7	cop	_	GTtags=Prt2,ScSg3
 9	уш	уш	ADV	Adv	AdvType=Tim	7	advmod	_	GTtags=Temp
 10	тензэ	сон	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obl:agent	_	GTtags=Pers,Sg3,Dat,Short|SpaceAfter=No
