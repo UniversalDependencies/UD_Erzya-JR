@@ -4426,7 +4426,7 @@
 # text = Нама, идем ракшань кедтькак саить.
 # text_en = Naturally, they also take wild animal hides along:
 # text_fi = Villieläinten nahkojakin toki otetaan mukaan:
-1	Нама	нама	ADV	Adv	_	6	advmod	_	GTtags=Epist,Parenthetic|SpaceAfter=No
+1	Нама	нама	ADV	Adv	AdvType=Mod	6	advmod	_	GTtags=Epist,Parenthetic|SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	идем	идем	ADJ	A	_	4	amod	_	_
 4	ракшань	ракша	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	GTtags=Sem/Anim_Cnt,SP,Gen,Indef
@@ -6844,7 +6844,7 @@
 # text = Нама уш, тетязо редизе, кодамо сявадыця сельмсэ свал ваны цёразо сонзэ кирьгаксонть лангс, косо поволезь истянь зняро ванстомкат!
 # text_en = Of course, Kechai's father had noticed, how the had always looked enviously at his necklace, which had so many talismans.
 # text_fi = Totta kai, isä oli huomannut, miten kateellisella katseella poika aina katseli sen kaulusta, missä roikkui niin paljon suojelusesineitä!
-1	Нама	нама	ADV	Adv	_	5	advmod	_	GTtags=Epist
+1	Нама	нама	ADV	Adv	AdvType=Mod	5	advmod	_	GTtags=Epist
 2	уш	уш	ADV	Adv	AdvType=Tim	1	advmod	_	GTtags=Sem/Time|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	1	punct	_	_
 4	тетязо	тетя	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	GTtags=Sem/Kin,Sg,Nom,PxSg3|PqxRef=1:8.1,10
@@ -6979,7 +6979,7 @@
 15	те	те	DET	Det	Case=Nom|Definite=Ind|Number=Sing	16	det	_	GTtags=Sg,Nom,Indef
 16	шкас	шка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	20	obl	_	GTtags=Sem/Time,SP,Ill,Indef|SpaceAfter=No
 17	,	,	PUNCT	CLB	_	18	punct	_	_
-18	нама	нама	ADV	Adv	_	20	advmod	_	GTtags=Epist,Parenthetic|SpaceAfter=No
+18	нама	нама	ADV	Adv	AdvType=Mod	20	advmod	_	GTtags=Epist,Parenthetic|SpaceAfter=No
 19	,	,	PUNCT	CLB	_	18	punct	_	_
 20	пачкодевель	пачкодемс	VERB	V	Mood=Cnj|Number[subj]=Sing|Person[subj]=3|Valency=1	12	conj	_	GTtags=IV,Conj,ScSg3
 21	бу	бу	AUX	Pcle	Case=Nom|Definite=Ind|Number=Sing	20	aux:cnd	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
@@ -9314,7 +9314,7 @@
 3	нетне	неть	PRON	Pron	Case=Nom|Definite=Def|Number=Plur|PronType=Dem	4	det	_	GTtags=Dem,Pl,Nom,Def
 4	кородовкстнэ	кородовкс	NOUN	N	Case=Nom|Definite=Def|Number=Plur	9	nsubj	_	GTtags=Sem/Inanim_Cnt,Pl,Nom,Def|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
-6	нама	нама	ADV	Adv	_	9	advmod	_	GTtags=Epist,Parenthetic|SpaceAfter=No
+6	нама	нама	ADV	Adv	AdvType=Mod	9	advmod	_	GTtags=Epist,Parenthetic|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	6	punct	_	_
 8	а	а	AUX	Pcle	Polarity=Neg	9	aux:neg	_	GTtags=Neg
 9	вансттадызь	ванстомс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=2|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScPl3,OcPl2|SpaceAfter=No
@@ -9622,7 +9622,7 @@
 # text = Нама, сонсь таркась ськамонзо а идетянзат.
 # text_en = Of course, the place alone will not save you from everything.
 # text_fi = Tietenkään sijainti yksinään ei varjele paikkaa.
-1	Нама	нама	ADV	Adv	_	7	advmod	_	GTtags=Epist,Parenthetic|SpaceAfter=No
+1	Нама	нама	ADV	Adv	AdvType=Mod	7	advmod	_	GTtags=Epist,Parenthetic|SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	сонсь	сонсь	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	det	_	GTtags=Refl,Sg3,Nom
 4	таркась	тарка	NOUN	N	Case=Nom|Definite=Def|Number=Sing	7	nsubj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Def
@@ -20344,7 +20344,7 @@
 # text_en = It was, of course, Urvan who spoke up for her.
 1	Те	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	7	expl	_	GTtags=Dem,Sg,Nom,Indef|Gloss=it|SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
-3	нама	нама	ADV	Adv	_	7	advmod	_	GTtags=Epist|Gloss=of-course|SpaceAfter=No
+3	нама	нама	ADV	Adv	AdvType=Mod	7	advmod	_	GTtags=Epist|Gloss=of-course|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	сонзэ	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	obl	_	GTtags=Pers,Sg3,Gen|1q-1:25.1,5|Gloss=her
 6	кисэ	кисэ	ADP	Adp	AdpType=Post	5	case	_	GTtags=Po|Gloss=on-behalf-of
@@ -21043,7 +21043,7 @@
 # text = — Нама монсь.
 # text_en = Of course, it's me.
 1	—	—	PUNCT	PUNCT	_	3	punct	_	_
-2	Нама	нама	ADV	Adv	_	3	advmod	_	GTtags=Epist|Gloss=of-course
+2	Нама	нама	ADV	Adv	AdvType=Mod	3	advmod	_	GTtags=Epist|Gloss=of-course
 3	монсь	монсь	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	0	root	_	GTtags=Refl,Sg1,Nom|Gloss=me|SpaceAfter=No
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -21766,7 +21766,7 @@
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	ансяк	ансяк	ADV	Adv	_	15	advmod	_	GTtags=Exclusive|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	11	punct	_	_
-11	нама	нама	ADV	Adv	_	15	advmod	_	GTtags=Epist
+11	нама	нама	ADV	Adv	AdvType=Mod	15	advmod	_	GTtags=Epist
 12	уш	уш	ADV	Adv	AdvType=Tim	11	advmod	_	GTtags=Sem/Time|SpaceAfter=No
 13	,	,	PUNCT	CLB	_	11	punct	_	_
 14	а	а	AUX	Pcle	Polarity=Neg	15	aux:neg	_	GTtags=Neg
