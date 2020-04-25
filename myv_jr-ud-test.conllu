@@ -11328,13 +11328,13 @@
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4407
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:18:6
 # text = Истямс истя, ансяк седей марямка пельдензэ иля кевкстне.
-1	Истямс	истямо	PRON	Pron	Case=Ill|Definite=Ind|Number=Plur,Sing|PronType=Dem|Derivation=MWN	9	advcl	_	GTtags=Dem,Der,Der/MWN,SP,Ill,Indef
+1	Истямс	истямо	PRON	Pron	Case=Ill|Definite=Ind|Number=Plur,Sing|PronType=Dem	9	advcl	_	GTtags=Dem,Der,Der/MWN,SP,Ill,Indef
 2	истя	истя	ADV	Adv	AdvType=Man	1	fixed	_	GTtags=Manner|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	1	punct	_	_
 4	ансяк	ансяк	ADV	Adv	_	9	advmod	_	GTtags=Exclusive
 5	седей	седей	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	obj	_	GTtags=Sg,Nom,Indef
 6	марямка	марямка	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	compound	_	GTtags=Sg,Nom,Indef
-7	пельдензэ	пель	NOUN	N	Relat|Case=Abl|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	GTtags=Relat,SP,Abl,PxSg3
+7	пельдензэ	пель	NOUN	N	Case=Abl|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	GTtags=Relat,SP,Abl,PxSg3
 8	иля	иля	AUX	_	Mood=Proh|Number[subj]=Sing|Person[subj]=2|VerbType=Aux	9	aux	_	GTtags=Aux,Proh,ScSg2
 9	кевкстне	кевкстнемс	VERB	V	Connegative=Yes|Valency=2	0	root	_	GTtags=TV,ConNeg|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	9	punct	_	_
@@ -11349,7 +11349,7 @@
 5	масторт	мастор	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	0	root	_	GTtags=Sem/Plc,Pl,Nom,Indef|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	10	punct	_	_
 7	ансяк	ансяк	ADV	Adv	_	10	advmod	_	GTtags=Exclusive
-8	вана	вана	Interj	_	_	10	discourse	_	_
+8	вана	вана	INTJ	Interj	_	10	discourse	_	_
 9	вановтозо	вановт	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	GTtags=Sg,Nom,PxSg3
 10	кельме	кельме	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	5	conj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
 11	,	,	PUNCT	CLB	_	15	punct	_	_
@@ -11379,7 +11379,7 @@
 1	Эрьва	эрьва	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing	2	det	_	GTtags=Qnt,Sg,Nom,Indef
 2	бельгинезэ	бельгине	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	GTtags=Sg,Nom,PxSg3
 3	ве	ве	DET	Num	NumType=Card	4	det	_	GTtags=Card
-4	ёндо	ёндо	NOUN	N	Spat|Case=Abl	5	obl	_	GTtags=Spat,Abl
+4	ёндо	ёндо	NOUN	N	Case=Abl	5	obl	_	GTtags=Spat,Abl
 5	неяви	неявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3
 6	липниця	липнемс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Tense=Pres|Valency=1|VerbForm=Part	7	acl	_	GTtags=IV,Act,PrsPrc,A,Sg,Nom,Indef
 7	толнэкс	толнэ	NOUN	N	Case=Tra|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=SP,Tra,Indef|SpaceAfter=No
@@ -11505,7 +11505,7 @@
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	минек	мон	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	det	_	GTtags=Pers,Pl1,Gen
 4	кельстэ	кель	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	8	obl	_	GTtags=SP,Ela,Indef
-5	истямо	истямо	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem|Derivation=MWN	7	det	_	GTtags=Dem,Der,Der/MWN,Sg,Nom,Indef
+5	истямо	истямо	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	7	det	_	GTtags=Dem,Der,Der/MWN,Sg,Nom,Indef
 6	виде	виде	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	7	amod	_	GTtags=Sg,Nom,Indef
 7	лемесь	лем	NOUN	N	Case=Nom|Definite=Def|Number=Sing	8	nsubj	_	GTtags=Sg,Nom,Def
 8	соваськак	совамс	VERB	V	Clitic=Add|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3,Clt/Gak
@@ -11646,7 +11646,7 @@
 8	куроксто	куроксто	ADV	Adv	Case=Temp	9	advmod:tmod	_	GTtags=Temp
 9	лисевель	лисемс	VERB	V	Mood=Cnj|Number[subj]=Sing|Person[subj]=3|Valency=1	2	conj	_	GTtags=IV,Conj,ScSg3|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	13	punct	_	_
-11	седе	седе	PART	Pcle	Adv|Degree=Cmp	12	advmod	_	GTtags=Adv,Comp
+11	седе	седе	PART	Pcle	Degree=Cmp	12	advmod	_	GTtags=Adv,Comp
 12	курок	курок	ADV	Adv	Case=Temp	13	advmod:tmod	_	GTtags=Temp
 13	касоволь	касомс	VERB	V	Mood=Cnj|Number[subj]=Sing|Person[subj]=3|Valency=1	2	conj	_	GTtags=IV,Conj,ScSg3|SpaceAfter=No
 14	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -11773,9 +11773,9 @@
 4	колхозонь	колхоз	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	GTtags=SP,Gen,Indef
 5	прявтоськак	прявт	NOUN	N	Case=Nom|Clitic=Add|Definite=Def|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Def,Clt/Gak|SpaceAfter=No
 6	:	:	PUNCT	CLB	_	2	punct	_	_
-7	«	«	PUNCT	PUNCT	LEFT	8	punct	_	GTtags=LEFT|SpaceAfter=No
+7	«	«	PUNCT	PUNCT	_	8	punct	_	GTtags=LEFT|SpaceAfter=No
 8	Ледеме	ледемс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	2	parataxis	_	GTtags=TV,Inf,Loc|SpaceAfter=No
-9	»	»	PUNCT	PUNCT	RIGHT	8	punct	_	GTtags=RIGHT
+9	»	»	PUNCT	PUNCT	_	8	punct	_	GTtags=RIGHT
 10	,	,	PUNCT	CLB	_	12	punct	_	_
 11	теке	теке	SCONJ	CS	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	12	mark	_	GTtags=Dem,Sg,Nom,Indef
 12	ваявтсь	ваявтомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	2	advcl	_	GTtags=TV,Ind,Prt1,ScSg3
@@ -11913,7 +11913,7 @@
 # text = Ладизь се чокшнестэнть ушодомс тикшень урядамонть сестэ, зярдо мери агрономось.
 1	Ладизь	ладямс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3,OcSg3
 2	се	се	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	det	_	GTtags=Dem,Sg,Nom
-3	чокшнестэнть	чокшне	NOUN	N	Case=Ela|Definite=Def|Number=Sing	1	advmod:tmod	_	GTtags=Sg,Ela,Def
+3	чокшнестэнть	чокшне	NOUN	N	Case=Ela|Definite=Def|Number=Sing	1	obl:tmod	_	GTtags=Sg,Ela,Def
 4	ушодомс	ушодомс	VERB	V	Valency=2|VerbForm=Inf	1	xcomp	_	GTtags=TV,Inf
 5	тикшень	тикше	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	6	obj	_	GTtags=SP,Gen,Indef
 6	урядамонть	урядамс	VERB	V	Case=Gen|Definite=Def|Derivation=Vnoun|Number=Sing|Valency=2	4	obj	_	GTtags=TV,Der,Der/NomAct,N,Sg,Gen,Def
@@ -12131,7 +12131,7 @@
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2157
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Мекс истя?:11:4:6
 # text = Мельга меельцек терявтнесь валгомс те суликань валдонть лангс.
-1	Мельга	мельга	ADP	Adp	AdvType=Loc|Spat|Case=Prl	3	advmod	_	GTtags=Spat,Spat,Prl
+1	Мельга	мельга	ADP	Adp	AdvType=Loc|Case=Prl	3	advmod	_	GTtags=Spat,Spat,Prl
 2	меельцек	меельцек	ADV	Adv	_	1	fixed	_	_
 3	терявтнесь	терявтнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
 4	валгомс	валгомс	VERB	V	Valency=1|VerbForm=Inf	3	ccomp	_	GTtags=IV,Inf
