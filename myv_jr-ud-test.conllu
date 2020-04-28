@@ -41,7 +41,7 @@
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:1
 # text = Велень росась эзь костявт валске мартонь чипайсэнть.
-1	Велень	веле	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	2	nmod	_	GTtags=Sem/Plc,SP,Gen,Indef
+1	Велень	веле	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	2	nmod:poss	_	GTtags=Sem/Plc,SP,Gen,Indef
 2	росась	роса	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	GTtags=Sg,Nom,Def
 3	эзь	эзь	AUX	Aux	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Past|VerbType=Aux	4	aux:neg	_	_
 4	костявт	костявомс	VERB	V	Connegative=Yes|Mood=Ind|Valency=1	0	root	_	GTtags=IV,Ind,ConNeg
@@ -94,17 +94,17 @@
 7	анокстасть	анокстамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=2	3	xcomp	_	GTtags=TV,Ind,Prt1,ScPl3
 8	велеванть	веле	NOUN	N	Case=Prl|Definite=Def|Number=Sing	7	obl	_	GTtags=Sem/Plc,Sg,Prl,Def
 9	ютавтомо	ютавтомс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	7	xcomp	_	GTtags=TV,Inf,Loc
-10	велень	веле	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	11	nmod	_	GTtags=Sem/Plc,SP,Gen,Indef
+10	велень	веле	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	11	nmod:poss	_	GTtags=Sem/Plc,SP,Gen,Indef
 11	озкст	озкс	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	9	obj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	16	punct	_	_
-13	якстеретнень	якстере	ADJ	A	Case=Gen|Definite=Def|Number=Plur	16	nmod	_	GTtags=Pl,Gen,Def
+13	якстеретнень	якстере	ADJ	A	Case=Gen|Definite=Def|Number=Plur	16	nmod:gsubj	_	GTtags=Pl,Gen,Def
 14	седе	седе	ADV	Adv	Degree=Cmp	15	advmod:deg	_	GTtags=Comp
 15	курок	курок	ADV	Adv	AdvType=Tim	16	advmod:tmod	_	GTtags=Temp
 16	маштовомаст	маштовома	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=3	11	conj	_	GTtags=Sg,Gen,PxPl3
 17	кис	кис	ADP	Adp	_	16	case	_	_
 18	ды	ды	CCONJ	CC	_	22	cc	_	_
-19	Колчаконь	Колчак	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	20	nmod	_	GTtags=Prop,Sem/Sur,SP,Gen,Indef
-20	армиянть	армия	NOUN	N	Case=Gen|Definite=Def|Number=Sing	22	nmod	_	GTtags=Sg,Gen,Def
+19	Колчаконь	Колчак	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	20	nmod:poss	_	GTtags=Prop,Sem/Sur,SP,Gen,Indef
+20	армиянть	армия	NOUN	N	Case=Gen|Definite=Def|Number=Sing	22	nmod:poss	_	GTtags=Sg,Gen,Def
 21	шумбра	шумбра	ADJ	A	_	22	compound	_	_
 22	чинзэ	чи	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	conj	_	GTtags=Sg,Gen,PxSg3
 23	кис	кис	ADP	Adp	_	22	case	_	GTtags=|SpaceAfter=No
@@ -146,7 +146,7 @@
 8	ней	ней	ADV	Adv	AdvType=Tim	10	advmod:tmod	_	GTtags=Temp
 9	Колчак	Колчак	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	10	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef
 10	пурны	пурнамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	5	conj	_	GTtags=TV,Ind,Prs,ScSg3
-11	Сибирень	Сибирь	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	12	nmod	_	GTtags=Prop,Sem/Plc,SP,Gen,Indef
+11	Сибирень	Сибирь	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	12	nmod:poss	_	GTtags=Prop,Sem/Plc,SP,Gen,Indef
 12	сокицятнень	сокиця	NOUN	N	Case=Gen|Definite=Def|Number=Plur	10	obj	_	GTtags=Pl,Gen,Def
 13	ды	ды	CCONJ	CC	_	14	cc	_	_
 14	манчи	манчемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	5	conj	_	GTtags=TV,Ind,Prs,ScSg3
@@ -201,7 +201,7 @@
 19	ёвтнесь	ёвтнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=2	4	conj	_	GTtags=TV,Ind,Prt1,ScSg3|SpaceAfter=No
 20	,	,	PUNCT	CLB	_	24	punct	_	_
 21	што	што	SCONJ	CS	_	24	mark	_	_
-22	Уткинэнь	Уткин	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Sur|Number=Plur,Sing	23	nmod	_	GTtags=Prop,Sur_Mal,SP,Gen,Indef
+22	Уткинэнь	Уткин	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Sur|Number=Plur,Sing	23	nmod:poss	_	GTtags=Prop,Sur_Mal,SP,Gen,Indef
 23	отрядс	отряд	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	24	obl	_	GTtags=SP,Ill,Indef
 24	мольсть	молемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	19	conj	_	GTtags=IV,Ind,Prt1,ScPl3
 25	ламо	ламо	ADV	Adv	_	27	advmod	_	GTtags=Qnt,Sg,Nom,Indef
@@ -215,7 +215,7 @@
 # sent_id = AnoshkinV_ValskenjGudok_1936:108
 # text = ― Колчаконь армиясто кавто полкт калавтсть.
 1	―	―	PUNCT	PUNCT	_	6	punct	_	_
-2	Колчаконь	Колчак	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	3	nmod	_	GTtags=Prop,Sem/Sur,SP,Gen,Indef
+2	Колчаконь	Колчак	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	3	nmod:poss	_	GTtags=Prop,Sem/Sur,SP,Gen,Indef
 3	армиясто	армия	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	6	obl	_	GTtags=SP,Ela,Indef
 4	кавто	кавто	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	5	nummod	_	GTtags=Card,Sg,Nom,Indef
 5	полкт	полк	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	6	nsubj	_	GTtags=Sem/Plc,Pl,Nom,Indef
@@ -337,7 +337,7 @@
 26	―	―	PUNCT	PUNCT	_	28	punct	_	_
 27	сонсь	сонсь	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	28	nsubj	_	GTtags=Refl,Sg3,Nom
 28	саизе	саемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|Valency=2	5	conj	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3
-29	Звездовонь	Звездов	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	31	nmod	_	GTtags=SP,Gen,Indef
+29	Звездовонь	Звездов	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	31	nmod:poss	_	GTtags=SP,Gen,Indef
 30	кучозь	кучомс	VERB	V	Derivation=Ozj|Valency=2|VerbForm=Conv	31	acl	_	GTtags=TV,Der/Озь,Ger
 31	гостинецтнэде	гостинец	NOUN	N	Case=Abl|Definite=Def|Number=Plur	33	obl	_	GTtags=Pl,Abl,Def
 32	папироска	папироска	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	33	compound	_	GTtags=Sg,Nom,Indef
@@ -357,7 +357,7 @@
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:116
 # text = Роштятнень пряст удыть вень чопудасонть, мик сырк-сырк а теить, прок чувтомсть пингень-пингэзэст.
-1	Роштятнень	роштя	NOUN	N	Case=Gen|Definite=Def|Number=Plur	2	nmod	_	GTtags=Pl,Gen,Def
+1	Роштятнень	роштя	NOUN	N	Case=Gen|Definite=Def|Number=Plur	2	nmod:poss	_	GTtags=Pl,Gen,Def
 2	пряст	пря	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	3	nsubj	_	GTtags=Sem/Plc,Pl,Nom,PxPl3
 3	удыть	удомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3
 4	вень	ве	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	GTtags=SP,Gen,Indef
