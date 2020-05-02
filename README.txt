@@ -26,9 +26,16 @@ If you use this data in your work, please cite:
    year={2018}
    }
 
+## References
+
+* Bryzhinski, M. I. (Брыжинский, М.И.) Кирдажт (manuscript)
+* Chetvergov, E. V. (Четвергов, Е. В.) Велень вайгельть: Ёвтнемат. -- Саранск, Мордовской книжной издательствась, 1992. -- 160 с. -- Мордов./эрзя яз.
+
 
 # Changelog
-
+* 2020-05-15 v2.6
+  * Adding more material from E. Chetvergov with direct indication of page, paragraph and sentence.
+  * Expanding advmod:mmod, :lmod, :tmod and adding NameTypes.
 * 2019-10-30 v2.5
    * Work has been done with AUX types including aux:neg, aux:imp, aux:cnd for dealing with what were  earlier modal particles. This work also included balancing with the beginning Moksha-JR, Komi_Permyak-UH, Skolt_Sami-Giellagas as well as the Komi_Zyrian projects and Livvi-KKPP. 
 * 2019-05-15 v2.4
