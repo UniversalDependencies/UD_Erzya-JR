@@ -3,11 +3,11 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Erzya-JR:
-commit 72942e4b169eaf976a0add9bc9bc15292a384a09
-Merge: a41bbf7 73e5c5a
+commit 11acf6b44231a72557017b7b3870a39b3b00fbf0
+Merge: 212c556 b309aff
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 15790 of 15790 words (nodes).
-Size: min(0, log((N/1000)**2)) = 5.5187536565351.
+Size: counted 16255 of 16255 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.57680110751174.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,12 +15,12 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 10544 out of 15790 total words have one or more features.
+Features: 10920 out of 16255 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 32 out of 37 found in the corpus.
+Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 2506 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 15790 words.
+Udapi: found 2602 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 16255 words.
 Genres: found 1 out of 17 known.
 validate.py --lang myv --max-err=10 UD_Erzya-JR/myv_jr-ud-test.conllu
 *** PASSED ***
@@ -28,11 +28,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.399460710002765) = 0.102425823077632
+(weight=0.256410256410256) * (score{size}=0.403662324610715) = 0.103503160156594
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.374987072109469) * (availability=1) * (validity=1) = 0.374987072109469
+(weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
+(TOTAL score=0.378143411267433) * (availability=1) * (validity=1) = 0.378143411267433
 STARS = 2
-UD_Erzya-JR	0.374987072109469	2
+UD_Erzya-JR	0.378143411267433	2
