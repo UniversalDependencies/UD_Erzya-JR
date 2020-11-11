@@ -16,6 +16,8 @@ the Academy of Finland (dec. No 270354 - A Usable Finite-State Model for Adequat
 Syntactic Complexity), who made it possible to work with Erzya UD.
 Without the Erzya writers themselves, we would be no where…
 
+Annotation work is simultaneous to finite-state transducer development by Olga Erina and Jack Rueter in the [GiellaLT](https://giellalt.uit.no/lang-myv) infrastucture, which also works with Constraint Grammar disambiguation of the morphological analysis.
+
 If you use this data in your work, please cite:
 
    @inproceedings{rueter2018towards,
@@ -34,9 +36,19 @@ If you use this data in your work, please cite:
 * Dunjashin, Alek (Дуняшин, Алек) Пици-палакст. Ёвтнемат ды фельетонт. -- СССР-энь Наротнэнь Центрань Издательствась, 1930.
 * Gluxov, P. (Глухов, П.) Кедровонь пештть. Ёвтнемат. 1929.
 * Kutorkin, A. (Куторкин, А.) Лажныця Сура II. Роман. Мордовской Государственной Издательствась, 1967.
+* 
+*Эрзянь кель, Синтакс: тонавтнемапель.* [Erzya language, syntax: reader]. //  Агафонова, Н. А.; Алёшкина, Р. А.; Беспалова, Г. Ф.; Водясова, Л. П.; Клементьева, Е. Ф.; Рябов, И. Н.; Рябова, Г. В.; Харитонова, А. М.; Цыпкайкина, В. П.; анокстазь Д. В. Цыганкинэнь ветямонзо ало. -- Саранск : Изд-во Мордов. ун-та, 2011. -- 208 с. -- На мордов.-эрзя яз.  
 
+
+ In release 2.7 example sentences used in the Erzya-language grammar *Эрзянь кель, синтакс* (2011) were included. These sentences are marked with sent_id-s that contain the components `EKS:2011:page:n-th sentence:original author`. It is hoped that the inclusion of these sentences will help cover various grammatical phenomena in Erzya syntax. When refering to these sentences, we advise you also cite the original source:
+
+- Агафонова, Н. А.; Алёшкина, Р. А.; Беспалова, Г. Ф.; Водясова, Л. П.; Клементьева, Е. Ф.; Рябов, И. Н.; Рябова, Г. В.; Харитонова, А. М.; Цыпкайкина, В. П.; Цыганкин, Д. В. (Гл. ред.) 2011: *Эрзянь кель, синтакс: тонавтнемапель.* [Erzya language, syntax: reader]. -- Саранск : Изд-во Мордов. ун-та.
+- Agafonova, N. A.; Alëškina, R. A.; Bespalova, G. F.; Vodâsova, L. P.; Klement'eva, E. F.; Râbov, I. N.; Râbova, G. V.; Kharitonova, A. M.; Cypkajkina, V. P.; Cygankin, D. V. (Chief ed.) 2011: *Èrzân' kel', sintaksis: tonavtnemapel'.* [Erzya language, syntax: reader]. -- Saransk : Izd-vo Mordov. un-ta.
 
 # Changelog
+* 2020-11-15 v2.7
+  * 68 new sentences added from grammar Эрзянь кель, синтакс: тонавтнемапель
+  * Relator nouns with paradigms including the nominative singular are now annotated as nouns to avoid a three way coding as ADV, ADP and NOUN.
 * 2020-05-15 v2.6
   * Adding more material from E. Chetvergov with direct indication of page, paragraph and sentence.
   * Expanding advmod:mmod, :lmod, :tmod and adding NameTypes.
