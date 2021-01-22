@@ -10719,7 +10719,8 @@
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4504
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Чахрат ды пелюма:8:4:1
 # text = Цёрась сон а берянь.
-1	Цёрась	цёра	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	GTtags=Sg,Nom,Def|Gqloss[neg]=man
+# text_en = That man, he's not a bad one.
+1	Цёрась	цёра	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	dislocated	_	GTtags=Sg,Nom,Def|Gqloss[neg]=man
 2	сон	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	GTtags=Pers,Sg3,Nom|Gqloss[neg]=he
 3	а	а	AUX	Pcle	Polarity=Neg	4	aux:neg	_	GTtags=Neg|Gqloss[neg]=not
 4	берянь	берянь	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=Prs,ScSg3|Gloss[eng]=bad|SpaceAfter=No
@@ -19479,7 +19480,7 @@
 5	пешть	пеште	NOUN	N	Case=Nom|Definite=Ind|Number=Plur|Style=Arch	7	obj	_	GTtags=Prop,Sem/Sur,Pl,Nom,Indef|ModernForm=пештть
 6	эряви	эрявомс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	7	aux	_	GTtags=IV,Ind,Prs,ScSg3
 7	пурнамс	пурнамс	VERB	V	Valency=2|VerbForm=Inf	1	conj	_	GTtags=TV,Inf
-8	Пальконень	Палько	PROPN	N	Case=Dat|Definite=Ind|NameType=Giv|Number=Plur,Sing	7	obl:agent	_	GTtags=Prop,Sem/Sur,SP,Dat,Indef|SpaceAfter=No
+8	Пальконень	Палько	PROPN	N	Case=Dat|Definite=Ind|NameType=Giv|Number=Plur,Sing	7	obl	_	GTtags=Prop,Sem/Sur,SP,Dat,Indef|SpaceAfter=No
 9	,	,	PUNCT	CLB	_	7	punct	_	_
 10	—	—	PUNCT	PUNCT	_	11	punct	_	_
 11	арьси	арсемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	1	parataxis	_	GTtags=Hom2,IV,Ind,Prs,ScSg3
