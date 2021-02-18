@@ -22716,11 +22716,11 @@
 6	ды	ды	CCONJ	CC	_	9	cc	_	_
 7	секе	секе	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	obl	_	GTtags=Dem,Sg,Nom
 8	тев	тев	ADV	Adv	Case=Lat	7	compound	_	GTtags=Sg,Nom,Indef
-9	ваныль	ваномс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt2	2	conj	_	GTtags=Ind,Prt2,ScSg3
+9	ваныль	ваномс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	2	conj	_	GTtags=Ind,Prt2,ScSg3
 10	лангозонзо	ланго	NOUN	N	Case=Ill|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	GTtags=Relator,SP,Ill,PxSg3|SpaceAfter=No
 11	,	,	PUNCT	CLB	_	13	punct	_	_
 12	потмова	потмо	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	13	obl	_	GTtags=Relator,SP,Prl,Indef
-13	абунгалиль	абунгалемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt2	2	conj	_	GTtags=Ind,Prt2,ScSg3
+13	абунгалиль	абунгалемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	2	conj	_	GTtags=Ind,Prt2,ScSg3
 14	мазычизэнзэ	мазычи	NOUN	N	Case=Ill|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	13	obl	_	GTtags=SP,Ill,PxSg3|SpaceAfter=No
 15	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -23249,7 +23249,7 @@
 5	тикше	тикше	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	8	nsubj	_	GTtags=Sg,Nom,Indef
 6	видьмекскак	видьмекс	NOUN	N	Case=Nom|Clitic=Add|Definite=Ind|Number=Sing	8	xcomp	_	GTtags=Sg,Nom,Indef,Clt/Add
 7	а	а	AUX	Pcle	Polarity=Neg	8	aux:neg	_	GTtags=Neg
-8	педиль	педямс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt2	0	root	_	GTtags=Ind,Prt2,ScSg3|SpaceAfter=No
+8	педиль	педямс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=Ind,Prt2,ScSg3|SpaceAfter=No
 9	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = EKS:2011:19:4:AbramovK
@@ -23299,13 +23299,13 @@
 # text = Те чистэнть ильтнильть ве ёндонь инжетнень, «витнилить» сэредиця прятнень.
 1	Те	те	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg,Nom,Indef
 2	чистэнть	чи	NOUN	N	Case=Ela|Definite=Def|Number=Sing	3	obl:tmod	_	GTtags=Sg,Ela,Def
-3	ильтнильть	ильтнемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt2	0	root	_	GTtags=Ind,Prt2,ScPl3
+3	ильтнильть	ильтнемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	GTtags=Ind,Prt2,ScPl3
 4	ве	ве	DET	Det	NumType=Card	5	det	_	GTtags=Adn
 5	ёндонь	ёндонь	ADJ	A	Derivation=GenAttr|Number=Sing	6	amod	_	GTtags=Der,Der/GenAttr,A,Sg
 6	инжетнень	инже	NOUN	N	Case=Gen|Definite=Def|Number=Plur	3	obj	_	GTtags=Pl,Gen,Def|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	9	punct	_	_
 8	«	«	PUNCT	PUNCT	_	9	punct	_	GTtags=LEFT|SpaceAfter=No
-9	витнилить	витнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Prt2	3	conj	_	GTtags=Ind,Prt2,ScSg2|SpaceAfter=No
+9	витнилить	витнемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Past	3	conj	_	GTtags=Ind,Prt2,ScSg2|SpaceAfter=No
 10	»	»	PUNCT	PUNCT	_	9	punct	_	GTtags=RIGHT
 11	сэредиця	сэредемс	VERB	V	Case=Nom|Definite=Ind|Derivation=NomAg|Number=Sing	12	acl	_	GTtags=NomAg,Sg,Nom,Indef
 12	прятнень	пря	NOUN	N	Case=Gen|Definite=Def|Number=Plur	9	obj	_	GTtags=Pl,Gen,Def|SpaceAfter=No
@@ -23316,7 +23316,7 @@
 1	Полянь	поля	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	3	nmod:poss	_	GTtags=Prop,SP,Gen,Indef
 2	морамонь	морамо	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	3	nmod	_	GTtags=SP,Gen,Indef
 3	ёрокчизэ	ёрокчи	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	GTtags=Sg,Nom,PxSg3
-4	покшоль	покш	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|Number[subj]=Sing|Person[subj]=3|Tense=Prt2	0	root	_	GTtags=Sg,Nom,Indef,Clt/Cop,Prt2,ScSg3|SpaceAfter=No
+4	покшоль	покш	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=Sg,Nom,Indef,Clt/Cop,Prt2,ScSg3|SpaceAfter=No
 5	:	:	PUNCT	CLB	_	9	punct	_	_
 6	эрьва	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	7	det	_	GTtags=Qnt,Sg,Nom,Indef
 7	валось	вал	NOUN	N	Case=Nom|Definite=Def|Number=Sing	9	nsubj	_	GTtags=Sg,Nom,Def
@@ -23340,7 +23340,7 @@
 # sent_id = EKS:2011:19:10:AbramovK
 # text = Тишаень арасель мелезэ туемс экше таркастонть, ледемадонть сизесь нучк-пачк, чулксетить весе кедензэ-пильгензэ.
 1	Тишаень	Тишай	NOUN	N	Animacy=Hum|Case=Gen|Definite=Ind|Number=Plur,Sing	0	root	_	GTtags=Prop,Sem/Mal,SP,Gen,Indef
-2	арасель	арась	AUX	V	Case=Loc|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Prt2|VerbType=Aux	1	cop	_	GTtags=V,Aux,Neg,Loc,Prt2,ScSg3
+2	арасель	арась	AUX	V	Case=Loc|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Past|VerbType=Aux	1	cop	_	GTtags=V,Aux,Neg,Loc,Prt2,ScSg3
 3	мелезэ	мель	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	nsubj	_	GTtags=Sg,Nom,PxSg3
 4	туемс	туемс	VERB	V	VerbForm=Inf	3	advcl	_	GTtags=Inf
 5	экше	экше	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	6	amod	_	GTtags=Sg,Nom,Indef
