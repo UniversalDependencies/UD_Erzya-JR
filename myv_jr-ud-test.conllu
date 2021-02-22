@@ -5542,7 +5542,7 @@
 # text_fi = Ketšai käveli maahan sijattua pehmeää mattoa pitkin, mutta pian hän lakkasi näkemästä sekä kauneutta että ympärillään olevaa maisemaa.
 1	Кечай	Кечай	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	GTtags=Ant_Mal,Sg,Nom,Indef
 2	мольсь	молемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,ScSg3
-3	пильгалонзо	пильгало	NOUN	N	AdvType=Loc|Case=Loc|NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	advmod:lmod	_	GTtags=Spat,Loc,PxSg3
+3	пильгалонзо	пильгало	NOUN	N	AdvType=Loc|Case=Loc|NounType=Relat|Number[psor]=Sing|Person[psor]=3	4	obl:lmod	_	GTtags=Spat,Loc,PxSg3
 4	ацазь	ацамс	VERB	V	Derivation=Ozj|VerbForm=Conv	6	acl	_	GTtags=Der/Озь,Ger
 5	чевте	чевте	ADJ	A	_	6	amod	_	_
 6	кумбонть	кумбо	NOUN	N	Case=Gen|Definite=Def|Number=Sing	7	nmod	_	GTtags=Sem/Inanim_Cnt,Sg,Gen,Def
@@ -6217,7 +6217,7 @@
 8	уш	уш	ADV	Adv	AdvType=Tim	10	advmod:tmod	_	GTtags=Sem/Time
 9	савкшнось	савкшномс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	10	aux	_	GTtags=IV,Ind,Prt1,ScSg3
 10	улемс	улемс	AUX	V	Valency=1|VerbForm=Inf	11	csubj	_	GTtags=IV,Inf
-11	тосо	тосо	ADV	Adv	AdvType=Loc|Derivation=Ine	5	acl:relcl	_	GTtags=Spat,Adv|SpaceAfter=No
+11	тосо	тосо	ADV	Adv	AdvType=Loc|Case=Ine	5	acl:relcl	_	GTtags=Spat,Adv|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	14	punct	_	_
 13	эрьва	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	14	det	_	GTtags=Sg,Nom,Indef
 14	ёндо	ён	NOUN	N	Case=Abl|Definite=Ind|Number=Plur,Sing	19	obl	_	GTtags=Relator,SP,Abl,Indef|SpaceAfter=No
@@ -14704,7 +14704,7 @@
 2	кисетам	кисетам	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obj	_	GTtags=Sg,Gen,PxSg1
 3	козонь	козонь	ADV	Adv	Case=Ill|PronType=Int	5	obl	_	GTtags=Interr,Ill
 4	бути	бути	PART	Pcle	_	3	fixed	_	_
-5	ёмавтыя	ёмавтомс	VERB	V	Derivation=OvtOms|Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Past|Valency=2	0	root	_	GTtags=TV,Der/ОвтОмс,Ind,Prt1,ScSg1,OcSg3|SpaceAfter=No
+5	ёмавтыя	ёмавтомс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Past|Valency=2	0	root	_	GTtags=TV,Der/ОвтОмс,Ind,Prt1,ScSg1,OcSg3|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:114
@@ -15249,7 +15249,7 @@
 5	коммунист	коммунист	NOUN	N	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	4	acl	_	GTtags=Hum,Sg,Nom,Indef|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	10	punct	_	_
 7	монень	мон	PRON	Pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	obl:agent	_	GTtags=Pers,Sg1,Dat
-8	эряволь	эрявомс	AUX	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Valency=2	10	aux	_	GTtags=IV,Conj,ScSg3
+8	эряволь	эрявомс	AUX	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Valency=1	10	aux	_	GTtags=IV,Conj,ScSg3
 9	мартонзо	марто	ADP	Adp	Number[psor]=Sing|Person[psor]=3	10	obl	_	GTtags=COM,PxSg3
 10	кортамс	кортамс	VERB	V	Valency=2|VerbForm=Inf	3	conj	_	GTtags=TV,Inf
 11	бандитнэнь	бандит	NOUN	N	Case=Gen|Definite=Def|Number=Plur	10	obl	_	GTtags=Pl,Gen,Def
