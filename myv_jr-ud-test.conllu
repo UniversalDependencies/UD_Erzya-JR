@@ -171,6 +171,7 @@
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:106
 # text = ― Сынст карми ускомаст тия...
+# text_en = ― He will start hauling them through here...
 1	―	―	PUNCT	PUNCT	_	3	punct	_	_
 2	Сынст	сон	PRON	Pron	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	obj	_	GTtags=Pers,Pl3,Gen
 3	карми	кармамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3
@@ -5480,7 +5481,7 @@
 
 # sent_id = BryzhinskijMixail_Kirdazht_manu:23
 # text = Секс пезэмкстнэнь прява, седеяк сеедьстэ — кенкш маласотнева поволезь лишмень, овтонь, верьгизэнь пря колгант, покш нучконь пшти пей марто пакарть.
-# text_en = That is why there are horse, bear and wolf skulls as well as huge toothy jaws of pikes are hung along the tops of the pile, especially the one next to the gates
+# text_en = That is why there are horse, bear and wolf skulls as well as huge toothy jaws of pikes are hung along the tops of the piles, especially the one next to the gates
 # text_fi = Sen takia paalujen nenässä, erityisesti veräjien lähellä oleviin neniin on ripustettu hevos-, karhun- ja sudenkalloja sekä suurten haukien terävähampaisia leukoja.
 1	Секс	секс	ADV	Adv	Case=Tra	11	advmod	_	GTtags=Tra
 2	пезэмкстнэнь	пезэмкс	NOUN	N	Case=Gen|Definite=Def|Number=Plur	3	nmod	_	GTtags=Sem/Inanim_Cnt,Pl,Gen,Def
@@ -5682,7 +5683,7 @@
 6	пачкодемс	пачкодемс	VERB	V	VerbForm=Inf	5	csubj	_	GTtags=Inf|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	11	punct	_	_
 8	ниле	ниле	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	9	nummod	_	GTtags=Sg,Nom,Indef
-9	лейга	лей	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	11	obl	_	GTtags=Sem/Inanim_Cnt,SP,Prl,Indef
+9	лейга	лей	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	11	obl:lmp	_	GTtags=Sem/Inanim_Cnt,SP,Prl,Indef
 10	мик	мик	ADV	Adv	_	9	advmod	_	_
 11	уема	уемс	VERB	V	Mood=Nec|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1|VerbForm=Conv	1	conj	_	GTtags=IV,Oblig,Prs,ScSg3|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	14	punct	_	_
@@ -20339,7 +20340,7 @@
 6	вейкест	вейке	PRON	Pron	Case=Gen|Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Tot	7	det	_	GTtags=Tot,Pl,Gen,PxPl3
 7	пес	пе	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	8	obl	_	GTtags=Relator,Spat
 8	молить	молемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	2	advcl	_	GTtags=IV,Ind,Prs,ScPl3
-9	азорост	азор	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	nmod:lto	_	GTtags=Sg,Gen,PxPl3
+9	азорост	азор	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	nmod	_	GTtags=Sg,Gen,PxPl3
 10	ёнов	ён	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	8	obl	_	GTtags=Relator,Spat,Lat|SpaceAfter=No
 11	.	.	PUNCT	CLB	_	2	punct	_	_
 
