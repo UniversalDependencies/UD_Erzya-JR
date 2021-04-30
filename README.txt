@@ -46,6 +46,10 @@ If you use this data in your work, please cite:
 - Agafonova, N. A.; Alëškina, R. A.; Bespalova, G. F.; Vodâsova, L. P.; Klement'eva, E. F.; Râbov, I. N.; Râbova, G. V.; Kharitonova, A. M.; Cypkajkina, V. P.; Cygankin, D. V. (Chief ed.) 2011: *Èrzân' kel', sintaksis: tonavtnemapel'.* [Erzya language, syntax: reader]. -- Saransk : Izd-vo Mordov. un-ta.
 
 # Changelog
+
+* 2021-04-29
+  * Auxiliary, feature and deprel documentation
+  * Language tag systematization.
 * 2020-11-15 v2.7
   * 68 new sentences added from grammar Эрзянь кель, синтакс: тонавтнемапель
   * Relator nouns with paradigms including the nominative singular are now annotated as nouns to avoid a three way coding as ADV, ADP and NOUN.
