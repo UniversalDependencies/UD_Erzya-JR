@@ -23399,3 +23399,16 @@
 16	полавтне	полавтнемс	VERB	V	Connegative=Yes	8	acl:relcl	_	GTtags=ConNeg|SpaceAfter=No
 17	.	.	PUNCT	CLB	_	8	punct	_	_
 
+# sent_id = ErinaO1997:39:Evsevev1928:Iurtaj:52
+# text = Ортай колмо иес атядонтькак ламо кармась содамо.
+# Comment = М. Евсевьев, Эрзянь ёвкст (скаскат), Москва 1928.: 52; Ольга Ерина 1997: 39,
+# text_ru = Ортай за три года даже старика больше стал знать.
+# text_en = In three years, Ortaj began to know even more than the old man.
+1	Ортай	Ортай	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	7	nsubj	_	GTtags=Prop,Sg,Nom,Indef
+2	колмо	колмо	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	nummod	_	GTtags=Card,Sg,Nom,Indef
+3	иес	ие	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	7	obl:tmod	_	GTtags=SP,Ill,Indef
+4	атядонтькак	атя	NOUN	N	Case=Abl|Clitic=Add|Definite=Def|Number=Sing	5	nmod:comp	_	GTtags=Sg,Abl,Def,Clt/Add
+5	ламо	ламо	ADV	Adv	Case=Nom|Definite=Ind|Number=Sing	7	advmod	_	GTtags=Qnt,Sg,Nom,Indef
+6	кармась	кармамс	AUX	_	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	7	aux:aspect	_	GTtags=Ind,Prt1,ScSg3
+7	содамо	содамс	VERB	V	Case=Loc|VerbForm=Inf	_	xcomp	_	GTtags=Inf,Loc|SpaceAfter=No
+8	.	.	PUNCT	CLB	_	7	punct	_	_
