@@ -52,6 +52,10 @@ If you use this data in your work, please cite:
 * 2021-04-29
   * Auxiliary, feature and deprel documentation
   * Language tag systematization.
+  * Grammar research input.
+* 2021-04-29
+  * Auxiliary, feature and deprel documentation
+  * Language tag systematization.
 * 2020-11-15 v2.7
   * 68 new sentences added from grammar Эрзянь кель, синтакс: тонавтнемапель
   * Relator nouns with paradigms including the nominative singular are now annotated as nouns to avoid a three way coding as ADV, ADP and NOUN.
