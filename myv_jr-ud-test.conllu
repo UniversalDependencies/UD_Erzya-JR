@@ -23568,3 +23568,47 @@
 4	Галя	Галя	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	vocative	_	GTtags=Prop,Sg,Nom,Indef|SpaceAfter=No
 5	.	.	PUNCT	CLB	_	2	punct	_	_
 
+# sent_id = NujanjVidjaz2007:6:Sarleesj:13:14
+# text = Кить ансяк эзть сокаря сёвонев те пандочаманть!
+# comment =  Nujanj Vidjaz 2007, Èrzianj Mastorontj sedejsè
+1	Кить	кие	PRON	Pron	Animacy=Hum|Case=Nom|Number=Plur|PronType=Int	4	nsubj	_	GTtags=Interr,Sem/Hum,Pl,Nom
+2	ансяк	ансяк	ADV	Adv	_	1	advmod	_	GTtags=Exclusive
+3	эзть	а	AUX	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Polarity=Neg|Tense=Past|VerbType=Aux	4	aux:neg	_	GTtags=Aux,Neg,Ind,Prt1,ScPl3
+4	сокаря	сокарямс	VERB	V	Connegative=Yes	0	root	_	GTtags=ConNeg
+5	сёвонев	сёвонев	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	7	amod	_	GTtags=Sg,Nom,Indef
+6	те	те	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	7	det	_	GTtags=Dem,Sg,Nom,Indef
+7	пандочаманть	пандочама	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	obj	_	GTtags=Sg,Gen,Def|SpaceAfter=No
+8	!	!	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = NujanjVidjaz2007:8:Sarleesj:19:1
+# text = Пиже тикшесэ копачазь калмазыренть ваннозь, бажан превсэ вельмевтемс ды неемс оймень соракавтыця се шканть, тарканть, косо цятордозь палсь-гувнось олячинь пултыця толось...
+# comment =  Nujanj Vidjaz 2007, Èrzianj Mastorontj sedejsè
+1	Пиже	пиже	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	2	amod	_	GTtags=Sg,Nom,Indef
+2	тикшесэ	тикше	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	3	obl:inst	_	GTtags=SP,Ine,Indef
+3	копачазь	копачамс	VERB	V	Derivation=Ozj|VerbForm=Conv	4	acl:relcl	_	GTtags=Der/Ozj,Ger
+4	калмазыренть	калмазырь	NOUN	N	Case=Gen|Definite=Def|Number=Sing	5	obj	_	GTtags=Sg,Gen,Def
+5	ваннозь	ванномс	VERB	V	Derivation=Ozj|VerbForm=Conv	7	advcl	_	GTtags=Der/Ozj,Ger|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	5	punct	_	_
+7	бажан	бажамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres	0	root	_	GTtags=Ind,Prs,ScSg1
+8	превсэ	прев	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	9	obl	_	GTtags=SP,Ine,Indef
+9	вельмевтемс	вельмевтемс	VERB	V	VerbForm=Inf	7	xcomp	_	GTtags=Inf
+10	ды	ды	CCONJ	CC	_	11	cc	_	_
+11	неемс	неемс	VERB	V	VerbForm=Inf	9	conj	_	GTtags=Inf
+12	оймень	ойме	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	13	obj	_	GTtags=SP,Gen,Indef
+13	соракавтыця	соракавтомс	VERB	V	Tense=Pres|VerbForm=Part	15	acl:relcl	_	GTtags=Act,PrsPrc
+14	се	се	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	15	det	_	GTtags=Dem,Sg,Nom
+15	шканть	шка	NOUN	N	Case=Gen|Definite=Def|Number=Sing	11	obj	_	GTtags=Sg,Gen,Def|SpaceAfter=No
+16	,	,	PUNCT	CLB	_	17	punct	_	_
+17	тарканть	тарка	NOUN	N	Case=Gen|Definite=Def|Number=Sing	15	conj	_	GTtags=Sg,Gen,Def|SpaceAfter=No
+18	,	,	PUNCT	CLB	_	21	punct	_	_
+19	косо	косо	ADV	Adv	Case=Ine|PronType=Rel	20	advmod:lmod	_	GTtags=Rel,Ine
+20	цятордозь	цятордомс	VERB	V	Derivation=Ozj|VerbForm=Conv	21	advcl	_	GTtags=Der/Ozj,Ger
+21-23	палсь-гувнось	_	_	_	_	_	_	_	_
+21	палсь	паломс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	17	acl:relcl	_	GTtags=IV,Ind,Prt1,ScSg3,Cmp/Hyph-Serial,Cmp
+22	-	_	PUNCT	PUNCT	_	23	punct	_	_
+23	гувнось	гувномс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	21	conj	_	GTtags=Ind,Prt1,ScSg3
+24	олячинь	олячи	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	25	obj	_	GTtags=SP,Gen,Indef
+25	пултыця	пултамс	VERB	V	Tense=Pres|VerbForm=Part	26	acl:relcl	_	GTtags=Act,PrsPrc
+26	толось	тол	NOUN	N	Case=Nom|Definite=Def|Number=Sing	21	nsubj	_	GTtags=Sg,Nom,Def|SpaceAfter=No
+27	...	...	PUNCT	CLB	_	7	punct	_	_
+
