@@ -50,6 +50,11 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2022-04-29
+  * Deprel correction and documentation
+  * Trouble shooting in dependencies
+* 2021-10-31
+  * Auxiliary, feature and deprel documentation
 * 2021-04-29
   * Auxiliary, feature and deprel documentation
   * Language tag systematization.
