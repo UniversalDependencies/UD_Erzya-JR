@@ -23766,3 +23766,21 @@
 15	эйстэнзэ	эйстэ	ADP	Adp	Case=Ela|Number[psor]=Sing|Person[psor]=3	14	obl	_	GTtags=Ela,PxSg3|SpaceAfter=No
 16	...	...	PUNCT	PUNCT	_	1	punct	_	_
 
+# sent_id = Suranʹtolt:Ŝeglov:1963№4:19
+# text = Ведь, зярдояк эряви отказамс те «кода-бутинть» эйстэ.
+# text_upa = ved́, źardojak eŕavi otkazams t́e «koda-but́ińt́» ejste.
+# text_en = You know, sometime you have to divorce yourself from this word «somehow».
+1	Ведь	ведь	Pcle	_	_	5	discourse	_	gloss_en=you.know
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	зярдояк	зярдояк	ADV	_	Indef	5	advmod	_	gloss_en=sometime
+4	эряви	эрявомс	AUX	_	IV|Ind|Prs|ScSg3	5	aux	_	gloss_en=have.to
+5	отказамс	отказамс	VERB	_	IV|Inf	0	root	_	gloss_en=divorce.onself.from
+6	те	те	DET	_	Dem|Sg|Nom	9	det	_	gloss_en=this
+7	«	«	PUNCT	_	LEFT	9	punct	_	_
+8-9	кода-бутинть	_	_	_	_	_	_	_	_
+8	кода-бути	кода-бути	ADV	_	Indef|Manner	9	nmod:dequotative	_	gloss_en=somehow
+9	нть	ось	PRON	Pron	Case=Gen|Definite=Def|Number=Sing	5	obl	_	_
+10	»	»	PUNCT	_	RIGHT	9	punct	_	_
+11	эйстэ	эйстэ	ADP	_	Ela	9	case	_	gloss_en=from|SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
