@@ -6,36 +6,30 @@
 	"пульзямс" V IV Ind Prt1 ScSg3
 "<озномо>"
 	"озномс" V IV Inf Loc
-	"озномс" V TV Inf Loc
 "<,>"
 	"," PUNCT
 "<князесь>"
 	"князь" N Sg Nom Def
 "<ютась>"
 	"ютамс" V IV Ind Prt1 ScSg3
-	"ютамс" V TV Ind Prt1 ScSg3
 "<вальма>"
 	"вальма" N Sg Nom Indef
 "<малас>"
 	"малас" Adp Ill
 "<ды>"
-	"ды" CC
+	"ды" CC @CVP
 "<кармась>"
 	"кармамс" V IV Ind Prt1 ScSg3
 "<мельганзо>"
 	"мельга" Po Spat Prl PxSg3
 "<ваномо>"
 	"ваномс" V IV Inf Loc
-	"ваномс" V TV Inf Loc
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:20:10:LiubaevP
 # text = Зярдо цятны пек якшамо теле, сонзэ эйстэ овсе иля пеле...
 "<Зярдо>"
-	"зярдо" Adv Interr Sem/Time
-	"зярдо" Adv Interr Temp
-	"зярдо" CS Temp
+	"зярдо" CS Sem/Time
 "<цятны>"
 	"цятномс" V IV Ind Prs ScSg3
 "<пек>"
@@ -56,7 +50,6 @@
 	"а" V Aux Neg Imprt ScSg2
 "<пеле>"
 	"пелемс" V IV ConNeg
-	"пелемс" V TV ConNeg
 "<...>"
 	"..." PUNCT
 
@@ -68,15 +61,14 @@
 	"ош" N SP Ine Indef
 "<аштемстэ>"
 	"аштемс" V IV Ger Ela
-	"аштемс" V TV Ger Ela
 "<Осипов>"
-	"Осипов" N Prop Sem/Mal-Sur Sg Nom Indef
+	"Осипов" N Prop Sg Nom Indef
 "<атаманонть>"
 	"атаман" N Sg Gen Def
 "<перька>"
 	"перька" Adp Prl
 "<ломантнеде>"
-	"ломань" N Sem/Hum Pl Abl Def
+	"ломань" N Pl Abl Def
 "<промсть>"
 	"промомс" V IV Ind Prt1 ScPl3
 "<вельть>"
@@ -90,34 +82,25 @@
 # text = Пизёлкинэнь эйстэяк азорось редясь истямо ломань, кинень мерить «автень курго» эли «аволь васолга чавиця»...
 "<Пизёлкинэнь>"
 	"Пизёлкин" N Prop SP Gen Indef
-	"Пизёлкин" N Prop Sem/Mal-Sur SP Gen Indef
 "<эйстэяк>"
 	"эйстэ" Adp Ela Clt/Add
 "<азорось>"
 	"азор" N Sg Nom Def
 "<редясь>"
 	"редямс" V IV Ind Prt1 ScSg3
-	"редямс" V TV Ind Prt1 ScSg3
 "<истямо>"
 	"истямо" Ex/A Dem Der/MWN Sg Nom Indef
 "<ломань>"
-	"ломань" N Sem/Hum Sg Nom Indef
+	"ломань" N Sg Nom Indef
 "<,>"
 	"," PUNCT
 "<кинень>"
-	"ки" N SP Dat Indef
 	"кие" Pron Rel Pers SP Dat
 "<мерить>"
 	"меремс" V IV Ind Prs ScPl3
-	"меремс" V IV Ind Prt1 ScSg2
-	"меремс" V TV Imprt ScSg2 OcPl3
-	"меремс" V TV Ind Prs ScPl3
-	"меремс" V TV Ind Prt1 ScSg2
-	"меремс" V TV Ind Prt1 ScSg2 OcPl3
 "<«>"
 	"«" PUNCT LEFT
 "<автень>"
-	"автемс" V IV VGen
 	"автемс" V TV VGen
 "<курго>"
 	"курго" N Sg Nom Indef
@@ -133,7 +116,6 @@
 	"васолга" Adv Prl
 "<чавиця>"
 	"чавомс" Ex/V IV Der/Ycja NomAg N Sg Nom Indef
-	"чавомс" Ex/V TV Der/Ycja NomAg N Sg Nom Indef
 "<»>"
 	"»" PUNCT RIGHT
 "<...>"
@@ -150,17 +132,15 @@
 "<лакиведьсэ>"
 	"лакиведь" N SP Ine Indef
 "<валызь>"
-	"валомс" V TV Ind Prt1 ScPl3 OcPl3
 	"валомс" V TV Ind Prt1 ScPl3 OcSg3
 "<,>"
 	"," PUNCT
 "<кирнявтсь>"
 	"кирнявтомс" V IV Ind Prt1 ScSg3
-	"кирнявтомс" V TV Ind Prt1 ScSg3
 "<таркастонзо>"
 	"тарка" N SP Ela PxSg3
 "<ды>"
-	"ды" CC
+	"ды" CC @CVP
 "<пиже-ожо>"
 	"пиже-ожо" A Sg Nom Indef
 "<вайгельсэ>"
@@ -187,9 +167,7 @@
 "<алашасо>"
 	"алаша" N SP Ine Indef
 "<ардтнемакс>"
-	"ардтнема" N SP Tra Indef
 	"ардтнемс" Ex/V IV Der/OmA NomAct N SP Tra Indef
-	"ардтнемс" Ex/V TV Der/OmA NomAct N SP Tra Indef
 "<...>"
 	"..." PUNCT
 
@@ -198,15 +176,8 @@
 "<Адя>"
 	"адя" V Imprt ScSg2
 "<ютатано>"
-	"ютамс" V IV Ind Prs ScPl1
 	"ютамс" V TV Ind Prs ScPl1
 "<мартот>"
-	"марто" Po Der/MWN Pl Gen PxSg2
-	"марто" Po Der/MWN Pl Nom Indef
-	"марто" Po Der/MWN Pl Nom PxSg2
-	"марто" Po Der/MWN SP Gen PxSg2
-	"марто" Po Der/MWN Sg Gen PxSg2
-	"марто" Po Der/MWN Sg Nom PxSg2
 	"марто" Po PxSg2
 "<Иванбиё>"
 	"Иванбиё" N Prop Sg Nom Indef
@@ -216,36 +187,26 @@
 	"..." PUNCT
 
 # sent_id = EKS:2011:22:2:GajniP
-# text = Чачома кран, тиринь мастор, эжди эйсэнь лембе седееть...
+# text = Чачома край, тиринь мастор, эжди эйсэнь лембе седееть...
 "<Чачома>"
-	"чачома" N Sg Nom Indef
 	"чачомс" Ex/V IV Der/OmA NomAct N Sg Nom Indef
-"<кран>"
-	"кран" N Sg Nom Indef
+"<край>"
+	"край" N Sg Nom Indef
 "<,>"
 	"," PUNCT
 "<тиринь>"
 	"тири" Ex/A Der/MWN N SP Gen Indef
-	"тирямс" V IV Ind Prt1 ScSg1
 "<мастор>"
 	"мастор" N Sg Nom Indef
 "<,>"
 	"," PUNCT
 "<эжди>"
 	"эждемс" V IV Ind Prs ScSg3
-	"эждемс" V TV Ind Prs ScSg3
-	"эждямс" V TV Ind Prs ScSg3
-	"эждямс" V IV Ind Prs ScSg3
 "<эйсэнь>"
-	"эй" N SP Ine PxSg1
 	"эйсэ" Adp Ine PxSg1
 "<лембе>"
 	"лембе" A Sg Nom Indef
 "<седееть>"
-	"седей" N Pl Gen PxSg2
-	"седей" N Pl Nom PxSg2
-	"седей" N SP Gen PxSg2
-	"седей" N Sg Gen PxSg2
 	"седей" N Sg Nom PxSg2
 "<...>"
 	"..." PUNCT
@@ -263,7 +224,6 @@
 	"кизэ" N SP Gen Indef
 "<лембе>"
 	"лембе" A Sg Nom Indef
-	"лембе" Ex/A Der/MWN N Sg Nom Indef
 	"лембе" N Sg Nom Indef
 "<...>"
 	"..." PUNCT
@@ -278,17 +238,14 @@
 	"," PUNCT
 "<макст>"
 	"максомс" V IV Imprt ScSg2
-	"максомс" V TV Imprt ScSg2
 "<тень>"
 	"мон" Pron Pers Sg1 Dat Short
-	"те" Pron Dem Sg Gen Indef
 "<товсюро>"
 	"товсюро" N Sg Nom Indef
 "<,>"
 	"," PUNCT
 "<мейле>"
 	"мейле" Adv Sem/Time
-	"мейле" Ex/Adv Sem/Time Der/MWN N Sg Nom Indef
 "<симдемак>"
 	"симдемс" V TV Imprt ScSg2 OcSg1
 "<тонсеть>"
@@ -301,11 +258,7 @@
 # sent_id = EKS:2011:23:2:RadaevV
 # text = Чить сон айгортнэнь мельга яказо...
 "<Чить>"
-	"чи" N Pl Nom PxSg2
-	"чи" N Pl Gen PxSg2
 	"чи" N Pl Nom Indef
-	"чи" N Sg Nom PxSg2
-	"чи" N SP Gen PxSg2
 "<сон>"
 	"сон" Pron Pers Sg3 Nom
 "<айгортнэнь>"
@@ -314,7 +267,6 @@
 	"мельга" Po Spat Prl
 "<яказо>"
 	"якамс" V IV Opt ScSg3
-	"якамс" V TV Opt ScSg3
 "<...>"
 	"..." PUNCT
 
@@ -322,25 +274,16 @@
 # text = ...кандост тенек ярсамс, ливтест мацтсто кельме кумыс...
 "<...>"
 	"..." PUNCT
-
 "<кандост>"
-	"кан" N SP Abl PxPl3
-	"кандо" N Pl Gen PxPl3
-	"кандо" N Pl Nom PxPl3
-	"кандо" N SP Gen PxPl3
 	"кандомс" V IV Opt ScPl3
-	"кандомс" V TV Opt ScPl3
 "<тенек>"
 	"мон" Pron Pers Pl1 Dat Short
-	"тенемс" V IV Imprt ScSg2
 "<ярсамс>"
 	"ярсамс" V IV Inf
 "<,>"
 	"," PUNCT
 "<ливтест>"
-	"ливте" N Pl Nom PxPl3
 	"ливтемс" V IV Opt ScPl3
-	"ливтемс" V TV Opt ScPl3
 "<мацтсто>"
 	"мацт" N SP Ela Indef
 "<кельме>"
@@ -353,16 +296,10 @@
 # sent_id = EKS:2011:23:4:AbramovK
 # text = Молевлить, тейтернем, Натальнень...
 "<Молевлить>"
-	"молемс" V Conj ScSg2
-	"молемс" V Conj ScSg2 OcPl3
 	"молемс" V IV Conj ScSg2
 "<,>"
 	"," PUNCT
 "<тейтернем>"
-	"тейтерне" N Pl Gen PxSg1 Dial/SE
-	"тейтерне" N Pl Nom PxSg1 Dial/SE
-	"тейтерне" N SP Gen PxSg1 Dial/SE
-	"тейтерне" N Sg Gen PxSg1
 	"тейтерне" N Sg Nom PxSg1
 "<,>"
 	"," PUNCT
@@ -378,7 +315,6 @@
 "<мезеяк>"
 	"мезеяк" Pron Indef Sg Nom Indef
 "<ёвтамс>"
-	"ёвтамс" V IV Inf
 	"ёвтамс" V TV Inf
 "<,>"
 	"," PUNCT
@@ -386,7 +322,6 @@
 	"ёвтамс" V TV Ind Prs ScSg3 OcSg3
 "<кавто-колмо>"
 	"кавто-колмо" Num Appr Sg Nom Indef
-	"кавто-колмо" Num Card Appr Sg Nom Indef
 "<валсо>"
 	"вал" N SP Ine Indef
 "<...>"
@@ -396,18 +331,13 @@
 # text = Кортындерявлить сестэ — умок кучовлинек сёрманть...
 "<Кортындерявлить>"
 	"кортамс" Ex/V IV Der/Cond V Conj ScSg2
-	"кортамс" Ex/V TV Der/Cond V Conj ScSg2
-	"кортамс" Ex/V TV Der/Cond V Conj ScSg2 OcPl3
 "<сестэ>"
 	"сестэ" Adv Sem/Time
 "<—>"
 	"—" PUNCT
 "<умок>"
 	"умок" Adv Sem/Time
-	"умок" Ex/Adv Sem/Time Der/MWN N Sg Nom Indef
 "<кучовлинек>"
-	"кучомс" V TV Conj ScPl1
-	"кучомс" V TV Conj ScPl1 OcPl3
 	"кучомс" V TV Conj ScPl1 OcSg3
 "<сёрманть>"
 	"сёрма" N Sg Gen Def
@@ -418,23 +348,15 @@
 # text = Мериндеряволь исяк — саевлинек эйкакшонть мартонок...
 "<Мериндеряволь>"
 	"меремс" Ex/V IV Der/Cond V Conj ScSg3
-	"меремс" Ex/V IV Der/Cond V Err/Orth-mid-linking-vowel Ind Prt2 ScSg3
 "<исяк>"
 	"исяк" Adv Sem/Time
-	"исяк" Ex/Adv Sem/Time Der/MWN N Sg Nom Indef
 "<—>"
 	"—" PUNCT
 "<саевлинек>"
-	"саемс" V IV Conj ScPl1
-	"саемс" V TV Conj ScPl1
-	"саемс" V TV Conj ScPl1 OcPl3
 	"саемс" V TV Conj ScPl1 OcSg3
 "<эйкакшонть>"
 	"эйкакш" N Sg Gen Def
 "<мартонок>"
-	"марто" Po Der/MWN SP Gen PxPl1
-	"марто" Po Der/MWN Sg Gen PxPl1
-	"марто" Po Der/MWN Sg Nom PxPl1
 	"марто" Po PxPl1
 "<...>"
 	"..." PUNCT
@@ -444,9 +366,7 @@
 "<Кармиксэль>"
 	"кармамс" V IV Des Prt2 ScSg3
 "<кортамо>"
-	"кортамо" N Sg Nom Indef
 	"кортамс" V IV Inf Loc
-	"кортамс" V TV Inf Loc
 "<—>"
 	"—" PUNCT
 "<валонзо>"
@@ -455,17 +375,13 @@
 	"сеске" Adv Sem/Time
 "<сезизь>"
 	"сеземс" V Ind Prt1 ScPl3 OcPl3
-	"сеземс" V Ind Prt1 ScPl3 OcSg3
 "<...>"
 	"..." PUNCT
 
 # sent_id = EKS:2011:23:9:EDITORS
 # text = Рамиксэлинек велесэ кевень кудо — ярмаконок эзть сато.
 "<Рамиксэлинек>"
-	"рамамс" V IV Des Prt2 ScPl1
 	"рамамс" V TV Des Prt2 ScPl1
-	"рамамс" V TV Des Prt2 ScPl1 OcPl3
-	"рамамс" V TV Des Prt2 ScPl1 OcSg3
 "<велесэ>"
 	"веле" N SP Ine Indef
 "<кевень>"
@@ -488,8 +404,6 @@
 "<Телень>"
 	"теле" N SP Gen Indef
 "<маней>"
-	"маней" A Sg Nom Indef
-	"маней" Ex/A Der/MWN N Sg Nom Indef
 	"маней" N Sg Nom Indef
 "<,>"
 	"," PUNCT
@@ -497,7 +411,6 @@
 	"чама" N SP Ill Indef
 "<авториця>"
 	"авторямс" Ex/V IV Der/Ycja NomAg N Sg Nom Indef
-	"авторямс" Ex/V TV Der/Ycja NomAg N Sg Nom Indef
 "<якшамо>"
 	"якшамо" A Sg Nom Indef
 "<чи>"
@@ -509,7 +422,6 @@
 # text = Орданьбуень кияванть, кода лиятневаяк, ардтнить ансяк лишмесэ ды якить ялго...
 "<Орданьбуень>"
 	"Орданьбуе" N Prop SP Gen Indef
-	"орданьбуе" N SP Gen Indef
 "<кияванть>"
 	"ки" N Sg Prl Def
 "<,>"
@@ -522,62 +434,37 @@
 	"," PUNCT
 "<ардтнить>"
 	"ардтнемс" V IV Ind Prs ScPl3
-	"ардтнемс" V IV Ind Prt1 ScSg2
-	"ардтнемс" V TV Imprt ScSg2 OcPl3
-	"ардтнемс" V TV Ind Prs ScPl3
-	"ардтнемс" V TV Ind Prt1 ScSg2
-	"ардтнемс" V TV Ind Prt1 ScSg2 OcPl3
 "<ансяк>"
 	"ансяк" Adv Exclusive
 "<лишмесэ>"
 	"лишме" N SP Ine Indef
 "<ды>"
-	"ды" CC
+	"ды" CC @CVP
 "<якить>"
 	"якамс" V IV Ind Prs ScPl3
-	"якамс" V IV Ind Prt1 ScSg2
-	"якамс" V TV Imprt ScSg2 OcPl3
-	"якамс" V TV Ind Prs ScPl3
-	"якамс" V TV Ind Prt1 ScSg2
-	"якамс" V TV Ind Prt1 ScSg2 OcPl3
 "<ялго>"
 	"ялго" Adv Pred2
-	"ялго" Ex/Adv Pred2 Der/MWN N Sg Nom Indef
-	"ялго" N Sg Nom Indef
 "<...>"
 	"..." PUNCT
 
 # sent_id = EKS:2011:24:2:AbramovK
 # text = Тонавтыцясь вельть одат...
 "<Тонавтыцясь>"
-	"тонавтомс" Ex/V IV Der/Ycja NomAg N Sg Nom Def
-	"тонавтомс" Ex/V TV Der/Ycja NomAg N Sg Nom Def
+	"тонавтыця" N Sg Nom Def
 "<вельть>"
 	"ве" N Pl Nom Indef Clt/Cop Prt2 ScPl3
-	"вельть" Adv Deg
 "<одат>"
-	"ода" N Pl Gen PxSg2
 	"ода" N Pl Nom Indef
-	"ода" N Pl Nom PxSg2
-	"ода" N SP Gen PxSg2
-	"ода" N Sg Gen PxSg2
 "<...>"
 	"..." PUNCT
 
 # sent_id = EKS:2011:24:3a:AbramovK
 # text = Сакалонзо Ортянь шержевть.
+
 "<Сакалонзо>"
-	"Сакал" N Prop Pl Gen PxSg3
 	"Сакал" N Prop Pl Nom PxSg3
-	"Сакал" N Prop Sg Gen PxSg3
-	"сакало" N Sg Gen PxSg3
-	"сакал" N Pl Gen PxSg3
 	"сакал" N Pl Nom PxSg3
-	"сакал" N SP Gen PxSg3
-	"сакал" N Sg Gen PxSg3
-	"сакало" N Pl Gen PxSg3
 	"сакало" N Pl Nom PxSg3
-	"сакало" N SP Gen PxSg3
 "<Ортянь>"
 	"Ортя" N Prop SP Gen Indef
 "<шержевть>"
@@ -585,9 +472,9 @@
 	"шержев" Ex/A Der/MWN N Pl Nom Indef
 "<.>"
 	"." PUNCT
-
 # sent_id = EKS:2011:24:3b:AbramovK
 # text = Зярдо-бути сынь ульнесть тонол раужот...
+
 "<Зярдо-бути>"
 	"зярдо-бути" Adv Indef
 	"зярдо-бути" Adv Indef Sem/Time
@@ -605,9 +492,9 @@
 	"раужо" N Pl Nom PxSg2
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:4:SedojkinL
 # text = Ансяк весе неть моротне аволь истят питнейть, малавикст ды кенярдовтыцят...
+
 "<Ансяк>"
 	"ансяк" Adv Exclusive
 "<весе>"
@@ -630,35 +517,16 @@
 	"малавикс" A Pl Nom Indef
 	"малавикс" Ex/A Der/MWN N Pl Nom Indef
 "<ды>"
-	"ды" CC
+	"ды" CC @CADJP
 	"ды" Pcle
 "<кенярдовтыцят>"
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Pl Gen PxSg2
 	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Pl Nom Indef
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Pl Nom PxSg2
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N SP Gen PxSg2
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Sg Gen PxSg2
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Sg Nom Indef Clt/Cop Prs ScSg2
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Sg Nom PxSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Pl Gen PxSg2
 	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Pl Nom Indef
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Pl Nom PxSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N SP Gen PxSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Sg Gen PxSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Sg Nom Indef Clt/Cop Prs ScSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Sg Nom PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Sg Nom PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Pl Gen PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Pl Nom Indef
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Pl Nom PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N SP Gen PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Sg Gen PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Sg Nom Indef Clt/Cop Prs ScSg2
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:5:SedojkinL
 # text = Ведеськак теть тантей маряви...
+
 "<Ведеськак>"
 	"Ведь" N Prop Sg Nom Def Clt/Add
 	"ведь" N Sg Nom Def Clt/Add
@@ -666,21 +534,19 @@
 	"тон" Pron Pers Sg2 Dat Short
 "<тантей>"
 	"тантей" A Sg Nom Indef
-	"тантей" Ex/A Der/MWN N Sg Nom Indef
 	"тантей" N Sg Nom Indef
 "<маряви>"
 	"марявомс" V IV Ind Prs ScSg3
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:6:ErkajN
 # text = Те а лисьма — эрексия, те медьпрамо — аволь ведь...
+
 "<Те>"
 	"те" Det Dem Sg Nom
 "<а>"
 	"а" CC
 	"а" Interj
-	"а" N ABBR
 	"а" Pcle Neg
 	"а" V Aux Neg
 "<лисьма>"
@@ -704,43 +570,39 @@
 	"ведь" Pcle
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:7:ZhuravliovCh
 # text = Чокшнесь опаня ды валдо...
+
 "<Чокшнесь>"
 	"чокшне" N Sg Nom Def
 	"чокшнемс" V IV Stem/е Ind Prt1 ScSg3
 "<опаня>"
 	"опаня" A Sg Nom Indef
-	"опаня" Ex/A Der/MWN N Sg Nom Indef
 	"опаня" N Sg Nom Indef
 "<ды>"
-	"ды" CC
+	"ды" CC @CADJP
 "<валдо>"
 	"вал" N SP Abl Indef
 	"валдо" A Sg Nom Indef
-	"валдо" Ex/A Der/MWN N Sg Nom Indef
 	"валдо" N Sg Nom Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:8:AbramovK
 # text = Олодимирэнь князесь вельть виев...
+
 "<Олодимирэнь>"
 	"Олодимир" N Prop Pl Nom PxSg1
 "<князесь>"
 	"князь" N Sg Nom Def
 "<вельть>"
 	"ве" N Pl Nom Indef Clt/Cop Prt2 ScPl3
-	"вельть" Adv Deg
 "<виев>"
 	"виев" A Sg Nom Indef
-	"виев" Ex/A Der/MWN N Sg Nom Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:9:AbarmovK
 # text = Сынст кудось маласо.
+
 "<Сынст>"
 	"сон" Pron Pers Pl3 Gen
 "<кудось>"
@@ -749,9 +611,9 @@
 	"маласо" Adv Ine
 "<.>"
 	"." PUNCT
-
 # sent_id = EKS:2011:24:10:RazguliaevaT
 # text = Сестэ минь студентэлинек...
+
 "<Сестэ>"
 	"сестэ" Adv Sem/Time
 "<минь>"
@@ -760,16 +622,16 @@
 	"студент" N Pl Nom Indef Clt/Cop Prt2 ScPl1
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:11:RazguliaevaT
 # text = Лангсонзоль (тейтерькиненть) сэнь тюсонь таштыне платия ды мерьказь туфлят...
+
 "<Лангсонзоль>"
 	"Ланг" N Prop SP Ine PxSg3 Clt/Cop Prt2 ScSg3
 	"ланго" N Relator SP Ine PxSg3 Clt/Cop Prt2 ScSg3
 "<(>"
 	"(" PUNCT LEFT
 "<тейтерькиненть>"
-	"тейтерькине" N Sem/Hum Sg Gen Def
+	"тейтерькине" N Sg Gen Def
 "<)>"
 	")" PUNCT RIGHT
 "<сэнь>"
@@ -782,7 +644,7 @@
 "<платия>"
 	"платия" N Sg Nom Indef
 "<ды>"
-	"ды" CC
+	"ды" CC @CNP
 	"ды" Pcle
 "<мерьказь>"
 	"мерькамс" V IV Der/Ozj Ger
@@ -801,22 +663,21 @@
 	"туфля" N Sg Nom PxSg2
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:12:DoroninA
 # text = Чись ульнесь маней...
+
 "<Чись>"
 	"чи" N Sg Nom Def
 "<ульнесь>"
 	"ульнемс" V IV Ind Prt1 ScSg3
 "<маней>"
 	"маней" A Sg Nom Indef
-	"маней" Ex/A Der/MWN N Sg Nom Indef
 	"маней" N Sg Nom Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:13:DoroninA
 # text = Сынст кудост маласоль...
+
 "<Сынст>"
 	"сон" Pron Pers Pl3 Gen
 "<кудост>"
@@ -826,9 +687,9 @@
 	"маласо" Adv Ine Clt/Cop Prt2 ScSg3
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:14:DoroninA
 # text = Колмоце чи Вася фермасоль...
+
 "<Колмоце>"
 	"колмо" Ex/Num Ex/A Der/cje Ord Sg Nom Indef
 	"колмоце" Num Ord Sg Nom Indef
@@ -840,15 +701,14 @@
 	"ферма" N SP Ine Indef Clt/Cop Prt2 ScSg3
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:15a:RadaevV
 # text = Сурсо а токамс!
+
 "<Сурсо>"
 	"сур" N SP Ine Indef
 "<а>"
 	"а" CC
 	"а" Interj
-	"а" N ABBR
 	"а" Pcle Neg
 	"а" V Aux Neg
 "<токамс>"
@@ -856,23 +716,21 @@
 	"токамс" V TV Inf
 "<!>"
 	"!" PUNCT
-
 # sent_id = EKS:2011:24:15b:RadaevV
 # text = Кадомс эри зярс.
+
 "<Кадомс>"
 	"кадомс" V IV Inf
-	"кадомс" V TV Inf
 "<эри>"
 	"эрямс" V IV Ind Prs ScSg3
-	"эрямс" V TV Ind Prs ScSg3
 "<зярс>"
 	"зярс" Adv Interr Ill Temp
 	"зярс" Adv Rel Ill Temp
 "<.>"
 	"." PUNCT
-
 # sent_id = EKS:2011:24:15c:RadaevV
 # text = Ансяк киненьгак тензэ а пшкадемс, валгак а ёвтамс, малав а молемс, каршо вастомсто, ютамс ваксканзо, сонзэ ёнов мик а варштамскак...
+
 "<Ансяк>"
 	"ансяк" Adv Exclusive
 "<киненьгак>"
@@ -884,7 +742,6 @@
 "<а>"
 	"а" CC
 	"а" Interj
-	"а" N ABBR
 	"а" Pcle Neg
 	"а" V Aux Neg
 "<пшкадемс>"
@@ -894,9 +751,8 @@
 "<валгак>"
 	"вал" N Sg Nom Indef Clt/Add
 "<а>"
-	"а" CC
+	"а" CC @C-FVP
 	"а" Interj
-	"а" N ABBR
 	"а" Pcle Neg
 	"а" V Aux Neg
 "<ёвтамс>"
@@ -907,9 +763,8 @@
 "<малав>"
 	"малав" Adp Lat
 "<а>"
-	"а" CC
+	"а" CC @C-FVP
 	"а" Interj
-	"а" N ABBR
 	"а" Pcle Neg
 	"а" V Aux Neg
 "<молемс>"
@@ -919,7 +774,6 @@
 	"," PUNCT
 "<каршо>"
 	"каршо" Adv
-	"каршо" Po
 "<вастомсто>"
 	"вастомс" V IV Ger Ela
 	"вастомс" V TV Ger Ela
@@ -936,14 +790,12 @@
 "<сонзэ>"
 	"сон" Pron Pers Sg3 Gen
 "<ёнов>"
-	"ён" Ex/A Der/MWN N SP Lat Indef
 	"ён" N Relator SP Lat Indef
 "<мик>"
 	"мик" Adv
 "<а>"
-	"а" CC
+	"а" CC @C-FVP
 	"а" Interj
-	"а" N ABBR
 	"а" Pcle Neg
 	"а" V Aux Neg
 "<варштамскак>"
@@ -951,9 +803,9 @@
 	"варштамс" V TV Inf Clt/Add
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:16:PronchatovI
 # text = Эрьга тынсь, эрзянь цёратне...
+
 "<Эрьга>"
 	"эрьга" Interj V Imprt
 	"эрьга" N Sg Nom Indef
@@ -963,31 +815,27 @@
 "<,>"
 	"," PUNCT
 "<эрзянь>"
-	"эрзя" N Sem/Hum SP Gen Indef
+	"эрзя" N SP Gen Indef
 "<цёратне>"
 	"цёра" N Pl Nom Def
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:24:17:EDITORS
 # text = Арази те а сонзэ?
+
 "<Арази>"
 	"арази" Pcle
 "<те>"
 	"те" Det Dem Sg Nom
 "<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
 	"а" Pcle Neg
-	"а" V Aux Neg
 "<сонзэ>"
 	"сон" Pron Pers Sg3 Gen
 "<?>"
 	"?" PUNCT
-
 # sent_id = EKS:2011:24:18:EDITORS
 # text = Тонь ли те?
+
 "<Тонь>"
 	"тон" Pron Pers Sg2 Gen
 "<ли>"
@@ -996,35 +844,31 @@
 	"те" Pron Dem Sg Nom Indef
 "<?>"
 	"?" PUNCT
-
 # sent_id = EKS:2011:24:19a:AbramovK
 # text = Ёвтнян теть ёвкс?
+
 "<Ёвтнян>"
 	"ёвтнемс" V IV Ind Prs ScSg1
-	"ёвтнемс" V TV Ind Prs ScSg1
 "<теть>"
 	"тон" Pron Pers Sg2 Dat Short
 "<ёвкс>"
 	"ёвкс" N Sg Nom Indef
 "<?>"
 	"?" PUNCT
-
 # sent_id = EKS:2011:24:19b:AbramovK
 # text = Морат эрзянь моро?
+
 "<Морат>"
-	"мор" N Sg Nom Indef Clt/Cop Prs ScSg2
 	"морамс" V IV Ind Prs ScSg2
-	"морамс" V TV Ind Prs ScSg2
-	"моро" N Sg Nom Indef Clt/Cop Prs ScSg2
 "<эрзянь>"
-	"эрзя" N Sem/Hum SP Gen Indef
+	"эрзя" N SP Gen Indef
 "<моро>"
 	"моро" N Sg Nom Indef
 "<?>"
 	"?" PUNCT
-
 # sent_id = EKS:2011:24:19c:AbramovK
 # text = Тишай, мекс кувать а сат?
+
 "<Тишай>"
 	"Тишай" N Prop Sg Nom Indef
 "<,>"
@@ -1039,27 +883,25 @@
 	"самс" V IV Ind Prs ScSg2
 "<?>"
 	"?" PUNCT
-
 # sent_id = EKS:2011:25:1:EDITORS
 # text = Пиземесь курок прядови.
+
 "<Пиземесь>"
 	"пизем" N Sg Nom Def
 	"пиземе" N Sg Nom Def
 "<курок>"
 	"курок" Adv Sem/Time
-	"курок" Ex/Adv Sem/Time Der/MWN N Sg Nom Indef
 	"курок" N Sg Nom Indef
 "<прядови>"
 	"прядовомс" V IV Ind Prs ScSg3
 "<.>"
 	"." PUNCT
-
 # sent_id = EKS:2011:25:2:EDITORS
 # text = Паряк, пиземесь курок прядови...
+
 "<Паряк>"
 	"паряк" Pcle Epist
 	"парямс" V IV Imprt ScSg2
-	"парямс" V TV Imprt ScSg2
 "<,>"
 	"," PUNCT
 "<пиземесь>"
@@ -1067,15 +909,14 @@
 	"пиземе" N Sg Nom Def
 "<курок>"
 	"курок" Adv Sem/Time
-	"курок" Ex/Adv Sem/Time Der/MWN N Sg Nom Indef
 	"курок" N Sg Nom Indef
 "<прядови>"
 	"прядовомс" V IV Ind Prs ScSg3
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:25:3:EDITORS
 # text = Вечкса эсенек кудонть...
+
 "<Вечкса>"
 	"вечкемс" V TV Ind Prs ScSg1 OcSg3
 "<эсенек>"
@@ -1084,9 +925,9 @@
 	"кудо" N Sg Gen Def
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:25:4:EDITORS
 # text = Зярдо бути покштянок-сырькаенек ванстызь те мазычинть минек туртов...
+
 "<Зярдо>"
 	"зярдо" Adv Interr Sem/Time
 	"зярдо" Adv Interr Temp
@@ -1111,31 +952,29 @@
 	"туртов" Po Dat
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:25:5:EDITORS
 # text = Сёрмадан сёрма...
+
 "<Сёрмадан>"
 	"сёрмадомс" V IV Ind Prs ScSg1
-	"сёрмадомс" V TV Ind Prs ScSg1
 "<сёрма>"
 	"сёрма" N Sg Nom Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:25:6:EDITORS
 # text = Недлячистэ сёрмадан сёрма...
+
 "<Недлячистэ>"
 	"недлячи" N SP Ela Indef
 "<сёрмадан>"
 	"сёрмадомс" V IV Ind Prs ScSg1
-	"сёрмадомс" V TV Ind Prs ScSg1
 "<сёрма>"
 	"сёрма" N Sg Nom Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:25:7:EDITORS
 # text = Сы иестэнть карман тонавтнеме кеменце классо...
+
 "<Сы>"
 	"самс" V IV Ind Prs ScSg3
 "<иестэнть>"
@@ -1144,7 +983,6 @@
 	"кармамс" V IV Ind Prs ScSg1
 "<тонавтнеме>"
 	"тонавтнемс" V IV Inf Loc
-	"тонавтнемс" V TV Inf Loc
 "<кеменце>"
 	"кеменце" Num Ord Sg Nom Indef
 	"кемень" Ex/Num Ex/A Der/cje Ord Sg Nom Indef
@@ -1152,9 +990,9 @@
 	"класс" N SP Ine Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:25:8:EDITORS
 # text = Иля удо, тейтернем, сундерьгадозь, а шкастонзо мадить, — мерсь Наста...
+
 "<Иля>"
 	"а" V Aux Neg Imprt ScSg2
 "<удо>"
@@ -1162,9 +1000,7 @@
 "<,>"
 	"," PUNCT
 "<тейтернем>"
-	"тейтерне" N Pl Gen PxSg1 Dial/SE
 	"тейтерне" N Pl Nom PxSg1 Dial/SE
-	"тейтерне" N SP Gen PxSg1 Dial/SE
 "<,>"
 	"," PUNCT
 "<сундерьгадозь>"
@@ -1172,11 +1008,9 @@
 "<,>"
 	"," PUNCT
 "<а>"
-	"а" CC
+	"а" CC @CVP
 	"а" Interj
-	"а" N ABBR
 	"а" Pcle Neg
-	"а" V Aux Neg
 "<шкастонзо>"
 	"шка" N SP Ela PxSg3
 "<мадить>"
@@ -1192,16 +1026,15 @@
 	"Наста" N Prop Sg Nom Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:1:EvsevjevM
 # text = Таго сы покш курго овтось, илядо панжт...
+
 "<Таго>"
 	"таго" Adv Sem/Time
 "<сы>"
 	"самс" V IV Ind Prs ScSg3
 "<покш>"
 	"покш" A Sg Nom Indef
-	"покш" Ex/A Der/MWN N Sg Nom Indef
 	"покш" N Sg Nom Indef
 "<курго>"
 	"курго" N Sg Nom Indef
@@ -1213,27 +1046,24 @@
 	"а" V Aux Neg Imprt ScPl2
 "<панжт>"
 	"панжомс" V IV Dial ConNeg
-	"панжомс" V TV Dial ConNeg
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:2a:RadaevV
 # text = Келеть сусковлик!
+
 "<Келеть>"
 	"келе" N Sg Gen PxSg2
 	"келе" N Pl Gen PxSg2
 	"келе" N SP Gen PxSg2
-	"кель" N Sg Nom PxSg2
-	"келе" N Sg Nom PxSg2
 	"кель" N Pl Gen PxSg2
 	"кель" N Sg Gen PxSg2
 "<сусковлик>"
 	"сускомс" V TV Conj ScSg2 OcSg3
 "<!>"
 	"!" PUNCT
-
 # sent_id = EKS:2011:26:2b:EDITORS
 # text = Келеть сускомаль!
+
 "<Келеть>"
 	"келе" N Sg Gen PxSg2
 	"келе" N Pl Gen PxSg2
@@ -1253,9 +1083,9 @@
 	"сускомс" V TV Oblig Clt/Cop Prt2 ScSg3
 "<!>"
 	"!" PUNCT
-
 # sent_id = EKS:2011:26:3a:AbramovK
 # text = Эно лисевлиде (=лиседе) ушов — эйкакштненень лексемс а мейсэ...
+
 "<Эно>"
 	"эно" Pcle Epist
 "<лисевлиде>"
@@ -1278,18 +1108,15 @@
 "<лексемс>"
 	"лексемс" V IV Inf
 "<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
 	"а" Pcle Neg
 "<мейсэ>"
 	"мезе" Pron Interr SP Ine Indef
 	"мезе" Pron Rel SP Ine Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:3b:EDITORS
 # text = Эно лиседе ушов — эйкакштненень лексемс а мейсэ...
+
 "<Эно>"
 	"эно" Pcle Epist
 "<лиседе>"
@@ -1304,18 +1131,15 @@
 "<лексемс>"
 	"лексемс" V IV Inf
 "<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
 	"а" Pcle Neg
 "<мейсэ>"
 	"мезе" Pron Interr SP Ine Indef
 	"мезе" Pron Rel SP Ine Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:4a:EvsevjevM
 # text = Шекшей патяй, кодаяк бу пейдевтевлимик...
+
 "<Шекшей>"
 	"шекшей" N Sg Nom Indef
 "<патяй>"
@@ -1332,9 +1156,9 @@
 	"пейдевтемс" V TV Conj ScSg2 OcSg1
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:4b:EDITORS
 # text = Шекшей патяй, зярдо-бути пейдевтемак...
+
 "<Шекшей>"
 	"шекшей" N Sg Nom Indef
 "<патяй>"
@@ -1349,17 +1173,15 @@
 	"пейдевтемс" V TV Imprt ScSg2 OcSg1
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:5:Valmerevks
 # text = Мезе теят — секень неят...
+
 "<Мезе>"
 	"мезе" Pron Interr Sg Nom Indef
 "<теят>"
 	"теемс" V IV Ind Prs ScSg2
-	"теемс" V TV Ind Prs ScSg2
 	"тея" A Pl Nom Indef
 	"тея" Ex/A Der/MWN N Pl Nom Indef
-	"тея" Ex/A Der/MWN N Pl Nom PxSg2
 "<—>"
 	"—" PUNCT
 "<секень>"
@@ -1367,43 +1189,38 @@
 	"секень" Ex/A Der/GenAttr A Sg
 "<неят>"
 	"неемс" V IV Ind Prs ScSg2
-	"неемс" V TV Ind Prs ScSg2
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:6:Valmerevks
 # text = Бути шнатано — сапоньсэ шлятано, бути сялдтано — сялгсо сялгтано...
+
 "<Бути>"
 	"бути" CS
 "<шнатано>"
 	"шнамс" V IV Ind Prs ScPl1
-	"шнамс" V TV Ind Prs ScPl1
 "<—>"
 	"—" PUNCT
 "<сапоньсэ>"
 	"сапонь" N SP Ine Indef
 "<шлятано>"
 	"шлямс" V IV Ind Prs ScPl1
-	"шлямс" V TV Ind Prs ScPl1
 "<,>"
 	"," PUNCT
 "<бути>"
 	"бути" CS
 "<сялдтано>"
 	"сялдомс" V IV Ind Prs ScPl1
-	"сялдомс" V TV Ind Prs ScPl1
 "<—>"
 	"—" PUNCT
 "<сялгсо>"
 	"сялго" N SP Ine Indef
 "<сялгтано>"
 	"сялгомс" V IV Ind Prs ScPl1
-	"сялгомс" V TV Ind Prs ScPl1
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:7:EDITORS
 # text = Кавтонтень кавто — ниле.
+
 "<Кавтонтень>"
 	"кавто" Num Card Sg Dat Def
 "<кавто>"
@@ -1414,9 +1231,9 @@
 	"ниле" Num Card Sg Nom Indef
 "<.>"
 	"." PUNCT
-
 # sent_id = EKS:2011:26:8:EDITORS
 # text = Колмонть колмоксть — вейксэ.
+
 "<Колмонть>"
 	"колмо" Num Card Sg Gen Def
 "<колмоксть>"
@@ -1427,17 +1244,11 @@
 	"вейксэ" Num Card Sg Nom Indef
 "<.>"
 	"." PUNCT
-
 # sent_id = EKS:2011:26:9:MoroA
 # text = Кодамо мазый мастор лангось!
+
 "<Кодамо>"
-	"кодамо" N Sg Nom Indef
 	"кодамо" A Interr Sg Nom Indef
-	"кодамо" Ex/A Interr Der/MWN N Sg Nom Indef
-	"кодамс" V TV Inf Loc
-	"кодамс" Ex/V IV Der/OmA NomAct N Sg Nom Indef
-	"кодамс" Ex/V TV Der/OmA NomAct N Sg Nom Indef
-	"кодамс" V IV Inf Loc
 "<мазый>"
 	"мазый" A Sg Nom Indef
 "<мастор>"
@@ -1446,30 +1257,28 @@
 	"ланго" N Relator Sg Nom Def
 "<!>"
 	"!" PUNCT
-
 # sent_id = EKS:2011:26:10:KalinkinI
 # text = Тон вечкевиксат истямат...
+
 "<Тон>"
 	"тон" Pron Pers Sg2 Nom
 "<вечкевиксат>"
 	"вечкевемс" Ex/V IV Der/Y NomAg N SP Tra Indef Clt/Cop Prs ScSg2
 	"вечкевикс" A Sg Nom Indef Clt/Cop Prs ScSg2
-	"вечкевикс" Ex/A Der/MWN N Sg Nom Indef Clt/Cop Prs ScSg2
 	"вечкемс" Ex/V Der/OvOms Ex/V IV Der/Y NomAg N SP Tra Indef Clt/Cop Prs ScSg2
 	"вечкемс" Ex/V Ex/TV Der/OvOms Ex/V IV Der/Y NomAg N SP Tra Indef Clt/Cop Prs ScSg2
 "<истямат>"
 	"истямат" ?
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:11:AbramovK
 # text = Вельть паро уле вель...
+
 "<Вельть>"
 	"ве" N Pl Nom Indef Clt/Cop Prt2 ScPl3
 	"вельть" Adv Deg
 "<паро>"
 	"паро" A Sg Nom Indef
-	"паро" Ex/A Der/MWN N Sg Nom Indef
 	"паро" N Sg Nom Indef
 "<уле>"
 	"улемс" V IV ConNeg
@@ -1477,11 +1286,11 @@
 	"ве" N Sg Nom Indef Clt/Cop Prt2 ScSg3
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:12:GluxovP
 # text = Ломанесь сон (Е. В. Буртаев) сэтьмель, лембе седеель...
+
 "<Ломанесь>"
-	"ломань" N Sem/Hum Sg Nom Def
+	"ломань" N Sg Nom Def
 "<сон>"
 	"сон" Pron Pers Sg3 Nom
 "<(>"
@@ -1496,12 +1305,11 @@
 	"в" ABBR
 	"в" N ABBR
 "<Буртаев>"
-	"Буртаев" N Prop Sem/Mal-Sur Sg Nom Indef
+	"Буртаев" N Prop Sg Nom Indef
 "<)>"
 	")" PUNCT RIGHT
 "<сэтьмель>"
 	"сэтьме" A Sg Nom Indef Clt/Cop Prt2 ScSg3
-	"сэтьме" Ex/A Der/MWN N Sg Nom Indef Clt/Cop Prt2 ScSg3
 	"сэтьме" N Sg Nom Indef Clt/Cop Prt2 ScSg3
 "<,>"
 	"," PUNCT
@@ -1511,9 +1319,9 @@
 	"седей" N Sg Nom Indef Clt/Cop Prt2 ScSg3
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:13:GluxovP
 # text = Цярмун велень школасонть мон тонавтнинь вейке теле...
+
 "<Цярмун>"
 	"Цярмун" N Prop Sg Nom Indef
 "<велень>"
@@ -1524,17 +1332,15 @@
 	"мон" Pron Pers Sg1 Nom
 "<тонавтнинь>"
 	"тонавтнемс" V IV Ind Prt1 ScSg1
-	"тонавтнемс" V TV Ind Prt1 ScSg1
-	"тонавтнемс" V TV Ind Prt1 ScSg1 OcPl3
 "<вейке>"
 	"вейке" Num Card Sg Nom Indef
 "<теле>"
 	"теле" N Sg Nom Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:14a:AbramovK
 # text = Менельганть уить вецана пельть...
+
 "<Менельганть>"
 	"менель" N Sg Prl Def
 "<уить>"
@@ -1546,24 +1352,22 @@
 	"пель" N Pl Nom Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:26:14b:AbramovK
 # text = Стамбарнэ певерсь чопода пиземе...
+
 "<Стамбарнэ>"
 	"стамбарнэ" Adv
 "<певерсь>"
 	"певеремс" V IV Ind Prt1 ScSg3
-	"певеремс" V TV Ind Prt1 ScSg3
 "<чопода>"
 	"чопода" A Sg Nom Indef
 "<пиземе>"
 	"пиземе" N Sg Nom Indef
-	"пиземс" V IV Inf Loc
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:27:1:Valmerevks
 # text = Кортазь пеке а пештят.
+
 "<Кортазь>"
 	"кортамс" V IV Der/Ozj Ger
 	"кортамс" Ex/V IV Der/Ozj Ger Der/MWN N Sg Nom Indef
@@ -1577,22 +1381,14 @@
 	"а" V Aux Neg
 "<пештят>"
 	"пештемс" V IV Ind Prs ScSg2
-	"пештемс" V TV Ind Prs ScSg2
 	"пешть" N Sg Nom Indef Clt/Cop Prs ScSg2
-	"пештя" N Pl Gen PxSg2
-	"пештя" N Pl Nom Indef
-	"пештя" N Pl Nom PxSg2
-	"пештя" N SP Gen PxSg2
-	"пештя" N Sg Gen PxSg2
 	"пештя" N Sg Nom Indef Clt/Cop Prs ScSg2
-	"пештя" N Sg Nom PxSg2
 	"пештямс" V IV Ind Prs ScSg2
-	"пештямс" V TV Ind Prs ScSg2
 "<.>"
 	"." PUNCT
-
 # sent_id = EKS:2011:27:2:Valmerevks
 # text = Сыре озязонть сюва лангс а манясак.
+
 "<Сыре>"
 	"сыре" A Sg Nom Indef
 "<озязонть>"
@@ -1605,40 +1401,34 @@
 	"а" V Aux Neg
 "<манясак>"
 	"манямс" V TV Ind Prs ScSg2 OcSg3
-	"манямс" V TV Opt ScSg2 OcSg3
 "<.>"
 	"." PUNCT
-
 # sent_id = EKS:2011:27:3:DoroninA
 # text = Чокшне кандсть газетат...
+
 "<Чокшне>"
 	"чокшне" Adv Sem/Time
 	"чокшне" N Sg Nom Indef
 "<кандсть>"
 	"кандомс" V IV Ind Prt1 ScPl3
-	"кандомс" V TV Ind Prt1 ScPl3
 "<газетат>"
 	"газета" N Pl Nom Indef
 	"газета" N Pl Nom PxSg2
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:27:4:DoroninA
 # text = Ушосонть морыть...
+
 "<Ушосонть>"
 	"ушо" N Sg Ine Def
 "<морыть>"
 	"морамс" V IV Ind Prs ScPl3
 	"морамс" V IV Ind Prt1 ScSg2
-	"морамс" V TV Imprt ScSg2 OcPl3
-	"морамс" V TV Ind Prs ScPl3
-	"морамс" V TV Ind Prt1 ScSg2
-	"морамс" V TV Ind Prt1 ScSg2 OcPl3
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:27:5:DoroninA
 # text = Кенде велесэ лоткасть лишмень кирдемеде.
+
 "<Кенде>"
 	"Кенде" N Prop Sg Nom Indef
 	"кенде" N Sg Nom Indef
@@ -1653,37 +1443,34 @@
 	"кирдемс" V TV Inf Abl
 "<.>"
 	"." PUNCT
-
 # sent_id = EKS:2011:27:6:ArapovA
 # text = Икелень аштесь эрзянь тиринь велем...
+
 "<Икелень>"
 	"икеле" Adp Loc PxSg1
 	"икелень" Ex/A Der/GenAttr A Sg
 "<аштесь>"
 	"аштемс" V IV Ind Prt1 ScSg3
-	"аштемс" V TV Ind Prt1 ScSg3
 "<эрзянь>"
-	"эрзя" N Sem/Hum SP Gen Indef
+	"эрзя" N SP Gen Indef
 "<тиринь>"
 	"тири" Ex/A Der/MWN N SP Gen Indef
 	"тирямс" V IV Ind Prt1 ScSg1
 "<велем>"
 	"веле" N Pl Gen PxSg1 Dial/SE
-	"веле" N Pl Nom PxSg1 Dial/SE
 	"веле" N SP Gen PxSg1 Dial/SE
 	"веле" N Sg Gen PxSg1
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:27:7:RaptanovT
 # text = Гайгить тейтерень весёла, мазый вайгельтне...
+
 "<Гайгить>"
 	"гайгемс" V IV Ind Prs ScPl3
 "<тейтерень>"
 	"тейтерь" N Pl Nom PxSg1
 "<весёла>"
 	"весёла" A Sg Nom Indef
-	"весёла" Ex/A Der/MWN N Sg Nom Indef
 "<,>"
 	"," PUNCT
 "<мазый>"
@@ -1692,9 +1479,9 @@
 	"вайгель" N Pl Nom Def
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:27:8:MartynovA
 # text = Цитни, цивторды, кумболды, зорянь паломсто, модась...
+
 "<Цитни>"
 	"цитнемс" V IV Ind Prs ScSg3
 "<,>"
@@ -1717,9 +1504,9 @@
 	"мода" N Sg Nom Def
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:27:9:SedojkinL
 # text = Сёксь... Модамарть таргатано кепе...
+
 "<Сёксь>"
 	"сёксь" N Sg Nom Indef
 "<...>"
@@ -1728,26 +1515,20 @@
 "<Модамарть>"
 	"модамарь" N Pl Nom Indef
 "<таргатано>"
-	"тар" N SP Prl Indef Clt/Cop Prs ScPl1
-	"тарга" N Pl Nom Indef Clt/Cop Prs ScPl1
-	"таргамс" V IV Ind Prs ScPl1
 	"таргамс" V TV Ind Prs ScPl1
 	"таргатомс" V TV Ind Prs ScPl1
-	"таргатомс" V IV Ind Prs ScPl1
 "<кепе>"
 	"кепе" A Sg Nom Indef
 	"кепе" Adv
-	"кепе" Ex/A Der/MWN N Sg Nom Indef
 	"кепе" N Sg Nom Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:27:10:RaptanovT
 # text = Сеель варштась мельганзо, наравтызе прянзо ды кармась пултонь сюлмамо...
+
 "<Сеель>"
 	"сеель" N Sg Nom Indef
 "<варштась>"
-	"варштамс" V IV Ind Prt1 ScSg3
 	"варштамс" V TV Ind Prt1 ScSg3
 "<мельганзо>"
 	"мельга" Po Spat Prl PxSg3
@@ -1756,24 +1537,22 @@
 "<наравтызе>"
 	"наравтомс" V TV Ind Prt1 ScSg3 OcSg3
 "<прянзо>"
-	"пря" N Pl Gen PxSg3
 	"пря" N SP Gen PxSg3
 	"пря" N Sg Gen PxSg3
 "<ды>"
-	"ды" CC
+	"ды" CC @CVP
 "<кармась>"
 	"кармамс" V IV Ind Prt1 ScSg3
 "<пултонь>"
 	"пулт" N SP Gen Indef
 	"пулто" N SP Gen Indef
 "<сюлмамо>"
-	"сюлмамс" V IV Inf Loc
 	"сюлмамс" V TV Inf Loc
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:27:11:KutorkinA
 # text = Мирдеть пельде сёрмат получакшнат?
+
 "<Мирдеть>"
 	"мирде" N Pl Gen PxSg2
 	"мирде" N SP Gen PxSg2
@@ -1783,24 +1562,19 @@
 "<сёрмат>"
 	"сёрма" N Pl Gen PxSg2
 	"сёрма" N Pl Nom Indef
-	"сёрма" N Pl Nom PxSg2
 	"сёрма" N SP Gen PxSg2
 	"сёрма" N Sg Gen PxSg2
-	"сёрма" N Sg Nom PxSg2
 	"сёрмамс" V IV Ind Prs ScSg2
 "<получакшнат>"
 	"получакшномс" V IV Ind Prs ScSg2
 	"получакшномс" V TV Ind Prs ScSg2
 "<?>"
 	"?" PUNCT
-
 # sent_id = EKS:2011:27:12:AbramovK
 # text = Ловнынек. Сёрмась вельть паро!
+
 "<Ловнынек>"
-	"ловномс" V TV Ind Prt1 ScPl1 OcSg3
 	"ловномс" V IV Ind Prt1 ScPl1
-	"ловномс" V TV Ind Prt1 ScPl1
-	"ловномс" V TV Ind Prt1 ScPl1 OcPl3
 "<.>"
 	"." PUNCT
 
@@ -1811,13 +1585,12 @@
 	"вельть" Adv Deg
 "<паро>"
 	"паро" A Sg Nom Indef
-	"паро" Ex/A Der/MWN N Sg Nom Indef
 	"паро" N Sg Nom Indef
 "<!>"
 	"!" PUNCT
-
 # sent_id = EKS:2011:28:1:VtulkinM
 # text = Оренбургов сась цирк...
+
 "<Оренбургов>"
 	"Оренбург" N Prop SP Lat Indef
 "<сась>"
@@ -1826,12 +1599,11 @@
 	"цирк" N Sg Nom Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:29:1:DoroninA
 # text = Нусманя читне полавтневсть чопода ветнесэ...
+
 "<Нусманя>"
 	"нусманя" A Sg Nom Indef
-	"нусманя" Ex/A Der/MWN N Sg Nom Indef
 	"нусманя" N Sg Nom Indef
 "<читне>"
 	"чи" N Pl Nom Def
@@ -1843,15 +1615,14 @@
 	"ве" N Pl Ine Def
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:29:2:ChesnokovF
 # text = Омбоце недля Эхрем паро ёжо а соды...
+
 "<Омбоце>"
 	"омбоце" A Ord Sg Nom Indef
 "<недля>"
 	"недля" N Sg Nom Indef
 "<Эхрем>"
-	"Эхрё" N Prop Pl Nom PxSg1 Dial/SE
 	"Эхрем" N Prop Sg Nom Indef
 	"Эхрё" N Prop Pl Gen PxSg1 Dial/SE
 	"Эхрё" N Prop Sg Nom PxSg1
@@ -1859,7 +1630,6 @@
 	"Эхрё" N Prop Sg Gen PxSg1
 "<паро>"
 	"паро" A Sg Nom Indef
-	"паро" Ex/A Der/MWN N Sg Nom Indef
 	"паро" N Sg Nom Indef
 "<ёжо>"
 	"ёжо" N Sg Nom Indef
@@ -1867,14 +1637,12 @@
 	"а" V Aux Neg
 "<соды>"
 	"содамс" V IV Ind Prs ScSg3
-	"содамс" V TV Ind Prs ScSg3
 	"содомс" V IV Ind Prs ScSg3
-	"содомс" V TV Ind Prs ScSg3
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:29:3:SharanovA
 # text = Тундонь цецясь седейть а эжди...
+
 "<Тундонь>"
 	"тундо" N SP Gen Indef
 "<цецясь>"
@@ -1885,14 +1653,12 @@
 	"а" V Aux Neg
 "<эжди>"
 	"эждемс" V IV Ind Prs ScSg3
-	"эждемс" V TV Ind Prs ScSg3
-	"эждямс" V TV Ind Prs ScSg3
 	"эждямс" V IV Ind Prs ScSg3
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:29:4:DoroninA
 # text = Равось паро ладсо эзь солаяк...
+
 "<Равось>"
 	"Рав" N Prop Sem/Rvr Sg Nom Def
 	"рав" N Sg Nom Def
@@ -1906,40 +1672,35 @@
 	"соламс" V IV ConNeg Clt/Add
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:29:5a:MartynovA
 # text = Мон пек вечкан вирев якамо пекшень цветямо шкасто.
+
 "<Мон>"
 	"мон" Pron Pers Sg1 Nom
 "<пек>"
 	"пек" Adv Deg
 "<вечкан>"
 	"вечкемс" V IV Ind Prs ScSg1
-	"вечкемс" V TV Ind Prs ScSg1
 "<вирев>"
 	"вирев" A Sg Nom Indef
 "<якамо>"
-	"якамо" N Sg Nom Indef
-	"якамс" Ex/V IV Der/OmA NomAct N Sg Nom Indef
 	"якамс" V IV Inf Loc
 "<пекшень>"
 	"пекш" N SP Gen Indef
 	"пекше" N SP Gen Indef
 "<цветямо>"
-	"цветямо" N Sg Nom Indef
 	"цветямс" V IV Inf Loc
 "<шкасто>"
 	"шка" N SP Ela Indef
 "<.>"
 	"." PUNCT
-
 # sent_id = EKS:2011:29:5b:MartynovA
 # text = Сельметь аволить сае те чувтонть лангсто...
+
 "<Сельметь>"
 	"сельме" N Pl Nom PxSg2
 	"сельме" N Pl Nom Indef
 "<аволить>"
-	"аволямс" V IV Ind Prs ScPl3
 	"аволямс" V TV Ind Prs ScPl3
 "<сае>"
 	"саемс" V IV ConNeg
@@ -1952,9 +1713,9 @@
 	"ланго" N Relator SP Ela Indef
 "<...>"
 	"..." PUNCT
-
 # sent_id = EKS:2011:29:6:VidiazN
 # text = Аволь пельтнень томбале те ёвксонь кондямо сюпав ды мазый масторось...
+
 "<Аволь>"
 	"аволь" Pcle Neg Emphatic
 "<пельтнень>"
@@ -1970,17 +1731,16 @@
 "<сюпав>"
 	"сюпав" A Sg Nom Indef
 "<ды>"
-	"ды" CC
+	"ды" CC @CADJP
 "<мазый>"
 	"мазый" A Sg Nom Indef
 "<масторось>"
 	"мастор" N Sg Nom Def
 "<...>"
 	"..." PUNCT
-
-
 # sent_id = EKS:2011:29:7:RazguliaevaT
 # text = Аволь сэрей лашминенть потмакска таргавсь кумболдыця теине кикске...
+
 "<Аволь>"
 	"аволь" Pcle Neg Emphatic
 "<сэрей>"
@@ -1999,14 +1759,13 @@
 	"кикске" N Sg Nom Indef
 "<...>"
 	"..." PUNCT
-
-
 # sent_id = EKS:2011:29:8:PiataevE
 # text = Арсемс ды учнемс а мезть...
+
 "<Арсемс>"
 	"арсемс" V IV Inf
 "<ды>"
-	"ды" CC
+	"ды" CC @C-FVP
 "<учнемс>"
 	"учнемс" V IV Inf
 "<а>"
@@ -2015,70 +1774,68 @@
 	"мезе" Pron Interr Pl Nom Indef
 "<...>"
 	"..." PUNCT
-
-
 # sent_id = GanchinA:Staka_kevkstema:10:2
 # text = Надюм, маряви, кода катка, эрьва иестэ кавкстень-кавксть чачтнесь.
 # comment = Siatko 1998:11-12:139
+
 "<Надюм>"
-        "Надюм" N Prop Sg Nom Indef
+	"Надюм" N Prop Sg Nom Indef
 "<,>"
-        "," PUNCT
+	"," PUNCT
 "<маряви>"
-        "марявомс" V IV Ind Prs ScSg3
+	"марявомс" V IV Ind Prs ScSg3
 "<,>"
-        "," PUNCT
+	"," PUNCT
 "<кода>"
-        "кода" Adv Interr Manner
+	"кода" Adv Interr Manner
 "<катка>"
-        "катка" N Sg Nom Indef
+	"катка" N Sg Nom Indef
 "<,>"
-        "," PUNCT
+	"," PUNCT
 "<эрьва>"
-        "эрьва" Det Sg Nom Indef
+	"эрьва" Det Sg Nom Indef
 "<иестэ>"
-        "ие" N SP Ela Indef
+	"ие" N SP Ela Indef
 "<кавкстень-кавксть>"
-        "кавкстень-кавксть" Num DistrMult
+	"кавкстень-кавксть" Num DistrMult
 "<чачтнесь>"
-        "чачтнемс" V IV Ind Prt1 ScSg3
+	"чачтнемс" V IV Ind Prt1 ScSg3
 "<.>"
-        "." PUNCT
-
-
+	"." PUNCT
 # sent_id = ProxorovP:Komanuiushchej_jalgaj:pg22
 # text = Кавонстонь-кавонстонь лембе пракстат эрявольть бу.
 # comment = Siatko 1978:01:22
+
 "<Кавонстонь-кавонстонь>"
-        "Кавонстонь-кавонстонь" Num DistrSet
+	"Кавонстонь-кавонстонь" Num DistrSet
 "<лембе>"
-        "лембе" A Sg Nom Indef
+	"лембе" A Sg Nom Indef
 "<пракстат>"
-        "пракста" N Pl Nom Indef
+	"пракста" N Pl Nom Indef
 "<эрявольть>"
-        "эрявомс" V IV Conj ScPl3
+	"эрявомс" V IV Conj ScPl3
 "<бу>"
-        "бу" Pcle Aux Conj
+	"бу" Pcle Aux Conj
 "<.>"
-        "." PUNCT
-
-
+	"." PUNCT
 # sent_id = KutorkinA:Kriostketj:24:2
 # text = Васенценть потс Анися путсь кеменстэшка сюронь зёрнат.
 # comment = Suranj_Tolt 1963:06:35
+
 "<Васенценть>"
-        "васенце" Num Ord Ord Sg Gen Def
+	"васенце" Num Ord Ord Sg Gen Def
 "<потс>"
-        "потмо" N Relator SP Ill Indef
+	"потмо" N Relator SP Ill Indef
 "<Анися>"
-        "анися" N Sg Nom Indef
+	"анися" N Sg Nom Indef
 "<путсь>"
-        "путомс" V TV Ind Prt1 ScSg3
+	"путомс" V TV Ind Prt1 ScSg3
 "<кеменстэшка>"
-        "кеменстэшка" Num Appr Sg Nom Indef
+	"кеменстэшка" Num Appr Sg Nom Indef
 "<сюронь>"
-        "сюро" N SP Gen Indef
+	"сюро" N SP Gen Indef
 "<зёрнат>"
-        "зёрна" N Pl Nom Indef
+	"зёрна" N Pl Nom Indef
 "<.>"
-        "." PUNCT
+	"." PUNCT
+
