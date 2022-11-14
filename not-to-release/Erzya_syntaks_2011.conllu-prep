@@ -1,2084 +1,286 @@
-# sent_id = EKS:2011:20:9:DoroninA
-# text = Корнилий пульзясь озномо, князесь ютась вальма малас ды кармась мельганзо ваномо...
-"<Корнилий>"
-	"Корнилий" N Prop Sg Nom Indef
-"<пульзясь>"
-	"пульзямс" V IV Ind Prt1 ScSg3
-"<озномо>"
-	"озномс" V IV Inf Loc
-	"озномс" V TV Inf Loc
-"<,>"
-	"," PUNCT
-"<князесь>"
-	"князь" N Sg Nom Def
-"<ютась>"
-	"ютамс" V IV Ind Prt1 ScSg3
-	"ютамс" V TV Ind Prt1 ScSg3
-"<вальма>"
-	"вальма" N Sg Nom Indef
-"<малас>"
-	"малас" Adp Ill
-"<ды>"
-	"ды" CC
-"<кармась>"
-	"кармамс" V IV Ind Prt1 ScSg3
-"<мельганзо>"
-	"мельга" Po Spat Prl PxSg3
-"<ваномо>"
-	"ваномс" V IV Inf Loc
-	"ваномс" V TV Inf Loc
-"<...>"
-	"..." PUNCT
+# sent_id = EKS:2011:43:23:DoroninA
+# text = Нишкенть лангс тон, аля, иля кирде кежть...
+1	Нишкенть	Нишке	PROPN	N	Animacy=Hum|Case=Gen|Definite=Def|Number=Sing	_	nmod	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;P|GTtags=Prop,Sem/Divinity,Sg,Gen,Def
+2	лангс	ланго	NOUN	N	Case=Ill|Definite=Ind|NounType=Relat|Number=Plur,Sing	9	nmod	_	CGdephead=#2-&gt;9|CGdeprel=@&gt;N|GTtags=Relator,SP,Ill,Indef
+3	тон	тон	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	0	@PRED	_	CGdephead=#3-&gt;0|CGdeprel=@PRED|GTtags=Pers,Sg2,Nom|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	3	punct	_	CGdephead=#4-&gt;3|CGdeprel=@CLB|GTtags=CLB
+5	аля	аля	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	0	@PRED	_	CGdephead=#5-&gt;0|CGdeprel=@PRED|GTtags=Sg,Nom,Indef|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	5	punct	_	CGdephead=#6-&gt;5|CGdeprel=@CLB|GTtags=CLB
+7	иля	а	AUX	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|VerbType=Aux	_	aux:neg	_	CGdephead=#7-&gt;7|CGdeprel=@-FAUXV&gt;|GTtags=Aux,Neg,Imprt,ScSg2
+8	кирде	кирдемс	VERB	V	Connegative=Yes|Valency=2	0	root	_	CGdephead=#8-&gt;0|CGdeprel=@FMV|GTtags=TV,ConNeg
+9	кежть	кеж	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	8	obj	_	CGdephead=#9-&gt;8|CGdeprel=@&lt;OBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
+10	...	...	PUNCT	CLB	_	3	punct	_	CGdephead=#10-&gt;3|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:1:RadaevV
+# text = Кежендеень марто сёвнозь кортамо тон иля снартне; Вай а капши пек мокшо Пурейша валонь ёвтамо...
+1	Кежендеень	Кежендеень	_	_	_	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=?
+2	марто	марто	ADP	Po	AdpType=Post	1	@ADVL	_	CGdephead=#2-&gt;1|CGdeprel=@ADVL|GTtags=Po
+3	сёвнозь	сёвномс	VERB	V	PartForm=PastDyn|Valency=1|VerbForm=Conv,Part	0	@IMV	_	CGdephead=#3-&gt;0|CGdeprel=@IMV|GTtags=IV,Der/Ozj,Ger
+4	кортамо	кортамс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	3	@IMV	_	CGdephead=#4-&gt;3|CGdeprel=@IMV|GTtags=IV,Inf,Loc
+5	тон	тон	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	CGdephead=#5-&gt;7|CGdeprel=@SUBJ&gt;|GTtags=Pers,Sg2,Nom
+6	иля	а	AUX	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|VerbType=Aux	_	@-F&lt;AUXV	_	CGdephead=#6-&gt;6|CGdeprel=@-F&lt;AUXV|GTtags=Aux,Neg,Imprt,ScSg2
+7	снартне	снартнемс	VERB	V	Connegative=Yes|Valency=1	0	root	_	CGdephead=#7-&gt;0|CGdeprel=@FMV|GTtags=IV,ConNeg|SpaceAfter=No
+8	;	;	PUNCT	CLB	_	2	punct	_	CGdephead=#8-&gt;2|CGdeprel=@CLB|GTtags=CLB
+9	Вай	вай	INTJ	Interj	_	0	@INTERJ	_	CGdephead=#9-&gt;0|CGdeprel=@INTERJ|GTtags=
+10	а	а	AUX	V	Polarity=Neg|VerbType=Aux	_	aux:neg	_	CGdephead=#10-&gt;10|CGdeprel=@-FAUXV&gt;|GTtags=Aux,Neg
+11	капши	капшамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	CGdephead=#11-&gt;7|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3
+12	пек	пек	ADV	Adv	AdvType=Deg	11	advmod	_	CGdephead=#12-&gt;11|CGdeprel=@&lt;ADVL|GTtags=Deg
+13	мокшо	мокшо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	11	nsubj	_	CGdephead=#13-&gt;11|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef
+14	Пурейша	Пурейша	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	11	nsubj	_	CGdephead=#14-&gt;11|CGdeprel=@&lt;SUBJ|GTtags=Prop,Sg,Nom,Indef
+15	валонь	вал	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	16	nmod:gobj	_	CGdephead=#15-&gt;16|CGdeprel=@-FOBJ&gt;|GTtags=SP,Gen,Indef
+16	ёвтамо	ёвтамс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	11	@IMV	_	CGdephead=#16-&gt;11|CGdeprel=@IMV|GTtags=TV,Inf,Loc|SpaceAfter=No
+17	...	...	PUNCT	CLB	_	2	punct	_	CGdephead=#17-&gt;2|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:2:AbramovK
+# text = Сон (экшесь) уш кармась чополгавтомс пиже лопатнень; Неть палкатне эрявить нешкень кандтнемс...
+1	Сон	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	CGdephead=#1-&gt;7|CGdeprel=@SUBJ&gt;|GTtags=Pers,Sg3,Nom
+2	(	(	PUNCT	PUNCT	PunctSide=Ini	3	punct	_	CGdephead=#2-&gt;3|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
+3	экшесь	экш	NOUN	N	Case=Nom|Definite=Def|NounType=Relat|Number=Sing	7	nsubj	_	CGdephead=#3-&gt;7|CGdeprel=@SUBJ&gt;|GTtags=Relator,Sg,Nom,Def|SpaceAfter=No
+4	)	)	PUNCT	PUNCT	PunctSide=Fin	5	punct	_	CGdephead=#4-&gt;5|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
+5	уш	уш	ADV	Adv	_	7	advmod	_	CGdephead=#5-&gt;7|CGdeprel=@ADVL&gt;|GTtags=
+6	кармась	кармамс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	_	aux	_	CGdephead=#6-&gt;6|CGdeprel=@-FAUXV&gt;|GTtags=IV,Ind,Prt1,ScSg3
+7	чополгавтомс	чополгавтомс	VERB	V	Valency=1|VerbForm=Inf	6	@IMV	_	CGdephead=#7-&gt;6|CGdeprel=@IMV|GTtags=IV,Inf
+8	пиже	пиже	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	9	amod	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
+9	лопатнень	лопа	NOUN	N	Case=Gen|Definite=Def|Number=Plur	12	nmod	_	CGdephead=#9-&gt;12|CGdeprel=@&gt;N|GTtags=Pl,Gen,Def|SpaceAfter=No
+10	;	;	PUNCT	CLB	_	_	punct	_	CGdephead=#10-&gt;10|CGdeprel=@CLB|GTtags=CLB
+11	Неть	неть	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	_2	det	_	CGdephead=#11-&gt;12|CGdeprel=@&gt;N|GTtags=Dem,Pl,Nom,Indef
+12	палкатне	палка	NOUN	N	Case=Nom|Definite=Def|Number=Plur	15	nsubj	_	CGdephead=#12-&gt;15|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,Def
+13	эрявить	эрявомс	AUX	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	_	aux	_	CGdephead=#13-&gt;13|CGdeprel=@-FAUXV&gt;|GTtags=IV,Ind,Prs,ScPl3
+14	нешкень	нешке	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	15	nmod:gobj	_	CGdephead=#14-&gt;15|CGdeprel=@-FOBJ&gt;|GTtags=SP,Gen,Indef
+15	кандтнемс	кандтнемс	VERB	V	Valency=2|VerbForm=Inf	13	@IMV	_	CGdephead=#15-&gt;13|CGdeprel=@IMV|GTtags=TV,Inf|SpaceAfter=No
+16	...	...	PUNCT	CLB	_	_	punct	_	CGdephead=#16-&gt;16|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:3:MartynovA
+# text = Куштай Митя, тетянзо апак учо, лоткась сокамодо...
+1	Куштай	Куштай	_	_	_	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=?
+2	Митя	Митя	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	0	voc	_	CGdephead=#2-&gt;0|CGdeprel=@VOC|GTtags=Prop,Sg,Nom,Indef|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	2	punct	_	CGdephead=#3-&gt;2|CGdeprel=@CLB|GTtags=CLB
+4	тетянзо	тетя	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	nmod:gobj	_	CGdephead=#4-&gt;5|CGdeprel=@-FOBJ&gt;|GTtags=Pl,Gen,PxSg3
+5	апак	а	AUX	V	ConvPrc|Polarity=Neg|VerbType=Aux	_	aux:neg	_	CGdephead=#5-&gt;5|CGdeprel=@-FAUXV&gt;|GTtags=Aux,Neg,ConvPrc
+6	учо	учомс	VERB	V	Connegative=Yes|Valency=2	0	root	_	CGdephead=#6-&gt;0|CGdeprel=@FMV|GTtags=TV,ConNeg|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	6	punct	_	CGdephead=#7-&gt;6|CGdeprel=@CLB|GTtags=CLB
+8	лоткась	лоткамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#8-&gt;6|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScSg3
+9	сокамодо	сокамс	VERB	V	Case=Abl|Definite=Ind|Number=Plur,Sing|Valency=1|VerbForm=VNoun	8	advcl	_	CGdephead=#9-&gt;8|CGdeprel=@&lt;ADVL|GTtags=IV,Der/NomAct,N,SP,Abl,Indef|SpaceAfter=No
+10	...	...	PUNCT	CLB	_	2	punct	_	CGdephead=#10-&gt;2|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:4:ČesnokovF
+# text = Васянь низэ лоткась ризнэмедеяк; Кие-бути маряви каштордомадо кудыкелькс удало...
+1	Васянь	Вася	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	2	nmod	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Prop,SP,Gen,Indef
+2	низэ	ни	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	CGdephead=#2-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,PxSg3
+3	лоткась	лоткамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScSg3
+4	ризнэмедеяк	ризнэмс	VERB	V	Case=Abl|Clitic=Add|Valency=1|VerbForm=Inf	3	@IMV	_	CGdephead=#4-&gt;3|CGdeprel=@IMV|GTtags=IV,Inf,Abl,Clt/Add|SpaceAfter=No
+5	;	;	PUNCT	CLB	_	3	punct	_	CGdephead=#5-&gt;3|CGdeprel=@CLB|GTtags=CLB
+6	Кие-бути	кие-бути	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing	7	nsubj	_	CGdephead=#6-&gt;7|CGdeprel=@SUBJ&gt;|GTtags=Indef,Sg,Nom
+7	маряви	марявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	CGdephead=#7-&gt;3|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3
+8	каштордомадо	каштордомс	VERB	V	Case=Abl|Definite=Ind|Number=Plur,Sing|Valency=1|VerbForm=VNoun	7	advcl	_	CGdephead=#8-&gt;7|CGdeprel=@&lt;ADVL|GTtags=IV,Der/NomAct,N,SP,Abl,Indef
+9	кудыкелькс	кудыкелькс	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	_	@&gt;P	_	CGdephead=#9-&gt;9|CGdeprel=@&gt;P|GTtags=Sg,Nom,Indef
+10	удало	удало	ADP	Adp	Case=Loc	7	@&lt;ADVL	_	CGdephead=#10-&gt;7|CGdeprel=@&lt;ADVL|GTtags=Loc|SpaceAfter=No
+11	...	...	PUNCT	CLB	_	3	punct	_	CGdephead=#11-&gt;3|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:5:AbramovK
+# text = Тетязо снартокшнось урьвакстомонзо, варчась тензэ тейтерь...
+1	Тетязо	тетя	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,PxSg3
+2	снартокшнось	снартокшномс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScSg3
+3	урьвакстомонзо	урьвакстомс	VERB	V	Case=Loc|Number[psor]=Sing|Person[psor]=3|Valency=1|VerbForm=Inf	2	@IMV	_	CGdephead=#3-&gt;2|CGdeprel=@IMV|GTtags=IV,Inf,Loc,PxSg3|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	3	punct	_	CGdephead=#4-&gt;3|CGdeprel=@CLB|GTtags=CLB
+5	варчась	варчамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#5-&gt;2|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScSg3
+6	тензэ	сон	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Short	5	obl	_	CGdephead=#6-&gt;5|CGdeprel=@&lt;ADVL|GTtags=Pers,Sg3,Dat,Short
+7	тейтерь	тейтерь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	CGdephead=#7-&gt;5|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
+8	...	...	PUNCT	CLB	_	2	punct	_	CGdephead=#8-&gt;2|CGdeprel=@CLB|GTtags=CLB
+
+
 
-# sent_id = EKS:2011:20:10:LiubaevP
-# text = Зярдо цятны пек якшамо теле, сонзэ эйстэ овсе иля пеле...
-"<Зярдо>"
-	"зярдо" Adv Interr Sem/Time
-	"зярдо" Adv Interr Temp
-	"зярдо" CS Temp
-"<цятны>"
-	"цятномс" V IV Ind Prs ScSg3
-"<пек>"
-	"пек" Adv Deg
-"<якшамо>"
-	"якшамо" A Sg Nom Indef
-"<теле>"
-	"теле" N Sg Nom Indef
-"<,>"
-	"," PUNCT
-"<сонзэ>"
-	"сон" Pron Pers Sg3 Gen
-"<эйстэ>"
-	"эйстэ" Adp Ela
-"<овсе>"
-	"овсе" Adv
-"<иля>"
-	"а" V Aux Neg Imprt ScSg2
-"<пеле>"
-	"пелемс" V IV ConNeg
-	"пелемс" V TV ConNeg
-"<...>"
-	"..." PUNCT
+# sent_id = EKS:2011:44:6:DoroninA
+# text = Кавалось ванкшнось ды кодаяк эзь лотксе дивсемеде...
+1	Кавалось	кавал	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
+2	ванкшнось	ванкшномс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScSg3
+3	ды	ды	CCONJ	CC	_	2	@CVP	_	CGdephead=#3-&gt;2|CGdeprel=@CVP|GTtags=
+4	кодаяк	кодаяк	ADV	Adv	AdvType=Man|Definite=Ind	2	advmod	_	CGdephead=#4-&gt;2|CGdeprel=@&lt;ADVL|GTtags=Indef,Manner
+5	эзь	а	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Past|VerbType=Aux	_	@-F&lt;AUXV	_	CGdephead=#5-&gt;5|CGdeprel=@-F&lt;AUXV|GTtags=Aux,Neg,Ind,Prt1,ScSg3
+6	лотксе	лотксемс	VERB	V	Connegative=Yes|Valency=1	5	@IMV	_	CGdephead=#6-&gt;5|CGdeprel=@IMV|GTtags=IV,ConNeg
+7	дивсемеде	дивсемс	VERB	V	Case=Abl|Valency=1|VerbForm=Inf	6	@IMV	_	CGdephead=#7-&gt;6|CGdeprel=@IMV|GTtags=IV,Inf,Abl|SpaceAfter=No
+8	...	...	PUNCT	CLB	_	2	punct	_	CGdephead=#8-&gt;2|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:7:IšutkinN
+# text = Кармавлить чаулань превть тон ванськавтомо...
+1	Кармавлить	кармамс	AUX	V	Mood=Sub|Number[subj]=Sing|Person[subj]=2|Valency=1	_	aux	_	CGdephead=#1-&gt;1|CGdeprel=@-FAUXV&gt;|GTtags=IV,Conj,ScSg2
+2	чаулань	чаула	ADJ	A	Case=Gen|Definite=Ind|Number=Plur,Sing	3	amod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Der/MWN,N,SP,Gen,Indef
+3	превть	прев	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	_	obj	_	CGdephead=#3-&gt;3|CGdeprel=@&lt;OBJ|GTtags=Pl,Nom,Indef
+4	тон	тон	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	0	nsubj	_	CGdephead=#4-&gt;0|CGdeprel=@&lt;SUBJ|GTtags=Pers,Sg2,Nom
+5	ванськавтомо	ванськавтомс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	1	@IMV	_	CGdephead=#5-&gt;1|CGdeprel=@IMV|GTtags=IV,Inf,Loc|SpaceAfter=No
+6	...	...	PUNCT	CLB	_	4	punct	_	CGdephead=#6-&gt;4|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:8:DoroninA
+# text = Вечканов снартыксэль велявтомс кортамонть пейдемакс...
+1	Вечканов	Вечканов	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	3	nsubj	_	CGdephead=#1-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Prop,Sg,Nom,Indef
+2	снартыксэль	снартомс	VERB	V	Case=Nom|Definite=Ind|Der/Yks|Number=Sing|PrsPrc|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	@PRED	_	CGdephead=#2-&gt;0|CGdeprel=@PRED|GTtags=IV,Der/Yks,PrsPrc,Sg,Nom,Indef,Clt/Cop,Prt2,ScSg3
+3	велявтомс	велявтомс	VERB	V	Valency=2|VerbForm=Inf	0	@IMV	_	CGdephead=#3-&gt;0|CGdeprel=@IMV|GTtags=TV,Inf
+4	кортамонть	кортамо	NOUN	N	Case=Gen|Definite=Def|Number=Sing	5	nmod	_	CGdephead=#4-&gt;5|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
+5	пейдемакс	пейдема	NOUN	N	Case=Tra|Definite=Ind|Number=Plur,Sing	_	@PRED-ADVL	_	CGdephead=#5-&gt;5|CGdeprel=@PRED-ADVL|GTtags=SP,Tra,Indef|SpaceAfter=No
+6	...	...	PUNCT	CLB	_	2	punct	_	CGdephead=#6-&gt;2|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:9:AbramovK
+# text = Тейтересь эрявсь варчамс Обранонь раськень; Цёрынентень течи эряви молемс покштянстэнь, Ашолисьмав...
+1	Тейтересь	тейтерь	NOUN	N	Case=Nom|Definite=Def|Number=Sing	3	nsubj	_	CGdephead=#1-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
+2	эрявсь	эрявомс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	_	aux	_	CGdephead=#2-&gt;2|CGdeprel=@-FAUXV&gt;|GTtags=IV,Ind,Prt1,ScSg3
+3	варчамс	варчамс	VERB	V	Valency=1|VerbForm=Inf	2	@IMV	_	CGdephead=#3-&gt;2|CGdeprel=@IMV|GTtags=IV,Inf
+4	Обранонь	Обран	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	CGdephead=#4-&gt;5|CGdeprel=@&gt;N|GTtags=Prop,SP,Gen,Indef
+5	раськень	раське	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	3	obj	_	CGdephead=#5-&gt;3|CGdeprel=@&lt;OBJ|GTtags=SP,Gen,Indef|SpaceAfter=No
+6	;	;	PUNCT	CLB	_	_	punct	_	CGdephead=#6-&gt;6|CGdeprel=@CLB|GTtags=CLB
+7	Цёрынентень	цёрыне	NOUN	N	Case=Dat|Definite=Def|Number=Sing	10	obl	_	CGdephead=#7-&gt;10|CGdeprel=@ADVL&gt;|GTtags=Sg,Dat,Def
+8	течи	течи	ADV	Adv	_	10	advmod	_	CGdephead=#8-&gt;10|CGdeprel=@ADVL&gt;|GTtags=
+9	эряви	эрявомс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	_	aux	_	CGdephead=#9-&gt;9|CGdeprel=@-FAUXV&gt;|GTtags=IV,Ind,Prs,ScSg3
+10	молемс	молемс	VERB	V	Valency=1|VerbForm=Inf	9	@IMV	_	CGdephead=#10-&gt;9|CGdeprel=@IMV|GTtags=IV,Inf
+11	покштянстэнь	покштя	NOUN	N	Case=Dat|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	_0	obl	_	CGdephead=#11-&gt;10|CGdeprel=@&lt;ADVL|GTtags=SP,Dat,PxPl3|SpaceAfter=No
+12	,	,	PUNCT	CLB	_	11	punct	_	CGdephead=#12-&gt;11|CGdeprel=@CLB|GTtags=CLB
+13	Ашолисьмав	Ашолисьмав	_	_	_	0	dep	_	CGdephead=#13-&gt;0|CGdeprel=@X|GTtags=?|SpaceAfter=No
+14	...	...	PUNCT	CLB	_	_	punct	_	CGdephead=#14-&gt;14|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:10:AbramovK
+# text = Надя пей мольсь тетянзо вакссо ды эзь бажа кадовомс...
+1	Надя	Надя	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	3	nsubj	_	CGdephead=#1-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Prop,Sg,Nom,Indef
+2	пей	пей	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	nsubj	_	CGdephead=#2-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
+3	мольсь	молемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=2	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prt1,ScSg3
+4	тетянзо	тетя	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	_	nmod	_	CGdephead=#4-&gt;4|CGdeprel=@&gt;N|GTtags=Pl,Gen,PxSg3
+5	вакссо	вакссо	ADV	Adv	Case=Ine	3	advmod	_	CGdephead=#5-&gt;3|CGdeprel=@&lt;ADVL|GTtags=Ine
+6	ды	ды	CCONJ	CC	_	3	@CVP	_	CGdephead=#6-&gt;3|CGdeprel=@CVP|GTtags=
+7	эзь	а	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Past|VerbType=Aux	_	@-F&lt;AUXV	_	CGdephead=#7-&gt;7|CGdeprel=@-F&lt;AUXV|GTtags=Aux,Neg,Ind,Prt1,ScSg3
+8	бажа	бажамс	VERB	V	Connegative=Yes|Valency=1	7	@IMV	_	CGdephead=#8-&gt;7|CGdeprel=@IMV|GTtags=IV,ConNeg
+9	кадовомс	кадовомс	VERB	V	Valency=1|VerbForm=Inf	_	@FS-&lt;FMAINV	_	CGdephead=#9-&gt;9|CGdeprel=@FS-&lt;FMAINV|GTtags=IV,Inf|SpaceAfter=No
+10	...	...	PUNCT	CLB	_	3	punct	_	CGdephead=#10-&gt;3|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:11:ShcheglovA
+# text = — Муик! Пек сон монень эряви. Мон вастовомс мартонзо бажан...
+1	—	—	PUNCT	PUNCT	_	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT
+2	Муик	муемс	VERB	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Valency=2	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=TV,Imprt,ScSg2,OcSg3|SpaceAfter=No
+3	!	!	PUNCT	CLB	_	2	punct	_	CGdephead=#3-&gt;2|CGdeprel=@CLB|GTtags=CLB
+1	Пек	пек	ADV	Adv	AdvType=Deg	4	advmod	_	CGdephead=#1-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Deg
+2	сон	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	CGdephead=#2-&gt;4|CGdeprel=@SUBJ&gt;|GTtags=Pers,Sg3,Nom
+3	монень	мон	PRON	Pron	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Long	4	obl	_	CGdephead=#3-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Pers,Sg1,Dat,Long
+4	эряви	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	CGdephead=#4-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	4	punct	_	CGdephead=#5-&gt;4|CGdeprel=@CLB|GTtags=CLB
+1	Мон	мон	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	CGdephead=#1-&gt;4|CGdeprel=@SUBJ&gt;|GTtags=Pers,Sg1,Nom
+2	вастовомс	вастовомс	VERB	V	Valency=1|VerbForm=Inf	_	@FS-FMAINV&gt;	_	CGdephead=#2-&gt;2|CGdeprel=@FS-FMAINV&gt;|GTtags=IV,Inf
+3	мартонзо	марто	ADP	Po	AdpType=Post|Number[psor]=Sing|Person[psor]=3	0	@ADVL	_	CGdephead=#3-&gt;0|CGdeprel=@ADVL|GTtags=Po,PxSg3
+4	бажан	бажамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres|Valency=1	0	root	_	CGdephead=#4-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg1|SpaceAfter=No
+5	...	...	PUNCT	CLB	_	3	punct	_	CGdephead=#5-&gt;3|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:12:Kutorkin
+# text = Эрьвась арси лисемс кудонь азо равакс...
+1	Эрьвась	эрьва	DET	Det	Case=Nom|Definite=Def|Number=Sing	2	@SUBJ&gt;	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
+2	арси	арсемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3
+3	лисемс	лисемс	VERB	V	Valency=1|VerbForm=Inf	_	@FS-&lt;FMAINV	_	CGdephead=#3-&gt;3|CGdeprel=@FS-&lt;FMAINV|GTtags=IV,Inf
+4	кудонь	кудо	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	_	nmod:gobj	_	CGdephead=#4-&gt;4|CGdeprel=@-FOBJ&gt;|GTtags=SP,Gen,Indef
+5	азо	азомс	VERB	V	Connegative=Yes|Valency=1	0	root	_	CGdephead=#5-&gt;2|CGdeprel=@FMV|GTtags=IV,ConNeg
+6	равакс	равакс	_	_	_	0	dep	_	CGdephead=#6-&gt;0|CGdeprel=@X|GTtags=?|SpaceAfter=No
+7	...	...	PUNCT	CLB	_	2	punct	_	CGdephead=#7-&gt;2|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:13:AbramovK
+# text = Обран тердинзе кавто раськень прявттнэнь талныця ломантнень эйстэ ве пелев ды ушодыксэль кортнеме...
+1	Обран	Обран	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Prop,Sg,Nom,Indef
+2	тердинзе	тердемс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|Valency=2	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prt1,ScSg3,OcPl3
+3	кавто	кавто	NUM	Num	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	4	nummod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Card,Sg,Nom,Indef
+4	раськень	раське	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	CGdephead=#4-&gt;5|CGdeprel=@&gt;N|GTtags=SP,Gen,Indef
+5	прявттнэнь	прявт	NOUN	N	Case=Gen|Definite=Def|Number=Plur	2	obj	_	CGdephead=#5-&gt;2|CGdeprel=@&lt;OBJ|GTtags=Pl,Gen,Def
+6	талныця	талныця	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	CGdephead=#6-&gt;2|CGdeprel=@&lt;SUBJ|GTtags=NomAg,Sg,Nom,Indef
+7	ломантнень	ломань	NOUN	N	Case=Gen|Definite=Def|Number=Plur	2	obl	_	CGdephead=#7-&gt;7|CGdeprel=@&gt;P|GTtags=Pl,Gen,Def
+8	эйстэ	эйстэ	ADP	Adp	Case=Ela	7	case	_	CGdephead=#8-&gt;2|CGdeprel=@&lt;ADVL|GTtags=Ela
+9	ве	ве	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	CGdephead=#9-&gt;2|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef
+10	пелев	пеле	ADV	Adv	Case=Lat	2	advmod	_	CGdephead=#10-&gt;2|CGdeprel=@&lt;ADVL|GTtags=Lat
+11	ды	ды	CCONJ	CC	_	2	@CVP	_	CGdephead=#11-&gt;2|CGdeprel=@CVP|GTtags=
+12	ушодыксэль	ушодомс	VERB	V	Aspect=Hab|Mood=Des|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#12-&gt;2|CGdeprel=@FMV|GTtags=IV,Des,Prt2,ScSg3
+13	кортнеме	кортнемс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	12	@IMV	_	CGdephead=#13-&gt;12|CGdeprel=@IMV|GTtags=IV,Inf,Loc|SpaceAfter=No
+14	...	...	PUNCT	CLB	_	2	punct	_	CGdephead=#14-&gt;2|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:14:AbramovK
+# text = Сон (Пургаз) а вечки кортамо чаво валт...
+1	Сон	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	CGdephead=#1-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Pers,Sg3,Nom
+2	(	(	PUNCT	PUNCT	PunctSide=Ini	3	punct	_	CGdephead=#2-&gt;3|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
+3	Пургаз	Пургаз	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	6	nsubj	_	CGdephead=#3-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Prop,Sg,Nom,Indef|SpaceAfter=No
+4	)	)	PUNCT	PUNCT	PunctSide=Fin	5	punct	_	CGdephead=#4-&gt;5|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
+5	а	а	AUX	V	Polarity=Neg|VerbType=Aux	_	aux:neg	_	CGdephead=#5-&gt;5|CGdeprel=@-FAUXV&gt;|GTtags=Aux,Neg
+6	вечки	вечкемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	CGdephead=#6-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prs,ScSg3
+7	кортамо	кортамо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	nsubj	_	CGdephead=#7-&gt;6|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef
+8	чаво	чаво	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	9	amod	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
+9	валт	вал	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	6	obj	_	CGdephead=#9-&gt;6|CGdeprel=@&lt;OBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
+10	...	...	PUNCT	CLB	_	6	punct	_	CGdephead=#10-&gt;6|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:15:ErkajN
+# text = Михал икеле ладсо вечксы виренть, вечксы эзганзо ютнемс ружиянзо марто...
+1	Михал	Михал	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	3	nmod	_	CGdephead=#1-&gt;3|CGdeprel=@&gt;N|GTtags=Prop,Sg,Nom,Indef
+2	икеле	икеле	ADP	Adp	Case=Loc	4	@ADVL&gt;	_	CGdephead=#2-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Loc
+3	ладсо	лад	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	4	obl	_	CGdephead=#3-&gt;4|CGdeprel=@ADVL&gt;|GTtags=SP,Ine,Indef
+4	вечксы	вечкемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	CGdephead=#4-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prs,ScSg3,OcSg3
+5	виренть	вирь	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	obj	_	CGdephead=#5-&gt;4|CGdeprel=@&lt;OBJ|GTtags=Sg,Gen,Def|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	5	punct	_	CGdephead=#6-&gt;5|CGdeprel=@CLB|GTtags=CLB
+7	вечксы	вечкемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	CGdephead=#7-&gt;4|CGdeprel=@FMV|GTtags=TV,Ind,Prs,ScSg3,OcSg3
+8	эзганзо	эзга	ADP	Adp	Case=Prl|Number[psor]=Sing|Person[psor]=3	7	@&lt;ADVL	_	CGdephead=#8-&gt;7|CGdeprel=@&lt;ADVL|GTtags=Prl,PxSg3
+9	ютнемс	ютнемс	VERB	V	Valency=2|VerbForm=Inf	_	@FS-&lt;FMAINV	_	CGdephead=#9-&gt;9|CGdeprel=@FS-&lt;FMAINV|GTtags=TV,Inf
+10	ружиянзо	ружия	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obl	_	CGdephead=#10-&gt;11|CGdeprel=@&gt;P|GTtags=Pl,Gen,PxSg3
+11	марто	марто	ADP	Po	AdpType=Post	_0	case	_	CGdephead=#11-&gt;7|CGdeprel=@&lt;ADVL|GTtags=Po|SpaceAfter=No
+12	...	...	PUNCT	CLB	_	4	punct	_	CGdephead=#12-&gt;4|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:16:DoroninA
+# text = Эзть цидярдо эрзятне, кармасть яксеме Рав лангов баржань усксеме...
+1	Эзть	а	AUX	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Polarity=Neg|Tense=Past|VerbType=Aux	_	aux:neg	_	CGdephead=#1-&gt;1|CGdeprel=@-FAUXV&gt;|GTtags=Aux,Neg,Ind,Prt1,ScPl3
+2	цидярдо	цидярдомс	VERB	V	Connegative=Yes|Valency=1	1	@IMV	_	CGdephead=#2-&gt;1|CGdeprel=@IMV|GTtags=IV,ConNeg
+3	эрзятне	эрзя	NOUN	N	Case=Nom|Definite=Def|Number=Plur	0	nsubj	_	CGdephead=#3-&gt;0|CGdeprel=@&lt;SUBJ|GTtags=Pl,Nom,Def|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	3	punct	_	CGdephead=#4-&gt;3|CGdeprel=@CLB|GTtags=CLB
+5	кармасть	кармамс	AUX	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	_	aux	_	CGdephead=#5-&gt;5|CGdeprel=@-FAUXV&gt;|GTtags=IV,Ind,Prt1,ScPl3
+6	яксеме	яксемс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	2	@IMV	_	CGdephead=#6-&gt;2|CGdeprel=@IMV|GTtags=IV,Inf,Loc
+7	Рав	Рав	PROPN	N	Case=Nom|Definite=Ind|Number=Sing|Sem/Rvr	8	nmod	_	CGdephead=#7-&gt;8|CGdeprel=@&gt;N|GTtags=Prop,Sem/Rvr,Sg,Nom,Indef
+8	лангов	ланго	NOUN	N	Case=Lat|Definite=Ind|NounType=Relat|Number=Plur,Sing	6	obl	_	CGdephead=#8-&gt;6|CGdeprel=@&lt;ADVL|GTtags=Relator,SP,Lat,Indef
+9	баржань	баржа	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	10	nmod:gobj	_	CGdephead=#9-&gt;10|CGdeprel=@-FOBJ&gt;|GTtags=SP,Gen,Indef
+10	усксеме	усксемс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	2	@IMV	_	CGdephead=#10-&gt;2|CGdeprel=@IMV|GTtags=TV,Inf,Loc|SpaceAfter=No
+11	...	...	PUNCT	CLB	_	3	punct	_	CGdephead=#11-&gt;3|CGdeprel=@CLB|GTtags=CLB
+
+
+
+# sent_id = EKS:2011:44:17:AbramovK
+# text = Сон (Таня) ютавтызе цёранть икельце комнатав, кармась лездамо кайсеме начко оршамотнень...
+1	Сон	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	CGdephead=#1-&gt;5|CGdeprel=@SUBJ&gt;|GTtags=Pers,Sg3,Nom
+2	(	(	PUNCT	PUNCT	PunctSide=Ini	3	punct	_	CGdephead=#2-&gt;3|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
+3	Таня	Таня	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	CGdephead=#3-&gt;5|CGdeprel=@SUBJ&gt;|GTtags=Prop,Sg,Nom,Indef|SpaceAfter=No
+4	)	)	PUNCT	PUNCT	PunctSide=Fin	5	punct	_	CGdephead=#4-&gt;5|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
+5	ютавтызе	ютавтомс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|Valency=2	0	root	_	CGdephead=#5-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prt1,ScSg3,OcSg3
+6	цёранть	цёра	NOUN	N	Case=Gen|Definite=Def|Number=Sing	8	nmod	_	CGdephead=#6-&gt;8|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
+7	икельце	икельце	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	8	amod	_	CGdephead=#7-&gt;8|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
+8	комнатав	комната	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	5	obl	_	CGdephead=#8-&gt;5|CGdeprel=@&lt;ADVL|GTtags=SP,Lat,Indef|SpaceAfter=No
+9	,	,	PUNCT	CLB	_	8	punct	_	CGdephead=#9-&gt;8|CGdeprel=@CLB|GTtags=CLB
+10	кармась	кармамс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	_	aux	_	CGdephead=#10-&gt;10|CGdeprel=@-FAUXV&gt;|GTtags=IV,Ind,Prt1,ScSg3
+11	лездамо	лездамс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	_0	@IMV	_	CGdephead=#11-&gt;10|CGdeprel=@IMV|GTtags=IV,Inf,Loc
+12	кайсеме	кайсемс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	11	@IMV	_	CGdephead=#12-&gt;11|CGdeprel=@IMV|GTtags=IV,Inf,Loc
+13	начко	начко	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	14	amod	_	CGdephead=#13-&gt;14|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
+14	оршамотнень	оршамо	NOUN	N	Case=Gen|Definite=Def|Number=Plur	12	obj	_	CGdephead=#14-&gt;12|CGdeprel=@&lt;OBJ|GTtags=Pl,Gen,Def|SpaceAfter=No
+15	...	...	PUNCT	CLB	_	_	punct	_	CGdephead=#15-&gt;5|CGdeprel=@CLB|GTtags=CLB
 
-# sent_id = EKS:2011:20:11:AbramovK
-# text = Ратор ошсо аштемстэ Осипов атаманонть перька ломантнеде промсть вельть ламо...
-"<Ратор>"
-	"Ратор" N Prop Sem/Rvr Sg Nom Indef
-"<ошсо>"
-	"ош" N SP Ine Indef
-"<аштемстэ>"
-	"аштемс" V IV Ger Ela
-	"аштемс" V TV Ger Ela
-"<Осипов>"
-	"Осипов" N Prop Sem/Mal-Sur Sg Nom Indef
-"<атаманонть>"
-	"атаман" N Sg Gen Def
-"<перька>"
-	"перька" Adp Prl
-"<ломантнеде>"
-	"ломань" N Sem/Hum Pl Abl Def
-"<промсть>"
-	"промомс" V IV Ind Prt1 ScPl3
-"<вельть>"
-	"вельть" Adv Deg
-"<ламо>"
-	"ламо" Det Qnt Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:20:12:ShchankinaR
-# text = Пизёлкинэнь эйстэяк азорось редясь истямо ломань, кинень мерить «автень курго» эли «аволь васолга чавиця»...
-"<Пизёлкинэнь>"
-	"Пизёлкин" N Prop SP Gen Indef
-	"Пизёлкин" N Prop Sem/Mal-Sur SP Gen Indef
-"<эйстэяк>"
-	"эйстэ" Adp Ela Clt/Add
-"<азорось>"
-	"азор" N Sg Nom Def
-"<редясь>"
-	"редямс" V IV Ind Prt1 ScSg3
-	"редямс" V TV Ind Prt1 ScSg3
-"<истямо>"
-	"истямо" Ex/A Dem Der/MWN Sg Nom Indef
-"<ломань>"
-	"ломань" N Sem/Hum Sg Nom Indef
-"<,>"
-	"," PUNCT
-"<кинень>"
-	"ки" N SP Dat Indef
-	"кие" Pron Rel Pers SP Dat
-"<мерить>"
-	"меремс" V IV Ind Prs ScPl3
-	"меремс" V IV Ind Prt1 ScSg2
-	"меремс" V TV Imprt ScSg2 OcPl3
-	"меремс" V TV Ind Prs ScPl3
-	"меремс" V TV Ind Prt1 ScSg2
-	"меремс" V TV Ind Prt1 ScSg2 OcPl3
-"<«>"
-	"«" PUNCT LEFT
-"<автень>"
-	"автемс" V IV VGen
-	"автемс" V TV VGen
-"<курго>"
-	"курго" N Sg Nom Indef
-"<»>"
-	"»" PUNCT RIGHT
-"<эли>"
-	"эли" CC
-"<«>"
-	"«" PUNCT LEFT
-"<аволь>"
-	"аволь" Pcle Neg Emphatic
-"<васолга>"
-	"васолга" Adv Prl
-"<чавиця>"
-	"чавомс" Ex/V IV Der/Ycja NomAg N Sg Nom Indef
-	"чавомс" Ex/V TV Der/Ycja NomAg N Sg Nom Indef
-"<»>"
-	"»" PUNCT RIGHT
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:20:13:GostkinP
-# text = Микита атянь теке лакиведьсэ валызь, кирнявтсь таркастонзо ды пиже-ожо вайгельсэ рангстась...
-"<Микита>"
-	"Микита" N Prop Sg Nom Indef
-"<атянь>"
-	"атя" N SP Gen Indef
-"<теке>"
-	"теке" Det Dem Sg Nom
-"<лакиведьсэ>"
-	"лакиведь" N SP Ine Indef
-"<валызь>"
-	"валомс" V TV Ind Prt1 ScPl3 OcPl3
-	"валомс" V TV Ind Prt1 ScPl3 OcSg3
-"<,>"
-	"," PUNCT
-"<кирнявтсь>"
-	"кирнявтомс" V IV Ind Prt1 ScSg3
-	"кирнявтомс" V TV Ind Prt1 ScSg3
-"<таркастонзо>"
-	"тарка" N SP Ela PxSg3
-"<ды>"
-	"ды" CC
-"<пиже-ожо>"
-	"пиже-ожо" A Sg Nom Indef
-"<вайгельсэ>"
-	"вайгель" N SP Ine Indef
-"<рангстась>"
-	"рангстамс" V IV Ind Prt1 ScSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:21:1:ArapovV
-# text = Превезэнь сон (крештениясь) кадовсь алашасо ардтнемакс ...
-"<Превезэнь>"
-	"прев" N SP Ill PxSg1
-"<сон>"
-	"сон" Pron Pers Sg3 Nom
-"<(>"
-	"(" PUNCT LEFT
-"<крештениясь>"
-	"крештения" N Sg Nom Def
-"<)>"
-	")" PUNCT RIGHT
-"<кадовсь>"
-	"кадовомс" V IV Ind Prt1 ScSg3
-"<алашасо>"
-	"алаша" N SP Ine Indef
-"<ардтнемакс>"
-	"ардтнема" N SP Tra Indef
-	"ардтнемс" Ex/V IV Der/OmA NomAct N SP Tra Indef
-	"ардтнемс" Ex/V TV Der/OmA NomAct N SP Tra Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:22:1:NadkinD
-# text = Адя ютатано мартот Иванбиё велева...
-"<Адя>"
-	"адя" V Imprt ScSg2
-"<ютатано>"
-	"ютамс" V IV Ind Prs ScPl1
-	"ютамс" V TV Ind Prs ScPl1
-"<мартот>"
-	"марто" Po Der/MWN Pl Gen PxSg2
-	"марто" Po Der/MWN Pl Nom Indef
-	"марто" Po Der/MWN Pl Nom PxSg2
-	"марто" Po Der/MWN SP Gen PxSg2
-	"марто" Po Der/MWN Sg Gen PxSg2
-	"марто" Po Der/MWN Sg Nom PxSg2
-	"марто" Po PxSg2
-"<Иванбиё>"
-	"Иванбиё" N Prop Sg Nom Indef
-"<велева>"
-	"веле" N SP Prl Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:22:2:GajniP
-# text = Чачома кран, тиринь мастор, эжди эйсэнь лембе седееть...
-"<Чачома>"
-	"чачома" N Sg Nom Indef
-	"чачомс" Ex/V IV Der/OmA NomAct N Sg Nom Indef
-"<кран>"
-	"кран" N Sg Nom Indef
-"<,>"
-	"," PUNCT
-"<тиринь>"
-	"тири" Ex/A Der/MWN N SP Gen Indef
-	"тирямс" V IV Ind Prt1 ScSg1
-"<мастор>"
-	"мастор" N Sg Nom Indef
-"<,>"
-	"," PUNCT
-"<эжди>"
-	"эждемс" V IV Ind Prs ScSg3
-	"эждемс" V TV Ind Prs ScSg3
-	"эждямс" V TV Ind Prs ScSg3
-	"эждямс" V IV Ind Prs ScSg3
-"<эйсэнь>"
-	"эй" N SP Ine PxSg1
-	"эйсэ" Adp Ine PxSg1
-"<лембе>"
-	"лембе" A Sg Nom Indef
-"<седееть>"
-	"седей" N Pl Gen PxSg2
-	"седей" N Pl Nom PxSg2
-	"седей" N SP Gen PxSg2
-	"седей" N Sg Gen PxSg2
-	"седей" N Sg Nom PxSg2
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:22:3:VidiazN
-# text = Сёксь. Ушосонть кизэнь лембе...
-"<Сёксь>"
-	"сёксь" N Sg Nom Indef
-"<.>"
-	"." PUNCT
-
-"<Ушосонть>"
-	"ушо" N Sg Ine Def
-"<кизэнь>"
-	"кизэ" N SP Gen Indef
-"<лембе>"
-	"лембе" A Sg Nom Indef
-	"лембе" Ex/A Der/MWN N Sg Nom Indef
-	"лембе" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:23:1:KuldurkaevIa
-# text = Васня андомак, макст тень товсюро, мейле симдемак тонсеть коморсто...
-"<Васня>"
-	"васня" Adv Sem/Time
-"<андомак>"
-	"андомс" V TV Imprt ScSg2 OcSg1
-"<,>"
-	"," PUNCT
-"<макст>"
-	"максомс" V IV Imprt ScSg2
-	"максомс" V TV Imprt ScSg2
-"<тень>"
-	"мон" Pron Pers Sg1 Dat Short
-	"те" Pron Dem Sg Gen Indef
-"<товсюро>"
-	"товсюро" N Sg Nom Indef
-"<,>"
-	"," PUNCT
-"<мейле>"
-	"мейле" Adv Sem/Time
-	"мейле" Ex/Adv Sem/Time Der/MWN N Sg Nom Indef
-"<симдемак>"
-	"симдемс" V TV Imprt ScSg2 OcSg1
-"<тонсеть>"
-	"тонсь" Pron Refl Sg2 Gen Long
-"<коморсто>"
-	"комор" N SP Ela Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:23:2:RadaevV
-# text = Чить сон айгортнэнь мельга яказо...
-"<Чить>"
-	"чи" N Pl Nom PxSg2
-	"чи" N Pl Gen PxSg2
-	"чи" N Pl Nom Indef
-	"чи" N Sg Nom PxSg2
-	"чи" N SP Gen PxSg2
-"<сон>"
-	"сон" Pron Pers Sg3 Nom
-"<айгортнэнь>"
-	"айгор" N Pl Gen Def
-"<мельга>"
-	"мельга" Po Spat Prl
-"<яказо>"
-	"якамс" V IV Opt ScSg3
-	"якамс" V TV Opt ScSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:23:3:AbramovK
-# text = ...кандост тенек ярсамс, ливтест мацтсто кельме кумыс...
-"<...>"
-	"..." PUNCT
-
-"<кандост>"
-	"кан" N SP Abl PxPl3
-	"кандо" N Pl Gen PxPl3
-	"кандо" N Pl Nom PxPl3
-	"кандо" N SP Gen PxPl3
-	"кандомс" V IV Opt ScPl3
-	"кандомс" V TV Opt ScPl3
-"<тенек>"
-	"мон" Pron Pers Pl1 Dat Short
-	"тенемс" V IV Imprt ScSg2
-"<ярсамс>"
-	"ярсамс" V IV Inf
-"<,>"
-	"," PUNCT
-"<ливтест>"
-	"ливте" N Pl Nom PxPl3
-	"ливтемс" V IV Opt ScPl3
-	"ливтемс" V TV Opt ScPl3
-"<мацтсто>"
-	"мацт" N SP Ela Indef
-"<кельме>"
-	"кельме" A Sg Nom Indef
-"<кумыс>"
-	"кумыс" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:23:4:AbramovK
-# text = Молевлить, тейтернем, Натальнень...
-"<Молевлить>"
-	"молемс" V Conj ScSg2
-	"молемс" V Conj ScSg2 OcPl3
-	"молемс" V IV Conj ScSg2
-"<,>"
-	"," PUNCT
-"<тейтернем>"
-	"тейтерне" N Pl Gen PxSg1 Dial/SE
-	"тейтерне" N Pl Nom PxSg1 Dial/SE
-	"тейтерне" N SP Gen PxSg1 Dial/SE
-	"тейтерне" N Sg Gen PxSg1
-	"тейтерне" N Sg Nom PxSg1
-"<,>"
-	"," PUNCT
-"<Натальнень>"
-	"Наталь" N Prop SP Dat Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:23:5:AbramovK
-# text = Эрявиндеряй мезеяк ёвтамс, ёвтасы кавто-колмо валсо...
-"<Эрявиндеряй>"
-	"эрявомс" Ex/V IV Der/Cond V Ind Prs ScSg3
-"<мезеяк>"
-	"мезеяк" Pron Indef Sg Nom Indef
-"<ёвтамс>"
-	"ёвтамс" V IV Inf
-	"ёвтамс" V TV Inf
-"<,>"
-	"," PUNCT
-"<ёвтасы>"
-	"ёвтамс" V TV Ind Prs ScSg3 OcSg3
-"<кавто-колмо>"
-	"кавто-колмо" Num Appr Sg Nom Indef
-	"кавто-колмо" Num Card Appr Sg Nom Indef
-"<валсо>"
-	"вал" N SP Ine Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:23:6:EDITORS
-# text = Кортындерявлить сестэ — умок кучовлинек сёрманть...
-"<Кортындерявлить>"
-	"кортамс" Ex/V IV Der/Cond V Conj ScSg2
-	"кортамс" Ex/V TV Der/Cond V Conj ScSg2
-	"кортамс" Ex/V TV Der/Cond V Conj ScSg2 OcPl3
-"<сестэ>"
-	"сестэ" Adv Sem/Time
-"<—>"
-	"—" PUNCT
-"<умок>"
-	"умок" Adv Sem/Time
-	"умок" Ex/Adv Sem/Time Der/MWN N Sg Nom Indef
-"<кучовлинек>"
-	"кучомс" V TV Conj ScPl1
-	"кучомс" V TV Conj ScPl1 OcPl3
-	"кучомс" V TV Conj ScPl1 OcSg3
-"<сёрманть>"
-	"сёрма" N Sg Gen Def
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:23:7:EDITORS
-# text = Мериндеряволь исяк — саевлинек эйкакшонть мартонок...
-"<Мериндеряволь>"
-	"меремс" Ex/V IV Der/Cond V Conj ScSg3
-	"меремс" Ex/V IV Der/Cond V Err/Orth-mid-linking-vowel Ind Prt2 ScSg3
-"<исяк>"
-	"исяк" Adv Sem/Time
-	"исяк" Ex/Adv Sem/Time Der/MWN N Sg Nom Indef
-"<—>"
-	"—" PUNCT
-"<саевлинек>"
-	"саемс" V IV Conj ScPl1
-	"саемс" V TV Conj ScPl1
-	"саемс" V TV Conj ScPl1 OcPl3
-	"саемс" V TV Conj ScPl1 OcSg3
-"<эйкакшонть>"
-	"эйкакш" N Sg Gen Def
-"<мартонок>"
-	"марто" Po Der/MWN SP Gen PxPl1
-	"марто" Po Der/MWN Sg Gen PxPl1
-	"марто" Po Der/MWN Sg Nom PxPl1
-	"марто" Po PxPl1
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:23:8:EDITORS
-# text = Кармиксэль кортамо — валонзо сеске сезизь...
-"<Кармиксэль>"
-	"кармамс" V IV Des Prt2 ScSg3
-"<кортамо>"
-	"кортамо" N Sg Nom Indef
-	"кортамс" V IV Inf Loc
-	"кортамс" V TV Inf Loc
-"<—>"
-	"—" PUNCT
-"<валонзо>"
-	"вал" N Pl Nom PxSg3
-"<сеске>"
-	"сеске" Adv Sem/Time
-"<сезизь>"
-	"сеземс" V Ind Prt1 ScPl3 OcPl3
-	"сеземс" V Ind Prt1 ScPl3 OcSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:23:9:EDITORS
-# text = Рамиксэлинек велесэ кевень кудо — ярмаконок эзть сато.
-"<Рамиксэлинек>"
-	"рамамс" V IV Des Prt2 ScPl1
-	"рамамс" V TV Des Prt2 ScPl1
-	"рамамс" V TV Des Prt2 ScPl1 OcPl3
-	"рамамс" V TV Des Prt2 ScPl1 OcSg3
-"<велесэ>"
-	"веле" N SP Ine Indef
-"<кевень>"
-	"кев" N Pl Nom PxSg1
-"<кудо>"
-	"кудо" N Sg Nom Indef
-"<—>"
-	"—" PUNCT
-"<ярмаконок>"
-	"ярмак" N Pl Nom PxPl1
-"<эзть>"
-	"а" V Aux Neg Ind Prt1 ScPl3
-"<сато>"
-	"сатомс" V IV ConNeg
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:24:1a:VidiazN
-# text = Телень маней, чамас авториця якшамо чи.
-"<Телень>"
-	"теле" N SP Gen Indef
-"<маней>"
-	"маней" A Sg Nom Indef
-	"маней" Ex/A Der/MWN N Sg Nom Indef
-	"маней" N Sg Nom Indef
-"<,>"
-	"," PUNCT
-"<чамас>"
-	"чама" N SP Ill Indef
-"<авториця>"
-	"авторямс" Ex/V IV Der/Ycja NomAg N Sg Nom Indef
-	"авторямс" Ex/V TV Der/Ycja NomAg N Sg Nom Indef
-"<якшамо>"
-	"якшамо" A Sg Nom Indef
-"<чи>"
-	"чи" N Sg Nom Indef
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:24:1b:VidiazN
-# text = Орданьбуень кияванть, кода лиятневаяк, ардтнить ансяк лишмесэ ды якить ялго...
-"<Орданьбуень>"
-	"Орданьбуе" N Prop SP Gen Indef
-	"орданьбуе" N SP Gen Indef
-"<кияванть>"
-	"ки" N Sg Prl Def
-"<,>"
-	"," PUNCT
-"<кода>"
-	"кода" Adv Rel Manner
-"<лиятневаяк>"
-	"лия" Det Pl Prl Def Clt/Add
-"<,>"
-	"," PUNCT
-"<ардтнить>"
-	"ардтнемс" V IV Ind Prs ScPl3
-	"ардтнемс" V IV Ind Prt1 ScSg2
-	"ардтнемс" V TV Imprt ScSg2 OcPl3
-	"ардтнемс" V TV Ind Prs ScPl3
-	"ардтнемс" V TV Ind Prt1 ScSg2
-	"ардтнемс" V TV Ind Prt1 ScSg2 OcPl3
-"<ансяк>"
-	"ансяк" Adv Exclusive
-"<лишмесэ>"
-	"лишме" N SP Ine Indef
-"<ды>"
-	"ды" CC
-"<якить>"
-	"якамс" V IV Ind Prs ScPl3
-	"якамс" V IV Ind Prt1 ScSg2
-	"якамс" V TV Imprt ScSg2 OcPl3
-	"якамс" V TV Ind Prs ScPl3
-	"якамс" V TV Ind Prt1 ScSg2
-	"якамс" V TV Ind Prt1 ScSg2 OcPl3
-"<ялго>"
-	"ялго" Adv Pred2
-	"ялго" Ex/Adv Pred2 Der/MWN N Sg Nom Indef
-	"ялго" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:2:AbramovK
-# text = Тонавтыцясь вельть одат...
-"<Тонавтыцясь>"
-	"тонавтомс" Ex/V IV Der/Ycja NomAg N Sg Nom Def
-	"тонавтомс" Ex/V TV Der/Ycja NomAg N Sg Nom Def
-"<вельть>"
-	"ве" N Pl Nom Indef Clt/Cop Prt2 ScPl3
-	"вельть" Adv Deg
-"<одат>"
-	"ода" N Pl Gen PxSg2
-	"ода" N Pl Nom Indef
-	"ода" N Pl Nom PxSg2
-	"ода" N SP Gen PxSg2
-	"ода" N Sg Gen PxSg2
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:3a:AbramovK
-# text = Сакалонзо Ортянь шержевть.
-"<Сакалонзо>"
-	"Сакал" N Prop Pl Gen PxSg3
-	"Сакал" N Prop Pl Nom PxSg3
-	"Сакал" N Prop Sg Gen PxSg3
-	"сакало" N Sg Gen PxSg3
-	"сакал" N Pl Gen PxSg3
-	"сакал" N Pl Nom PxSg3
-	"сакал" N SP Gen PxSg3
-	"сакал" N Sg Gen PxSg3
-	"сакало" N Pl Gen PxSg3
-	"сакало" N Pl Nom PxSg3
-	"сакало" N SP Gen PxSg3
-"<Ортянь>"
-	"Ортя" N Prop SP Gen Indef
-"<шержевть>"
-	"шержев" A Pl Nom Indef
-	"шержев" Ex/A Der/MWN N Pl Nom Indef
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:24:3b:AbramovK
-# text = Зярдо-бути сынь ульнесть тонол раужот...
-"<Зярдо-бути>"
-	"зярдо-бути" Adv Indef
-	"зярдо-бути" Adv Indef Sem/Time
-"<сынь>"
-	"сон" Pron Pers Pl3 Nom
-"<ульнесть>"
-	"ульнемс" V IV Ind Prt1 ScPl3
-"<тонол>"
-	"тонол" N Sg Nom Indef
-"<раужот>"
-	"раужо" A Pl Nom Indef
-	"раужо" Ex/A Der/MWN N Pl Nom Indef
-	"раужо" Ex/A Der/MWN N Pl Nom PxSg2
-	"раужо" N Pl Nom Indef
-	"раужо" N Pl Nom PxSg2
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:4:SedojkinL
-# text = Ансяк весе неть моротне аволь истят питнейть, малавикст ды кенярдовтыцят...
-"<Ансяк>"
-	"ансяк" Adv Exclusive
-"<весе>"
-	"весе" Adv
-	"весе" Pron Sg Nom Indef
-"<неть>"
-	"неть" Pron Dem Pl Nom Indef
-"<моротне>"
-	"моро" N Pl Nom Def
-"<аволь>"
-	"аволь" Pcle Neg Emphatic
-"<истят>"
-	"истямо" A Dem Pl Nom Indef
-"<питнейть>"
-	"питней" A Pl Nom Indef
-	"питней" Ex/A Der/MWN N Pl Nom Indef
-"<,>"
-	"," PUNCT
-"<малавикст>"
-	"малавикс" A Pl Nom Indef
-	"малавикс" Ex/A Der/MWN N Pl Nom Indef
-"<ды>"
-	"ды" CC
-	"ды" Pcle
-"<кенярдовтыцят>"
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Pl Gen PxSg2
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Pl Nom Indef
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Pl Nom PxSg2
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N SP Gen PxSg2
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Sg Gen PxSg2
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Sg Nom Indef Clt/Cop Prs ScSg2
-	"кенярдовтомс" Ex/V IV Der/Ycja NomAg N Sg Nom PxSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Pl Gen PxSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Pl Nom Indef
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Pl Nom PxSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N SP Gen PxSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Sg Gen PxSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Sg Nom Indef Clt/Cop Prs ScSg2
-	"кенярдовтомс" Ex/V TV Der/Ycja NomAg N Sg Nom PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Sg Nom PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Pl Gen PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Pl Nom Indef
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Pl Nom PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N SP Gen PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Sg Gen PxSg2
-	"кенярдомс" Ex/V Der/OvtOms Ex/V TV Der/Ycja NomAg N Sg Nom Indef Clt/Cop Prs ScSg2
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:5:SedojkinL
-# text = Ведеськак теть тантей маряви...
-"<Ведеськак>"
-	"Ведь" N Prop Sg Nom Def Clt/Add
-	"ведь" N Sg Nom Def Clt/Add
-"<теть>"
-	"тон" Pron Pers Sg2 Dat Short
-"<тантей>"
-	"тантей" A Sg Nom Indef
-	"тантей" Ex/A Der/MWN N Sg Nom Indef
-	"тантей" N Sg Nom Indef
-"<маряви>"
-	"марявомс" V IV Ind Prs ScSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:6:ErkajN
-# text = Те а лисьма — эрексия, те медьпрамо — аволь ведь...
-"<Те>"
-	"те" Det Dem Sg Nom
-"<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
-	"а" Pcle Neg
-	"а" V Aux Neg
-"<лисьма>"
-	"лисьма" N Sg Nom Indef
-"<—>"
-	"—" PUNCT
-"<эрексия>"
-	"эрексия" N Sg Nom Indef
-"<,>"
-	"," PUNCT
-"<те>"
-	"те" Det Dem Sg Nom
-"<медьпрамо>"
-	"медьпрамо" N Sg Nom Indef
-"<—>"
-	"—" PUNCT
-"<аволь>"
-	"аволь" Pcle Neg Emphatic
-"<ведь>"
-	"ведь" N Sg Nom Indef
-	"ведь" Pcle
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:7:ZhuravliovCh
-# text = Чокшнесь опаня ды валдо...
-"<Чокшнесь>"
-	"чокшне" N Sg Nom Def
-	"чокшнемс" V IV Stem/е Ind Prt1 ScSg3
-"<опаня>"
-	"опаня" A Sg Nom Indef
-	"опаня" Ex/A Der/MWN N Sg Nom Indef
-	"опаня" N Sg Nom Indef
-"<ды>"
-	"ды" CC
-"<валдо>"
-	"вал" N SP Abl Indef
-	"валдо" A Sg Nom Indef
-	"валдо" Ex/A Der/MWN N Sg Nom Indef
-	"валдо" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:8:AbramovK
-# text = Олодимирэнь князесь вельть виев...
-"<Олодимирэнь>"
-	"Олодимир" N Prop Pl Nom PxSg1
-"<князесь>"
-	"князь" N Sg Nom Def
-"<вельть>"
-	"ве" N Pl Nom Indef Clt/Cop Prt2 ScPl3
-	"вельть" Adv Deg
-"<виев>"
-	"виев" A Sg Nom Indef
-	"виев" Ex/A Der/MWN N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:9:AbarmovK
-# text = Сынст кудось маласо.
-"<Сынст>"
-	"сон" Pron Pers Pl3 Gen
-"<кудось>"
-	"кудо" N Sg Nom Def
-"<маласо>"
-	"маласо" Adv Ine
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:24:10:RazguliaevaT
-# text = Сестэ минь студентэлинек...
-"<Сестэ>"
-	"сестэ" Adv Sem/Time
-"<минь>"
-	"мон" Pron Pers Pl1 Nom
-"<студентэлинек>"
-	"студент" N Pl Nom Indef Clt/Cop Prt2 ScPl1
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:11:RazguliaevaT
-# text = Лангсонзоль (тейтерькиненть) сэнь тюсонь таштыне платия ды мерьказь туфлят...
-"<Лангсонзоль>"
-	"Ланг" N Prop SP Ine PxSg3 Clt/Cop Prt2 ScSg3
-	"ланго" N Relator SP Ine PxSg3 Clt/Cop Prt2 ScSg3
-"<(>"
-	"(" PUNCT LEFT
-"<тейтерькиненть>"
-	"тейтерькине" N Sem/Hum Sg Gen Def
-"<)>"
-	")" PUNCT RIGHT
-"<сэнь>"
-	"сэнь" A Sg Nom Indef
-"<тюсонь>"
-	"тюс" N SP Gen Indef
-"<таштыне>"
-	"таштамс" Ex/V IV Der/Y NomAg N SP TempCx Indef
-	"таштамс" Ex/V TV Der/Y NomAg N SP TempCx Indef
-"<платия>"
-	"платия" N Sg Nom Indef
-"<ды>"
-	"ды" CC
-	"ды" Pcle
-"<мерьказь>"
-	"мерькамс" V IV Der/Ozj Ger
-	"мерькамс" Ex/V IV Der/Ozj Ger Der/MWN N Sg Nom Indef
-	"мерькамс" Ex/V TV Der/Ozj Ger Der/MWN N Sg Nom Indef
-	"мерькамс" V TV Der/Ozj Ger Sg Nom Indef
-	"мерькамс" V IV Der/Ozj Ger Sg Nom Indef
-	"мерькамс" V TV Der/Ozj Ger
-"<туфлят>"
-	"туфля" N Pl Gen PxSg2
-	"туфля" N Pl Nom Indef
-	"туфля" N Pl Nom PxSg2
-	"туфля" N SP Gen PxSg2
-	"туфля" N Sg Gen PxSg2
-	"туфля" N Sg Nom Indef Clt/Cop Prs ScSg2
-	"туфля" N Sg Nom PxSg2
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:12:DoroninA
-# text = Чись ульнесь маней...
-"<Чись>"
-	"чи" N Sg Nom Def
-"<ульнесь>"
-	"ульнемс" V IV Ind Prt1 ScSg3
-"<маней>"
-	"маней" A Sg Nom Indef
-	"маней" Ex/A Der/MWN N Sg Nom Indef
-	"маней" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:13:DoroninA
-# text = Сынст кудост маласоль...
-"<Сынст>"
-	"сон" Pron Pers Pl3 Gen
-"<кудост>"
-	"кудо" N Pl Gen PxPl3
-	"кудо" N SP Gen PxPl3
-"<маласоль>"
-	"маласо" Adv Ine Clt/Cop Prt2 ScSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:14:DoroninA
-# text = Колмоце чи Вася фермасоль...
-"<Колмоце>"
-	"колмо" Ex/Num Ex/A Der/cje Ord Sg Nom Indef
-	"колмоце" Num Ord Sg Nom Indef
-"<чи>"
-	"чи" N Sg Nom Indef
-"<Вася>"
-	"Вася" N Prop Sg Nom Indef
-"<фермасоль>"
-	"ферма" N SP Ine Indef Clt/Cop Prt2 ScSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:15a:RadaevV
-# text = Сурсо а токамс!
-"<Сурсо>"
-	"сур" N SP Ine Indef
-"<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
-	"а" Pcle Neg
-	"а" V Aux Neg
-"<токамс>"
-	"токамс" V IV Inf
-	"токамс" V TV Inf
-"<!>"
-	"!" PUNCT
-
-# sent_id = EKS:2011:24:15b:RadaevV
-# text = Кадомс эри зярс.
-"<Кадомс>"
-	"кадомс" V IV Inf
-	"кадомс" V TV Inf
-"<эри>"
-	"эрямс" V IV Ind Prs ScSg3
-	"эрямс" V TV Ind Prs ScSg3
-"<зярс>"
-	"зярс" Adv Interr Ill Temp
-	"зярс" Adv Rel Ill Temp
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:24:15c:RadaevV
-# text = Ансяк киненьгак тензэ а пшкадемс, валгак а ёвтамс, малав а молемс, каршо вастомсто, ютамс ваксканзо, сонзэ ёнов мик а варштамскак...
-"<Ансяк>"
-	"ансяк" Adv Exclusive
-"<киненьгак>"
-	"ки" N SP Dat Indef Clt/Add
-	"ки" Ex/N Der/Dimin N SP Gen Indef Clt/Add
-	"кияк" Pron Indef SP Dat
-"<тензэ>"
-	"сон" Pron Pers Sg3 Dat Short
-"<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
-	"а" Pcle Neg
-	"а" V Aux Neg
-"<пшкадемс>"
-	"пшкадемс" V IV Inf
-"<,>"
-	"," PUNCT
-"<валгак>"
-	"вал" N Sg Nom Indef Clt/Add
-"<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
-	"а" Pcle Neg
-	"а" V Aux Neg
-"<ёвтамс>"
-	"ёвтамс" V IV Inf
-	"ёвтамс" V TV Inf
-"<,>"
-	"," PUNCT
-"<малав>"
-	"малав" Adp Lat
-"<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
-	"а" Pcle Neg
-	"а" V Aux Neg
-"<молемс>"
-	"молемс" V IV Inf
-	"молемс" V Inf
-"<,>"
-	"," PUNCT
-"<каршо>"
-	"каршо" Adv
-	"каршо" Po
-"<вастомсто>"
-	"вастомс" V IV Ger Ela
-	"вастомс" V TV Ger Ela
-"<,>"
-	"," PUNCT
-"<ютамс>"
-	"ютамс" V IV Inf
-	"ютамс" V TV Inf
-"<ваксканзо>"
-	"вакс" N SP Prl PxSg3
-	"вакска" Adp Prl PxSg3
-"<,>"
-	"," PUNCT
-"<сонзэ>"
-	"сон" Pron Pers Sg3 Gen
-"<ёнов>"
-	"ён" Ex/A Der/MWN N SP Lat Indef
-	"ён" N Relator SP Lat Indef
-"<мик>"
-	"мик" Adv
-"<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
-	"а" Pcle Neg
-	"а" V Aux Neg
-"<варштамскак>"
-	"варштамс" V IV Inf Clt/Add
-	"варштамс" V TV Inf Clt/Add
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:16:PronchatovI
-# text = Эрьга тынсь, эрзянь цёратне...
-"<Эрьга>"
-	"эрьга" Interj V Imprt
-	"эрьга" N Sg Nom Indef
-	"эрьга" V Prec ScSg2
-"<тынсь>"
-	"тонсь" Pron Refl Pl2 Nom
-"<,>"
-	"," PUNCT
-"<эрзянь>"
-	"эрзя" N Sem/Hum SP Gen Indef
-"<цёратне>"
-	"цёра" N Pl Nom Def
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:24:17:EDITORS
-# text = Арази те а сонзэ?
-"<Арази>"
-	"арази" Pcle
-"<те>"
-	"те" Det Dem Sg Nom
-"<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
-	"а" Pcle Neg
-	"а" V Aux Neg
-"<сонзэ>"
-	"сон" Pron Pers Sg3 Gen
-"<?>"
-	"?" PUNCT
-
-# sent_id = EKS:2011:24:18:EDITORS
-# text = Тонь ли те?
-"<Тонь>"
-	"тон" Pron Pers Sg2 Gen
-"<ли>"
-	"ли" Pcle
-"<те>"
-	"те" Pron Dem Sg Nom Indef
-"<?>"
-	"?" PUNCT
-
-# sent_id = EKS:2011:24:19a:AbramovK
-# text = Ёвтнян теть ёвкс?
-"<Ёвтнян>"
-	"ёвтнемс" V IV Ind Prs ScSg1
-	"ёвтнемс" V TV Ind Prs ScSg1
-"<теть>"
-	"тон" Pron Pers Sg2 Dat Short
-"<ёвкс>"
-	"ёвкс" N Sg Nom Indef
-"<?>"
-	"?" PUNCT
-
-# sent_id = EKS:2011:24:19b:AbramovK
-# text = Морат эрзянь моро?
-"<Морат>"
-	"мор" N Sg Nom Indef Clt/Cop Prs ScSg2
-	"морамс" V IV Ind Prs ScSg2
-	"морамс" V TV Ind Prs ScSg2
-	"моро" N Sg Nom Indef Clt/Cop Prs ScSg2
-"<эрзянь>"
-	"эрзя" N Sem/Hum SP Gen Indef
-"<моро>"
-	"моро" N Sg Nom Indef
-"<?>"
-	"?" PUNCT
-
-# sent_id = EKS:2011:24:19c:AbramovK
-# text = Тишай, мекс кувать а сат?
-"<Тишай>"
-	"Тишай" N Prop Sg Nom Indef
-"<,>"
-	"," PUNCT
-"<мекс>"
-	"мекс" Adv Rel Tra
-"<кувать>"
-	"кувать" Adv Sem/Time
-"<а>"
-	"а" V Aux Neg
-"<сат>"
-	"самс" V IV Ind Prs ScSg2
-"<?>"
-	"?" PUNCT
-
-# sent_id = EKS:2011:25:1:EDITORS
-# text = Пиземесь курок прядови.
-"<Пиземесь>"
-	"пизем" N Sg Nom Def
-	"пиземе" N Sg Nom Def
-"<курок>"
-	"курок" Adv Sem/Time
-	"курок" Ex/Adv Sem/Time Der/MWN N Sg Nom Indef
-	"курок" N Sg Nom Indef
-"<прядови>"
-	"прядовомс" V IV Ind Prs ScSg3
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:25:2:EDITORS
-# text = Паряк, пиземесь курок прядови...
-"<Паряк>"
-	"паряк" Pcle Epist
-	"парямс" V IV Imprt ScSg2
-	"парямс" V TV Imprt ScSg2
-"<,>"
-	"," PUNCT
-"<пиземесь>"
-	"пизем" N Sg Nom Def
-	"пиземе" N Sg Nom Def
-"<курок>"
-	"курок" Adv Sem/Time
-	"курок" Ex/Adv Sem/Time Der/MWN N Sg Nom Indef
-	"курок" N Sg Nom Indef
-"<прядови>"
-	"прядовомс" V IV Ind Prs ScSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:25:3:EDITORS
-# text = Вечкса эсенек кудонть...
-"<Вечкса>"
-	"вечкемс" V TV Ind Prs ScSg1 OcSg3
-"<эсенек>"
-	"монсь" Pron Refl Pl1 Gen Short
-"<кудонть>"
-	"кудо" N Sg Gen Def
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:25:4:EDITORS
-# text = Зярдо бути покштянок-сырькаенек ванстызь те мазычинть минек туртов...
-"<Зярдо>"
-	"зярдо" Adv Interr Sem/Time
-	"зярдо" Adv Interr Temp
-	"зярдо" CS Temp
-"<бути>"
-	"бути" CS
-"<покштянок-сырькаенек>"
-	"покштянок-сырькаенек" ?
-"<ванстызь>"
-	"ванстамс" V TV Ind Prt1 ScPl3 OcPl3
-	"ванстамс" V TV Ind Prt1 ScPl3 OcSg3
-	"ванстомс" V TV Ind Prt1 ScPl3 OcPl3
-	"ванстомс" V TV Ind Prt1 ScPl3 OcSg3
-"<те>"
-	"те" Det Dem Sg Nom
-"<мазычинть>"
-	"мазычи" N Sg Gen Def
-"<минек>"
-	"мон" Pron Pers Pl1 Gen
-"<туртов>"
-	"туртов" Po
-	"туртов" Po Dat
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:25:5:EDITORS
-# text = Сёрмадан сёрма...
-"<Сёрмадан>"
-	"сёрмадомс" V IV Ind Prs ScSg1
-	"сёрмадомс" V TV Ind Prs ScSg1
-"<сёрма>"
-	"сёрма" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:25:6:EDITORS
-# text = Недлячистэ сёрмадан сёрма...
-"<Недлячистэ>"
-	"недлячи" N SP Ela Indef
-"<сёрмадан>"
-	"сёрмадомс" V IV Ind Prs ScSg1
-	"сёрмадомс" V TV Ind Prs ScSg1
-"<сёрма>"
-	"сёрма" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:25:7:EDITORS
-# text = Сы иестэнть карман тонавтнеме кеменце классо...
-"<Сы>"
-	"самс" V IV Ind Prs ScSg3
-"<иестэнть>"
-	"ие" N Sg Ela Def
-"<карман>"
-	"кармамс" V IV Ind Prs ScSg1
-"<тонавтнеме>"
-	"тонавтнемс" V IV Inf Loc
-	"тонавтнемс" V TV Inf Loc
-"<кеменце>"
-	"кеменце" Num Ord Sg Nom Indef
-	"кемень" Ex/Num Ex/A Der/cje Ord Sg Nom Indef
-"<классо>"
-	"класс" N SP Ine Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:25:8:EDITORS
-# text = Иля удо, тейтернем, сундерьгадозь, а шкастонзо мадить, — мерсь Наста...
-"<Иля>"
-	"а" V Aux Neg Imprt ScSg2
-"<удо>"
-	"удомс" V IV ConNeg
-"<,>"
-	"," PUNCT
-"<тейтернем>"
-	"тейтерне" N Pl Gen PxSg1 Dial/SE
-	"тейтерне" N Pl Nom PxSg1 Dial/SE
-	"тейтерне" N SP Gen PxSg1 Dial/SE
-"<,>"
-	"," PUNCT
-"<сундерьгадозь>"
-	"сундерьгадомс" V IV Der/Ozj Ger
-"<,>"
-	"," PUNCT
-"<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
-	"а" Pcle Neg
-	"а" V Aux Neg
-"<шкастонзо>"
-	"шка" N SP Ela PxSg3
-"<мадить>"
-	"мадемс" V IV Ind Prs ScPl3
-	"мадемс" V IV Ind Prt1 ScSg2
-"<,>"
-	"," PUNCT
-"<—>"
-	"—" PUNCT
-"<мерсь>"
-	"меремс" V IV Ind Prt1 ScSg3
-"<Наста>"
-	"Наста" N Prop Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:1:EvsevjevM
-# text = Таго сы покш курго овтось, илядо панжт...
-"<Таго>"
-	"таго" Adv Sem/Time
-"<сы>"
-	"самс" V IV Ind Prs ScSg3
-"<покш>"
-	"покш" A Sg Nom Indef
-	"покш" Ex/A Der/MWN N Sg Nom Indef
-	"покш" N Sg Nom Indef
-"<курго>"
-	"курго" N Sg Nom Indef
-"<овтось>"
-	"овто" N Sg Nom Def
-"<,>"
-	"," PUNCT
-"<илядо>"
-	"а" V Aux Neg Imprt ScPl2
-"<панжт>"
-	"панжомс" V IV Dial ConNeg
-	"панжомс" V TV Dial ConNeg
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:2a:RadaevV
-# text = Келеть сусковлик!
-"<Келеть>"
-	"келе" N Sg Gen PxSg2
-	"келе" N Pl Gen PxSg2
-	"келе" N SP Gen PxSg2
-	"кель" N Sg Nom PxSg2
-	"келе" N Sg Nom PxSg2
-	"кель" N Pl Gen PxSg2
-	"кель" N Sg Gen PxSg2
-"<сусковлик>"
-	"сускомс" V TV Conj ScSg2 OcSg3
-"<!>"
-	"!" PUNCT
-
-# sent_id = EKS:2011:26:2b:EDITORS
-# text = Келеть сускомаль!
-"<Келеть>"
-	"келе" N Sg Gen PxSg2
-	"келе" N Pl Gen PxSg2
-	"келе" N Pl Nom Indef
-	"келе" N Pl Nom PxSg2
-	"келе" N SP Gen PxSg2
-	"кель" N Sg Nom PxSg2
-	"келе" N Sg Nom PxSg2
-	"кель" N Pl Gen PxSg2
-	"кель" N Pl Nom PxSg2
-	"кель" N Sg Gen PxSg2
-"<сускомаль>"
-	"сускома" N Sg Nom Indef Clt/Cop Prt2 ScSg3
-	"сускомс" Ex/V IV Der/OmA NomAct N Sg Nom Indef Clt/Cop Prt2 ScSg3
-	"сускомс" Ex/V TV Der/OmA NomAct N Sg Nom Indef Clt/Cop Prt2 ScSg3
-	"сускомс" V IV Oblig Clt/Cop Prt2 ScSg3
-	"сускомс" V TV Oblig Clt/Cop Prt2 ScSg3
-"<!>"
-	"!" PUNCT
-
-# sent_id = EKS:2011:26:3a:AbramovK
-# text = Эно лисевлиде (=лиседе) ушов — эйкакштненень лексемс а мейсэ...
-"<Эно>"
-	"эно" Pcle Epist
-"<лисевлиде>"
-	"лисемс" V IV Conj ScPl2
-"<(>"
-	"(" PUNCT LEFT
-"<=>"
-	"=" PUNCT
-"<лиседе>"
-	"лисе" N SP Abl Indef
-	"лисемс" V IV Imprt ScPl2
-"<)>"
-	")" PUNCT RIGHT
-"<ушов>"
-	"ушо" N SP Lat Indef
-"<—>"
-	"—" PUNCT
-"<эйкакштненень>"
-	"эйкакш" N Pl Dat Def
-"<лексемс>"
-	"лексемс" V IV Inf
-"<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
-	"а" Pcle Neg
-"<мейсэ>"
-	"мезе" Pron Interr SP Ine Indef
-	"мезе" Pron Rel SP Ine Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:3b:EDITORS
-# text = Эно лиседе ушов — эйкакштненень лексемс а мейсэ...
-"<Эно>"
-	"эно" Pcle Epist
-"<лиседе>"
-	"лисе" N SP Abl Indef
-	"лисемс" V IV Imprt ScPl2
-"<ушов>"
-	"ушо" N SP Lat Indef
-"<—>"
-	"—" PUNCT
-"<эйкакштненень>"
-	"эйкакш" N Pl Dat Def
-"<лексемс>"
-	"лексемс" V IV Inf
-"<а>"
-	"а" CC
-	"а" Interj
-	"а" N ABBR
-	"а" Pcle Neg
-"<мейсэ>"
-	"мезе" Pron Interr SP Ine Indef
-	"мезе" Pron Rel SP Ine Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:4a:EvsevjevM
-# text = Шекшей патяй, кодаяк бу пейдевтевлимик...
-"<Шекшей>"
-	"шекшей" N Sg Nom Indef
-"<патяй>"
-	"патяй" Ex/N Der/aj Voc
-	"патяй" Interj Voc
-"<,>"
-	"," PUNCT
-"<кодаяк>"
-	"кодаяк" Adv Indef Manner
-	"кодаяк" Adv Manner
-"<бу>"
-	"бу" Pcle Aux Conj
-"<пейдевтевлимик>"
-	"пейдевтемс" V TV Conj ScSg2 OcSg1
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:4b:EDITORS
-# text = Шекшей патяй, зярдо-бути пейдевтемак...
-"<Шекшей>"
-	"шекшей" N Sg Nom Indef
-"<патяй>"
-	"патяй" Ex/N Der/aj Voc
-	"патяй" Interj Voc
-"<,>"
-	"," PUNCT
-"<зярдо-бути>"
-	"зярдо-бути" Adv Indef
-	"зярдо-бути" Adv Indef Sem/Time
-"<пейдевтемак>"
-	"пейдевтемс" V TV Imprt ScSg2 OcSg1
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:5:Valmerevks
-# text = Мезе теят — секень неят...
-"<Мезе>"
-	"мезе" Pron Interr Sg Nom Indef
-"<теят>"
-	"теемс" V IV Ind Prs ScSg2
-	"теемс" V TV Ind Prs ScSg2
-	"тея" A Pl Nom Indef
-	"тея" Ex/A Der/MWN N Pl Nom Indef
-	"тея" Ex/A Der/MWN N Pl Nom PxSg2
-"<—>"
-	"—" PUNCT
-"<секень>"
-	"секе" Pron Dem Sg Gen
-	"секень" Ex/A Der/GenAttr A Sg
-"<неят>"
-	"неемс" V IV Ind Prs ScSg2
-	"неемс" V TV Ind Prs ScSg2
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:6:Valmerevks
-# text = Бути шнатано — сапоньсэ шлятано, бути сялдтано — сялгсо сялгтано...
-"<Бути>"
-	"бути" CS
-"<шнатано>"
-	"шнамс" V IV Ind Prs ScPl1
-	"шнамс" V TV Ind Prs ScPl1
-"<—>"
-	"—" PUNCT
-"<сапоньсэ>"
-	"сапонь" N SP Ine Indef
-"<шлятано>"
-	"шлямс" V IV Ind Prs ScPl1
-	"шлямс" V TV Ind Prs ScPl1
-"<,>"
-	"," PUNCT
-"<бути>"
-	"бути" CS
-"<сялдтано>"
-	"сялдомс" V IV Ind Prs ScPl1
-	"сялдомс" V TV Ind Prs ScPl1
-"<—>"
-	"—" PUNCT
-"<сялгсо>"
-	"сялго" N SP Ine Indef
-"<сялгтано>"
-	"сялгомс" V IV Ind Prs ScPl1
-	"сялгомс" V TV Ind Prs ScPl1
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:7:EDITORS
-# text = Кавтонтень кавто — ниле.
-"<Кавтонтень>"
-	"кавто" Num Card Sg Dat Def
-"<кавто>"
-	"кавто" Num Card Sg Nom Indef
-"<—>"
-	"—" PUNCT
-"<ниле>"
-	"ниле" Num Card Sg Nom Indef
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:26:8:EDITORS
-# text = Колмонть колмоксть — вейксэ.
-"<Колмонть>"
-	"колмо" Num Card Sg Gen Def
-"<колмоксть>"
-	"колмоксть" Adv Iter
-"<—>"
-	"—" PUNCT
-"<вейксэ>"
-	"вейксэ" Num Card Sg Nom Indef
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:26:9:MoroA
-# text = Кодамо мазый мастор лангось!
-"<Кодамо>"
-	"кодамо" N Sg Nom Indef
-	"кодамо" A Interr Sg Nom Indef
-	"кодамо" Ex/A Interr Der/MWN N Sg Nom Indef
-	"кодамс" V TV Inf Loc
-	"кодамс" Ex/V IV Der/OmA NomAct N Sg Nom Indef
-	"кодамс" Ex/V TV Der/OmA NomAct N Sg Nom Indef
-	"кодамс" V IV Inf Loc
-"<мазый>"
-	"мазый" A Sg Nom Indef
-"<мастор>"
-	"мастор" N Sg Nom Indef
-"<лангось>"
-	"ланго" N Relator Sg Nom Def
-"<!>"
-	"!" PUNCT
-
-# sent_id = EKS:2011:26:10:KalinkinI
-# text = Тон вечкевиксат истямат...
-"<Тон>"
-	"тон" Pron Pers Sg2 Nom
-"<вечкевиксат>"
-	"вечкевемс" Ex/V IV Der/Y NomAg N SP Tra Indef Clt/Cop Prs ScSg2
-	"вечкевикс" A Sg Nom Indef Clt/Cop Prs ScSg2
-	"вечкевикс" Ex/A Der/MWN N Sg Nom Indef Clt/Cop Prs ScSg2
-	"вечкемс" Ex/V Der/OvOms Ex/V IV Der/Y NomAg N SP Tra Indef Clt/Cop Prs ScSg2
-	"вечкемс" Ex/V Ex/TV Der/OvOms Ex/V IV Der/Y NomAg N SP Tra Indef Clt/Cop Prs ScSg2
-"<истямат>"
-	"истямат" ?
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:11:AbramovK
-# text = Вельть паро уле вель...
-"<Вельть>"
-	"ве" N Pl Nom Indef Clt/Cop Prt2 ScPl3
-	"вельть" Adv Deg
-"<паро>"
-	"паро" A Sg Nom Indef
-	"паро" Ex/A Der/MWN N Sg Nom Indef
-	"паро" N Sg Nom Indef
-"<уле>"
-	"улемс" V IV ConNeg
-"<вель>"
-	"ве" N Sg Nom Indef Clt/Cop Prt2 ScSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:12:GluxovP
-# text = Ломанесь сон (Е. В. Буртаев) сэтьмель, лембе седеель...
-"<Ломанесь>"
-	"ломань" N Sem/Hum Sg Nom Def
-"<сон>"
-	"сон" Pron Pers Sg3 Nom
-"<(>"
-	"(" PUNCT LEFT
-"<Е.>"
-	"Ё" N ABBR
-	"Е" N ABBR
-	"е" N ABBR
-	"ё" N ABBR
-"<В.>"
-	"В" N ABBR
-	"в" ABBR
-	"в" N ABBR
-"<Буртаев>"
-	"Буртаев" N Prop Sem/Mal-Sur Sg Nom Indef
-"<)>"
-	")" PUNCT RIGHT
-"<сэтьмель>"
-	"сэтьме" A Sg Nom Indef Clt/Cop Prt2 ScSg3
-	"сэтьме" Ex/A Der/MWN N Sg Nom Indef Clt/Cop Prt2 ScSg3
-	"сэтьме" N Sg Nom Indef Clt/Cop Prt2 ScSg3
-"<,>"
-	"," PUNCT
-"<лембе>"
-	"лембе" A Sg Nom Indef
-"<седеель>"
-	"седей" N Sg Nom Indef Clt/Cop Prt2 ScSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:13:GluxovP
-# text = Цярмун велень школасонть мон тонавтнинь вейке теле...
-"<Цярмун>"
-	"Цярмун" N Prop Sg Nom Indef
-"<велень>"
-	"веле" N SP Gen Indef
-"<школасонть>"
-	"школа" N Sg Ine Def
-"<мон>"
-	"мон" Pron Pers Sg1 Nom
-"<тонавтнинь>"
-	"тонавтнемс" V IV Ind Prt1 ScSg1
-	"тонавтнемс" V TV Ind Prt1 ScSg1
-	"тонавтнемс" V TV Ind Prt1 ScSg1 OcPl3
-"<вейке>"
-	"вейке" Num Card Sg Nom Indef
-"<теле>"
-	"теле" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:14a:AbramovK
-# text = Менельганть уить вецана пельть...
-"<Менельганть>"
-	"менель" N Sg Prl Def
-"<уить>"
-	"уемс" V Ind Prs ScPl3
-"<вецана>"
-	"вецана" A Sg Nom Indef
-"<пельть>"
-	"пелемс" V IV Imprt ScSg2
-	"пель" N Pl Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:26:14b:AbramovK
-# text = Стамбарнэ певерсь чопода пиземе...
-"<Стамбарнэ>"
-	"стамбарнэ" Adv
-"<певерсь>"
-	"певеремс" V IV Ind Prt1 ScSg3
-	"певеремс" V TV Ind Prt1 ScSg3
-"<чопода>"
-	"чопода" A Sg Nom Indef
-"<пиземе>"
-	"пиземе" N Sg Nom Indef
-	"пиземс" V IV Inf Loc
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:27:1:Valmerevks
-# text = Кортазь пеке а пештят.
-"<Кортазь>"
-	"кортамс" V IV Der/Ozj Ger
-	"кортамс" Ex/V IV Der/Ozj Ger Der/MWN N Sg Nom Indef
-	"кортамс" Ex/V TV Der/Ozj Ger Der/MWN N Sg Nom Indef
-	"кортамс" V TV Der/Ozj Ger Sg Nom Indef
-	"кортамс" V IV Der/Ozj Ger Sg Nom Indef
-	"кортамс" V TV Der/Ozj Ger
-"<пеке>"
-	"пеке" N Sg Nom Indef
-"<а>"
-	"а" V Aux Neg
-"<пештят>"
-	"пештемс" V IV Ind Prs ScSg2
-	"пештемс" V TV Ind Prs ScSg2
-	"пешть" N Sg Nom Indef Clt/Cop Prs ScSg2
-	"пештя" N Pl Gen PxSg2
-	"пештя" N Pl Nom Indef
-	"пештя" N Pl Nom PxSg2
-	"пештя" N SP Gen PxSg2
-	"пештя" N Sg Gen PxSg2
-	"пештя" N Sg Nom Indef Clt/Cop Prs ScSg2
-	"пештя" N Sg Nom PxSg2
-	"пештямс" V IV Ind Prs ScSg2
-	"пештямс" V TV Ind Prs ScSg2
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:27:2:Valmerevks
-# text = Сыре озязонть сюва лангс а манясак.
-"<Сыре>"
-	"сыре" A Sg Nom Indef
-"<озязонть>"
-	"озяз" N Sg Gen Def
-"<сюва>"
-	"сюва" N Sg Nom Indef
-"<лангс>"
-	"ланго" N Relator SP Ill Indef
-"<а>"
-	"а" V Aux Neg
-"<манясак>"
-	"манямс" V TV Ind Prs ScSg2 OcSg3
-	"манямс" V TV Opt ScSg2 OcSg3
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:27:3:DoroninA
-# text = Чокшне кандсть газетат...
-"<Чокшне>"
-	"чокшне" Adv Sem/Time
-	"чокшне" N Sg Nom Indef
-"<кандсть>"
-	"кандомс" V IV Ind Prt1 ScPl3
-	"кандомс" V TV Ind Prt1 ScPl3
-"<газетат>"
-	"газета" N Pl Nom Indef
-	"газета" N Pl Nom PxSg2
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:27:4:DoroninA
-# text = Ушосонть морыть...
-"<Ушосонть>"
-	"ушо" N Sg Ine Def
-"<морыть>"
-	"морамс" V IV Ind Prs ScPl3
-	"морамс" V IV Ind Prt1 ScSg2
-	"морамс" V TV Imprt ScSg2 OcPl3
-	"морамс" V TV Ind Prs ScPl3
-	"морамс" V TV Ind Prt1 ScSg2
-	"морамс" V TV Ind Prt1 ScSg2 OcPl3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:27:5:DoroninA
-# text = Кенде велесэ лоткасть лишмень кирдемеде.
-"<Кенде>"
-	"Кенде" N Prop Sg Nom Indef
-	"кенде" N Sg Nom Indef
-"<велесэ>"
-	"веле" N SP Ine Indef
-"<лоткасть>"
-	"лоткамс" V IV Ind Prt1 ScPl3
-"<лишмень>"
-	"лишме" N Pl Nom PxSg1
-"<кирдемеде>"
-	"кирдемс" V IV Inf Abl
-	"кирдемс" V TV Inf Abl
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:27:6:ArapovA
-# text = Икелень аштесь эрзянь тиринь велем...
-"<Икелень>"
-	"икеле" Adp Loc PxSg1
-	"икелень" Ex/A Der/GenAttr A Sg
-"<аштесь>"
-	"аштемс" V IV Ind Prt1 ScSg3
-	"аштемс" V TV Ind Prt1 ScSg3
-"<эрзянь>"
-	"эрзя" N Sem/Hum SP Gen Indef
-"<тиринь>"
-	"тири" Ex/A Der/MWN N SP Gen Indef
-	"тирямс" V IV Ind Prt1 ScSg1
-"<велем>"
-	"веле" N Pl Gen PxSg1 Dial/SE
-	"веле" N Pl Nom PxSg1 Dial/SE
-	"веле" N SP Gen PxSg1 Dial/SE
-	"веле" N Sg Gen PxSg1
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:27:7:RaptanovT
-# text = Гайгить тейтерень весёла, мазый вайгельтне...
-"<Гайгить>"
-	"гайгемс" V IV Ind Prs ScPl3
-"<тейтерень>"
-	"тейтерь" N Pl Nom PxSg1
-"<весёла>"
-	"весёла" A Sg Nom Indef
-	"весёла" Ex/A Der/MWN N Sg Nom Indef
-"<,>"
-	"," PUNCT
-"<мазый>"
-	"мазый" A Sg Nom Indef
-"<вайгельтне>"
-	"вайгель" N Pl Nom Def
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:27:8:MartynovA
-# text = Цитни, цивторды, кумболды, зорянь паломсто, модась...
-"<Цитни>"
-	"цитнемс" V IV Ind Prs ScSg3
-"<,>"
-	"," PUNCT
-"<цивторды>"
-	"цивтордомс" V IV Ind Prs ScSg3
-"<,>"
-	"," PUNCT
-"<кумболды>"
-	"кумболдомс" V IV Ind Prs ScSg3
-"<,>"
-	"," PUNCT
-"<зорянь>"
-	"зоря" N SP Gen Indef
-"<паломсто>"
-	"паломс" V IV Ger Ela
-"<,>"
-	"," PUNCT
-"<модась>"
-	"мода" N Sg Nom Def
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:27:9:SedojkinL
-# text = Сёксь... Модамарть таргатано кепе...
-"<Сёксь>"
-	"сёксь" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-"<Модамарть>"
-	"модамарь" N Pl Nom Indef
-"<таргатано>"
-	"тар" N SP Prl Indef Clt/Cop Prs ScPl1
-	"тарга" N Pl Nom Indef Clt/Cop Prs ScPl1
-	"таргамс" V IV Ind Prs ScPl1
-	"таргамс" V TV Ind Prs ScPl1
-	"таргатомс" V TV Ind Prs ScPl1
-	"таргатомс" V IV Ind Prs ScPl1
-"<кепе>"
-	"кепе" A Sg Nom Indef
-	"кепе" Adv
-	"кепе" Ex/A Der/MWN N Sg Nom Indef
-	"кепе" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:27:10:RaptanovT
-# text = Сеель варштась мельганзо, наравтызе прянзо ды кармась пултонь сюлмамо...
-"<Сеель>"
-	"сеель" N Sg Nom Indef
-"<варштась>"
-	"варштамс" V IV Ind Prt1 ScSg3
-	"варштамс" V TV Ind Prt1 ScSg3
-"<мельганзо>"
-	"мельга" Po Spat Prl PxSg3
-"<,>"
-	"," PUNCT
-"<наравтызе>"
-	"наравтомс" V TV Ind Prt1 ScSg3 OcSg3
-"<прянзо>"
-	"пря" N Pl Gen PxSg3
-	"пря" N SP Gen PxSg3
-	"пря" N Sg Gen PxSg3
-"<ды>"
-	"ды" CC
-"<кармась>"
-	"кармамс" V IV Ind Prt1 ScSg3
-"<пултонь>"
-	"пулт" N SP Gen Indef
-	"пулто" N SP Gen Indef
-"<сюлмамо>"
-	"сюлмамс" V IV Inf Loc
-	"сюлмамс" V TV Inf Loc
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:27:11:KutorkinA
-# text = Мирдеть пельде сёрмат получакшнат?
-"<Мирдеть>"
-	"мирде" N Pl Gen PxSg2
-	"мирде" N SP Gen PxSg2
-	"мирде" N Sg Gen PxSg2
-"<пельде>"
-	"пельде" Adp Abl
-"<сёрмат>"
-	"сёрма" N Pl Gen PxSg2
-	"сёрма" N Pl Nom Indef
-	"сёрма" N Pl Nom PxSg2
-	"сёрма" N SP Gen PxSg2
-	"сёрма" N Sg Gen PxSg2
-	"сёрма" N Sg Nom PxSg2
-	"сёрмамс" V IV Ind Prs ScSg2
-"<получакшнат>"
-	"получакшномс" V IV Ind Prs ScSg2
-	"получакшномс" V TV Ind Prs ScSg2
-"<?>"
-	"?" PUNCT
-
-# sent_id = EKS:2011:27:12:AbramovK
-# text = Ловнынек. Сёрмась вельть паро!
-"<Ловнынек>"
-	"ловномс" V TV Ind Prt1 ScPl1 OcSg3
-	"ловномс" V IV Ind Prt1 ScPl1
-	"ловномс" V TV Ind Prt1 ScPl1
-	"ловномс" V TV Ind Prt1 ScPl1 OcPl3
-"<.>"
-	"." PUNCT
-
-"<Сёрмась>"
-	"сёрма" N Sg Nom Def
-	"сёрмамс" V IV Ind Prt1 ScSg3
-"<вельть>"
-	"вельть" Adv Deg
-"<паро>"
-	"паро" A Sg Nom Indef
-	"паро" Ex/A Der/MWN N Sg Nom Indef
-	"паро" N Sg Nom Indef
-"<!>"
-	"!" PUNCT
-
-# sent_id = EKS:2011:28:1:VtulkinM
-# text = Оренбургов сась цирк...
-"<Оренбургов>"
-	"Оренбург" N Prop SP Lat Indef
-"<сась>"
-	"самс" V IV Ind Prt1 ScSg3
-"<цирк>"
-	"цирк" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:29:1:DoroninA
-# text = Нусманя читне полавтневсть чопода ветнесэ...
-"<Нусманя>"
-	"нусманя" A Sg Nom Indef
-	"нусманя" Ex/A Der/MWN N Sg Nom Indef
-	"нусманя" N Sg Nom Indef
-"<читне>"
-	"чи" N Pl Nom Def
-"<полавтневсть>"
-	"полавтневемс" V IV Ind Prt1 ScPl3
-"<чопода>"
-	"чопода" A Sg Nom Indef
-"<ветнесэ>"
-	"ве" N Pl Ine Def
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:29:2:ChesnokovF
-# text = Омбоце недля Эхрем паро ёжо а соды...
-"<Омбоце>"
-	"омбоце" A Ord Sg Nom Indef
-"<недля>"
-	"недля" N Sg Nom Indef
-"<Эхрем>"
-	"Эхрё" N Prop Pl Nom PxSg1 Dial/SE
-	"Эхрем" N Prop Sg Nom Indef
-	"Эхрё" N Prop Pl Gen PxSg1 Dial/SE
-	"Эхрё" N Prop Sg Nom PxSg1
-	"Эхрё" N Prop SP Gen PxSg1 Dial/SE
-	"Эхрё" N Prop Sg Gen PxSg1
-"<паро>"
-	"паро" A Sg Nom Indef
-	"паро" Ex/A Der/MWN N Sg Nom Indef
-	"паро" N Sg Nom Indef
-"<ёжо>"
-	"ёжо" N Sg Nom Indef
-"<а>"
-	"а" V Aux Neg
-"<соды>"
-	"содамс" V IV Ind Prs ScSg3
-	"содамс" V TV Ind Prs ScSg3
-	"содомс" V IV Ind Prs ScSg3
-	"содомс" V TV Ind Prs ScSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:29:3:SharanovA
-# text = Тундонь цецясь седейть а эжди...
-"<Тундонь>"
-	"тундо" N SP Gen Indef
-"<цецясь>"
-	"цеця" N Sg Nom Def
-"<седейть>"
-	"седей" N Pl Nom Indef
-"<а>"
-	"а" V Aux Neg
-"<эжди>"
-	"эждемс" V IV Ind Prs ScSg3
-	"эждемс" V TV Ind Prs ScSg3
-	"эждямс" V TV Ind Prs ScSg3
-	"эждямс" V IV Ind Prs ScSg3
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:29:4:DoroninA
-# text = Равось паро ладсо эзь солаяк...
-"<Равось>"
-	"Рав" N Prop Sem/Rvr Sg Nom Def
-	"рав" N Sg Nom Def
-"<паро>"
-	"паро" A Sg Nom Indef
-"<ладсо>"
-	"лад" N SP Ine Indef
-"<эзь>"
-	"а" V Aux Neg Ind Prt1 ScSg3
-"<солаяк>"
-	"соламс" V IV ConNeg Clt/Add
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:29:5a:MartynovA
-# text = Мон пек вечкан вирев якамо пекшень цветямо шкасто.
-"<Мон>"
-	"мон" Pron Pers Sg1 Nom
-"<пек>"
-	"пек" Adv Deg
-"<вечкан>"
-	"вечкемс" V IV Ind Prs ScSg1
-	"вечкемс" V TV Ind Prs ScSg1
-"<вирев>"
-	"вирев" A Sg Nom Indef
-"<якамо>"
-	"якамо" N Sg Nom Indef
-	"якамс" Ex/V IV Der/OmA NomAct N Sg Nom Indef
-	"якамс" V IV Inf Loc
-"<пекшень>"
-	"пекш" N SP Gen Indef
-	"пекше" N SP Gen Indef
-"<цветямо>"
-	"цветямо" N Sg Nom Indef
-	"цветямс" V IV Inf Loc
-"<шкасто>"
-	"шка" N SP Ela Indef
-"<.>"
-	"." PUNCT
-
-# sent_id = EKS:2011:29:5b:MartynovA
-# text = Сельметь аволить сае те чувтонть лангсто...
-"<Сельметь>"
-	"сельме" N Pl Nom PxSg2
-	"сельме" N Pl Nom Indef
-"<аволить>"
-	"аволямс" V IV Ind Prs ScPl3
-	"аволямс" V TV Ind Prs ScPl3
-"<сае>"
-	"саемс" V IV ConNeg
-	"саемс" V TV ConNeg
-"<те>"
-	"те" Det Dem Sg Nom
-"<чувтонть>"
-	"чувто" N Sg Gen Def
-"<лангсто>"
-	"ланго" N Relator SP Ela Indef
-"<...>"
-	"..." PUNCT
-
-# sent_id = EKS:2011:29:6:VidiazN
-# text = Аволь пельтнень томбале те ёвксонь кондямо сюпав ды мазый масторось...
-"<Аволь>"
-	"аволь" Pcle Neg Emphatic
-"<пельтнень>"
-	"пель" N Pl Gen Def
-"<томбале>"
-	"томбале" Adp Loc
-"<те>"
-	"те" Det Dem Sg Nom
-"<ёвксонь>"
-	"ёвкс" N SP Gen Indef
-"<кондямо>"
-	"кондямо" A Sg Nom Indef
-"<сюпав>"
-	"сюпав" A Sg Nom Indef
-"<ды>"
-	"ды" CC
-"<мазый>"
-	"мазый" A Sg Nom Indef
-"<масторось>"
-	"мастор" N Sg Nom Def
-"<...>"
-	"..." PUNCT
-
-
-# sent_id = EKS:2011:29:7:RazguliaevaT
-# text = Аволь сэрей лашминенть потмакска таргавсь кумболдыця теине кикске...
-"<Аволь>"
-	"аволь" Pcle Neg Emphatic
-"<сэрей>"
-	"сэрей" A Sg Nom Indef
-"<лашминенть>"
-	"лашмине" N Sg Gen Def
-"<потмакска>"
-	"потмакс" N SP Prl Indef
-"<таргавсь>"
-	"таргавомс" V IV Ind Prt1 ScSg3
-"<кумболдыця>"
-	"кумболдомс" Ex/V IV Der/Ycja NomAg N Sg Nom Indef
-"<теине>"
-	"теине" A Sg Nom Indef
-"<кикске>"
-	"кикске" N Sg Nom Indef
-"<...>"
-	"..." PUNCT
-
-
-# sent_id = EKS:2011:29:8:PiataevE
-# text = Арсемс ды учнемс а мезть...
-"<Арсемс>"
-	"арсемс" V IV Inf
-"<ды>"
-	"ды" CC
-"<учнемс>"
-	"учнемс" V IV Inf
-"<а>"
-	"а" Pcle Neg
-"<мезть>"
-	"мезе" Pron Interr Pl Nom Indef
-"<...>"
-	"..." PUNCT
-
-
-# sent_id = GanchinA:Staka_kevkstema:10:2
-# text = Надюм, маряви, кода катка, эрьва иестэ кавкстень-кавксть чачтнесь.
-# comment = Siatko 1998:11-12:139
-"<Надюм>"
-        "Надюм" N Prop Sg Nom Indef
-"<,>"
-        "," PUNCT
-"<маряви>"
-        "марявомс" V IV Ind Prs ScSg3
-"<,>"
-        "," PUNCT
-"<кода>"
-        "кода" Adv Interr Manner
-"<катка>"
-        "катка" N Sg Nom Indef
-"<,>"
-        "," PUNCT
-"<эрьва>"
-        "эрьва" Det Sg Nom Indef
-"<иестэ>"
-        "ие" N SP Ela Indef
-"<кавкстень-кавксть>"
-        "кавкстень-кавксть" Num DistrMult
-"<чачтнесь>"
-        "чачтнемс" V IV Ind Prt1 ScSg3
-"<.>"
-        "." PUNCT
-
-
-# sent_id = ProxorovP:Komanuiushchej_jalgaj:pg22
-# text = Кавонстонь-кавонстонь лембе пракстат эрявольть бу.
-# comment = Siatko 1978:01:22
-"<Кавонстонь-кавонстонь>"
-        "Кавонстонь-кавонстонь" Num DistrSet
-"<лембе>"
-        "лембе" A Sg Nom Indef
-"<пракстат>"
-        "пракста" N Pl Nom Indef
-"<эрявольть>"
-        "эрявомс" V IV Conj ScPl3
-"<бу>"
-        "бу" Pcle Aux Conj
-"<.>"
-        "." PUNCT
-
-
-# sent_id = KutorkinA:Kriostketj:24:2
-# text = Васенценть потс Анися путсь кеменстэшка сюронь зёрнат.
-# comment = Suranj_Tolt 1963:06:35
-"<Васенценть>"
-        "васенце" Num Ord Ord Sg Gen Def
-"<потс>"
-        "потмо" N Relator SP Ill Indef
-"<Анися>"
-        "анися" N Sg Nom Indef
-"<путсь>"
-        "путомс" V TV Ind Prt1 ScSg3
-"<кеменстэшка>"
-        "кеменстэшка" Num Appr Sg Nom Indef
-"<сюронь>"
-        "сюро" N SP Gen Indef
-"<зёрнат>"
-        "зёрна" N Pl Nom Indef
-"<.>"
-        "." PUNCT
