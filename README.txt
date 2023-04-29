@@ -50,6 +50,8 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2023-04-29
+  * Work with Valency, Diminutive, present participle
 * 2022-10-31
   * Grammar research input
   * Splitting into test (104518 tokens) and train (10151 tokens)
