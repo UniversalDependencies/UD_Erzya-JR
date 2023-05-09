@@ -50,6 +50,13 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2023-04-29
+  * Work with Valency, Diminutive, present participle
+* 2022-10-31
+  * Grammar research input
+  * Splitting into test (104518 tokens) and train (10151 tokens)
+  * Migrating :lmp, :lto, :lfrom into :lmod, and :comp to :cmp
+  * Existential word of negation is now adjective
 * 2022-04-29
   * Deprel correction and documentation
   * Trouble shooting in dependencies
