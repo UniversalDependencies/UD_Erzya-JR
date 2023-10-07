@@ -741,7 +741,7 @@
 6	минек	мон	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	obl	_	GTtags=Pers,Pl1,Gen
 7	вакснэ	вакссо	ADP	Adp	Case=Ine	6	case	_	GTtags=Pl,Nom,Def
 8	Бессоновка	Бессоновка	PROPN	N	Case=Nom|Definite=Ind|NameType=Geo|Number=Sing	6	appos	_	GTtags=Prop,Sg,Nom,Indef
-9	велес	веле	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	8	fixed	_	GTtags=Sem/Plc,SP,Ill,Indef|SpaceAfter=No
+9	велес	веле	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	8	flat	_	GTtags=Sem/Plc,SP,Ill,Indef|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:131
@@ -8039,7 +8039,7 @@
 # text_en = Thanks be to God, he gave me good children.
 # source = Check this
 1	Пасиба	пасиба	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef|Gloss=thanks
-2	Пазнэнь	Паз	PROPN	N	Animacy=Hum|Case=Dat|Definite=Ind|Number=Plur,Sing	1	fixed	_	GTtags=Prop,Hum,Sem/Divinity,SP,Dat,Indef|Gloss=God|SpaceAfter=No
+2	Пазнэнь	Паз	PROPN	N	Animacy=Hum|Case=Dat|Definite=Ind|Number=Plur,Sing	1	obl	_	GTtags=Prop,Hum,Sem/Divinity,SP,Dat,Indef|Gloss=God|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	6	punct	_	_
 4	эйкакшт	эйкакш	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	6	obj	_	GTtags=Pl,Nom,Indef|Gloss=child
 5	тень	мон	PRON	Pron	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	obl	_	GTtags=Pers,Sg1,Dat,Short|Gloss=to-me
@@ -9223,7 +9223,7 @@
 
 # sent_id = ErinaO1997:39:AbramovK1988:173
 # text = Азамат теньгак эзизе чарькоде.
-# source = К. Абрамов, Пургаз, Саранск 1988: 173 
+# source = К. Абрамов, Пургаз, Саранск 1988: 173
 # text_ru = Азамат этого тоже не попял.
 1	Азамат	Азамат	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	nsubj	_	GTtags=Prop,Sg,Nom,Indef
 2	теньгак	те	PRON	Pron	Case=Gen|Clitic=Add|Definite=Ind|Number=Sing|PronType=Dem	4	obj	_	GTtags=Dem,Sg,Gen,Indef,Clt/Add
@@ -9437,7 +9437,7 @@
 2	ёжонь	ёжо	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	3	nmod:gobj	_	GTtags=SP,Gen,Indef
 3	пансемга	пансемс	VERB	V	Case=Prl|VerbForm=Conv	6	advcl	_	GTtags=TV,Ger,Prl
 4	Григорь	Григорь	PROPN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	GTtags=Prop,Sg,Nom,Indef
-5	Мироныч	Миронович	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Sur|Number=Sing	4	fixed	_	GTtags=Prop,Err/Orth-colloq,Sem/Mal-Patr,Err/Orth-colloq,Sg,Nom,Indef
+5	Мироныч	Миронович	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Sur|Number=Sing	4	flat:name	_	GTtags=Prop,Err/Orth-colloq,Sem/Mal-Patr,Err/Orth-colloq,Sg,Nom,Indef
 6	лиссь	лисемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
 7	кудыкелев	кудыкеле	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	6	obl:lmod	_	GTtags=SP,Lat,Indef|SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
@@ -13031,7 +13031,7 @@
 
 # sent_id = EKS:2011:40:6:ŽuravlëvČ
 # text = Сынь кавонест (нумолтнэ) лоткасть минек шалаганть икелев...
-# text_en = The two of them (the hares) stopped in front of our 
+# text_en = The two of them (the hares) stopped in front of our
 1	Сынь	сон	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	CGdephead=#1-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl3,Nom
 2	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	1	det	_	CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=AssocColl,Pl3
 3	(	(	PUNCT	PUNCT	PunctSide=Ini	4	punct	_	CGdephead=#3-&gt;4|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
