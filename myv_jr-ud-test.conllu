@@ -5561,7 +5561,7 @@
 4	аламодо	аламо	ADV	Adv	Case=Abl	6	advmod	_	GTtags=Abl
 5	седе	седе	ADV	Adv	Degree=Cmp	6	advmod:deg	_	GTtags=Comp
 6	кувакаль	кувака	ADJ	A	Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=Prt2,ScSg3
-7	васенценть	васенце	ADJ	Num	Case=Gen|Definite=Def|Number=Sing	6	obl	_	GTtags=Ord,Sg,Gen,Def
+7	васенценть	васенце	ADJ	Num	Case=Gen|Definite=Def|Number=Sing	6	obl:cmp	_	GTtags=Ord,Sg,Gen,Def
 8	коряс	коряс	ADP	Adp	AdpType=Post|Case=Ill	7	case	_	GTtags=Po,Ill|SpaceAfter=No
 9	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -12632,7 +12632,7 @@
 # text_en = By nature, Fyodorov was a difficult person.
 1	Федоров	Фёдоров	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Sur|Number=Sing	5	nsubj:cop	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef|Gloss=Fyodorov
 2	―	―	PUNCT	PUNCT	_	5	punct	_	_
-3	обуцянь	обуця	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=SP,Gen,Indef|Gloss=character
+3	обуцянь	обуця	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	obl:cmp	_	GTtags=SP,Gen,Indef|Gloss=character
 4	коряс	коряс	ADP	Adp	Case=Ill	3	case	_	GTtags=Ill|Gloss=by
 5	стакаль	стака	ADJ	A	_	0	root	_	GTtags=|Gloss=difficult|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
