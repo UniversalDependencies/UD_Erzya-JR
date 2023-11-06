@@ -50,6 +50,8 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2023-10-29
+  * Add CCC variant to train.conllu
 * 2023-04-29
   * Work with Valency, Diminutive, present participle
 * 2022-10-31
