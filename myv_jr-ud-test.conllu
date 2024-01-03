@@ -1707,7 +1707,7 @@
 # sent_id = AnoshkinV_ValskenjGudok_1936:20
 # text = ― Кавонест кундызь Любань кавто ёндо.
 1	―	―	PUNCT	PUNCT	_	3	punct	_	_
-2	Кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	3	nsubj	_	GTtags=AssocColl,PxPl3
+2	Кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	3	nsubj	_	GTtags=AssocColl,PxPl3
 3	кундызь	кундамс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Past	0	root	_	GTtags=TV,Ind,Prt1,ScPl3,OcSg3
 4	Любань	Люба	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Fem|NameType=Giv|Number=Plur,Sing	3	obj	_	GTtags=Ant_Fem,Prop,SP,Gen,Indef
 5	кавто	кавто	NUM	Num	NumType=Card	6	nummod	_	GTtags=Card
@@ -3095,7 +3095,7 @@
 3	тестэ	тестэ	ADV	Adv	Case=Ela	2	obl	_	GTtags=Ela|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	кадымизь	кадомс	VERB	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1|Person[subj]=3|Style=Arch|Tense=Past	2	conj	_	GTtags=TV,Imprt,Prt1,ScPl3,OcSg1|ModernForm=кадомизь
-6	ськамон	ськамон	PRON	Pron	Number=Sing|NumType=Sets|Person=1|PronType=Prs	5	obj	_	GTtags=Exclusive,PerifMod,PxSg1|SpaceAfter=No
+6	ськамон	ськамон	PRON	Pron	Number=Sing|NumType=Sets|Person=1|PronType=Tot	5	obj	_	GTtags=Exclusive,PerifMod,PxSg1|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	11	punct	_	_
 8	аволь	аволь	AUX	Pcle	NegationType=Contrastive|Polarity=Neg	9	aux:neg	_	GTtags=Neg,Emphatic
 9	вадря	вадря	ADJ	A	_	11	amod	_	_
@@ -4986,7 +4986,7 @@
 4	а	а	AUX	Pcle	Polarity=Neg	5	aux:neg	_	GTtags=Neg
 5	мезель	мезе	PRON	Pron	Case=Nom|Definite=Ind|Mood=Ind|Number=Sing|Number[subj]=Sing|Person[subj]=3|PronType=Int|Tense=Past	0	root	_	GTtags=Interr,Sg,Nom,Indef,Ind,Prt2,ScSg3|SpaceAfter=No
 6	:	:	PUNCT	CLB	_	8	punct	_	_
-7	колмонест	колмонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	8	nsubj	_	GTtags=Assoc_Coll,PxPl3
+7	колмонест	колмонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	8	nsubj	_	GTtags=Assoc_Coll,PxPl3
 8	ваднезельть	ваднемс	VERB	V	Derivation=Ozj|Number[subj]=Plur|Person[subj]=3|Tense=Past|VerbForm=Conv	5	parataxis	_	GTtags=Der/Озь,Prt2,ScPl3
 9	—	—	PUNCT	CLB	_	12	punct	_	_
 10	сёвонь	сёвонь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	11	compound	_	GTtags=Sem/Mat,Sg,Nom,Indef
@@ -5034,7 +5034,7 @@
 3	—	—	PUNCT	CLB	_	5	punct	_	_
 4	овсе	овсе	ADV	Adv	_	5	advmod	_	_
 5	вейкеть	вейке	NUM	Num	Case=Nom|Definite=Ind|Number=Plur	0	root	_	GTtags=Pl,Nom,Indef
-6	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	7	det	_	GTtags=Assoc_Coll,PxPl3
+6	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	7	det	_	GTtags=Assoc_Coll,PxPl3
 7	пелькстнэсэ	пелькс	NOUN	N	Case=Ine|Definite=Def|Number=Plur	5	obl:lmod	_	GTtags=Pl,Ine,Def|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -6528,7 +6528,7 @@
 # text_en = On towards evening the four of them went out after the cattle, they did not have to be told to do it, they knew what chores were theirs.
 # text_fi = Iltapäivällä kaikki neljä, tietävät, mitä pitää tehdä, he lähtivät karjaa hakemaan.
 1	Чопоньбелев	чопоньбелев	ADV	Adv	Case=Lat	9	advmod:tmod	_	GTtags=Lat
-2	ниленест	ниленест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	9	nsubj	_	GTtags=Assoc_Coll,PxPl3
+2	ниленест	ниленест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	9	nsubj	_	GTtags=Assoc_Coll,PxPl3
 3	апак	а	AUX	Pcle	PartForm=NegConvPrc|Polarity=Neg|VerbForm=Conv,Part	4	aux:neg	_	GTtags=Neg
 4	кармавто	кармавтомс	VERB	V	Connegative=Yes	9	advcl	_	GTtags=TV,ConNeg
 5	—	—	PUNCT	CLB	_	7	punct	_	_
@@ -6874,7 +6874,7 @@
 3	верьгизэкс	верьгиз	NOUN	N	Case=Tra|Definite=Ind|Number=Plur,Sing	2	xcomp	_	GTtags=Sem/Inanim_Cnt,SP,Tra,Indef
 4	ды	ды	CCONJ	CC	_	5	cc	_	_
 5	венстинзе	венстямс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past	2	conj	_	GTtags=TV,Ind,Prt1,ScSg3,OcPl3|SubjRef=1:2.3,1|ObjRef=1:2.3,7
-6	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	7	det	_	GTtags=Assoc_Coll,PxPl3
+6	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	7	det	_	GTtags=Assoc_Coll,PxPl3
 7	кедензэ	кедь	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	GTtags=Sem/Body_part,Pl,Gen,PxSg3|PqxRef=1:2.3,1|SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	снартнесь	снартнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	2	conj	_	GTtags=Ind,Prt1,ScSg3|SubjRef=1:2.3,1
@@ -9472,7 +9472,7 @@
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	сонсь	сонсь	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	det	_	GTtags=Refl,Sg3,Nom
 4	таркась	тарка	NOUN	N	Case=Nom|Definite=Def|Number=Sing	7	nsubj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Def
-5	ськамонзо	ськамонзо	PRON	Pron	Number=Sing|NumType=Sets|Person=3	4	det	_	GTtags=Qnt,Sg3
+5	ськамонзо	ськамонзо	PRON	Pron	Number=Sing|NumType=Sets|Person=3|PronType=Tot	4	det	_	GTtags=Qnt,Sg3
 6	а	а	AUX	Pcle	Polarity=Neg	7	aux:neg	_	GTtags=Neg
 7	идетянзат	идемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,ScSg3,OcSg2|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
@@ -12770,7 +12770,7 @@
 
 # sent_id = DunjashinAlex_Pidsi-palakst_1930:224
 # text = Кавонест сюпавонь.
-1	Кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	2	nsubj	_	GTtags=AssocColl,PxPl3
+1	Кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	2	nsubj	_	GTtags=AssocColl,PxPl3
 2	сюпавонь	сюпав	ADJ	A	Case=Gen|Definite=Ind|Number=Plur,Sing	0	root	_	GTtags=SP,Gen,Indef|SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 

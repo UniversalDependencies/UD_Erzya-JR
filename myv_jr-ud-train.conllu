@@ -761,7 +761,7 @@
 # sent_id = GluxovP_KedrovojPeshtj_1929:102
 # text = Совасть кавонест кудынентень.
 1	Совасть	совамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,ScPl3
-2	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	1	nsubj	_	GTtags=AssocColl,PxPl3
+2	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	1	nsubj	_	GTtags=AssocColl,PxPl3
 3	кудынентень	кудыне	NOUN	N	Case=Dat|Definite=Def|Number=Sing	1	obl	_	GTtags=Sg,Dat,Def|SpaceAfter=No
 4	.	.	PUNCT	CLB	_	1	punct	_	_
 
@@ -1583,7 +1583,7 @@
 10	,	,	PUNCT	CLB	_	14	punct	_	_
 11	ды	ды	CCONJ	CC	_	14	cc	_	_
 12	кармасть	кармамс	AUX	V	Aspect=Inch|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	14	aux:aspect	_	GTtags=IV,Ind,Prt1,ScPl3
-13	кавонест	кавонест	NUM	Num	Number=Plur|NumType=Sets|Person=3	14	nsubj	_	GTtags=AssocColl,PxPl3
+13	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	14	nsubj	_	GTtags=AssocColl,PxPl3
 14	ярсамо	ярсамс	VERB	V	Case=Loc|VerbForm=Inf	1	conj	_	GTtags=IV,Inf,Loc|SpaceAfter=No
 15	.	.	PUNCT	CLB	_	1	punct	_	_
 
@@ -1741,7 +1741,7 @@
 5	менельстэ	менель	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	6	obl	_	GTtags=Sem/Plc,SP,Ela,Indef
 6	кекшеме	кекшемс	VERB	V	Case=Loc|VerbForm=Inf	4	xcomp	_	GTtags=TV,Inf,Loc|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	12	punct	_	_
-8	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	9	det	_	GTtags=AssocColl,PxPl3
+8	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	9	det	_	GTtags=AssocColl,PxPl3
 9	охотникне	охотник	NOUN	N	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	12	nsubj	_	GTtags=Hum,SP,TempCx,Indef
 10	ульнесть	ульнемс	AUX	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	12	cop	_	GTtags=IV,Ind,Prt1,ScPl3
 11	уш	уш	ADV	Adv	AdvType=Tim	12	advmod:tmod	_	GTtags=Temp
@@ -2811,7 +2811,7 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:275
 # text = Кавонест кецэ винтовкат, карксозост содозь кавтонь-кавтонь гранат.
-1	Кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	2	det	_	GTtags=AssocColl,PxPl3
+1	Кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	2	det	_	GTtags=AssocColl,PxPl3
 2	кецэ	кедь	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	0	root	_	GTtags=Relator,Spat,Ine
 3	винтовкат	винтовка	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	2	nsubj:cop	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
@@ -4150,7 +4150,7 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:388
 # text = Колмонест бандитнэ чийнить кудованть: капшазь оршить шинелест, вешнить шапкаст.
-1	Колмонест	колмонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	2	det	_	GTtags=AssocColl,PxPl3
+1	Колмонест	колмонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	2	det	_	GTtags=AssocColl,PxPl3
 2	бандитнэ	бандит	NOUN	N	Case=Nom|Definite=Def|Number=Plur	3	nsubj	_	GTtags=Pl,Nom,Def
 3	чийнить	чийнемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres	0	root	_	GTtags=TV,Ind,Prs,ScPl3
 4	кудованть	кудо	NOUN	N	Case=Prl|Definite=Def|Number=Sing	3	obl:lmod	_	GTtags=Sem/Plc,Sg,Prl,Def|SpaceAfter=No
@@ -4218,7 +4218,7 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:392
 # text = Кавонест кирнявтозь кирнявцть кенкшканть кудыкелев.
-1	Кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	3	nsubj	_	GTtags=AssocColl,PxPl3
+1	Кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	3	nsubj	_	GTtags=AssocColl,PxPl3
 2	кирнявтозь	кирнявтомс	VERB	V	Derivation=Ozj|VerbForm=Conv	3	advcl	_	GTtags=TV,Der/Озь,Ger
 3	кирнявцть	кирнявтомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	GTtags=TV,Ind,Prt1,ScPl3
 4	кенкшканть	кенкш	NOUN	N	Case=Prl|Definite=Def|Number=Sing	3	obl:lmod	_	GTtags=Sg,Prl,Def
@@ -4820,7 +4820,7 @@
 8	,	,	PUNCT	CLB	_	12	punct	_	_
 9	Тайгань	тайга	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	10	nmod	_	GTtags=SP,Gen,Indef
 10	келес	келе	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	12	obl	_	GTtags=Relator,Spat,Ill
-11	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	12	nsubj	_	GTtags=AssocColl,PxPl3
+11	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	12	nsubj	_	GTtags=AssocColl,PxPl3
 12	онгить	онгомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres	4	conj	_	GTtags=TV,Ind,Prs,ScPl3|SpaceAfter=No
 13	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -5016,7 +5016,7 @@
 # sent_id = GluxovP_KedrovojPeshtj_1929:456
 # text = Якстереармеецнэ кавонест чиезь тусть ульцяв.
 1	Якстереармеецнэ	якстереармеец	NOUN	N	Case=Nom|Definite=Def|Number=Plur	4	nsubj	_	GTtags=Pl,Nom,Def
-2	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	1	det	_	GTtags=AssocColl,PxPl3
+2	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	1	det	_	GTtags=AssocColl,PxPl3
 3	чиезь	чиемс	VERB	V	Derivation=Ozj|VerbForm=Conv	4	advcl	_	GTtags=IV,Der/Озь,Ger
 4	тусть	туемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,ScPl3
 5	ульцяв	ульця	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	4	obl	_	GTtags=Sem/Plc,SP,Lat,Indef|SpaceAfter=No
@@ -6987,7 +6987,7 @@
 12	,	,	PUNCT	CLB	_	10	punct	_	_
 13	—	—	PUNCT	PUNCT	_	14	punct	_	_
 14	кортнеде	кортнемс	VERB	V	Mood=Imp|Number[subj]=Plur|Person[subj]=2	0	root	_	GTtags=IV,Imprt,ScPl2
-15	ськамонк	ськамонзо	PRON	Pron	Number=Plur|NumType=Sets|Person=2	14	nsubj	_	GTtags=Exclusive,PerifMod,PxPl2|SpaceAfter=No
+15	ськамонк	ськамонзо	PRON	Pron	Number=Plur|NumType=Sets|Person=2|PronType=Tot	14	nsubj	_	GTtags=Exclusive,PerifMod,PxPl2|SpaceAfter=No
 16	.	.	PUNCT	CLB	_	14	punct	_	_
 
 # sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:3123
@@ -9596,7 +9596,7 @@
 # text_ru = Перед сном вдвоем говорили по секрету.
 1	Мадемадо	мадемс	VERB	V	Case=Abl|Definite=Ind|Number=Plur,Sing|VerbForm=Vnoun	2	obl:cmp	_	GTtags=Der,Der/OmA,NomAct,N,SP,Abl,Indef
 2	икеле	икеле	ADV	Adv	AdvType=Tim	6	advcl:tcl	_	GTtags=Sem/Time
-3	кавонест	кавонест	PRON	Pron	Number[psor]=Plur|NumType=Sets|Person[psor]=3	6	nsubj	_	GTtags=AssocColl,PxPl3
+3	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	6	nsubj	_	GTtags=AssocColl,PxPl3
 4	салава	салава	ADV	Adv	_	6	advmod	_	_
 5	яла	яла	ADV	Adv	AdvType=Tim	6	advmod:tmod	_	GTtags=Sem/Time
 6	кортнесть	кортнемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,ScPl3|SpaceAfter=No
@@ -12462,7 +12462,7 @@
 # text = Мейле сынь колмонест тусть лисьманть ваксс, якасть омбоце паксяв...
 1	Мейле	мейле	ADV	Adv	_	4	advmod:tmod	_	CGdephead=#1-&gt;4|CGdeprel=@ADVL&gt;|GTtags=
 2	сынь	сон	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	CGdephead=#2-&gt;4|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl3,Nom
-3	колмонест	колмо	PRON	Num	Number[psor]=Plur|Number[subj]=Sing|NumType=Sets|Person[psor]=3|Person[subj]=3|Tense=Pres	2	det	_	CGdephead=#3-&gt;3|CGdeprel=@+FMAINV|GTtags=AssocColl,PxPl3,Prs,ScSg3
+3	колмонест	колмо	PRON	Num	Number=Plur|NumType=Sets|Person=3|PronType=Tot	2	det	_	CGdephead=#3-&gt;3|CGdeprel=@+FMAINV|GTtags=AssocColl,PxPl3,Prs,ScSg3
 4	тусть	туемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	CGdephead=#4-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScPl3
 5	лисьманть	лисьма	NOUN	N	Case=Gen|Definite=Def|Number=Sing	6	nmod	_	CGdephead=#5-&gt;5|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
 6	ваксс	ваксс	ADP	Adp	Case=Ill	4	obl:lmod	_	CGdephead=#6-&gt;4|CGdeprel=@&lt;ADVL|GTtags=Ill|SpaceAfter=No
@@ -12896,7 +12896,7 @@
 # sent_id = EKS:2011:39:5b:RadaevV
 # text_orig = Полазояк те шкас арась. Ськамонзо свал пии-палы...
 # text = Ськамонзо свал пии-палы...
-1	Ськамонзо	ськамонзо	PRON	Pron	Number=Sing|NumType=Sets|Person=3	3	nsubj	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=AssocColl,Sg3
+1	Ськамонзо	ськамонзо	PRON	Pron	Number=Sing|NumType=Sets|Person=3|PronType=Tot	3	nsubj	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=AssocColl,Sg3
 2	свал	свал	ADV	Adv	_	3	advmod:tmod	_	CGdephead=#2-&gt;3|CGdeprel=@ADVL&gt;|GTtags=
 3	пии-палы	пиемс-паломс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=IV,Ind,Prs,ScSg3|SpaceAfter=No
 4	...	...	PUNCT	CLB	_	3	punct	_	CGdephead=#4-&gt;3|CGdeprel=@CLB|GTtags=CLB
@@ -13370,9 +13370,9 @@
 
 # sent_id = EKS:2011:40:6:ŽuravlëvČ
 # text = Сынь кавонест (нумолтнэ) лоткасть минек шалаганть икелев...
-# text_en = The two of them (the hares) stopped in front of our
+# text_en = The two of them (the hares) stopped in front of our lean-to...
 1	Сынь	сон	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	CGdephead=#1-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl3,Nom
-2	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3	1	det	_	CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=AssocColl,Pl3
+2	кавонест	кавонест	PRON	Pron	Number=Plur|NumType=Sets|Person=3|PronType=Tot	1	det	_	CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=AssocColl,Pl3
 3	(	(	PUNCT	PUNCT	PunctSide=Ini	4	punct	_	CGdephead=#3-&gt;4|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
 4	нумолтнэ	нумол	NOUN	N	Case=Nom|Definite=Def|Number=Plur	1	appos	_	CGdephead=#4-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,Def|SpaceAfter=No
 5	)	)	PUNCT	PUNCT	PunctSide=Fin	4	punct	_	CGdephead=#5-&gt;6|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
