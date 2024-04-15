@@ -3340,7 +3340,7 @@
 12	―	―	PUNCT	PUNCT	_	16	punct	_	_
 13	пек	пек	ADV	Adv	AdvType=Deg	14	advmod:deg	_	GTtags=Degree
 14	куватьс	куватьс	ADV	Adv	AdvType=Tim|Case=Ill	16	advmod:tmod	_	GTtags=Temp,Ill
-15	илядо	а	AUX	V	Mood=Proh|Number[subj]=Plur|Person[subj]=2|VerbType=Aux	16	aux:neg	_	GTtags=VerbType=Aux,Proh,ScPl2
+15	илядо	а	AUX	V	Mood=Imp|Number[subj]=Plur|Person[subj]=2|Polarity=Neg|VerbType=Aux	16	aux:neg	_	GTtags=VerbType=Aux,Proh,ScPl2
 16	аште	аштемс	VERB	V	Connegative=Yes	4	conj	_	GTtags=IV,ConNeg|SpaceAfter=No
 17	!..	^excl..	PUNCT	CLB	_	4	punct	_	_
 
@@ -8259,7 +8259,7 @@
 3	эци	эцемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,ScSg3|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	ансяк	ансяк	ADV	Adv	_	7	advmod:foc	_	_
-6	иля	а	AUX	V	Mood=Proh|Number[subj]=Sing|Person[subj]=2	7	aux:neg	_	GTtags=Proh,ScSg2
+6	иля	а	AUX	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|VerbType=Aux	7	aux:neg	_	GTtags=Proh,ScSg2
 7	нузялдо	нузялдомс	VERB	V	Connegative=Yes	3	conj	_	GTtags=ConNeg|SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	витнек	витнемс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2	3	conj	_	GTtags=TV,Imprt,ScSg2
@@ -9036,7 +9036,7 @@
 1	Вирьаванть	Вирьава	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	GTtags=Sem/Anim_Cnt,Sg,Gen,Def
 2	пельдеяк	пель	NOUN	N	Case=Abl|Clitic=Add|Definite=Ind|NounType=Relat|Number=Plur,Sing	5	obl	_	GTtags=Relator,Po,Ela,Clt/Gak
 3	партнэнь	паро	NOUN	N	Case=Gen|Definite=Def|Number=Plur	5	obj	_	GTtags=Pl,Gen,Def
-4	иля	а	AUX	V	Mood=Proh|Number[subj]=Sing|Person[subj]=2	5	aux:neg	_	GTtags=Proh,ScSg2
+4	иля	а	AUX	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|VerbType=Aux	5	aux:neg	_	GTtags=Proh,ScSg2
 5	учне	учнемс	VERB	V	Connegative=Yes	0	root	_	GTtags=ConNeg|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -10239,7 +10239,7 @@
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	цёра	цёра	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	vocative	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	3	punct	_	_
-5	иля	а	AUX	AUX	Mood=Proh|Number[subj]=Sing|Person[subj]=2	6	aux:neg	_	GTtags=Proh,ScSg2
+5	иля	а	AUX	AUX	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|VerbType=Aux	6	aux:neg	_	GTtags=Proh,ScSg2
 6	маняво	манявомс	VERB	V	Connegative=Yes	0	root	_	GTtags=IV,ConNeg|SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -11156,7 +11156,7 @@
 5	седей	седей	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	obj	_	GTtags=Sg,Nom,Indef
 6	марямка	марямка	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	compound	_	GTtags=Sg,Nom,Indef
 7	пельдензэ	пель	NOUN	N	Case=Abl|NounType=Relat|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	GTtags=Relat,SP,Abl,PxSg3
-8	иля	а	AUX	_	Mood=Proh|Number[subj]=Sing|Person[subj]=2|VerbType=Aux	9	aux:neg	_	GTtags=Aux,Proh,ScSg2
+8	иля	а	AUX	_	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|VerbType=Aux	9	aux:neg	_	GTtags=Aux,Proh,ScSg2
 9	кевкстне	кевкстнемс	VERB	V	Connegative=Yes	0	root	_	GTtags=TV,ConNeg|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	9	punct	_	_
 
@@ -11355,7 +11355,7 @@
 6	сурот	сур	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	5	nsubj	_	GTtags=Sg,Nom,PxSg2|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	2	punct	_	_
 8	больницява-кува	больницява-кува	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	10	obl:lmod	_	GTtags=SP,Prl,Indef
-9	иля	а	AUX	_	Mood=Proh|Number[subj]=Sing|Person[subj]=2|VerbType=Aux	10	aux:neg	_	GTtags=Aux,Proh,ScSg2
+9	иля	а	AUX	_	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|VerbType=Aux	10	aux:neg	_	GTtags=Aux,Proh,ScSg2
 10	яксе	яксемс	VERB	V	Connegative=Yes	0	root	_	GTtags=TV,ConNeg|SpaceAfter=No
 11	.	.	PUNCT	CLB	_	10	punct	_	_
 
@@ -13180,7 +13180,7 @@
 # sent_id = DunjashinAlex_Pidsi-palakst_1930:251
 # text = ― Иля кортаяк! ― дивси ялгась.
 1	―	―	PUNCT	PUNCT	_	3	punct	_	_
-2	Иля	а	AUX	Aux	Mood=Proh|Number[subj]=Sing|Person[subj]=2|VerbType=Aux	3	aux:neg	_	_
+2	Иля	а	AUX	Aux	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|VerbType=Aux	3	aux:neg	_	_
 3	кортаяк	кортамс	VERB	V	Clitic=Add|Connegative=Yes	0	root	_	GTtags=TV,ConNeg,Add|SpaceAfter=No
 4	!	!	PUNCT	CLB	_	3	punct	_	_
 5	―	―	PUNCT	PUNCT	_	6	punct	_	_
@@ -13213,7 +13213,7 @@
 # sent_id = DunjashinAlex_Pidsi-palakst_1930:254
 # text = Ков иля варшта, эрьва ёндо ваныть иконостасонть лангс абунгадозь чамат: мезть тейнемс?
 1	Ков	ков	ADV	Adv	Case=Lat|PronType=Int	3	obl	_	GTtags=Interr,Lat
-2	иля	а	AUX	Aux	Mood=Proh|Number[subj]=Sing|Person[subj]=2|VerbType=Aux	3	aux:neg	_	_
+2	иля	а	AUX	Aux	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Polarity=Neg|VerbType=Aux	3	aux:neg	_	_
 3	варшта	варштамс	VERB	V	Connegative=Yes	0	root	_	GTtags=TV,ConNeg|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	7	punct	_	_
 5	эрьва	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	6	det	_	GTtags=Tot,Sg,Nom,Indef
