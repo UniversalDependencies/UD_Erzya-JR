@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Erzya-JR:
-commit 70e6dad4415c0e9055519b7c7f0f4cf0c9503457
-Merge: 8959b3a 267c785
+commit 48634221a164696fed5d9fbea7eda0ae8b8828b9
+Merge: f2b2b89 1f2bef5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 20705 of 20705 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.06075043399506.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 14116 out of 20705 total words have one or more features.
+Features: 14231 out of 20705 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       3139
-Udapi: found 3139 bugs.
+               TOTAL       3120
+Udapi: found 3120 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 20705 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang myv --max-err=10 UD_Erzya-JR/myv_jr-ud-test.conllu
