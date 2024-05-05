@@ -50,6 +50,9 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2024-04-29
+  * Add compound:nn
+  * Replace Mood=Proh with Mood=Imp and Polarity=Neg
 * 2023-10-29
   * Add CCC variant to train.conllu
 * 2023-04-29
