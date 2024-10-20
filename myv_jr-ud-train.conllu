@@ -13059,10 +13059,10 @@
 # sent_id = EKS:2011:39:15:ČesnokovF
 # text = Конат-конат сонзэ (Степан Иваныч) ладсо сырелгадсть...
 1	Конат-конат	конат-конат	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|NumType=Dist	8	nsubj	_	CGdephead=#1-&gt;4|CGdeprel=@&gt;N|GTtags=Indef,Distr,Pl,Nom,Indef
-2	сонзэ	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	det	_	CGdephead=#2-&gt;4|CGdeprel=@&gt;N|GTtags=Pers,Sg3,Gen
+2	сонзэ	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	CGdephead=#2-&gt;4|CGdeprel=@&gt;N|GTtags=Pers,Sg3,Gen
 3	(	(	PUNCT	PUNCT	PunctSide=Ini	4	punct	_	CGdephead=#3-&gt;4|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
-4	Степан	Стёпа	PROPN	N	Animacy=Hum|Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	appos	_	CGdephead=#4-&gt;8|CGdeprel=@SUBJ&gt;|GTtags=Prop,Pl,Nom,PxSg1
-5	Иваныч	Иван	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	4	flat:name	_	CGdephead=#5-&gt;7|CGdeprel=@&gt;N|GTtags=Prop,Der/PatrMal,Err/Orth-colloq,Sem/Mal-Patr,Err/Orth-colloq,Sg,Nom,Indef|SpaceAfter=No
+4	Степан	Степан	PROPN	N	Animacy=Hum|Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	appos	_	CGdephead=#4-&gt;8|CGdeprel=@SUBJ&gt;|GTtags=Prop,Pl,Nom,PxSg1
+5	Иваныч	Иванович	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	4	flat:name	_	CGdephead=#5-&gt;7|CGdeprel=@&gt;N|GTtags=Prop,Der/PatrMal,Err/Orth-colloq,Sem/Mal-Patr,Err/Orth-colloq,Sg,Nom,Indef|SpaceAfter=No
 6	)	)	PUNCT	PUNCT	PunctSide=Fin	4	punct	_	CGdephead=#6-&gt;7|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
 7	ладсо	лад	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	8	obl	_	CGdephead=#7-&gt;8|CGdeprel=@ADVL&gt;|GTtags=SP,Ine,Indef
 8	сырелгадсть	сырелгадомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	CGdephead=#8-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScPl3|SpaceAfter=No
@@ -13711,7 +13711,7 @@
 # sent_id = EKS:2011:42:1:ČesnokovF
 # text = Ней сонзэ (Олдань) кельме эрямозо кармась соламо...
 1	Ней	ней	ADV	Adv	_	9	advmod:tmod	_	CGdephead=#1-&gt;9|CGdeprel=@ADVL&gt;|GTtags=
-2	сонзэ	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	det	_	CGdephead=#2-&gt;4|CGdeprel=@&gt;N|GTtags=Pers,Sg3,Gen
+2	сонзэ	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	CGdephead=#2-&gt;4|CGdeprel=@&gt;N|GTtags=Pers,Sg3,Gen
 3	(	(	PUNCT	PUNCT	PunctSide=Ini	4	punct	_	CGdephead=#3-&gt;4|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
 4	Олдань	Олда	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	2	appos	_	CGdephead=#4-&gt;7|CGdeprel=@&gt;N|GTtags=Prop,SP,Gen,Indef|SpaceAfter=No
 5	)	)	PUNCT	PUNCT	PunctSide=Fin	4	punct	_	CGdephead=#5-&gt;6|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
