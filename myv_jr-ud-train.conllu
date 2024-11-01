@@ -10040,7 +10040,7 @@
 7	,	,	PUNCT	CLB	_	9	punct	_	CGdephead=#7-&gt;7|CGdeprel=@CLB|GTtags=CLB
 8	мейле	мейле	ADV	Adv	_	9	advmod	_	CGdephead=#8-&gt;9|CGdeprel=@ADVL&gt;|GTtags=
 9	симдемак	симдемс	VERB	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=2	2	conj	_	CGdephead=#9-&gt;9|CGdeprel=@FMV|GTtags=TV,Imprt,ScSg2,OcSg1
-10	тонсеть	тонсь	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs|Reflex=Yes|Variant=Long	11	det	_	CGdephead=#10-&gt;11|CGdeprel=@&gt;N|GTtags=Refl,Sg2,Gen,Long
+10	тонсеть	тонсь	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs|Reflex=Yes|Variant=Long	11	nmod:poss	_	CGdephead=#10-&gt;11|CGdeprel=@&gt;N|GTtags=Refl,Sg2,Gen,Long
 11	коморсто	комор	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	9	obl	_	CGdephead=#11-&gt;9|CGdeprel=@&lt;ADVL|GTtags=SP,Ela,Indef|SpaceAfter=No
 12	...	...	PUNCT	CLB	_	2	punct	_	CGdephead=#12-&gt;12|CGdeprel=@CLB|GTtags=CLB
 
@@ -10321,7 +10321,7 @@
 18	ютамс	ютамс	VERB	V	VerbForm=Inf	5	conj	_	CGdephead=#18-&gt;18|CGdeprel=@IMV|GTtags=IV,Inf
 19	ваксканзо	вакс	NOUN	N	Case=Prl|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	18	obl:lmod	_	CGdephead=#19-&gt;19|CGdeprel=@X|GTtags=SP,Prl,PxSg3|SpaceAfter=No
 20	,	,	PUNCT	CLB	_	22	punct	_	CGdephead=#20-&gt;20|CGdeprel=@CLB|GTtags=CLB
-21	сонзэ	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	22	nmod	_	CGdephead=#21-&gt;21|CGdeprel=@&gt;P|GTtags=Pers,Sg3,Gen
+21	сонзэ	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	CGdephead=#21-&gt;21|CGdeprel=@&gt;P|GTtags=Pers,Sg3,Gen
 22	ёнов	ён	NOUN	N	Case=Lat|Definite=Ind|NounType=Relat|Number=Plur,Sing	25	obl:lmod	_	CGdephead=#22-&gt;22|CGdeprel=@&gt;N|GTtags=Relator,SP,Lat,Indef
 23	мик	мик	ADV	Adv	_	25	advmod	_	CGdephead=#23-&gt;23|CGdeprel=@ADVL|GTtags=
 24	а	а	AUX	Aux	_	25	aux:neg	_	CGdephead=#24-&gt;24|CGdeprel=@CC|GTtags=
