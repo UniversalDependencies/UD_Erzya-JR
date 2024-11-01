@@ -50,8 +50,9 @@ If you use this data in your work, please cite:
 
 # Changelog
 
-* 2024-10-29
+* 2024-11-01
   * Correct DET children
+  * Add Nomzr Ag
 * 2024-04-29
   * Add compound:nn
   * Replace Mood=Proh with Mood=Imp and Polarity=Neg
