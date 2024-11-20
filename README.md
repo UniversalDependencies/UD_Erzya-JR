@@ -50,6 +50,8 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2025-04-30
+  * Add ExtPos feature
 * 2024-11-01
   * Correct DET children
   * Add Nomzr Ag
