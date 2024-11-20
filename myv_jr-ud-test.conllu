@@ -3080,7 +3080,7 @@
 3	лишменть	лишме	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	obj	_	GTtags=Sg,Gen,Def
 4	эйсэ	эйсэ	ADP	Po	AdpType=Post|Case=Ine	3	case	_	GTtags=Ine|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	8	punct	_	_
-6	секе	секе	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	advmod	_	GTtags=Sg,Nom,Indef
+6	секе	секе	PRON	Pron	Case=Nom|ExtPos=ADV|Number=Sing|PronType=Dem	8	advmod	_	GTtags=Sg,Nom,Indef
 7	тев	тев	ADV	Adv	Case=Lat	6	fixed	_	GTtags=Lat
 8	нерькстнесь	нерьгстнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	2	conj	_	GTtags=TV,Ind,Prt1,ScSg3
 9	пильксэнзэ	пильге	NOUN	N	Case=Ine|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	8	obl:inst	_	GTtags=SP,Ine,PxSg3
@@ -3689,7 +3689,7 @@
 1	Роштятнень	роштя	NOUN	N	Case=Gen|Definite=Def|Number=Plur	2	nmod	_	GTtags=Pl,Gen,Def
 2	потсто	потмо	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	3	obl:lmod	_	GTtags=Relator,Spat,Ela
 3	кирнавтсть	кирнавтомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	GTtags=TV,Ind,Prt1,ScPl3
-4	вейке	вейке	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	advmod	_	GTtags=Card,Sg,Nom,Indef
+4	вейке	вейке	NUM	Num	Case=Nom|Definite=Ind|ExtPos=PRON|Number=Sing|NumType=Card	3	obl	_	GTtags=Card,Sg,Nom,Indef
 5	вейке	вейке	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	4	fixed	_	GTtags=Card,Sg,Nom,Indef
 6	мельга	мельга	ADP	Po	AdpType=Post|AdvType=Loc	4	case	_	GTtags=Spat
 7	колмо	колмо	NUM	Num	NumType=Card	8	nummod	_	GTtags=Card
@@ -11953,7 +11953,7 @@
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2157
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Мекс истя?:11:4:6
 # text = Мельга меельцек терявтнесь валгомс те суликань валдонть лангс.
-1	Мельга	мельга	ADP	Adp	AdvType=Loc|Case=Prl	3	advmod	_	GTtags=Spat,Spat,Prl
+1	Мельга	мельга	ADP	Adp	AdvType=Loc|Case=Prl|ExtPos=ADV	3	advmod	_	GTtags=Spat,Spat,Prl
 2	меельцек	меельцек	ADV	Adv	_	1	fixed	_	_
 3	терявтнесь	терявтнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
 4	валгомс	валгомс	VERB	V	VerbForm=Inf	3	ccomp	_	GTtags=IV,Inf
