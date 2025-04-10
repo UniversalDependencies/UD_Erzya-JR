@@ -3548,7 +3548,7 @@
 4	пек	пек	ADV	Adv	AdvType=Deg	6	advmod:deg	_	GTtags=Degree
 5	аволь	аволь	AUX	Pcle	NegationType=Contrastive|Polarity=Neg	6	aux:neg	_	GTtags=Neg,Emphatic
 6	вадря	вадря	ADJ	A	Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=Prs,ScSg3
-7	истямо	истямо	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	8	det	_	GTtags=Dem,Der/MWN,Sg,Nom,Indef
+7	истямо	истямо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	8	amod	_	GTtags=Dem,Der/MWN,Sg,Nom,Indef
 8	шкасто	шка	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	6	obl	_	GTtags=SP,Ela,Indef|SpaceAfter=No
 9	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -11373,7 +11373,7 @@
 9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	пувсик	пувсемс	VERB	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2	1	conj	_	GTtags=TV,Imprt,ScSg2,OcSg3|SpaceAfter=No
 11	,	,	PUNCT	CLB	_	12	punct	_	_
-12	теке	теке	SCONJ	CS	ExtPos=SCONJ	1	discourse	_	_
+12	теке	теке	SCONJ	CS	ExtPos=ADV	1	discourse	_	_
 13	басом	басом	ADV	Adv	_	12	fixed	_	SpaceAfter=No
 14	,	,	PUNCT	CLB	_	16	punct	_	_
 15	кода	кода	SCONJ	CS	_	16	mark	_	_
@@ -11821,7 +11821,7 @@
 2	куш	куш	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	fixed	_	GTtags=Sg,Nom,Indef
 3	а	а	AUX	Pcle	Polarity=Neg	1	fixed	_	GTtags=Neg
 4	каш	каш	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	fixed	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
-5	.	.	PUNCT	CLB	_	2	punct	_	_
+5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4841
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Мекс истя?:11:2:2
