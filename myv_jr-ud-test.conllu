@@ -98,7 +98,7 @@
 9	получась	получамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	3	conj	_	GTtags=TV,Ind,Prt1,ScSg3
 10	границань	граница	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	9	obl	_	GTtags=SP,Gen,Indef
 11	томбальде	томбальде	ADP	Po	AdpType=Post|AdvType=Loc|Case=Abl	10	case	_	GTtags=Relator,Spat,Abl
-12	эрьва	эрьва	DET	Det	Case=Nom|Definite=Ind|ExtPos=ADJ|Number=Sing	14	det	_	GTtags=Qnt,Sg,Nom,Indef
+12	эрьва	эрьва	DET	Det	Case=Nom|Definite=Ind|ExtPos=ADJ|Number=Sing	14	amod	_	GTtags=Qnt,Sg,Nom,Indef
 13	кодат	кодамо	ADJ	A	Case=Nom|Number=Plur|PronType=Int	12	fixed	_	GTtags=Interr,Nom,Pl
 14	орудият	орудия	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	9	obj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
 15	,	,	PUNCT	CLB	_	16	punct	_	_
@@ -426,7 +426,7 @@
 3	коткудавонь	коткудав	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	4	nmod	_	GTtags=SP,Gen,Indef
 4	пизэкс	пизэ	NOUN	N	Case=Tra|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=SP,Tra,Indef
 5	лакасть	лакамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	GTtags=TV,Ind,Prt1,ScPl3
-6	эрьва	эрьва	DET	Det	Case=Nom|ExtPos=ADJ|Definite=Ind|Number=Sing	8	amod	_	GTtags=Qnt,Sg,Nom,Indef
+6	эрьва	эрьва	DET	Det	Case=Nom|Definite=Ind|ExtPos=ADJ|Number=Sing	8	amod	_	GTtags=Qnt,Sg,Nom,Indef
 7	кодамо	кодамо	ADJ	A	Case=Nom|Number=Sing|PronType=Int	6	fixed	_	GTtags=Interr,Nom,Sg
 8	превтне	прев	NOUN	N	Case=Nom|Definite=Def|Number=Plur	5	nsubj	_	GTtags=Pl,Nom,Def|SpaceAfter=No
 9	,	,	PUNCT	CLB	_	13	punct	_	_
@@ -617,7 +617,7 @@
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:132
 # text = А куш, а каш... чувтомсь... кулось тайгась...
-1	А	а	AUX	Pcle	ExtPos=X|Polarity=Neg	0	root	_	GTtags=Neg
+1	А	а	AUX	Pcle	ExtPos=INTJ|Polarity=Neg	0	root	_	GTtags=Neg
 2	куш	куш	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	fixed	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	1	punct	_	_
 4	а	а	AUX	Pcle	Polarity=Neg	1	fixed	_	GTtags=Neg
@@ -777,7 +777,7 @@
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:142
 # text = А куш, а каш.
-1	А	а	AUX	Pcle	ExtPos=X|Polarity=Neg	0	root	_	GTtags=Neg
+1	А	а	AUX	Pcle	ExtPos=INTJ|Polarity=Neg	0	root	_	GTtags=Neg
 2	куш	куш	SCONJ	CS	_	1	fixed	_	GTtags=|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	1	punct	_	_
 4	а	а	AUX	Pcle	Polarity=Neg	1	fixed	_	GTtags=Neg
@@ -11817,7 +11817,7 @@
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4295
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Мекс истя?:11:2:1
 # text = А куш а каш.
-1	А	а	AUX	Pcle	ExtPos=AUX|Polarity=Neg	2	aux:neg	_	GTtags=Neg
+1	А	а	AUX	Pcle	ExtPos=INTJ|Polarity=Neg	2	aux:neg	_	GTtags=Neg
 2	куш	куш	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef
 3	а	а	AUX	Pcle	Polarity=Neg	2	fixed	_	GTtags=Neg
 4	каш	каш	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	fixed	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
