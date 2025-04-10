@@ -1848,7 +1848,7 @@
 # text = Ястребов, кавто колмо эскельдявкст тейсь ве ёнов, ды вансь пек покш мельс паросо.
 1	Ястребов	Ястребов	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Sur|Number=Sing	6	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef|SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	_
-3	кавто	кавто	NUM	Num	Case=Nom|Definite=Ind|ExtPos=NUM|Number=Sing|NumType=Card	5	nummod	_	GTtags=Card,Sg,Nom,Indef
+3	кавто	кавто	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	5	nummod	_	GTtags=Card,Sg,Nom,Indef
 4	колмо	колмо	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	conj	_	GTtags=Card,Sg,Nom,Indef
 5	эскельдявкст	эскельдявкс	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	6	obj	_	GTtags=Pl,Nom,Indef
 6	тейсь	теемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=TV,Ind,Prt1,ScSg3
@@ -3488,7 +3488,7 @@
 # sent_id = AnoshkinV_ValskenjGudok_1936:62
 # text = Ястребов секе тев сови Любань ваксс варштамонзо ды лиси мекев седеяк нусманясто.
 1	Ястребов	Ястребов	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Sur|Number=Sing	4	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef
-2	секе	секе	PRON	Pron	Case=Nom|ExtPos=ADV|Definite=Ind|Number=Sing	4	det	_	GTtags=Sg,Nom,Indef
+2	секе	секе	PRON	Pron	Case=Nom|Definite=Ind|ExtPos=ADV|Number=Sing	4	advmod	_	GTtags=Sg,Nom,Indef
 3	тев	тев	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	fixed	_	GTtags=Lat
 4	сови	совамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=IV,Ind,Prs,ScSg3
 5	Любань	Люба	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Fem|NameType=Giv|Number=Plur,Sing	4	obl	_	GTtags=Prop,Ant_Fem,SP,Gen,Indef
@@ -3548,7 +3548,7 @@
 4	пек	пек	ADV	Adv	AdvType=Deg	6	advmod:deg	_	GTtags=Degree
 5	аволь	аволь	AUX	Pcle	NegationType=Contrastive|Polarity=Neg	6	aux:neg	_	GTtags=Neg,Emphatic
 6	вадря	вадря	ADJ	A	Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=Prs,ScSg3
-7	истямо	истямо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	8	amod	_	GTtags=Dem,Der/MWN,Sg,Nom,Indef
+7	истямо	истямо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	8	amod	_	GTtags=Dem,Der/MWN,Sg,Nom,Indef
 8	шкасто	шка	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	6	obl	_	GTtags=SP,Ela,Indef|SpaceAfter=No
 9	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -5919,7 +5919,7 @@
 3	вейсэндявить	вейсэндявомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres	0	root	_	GTtags=IV,Ind,Prs,ScPl3
 4	лия	лия	DET	Det	Case=Nom|Definite=Ind|Number=Sing	5	det	_	GTtags=Sg,Nom,Indef
 5	велетнестэ	веле	NOUN	N	Case=Ela|Definite=Def|Number=Plur	3	obl	_	GTtags=Sem/Inanim_Cnt,Pl,Ela,Def
-6	истят	истямо	ADJ	A	Case=Nom|Definite=Ind|ExtPos=ADJ|Number=Plur|PronType=Dem	8	amod	_	GTtags=Dem,Pl,Nom,Indef
+6	истят	истямо	ADJ	A	Case=Nom|Definite=Ind|ExtPos=ADJ|Number=Plur	8	amod	_	GTtags=Dem,Pl,Nom,Indef
 7	жо	жо	PART	Pcle	_	6	fixed	_	GTtags=Emph
 8	молицятнень	молемс	VERB	V	Case=Gen|Definite=Def|Nomzr=Ag|Number=Plur|VerbForm=Part	3	obl	_	GTtags=NomAg,Pl,Gen,Def
 9	марто	марто	ADP	Po	AdpType=Post	8	case	_	GTtags=Po
@@ -11149,7 +11149,7 @@
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4407
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Роза ды мако:9:18:6
 # text = Истямс истя, ансяк седей марямка пельдензэ иля кевкстне.
-1	Истямс	истямо	ADJ	A	Case=Ill|Definite=Ind|ExtPos=ADV|Number=Plur,Sing	9	adv	_	GTtags=Dem,Der,Der/MWN,SP,Ill,Indef
+1	Истямс	истямо	ADJ	A	Case=Ill|Definite=Ind|ExtPos=ADV|Number=Plur,Sing	9	advmod	_	GTtags=Dem,Der,Der/MWN,SP,Ill,Indef
 2	истя	истя	ADV	Adv	AdvType=Man	1	fixed	_	GTtags=Manner|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	1	punct	_	_
 4	ансяк	ансяк	ADV	Adv	_	9	advmod	_	GTtags=Exclusive
