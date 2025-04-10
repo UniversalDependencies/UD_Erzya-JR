@@ -8789,7 +8789,7 @@
 5	таркас	тарка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	2	obl:lmod	_	GTtags=Sem/Plc,SP,Ill,Indef
 6	ды	ды	CCONJ	CC	_	9	cc	_	_
 7	секе	секе	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	obl	_	GTtags=Dem,Sg,Nom
-8	тев	тев	ADV	Adv	Case=Lat	7	compound	_	GTtags=Sg,Nom,Indef
+8	тев	тев	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	7	fixed	_	GTtags=Sg,Nom,Indef
 9	ваныль	ваномс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	2	conj	_	GTtags=Ind,Prt2,ScSg3
 10	лангозонзо	ланго	NOUN	N	Case=Ill|NounType=Relat|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	GTtags=Relator,SP,Ill,PxSg3|SpaceAfter=No
 11	,	,	PUNCT	CLB	_	13	punct	_	_
@@ -13280,8 +13280,8 @@
 1-2	Ластетне	_	_	_	_	_	_	_	_
 1	Ласте	ласте	ADV	_	AdvType=Sta	2	advcl	_	CGdephead=#1-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Ex/Adv,Pred2,Der/MWN,N,Pl,Nom,Def
 2	тне	ось	PRON	_	Case=Nom|Definite=Def|Number=Plur	7	nsubj	_	_
-3	секе	секе	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	det	_	CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=Dem,Sg,Nom
-4	тев	тев	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	7	obl	_	CGdephead=#3-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
+3	секе	секе	PRON	Pron	Case=Nom|ExtPos=ADV|Number=Sing|PronType=Dem	7	advmod	_	CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=Dem,Sg,Nom
+4	тев	тев	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	fixed	_	CGdephead=#3-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
 5	кедь	кедь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	nmod	_	CGdephead=#4-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
 6	лапушкасост	лапушка	NOUN	N	Case=Ine|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	7	obl:inst	_	CGdephead=#5-&gt;6|CGdeprel=@ADVL&gt;|GTtags=SP,Ine,PxPl3
 7	нардтнесть	нардтнемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	CGdephead=#6-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScPl3

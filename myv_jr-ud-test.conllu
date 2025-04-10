@@ -3081,7 +3081,7 @@
 4	эйсэ	эйсэ	ADP	Po	AdpType=Post|Case=Ine	3	case	_	GTtags=Ine|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	8	punct	_	_
 6	секе	секе	PRON	Pron	Case=Nom|ExtPos=ADV|Number=Sing|PronType=Dem	8	advmod	_	GTtags=Sg,Nom,Indef
-7	тев	тев	ADV	Adv	Case=Lat	6	fixed	_	GTtags=Lat
+7	тев	тев	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	fixed	_	GTtags=Lat
 8	нерькстнесь	нерьгстнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	2	conj	_	GTtags=TV,Ind,Prt1,ScSg3
 9	пильксэнзэ	пильге	NOUN	N	Case=Ine|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	8	obl:inst	_	GTtags=SP,Ine,PxSg3
 10	пеке	пеке	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	11	compound	_	GTtags=Sg,Nom,Indef
@@ -3489,7 +3489,7 @@
 # text = Ястребов секе тев сови Любань ваксс варштамонзо ды лиси мекев седеяк нусманясто.
 1	Ястребов	Ястребов	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Sur|Number=Sing	4	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef
 2	секе	секе	PRON	Pron	Case=Nom|ExtPos=ADV|Definite=Ind|Number=Sing	4	det	_	GTtags=Sg,Nom,Indef
-3	тев	тев	ADV	Adv	Case=Lat	2	fixed	_	GTtags=Lat
+3	тев	тев	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	fixed	_	GTtags=Lat
 4	сови	совамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=IV,Ind,Prs,ScSg3
 5	Любань	Люба	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Fem|NameType=Giv|Number=Plur,Sing	4	obl	_	GTtags=Prop,Ant_Fem,SP,Gen,Indef
 6	ваксс	ваксс	ADP	Po	AdpType=Post|AdvType=Loc|Case=Ill	5	case	_	GTtags=Relator,Spat,Ill
@@ -8196,9 +8196,9 @@
 # text = Атятнень-сэрдятнень пингстэ саезь моли те коесь.
 # text_en = This has been the custom from the time of the ancestors.
 # text_fi = Tätä tapaa on noudatettu ammoisista ajoista lähtien.
-1	Атятнень-сэрдятнень	атят-сэрдят	NOUN	N	Animacy=Hum|Case=Gen|Definite=Def|Number=Plur	4	obl	_	GTtags=Hum,Pl,Gen,Def
+1	Атятнень-сэрдятнень	атят-сэрдят	NOUN	N	Animacy=Hum|Case=Gen|Definite=Def|Number=Plur	3	obl	_	GTtags=Hum,Pl,Gen,Def
 2	пингстэ	пингстэ	ADP	Po	AdpType=Post|AdvType=Tim	1	case	_	GTtags=Sem/Time_dur,Po
-3	саезь	саемс	VERB	V	Derivation=Ozj|VerbForm=Conv	2	advmod	_	GTtags=Der/Озь,Ger
+3	саезь	саемс	VERB	V	Derivation=Ozj|VerbForm=Conv	4	advcl	_	GTtags=Der/Озь,Ger
 4	моли	молемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,ScSg3
 5	те	те	DET	Det	Case=Nom|Definite=Ind|Number=Sing	6	det	_	GTtags=Sg,Nom,Indef
 6	коесь	кой	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Def|SpaceAfter=No
@@ -11817,10 +11817,10 @@
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4295
 # story_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:Мекс истя?:11:2:1
 # text = А куш а каш.
-1	А	а	AUX	Pcle	ExtPos=INTJ|Polarity=Neg	2	aux:neg	_	GTtags=Neg
-2	куш	куш	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef
-3	а	а	AUX	Pcle	Polarity=Neg	2	fixed	_	GTtags=Neg
-4	каш	каш	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	fixed	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+1	А	а	AUX	Pcle	ExtPos=INTJ|Polarity=Neg	0	root	_	GTtags=Neg
+2	куш	куш	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	fixed	_	GTtags=Sg,Nom,Indef
+3	а	а	AUX	Pcle	Polarity=Neg	1	fixed	_	GTtags=Neg
+4	каш	каш	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	fixed	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
 5	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4841
