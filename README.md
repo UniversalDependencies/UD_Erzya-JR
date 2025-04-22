@@ -52,6 +52,7 @@ If you use this data in your work, please cite:
 
 * 2025-04-30
   * Add ExtPos feature
+  * Align :tmod in advmod and obl to :unmarked, which is aligned with issue 1028
 * 2024-11-01
   * Correct DET children
   * Add Nomzr Ag
