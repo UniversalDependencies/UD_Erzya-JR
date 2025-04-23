@@ -4372,7 +4372,7 @@
 3	—	—	PUNCT	PUNCT	_	5	punct	_	_
 4	Микол	Микол	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Giv|Number=Sing	5	nsubj	_	GTtags=Prop,Ant_Mal,Sg,Nom,Indef
 5	лець	ледемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Style=Arch|Tense=Past	1	parataxis	_	GTtags=TV,Ind,Prt1,ScSg3|ModernForm=ледсь
-6	омбоцеде	омбоцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=OrdMult	5	advmod	_	GTtags=|SpaceAfter=No
+6	омбоцеде	омбоцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=Mult,Ord	5	advmod	_	GTtags=|SpaceAfter=No
 7	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:405
@@ -4510,7 +4510,7 @@
 # text = Маря течи колмоцеде столь пурны.
 1	Маря	Маря	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Fem|NameType=Giv|Number=Sing	5	nsubj	_	GTtags=Prop,Ant_Fem,Sg,Nom,Indef
 2	течи	течи	NOUN	Adv	AdvType=Tim|Case=Nom|Definite=Ind|Number=Sing	5	obl:tmod	_	GTtags=Temp
-3	колмоцеде	колмоцеде	ADV	Adv	Case=Abl|Definite=Ind|Number=Plur,Sing|NumType=OrdMult	5	advmod	_	GTtags=Ord,SP,Abl,Indef
+3	колмоцеде	колмоцеде	ADV	Adv	Case=Abl|Definite=Ind|Number=Plur,Sing|NumType=Mult,Ord	5	advmod	_	GTtags=Ord,SP,Abl,Indef
 4	столь	столь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	obj	_	GTtags=Sg,Nom,Indef
 5	пурны	пурнамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=TV,Ind,Prs,ScSg3|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
@@ -7035,10 +7035,10 @@
 5	веенст	веенст	NUM	Num	NumType=Sets	6	nsubj	_	GTtags=Coll|Gloss=one-group
 6	лоткасть	лоткамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,ScPl3|1q-1:13.1,5|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	9	punct	_	_
-8	омбонст	омбонст	NUM	Num	NumType=OrdSets	9	nsubj	_	GTtags=Ord,Coll|Gloss=a-second-group
+8	омбонст	омбонст	NUM	Num	NumType=Ord,Sets	9	nsubj	_	GTtags=Ord,Coll|Gloss=a-second-group
 9	мурдасть	мурдамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	6	conj	_	GTtags=TV,Ind,Prt1,ScPl3|1q-1:13.1,8|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	12	punct	_	_
-11	колмоценстнэ	колмоценст	NUM	Num	Case=Nom|Definite=Def|Number=Plur|NumType=OrdSets	12	nsubj	_	GTtags=Der/це,A,Ord,Coll,Attr,Pl,Nom,Def|Gloss=a-third-group
+11	колмоценстнэ	колмоценст	NUM	Num	Case=Nom|Definite=Def|Number=Plur|NumType=Ord,Sets	12	nsubj	_	GTtags=Der/це,A,Ord,Coll,Attr,Pl,Nom,Def|Gloss=a-third-group
 12	пачкодсть	пачкодемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	6	conj	_	GTtags=IV,Ind,Prt1,ScPl3|1q-1:13.1,11
 13	малазонзо	мала	NOUN	N	Case=Ill|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	GTtags=SP,Ill,PxSg3|1q-1:11.7,3|SpaceAfter=No
 14	.	.	PUNCT	CLB	_	6	punct	_	_
@@ -8011,7 +8011,7 @@
 13	витьксты	витькстамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	11	ccomp	_	GTtags=IV,Ind,Prs,ScSg3
 14	кияк	кияк	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	GTtags=Indef,Sg,Nom
 15	сонзэ	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	18	nmod:gsubj	_	GTtags=Pers,Sg3,Gen
-16	омбоцеде	омбоцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=OrdMult	18	advmod	_	GTtags=Ord,Sem/Time,Abl
+16	омбоцеде	омбоцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=Mult,Ord	18	advmod	_	GTtags=Ord,Sem/Time,Abl
 17	мирденень	мирде	NOUN	N	Case=Dat|Definite=Ind|Number=Plur,Sing	18	obl	_	GTtags=Sem/Kin_Mal,SP,Dat,Indef
 18	лисемадонть	лисемс	VERB	V	Case=Abl|Definite=Def|Number=Sing|VerbForm=Vnoun	13	obl	_	GTtags=IV,NomAct,Sg,Abl,Def
 19	Елеськанень	Елеська	PROPN	N	Case=Dat|Definite=Ind|NameType=Giv|Number=Plur,Sing	13	obl	_	GTtags=Sem/Plc,SP,Dat,Indef
@@ -13158,7 +13158,7 @@
 
 # sent_id = EKS:2011:39:22:MartynovA
 # text = Омбонстнэ арсить ды мелявтыть овсе лиядо...
-1	Омбонстнэ	омбонст	NUM	Num	Case=Nom|Definite=Def|Number=Plur|NumType=OrdSets	2	nsubj	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=Ord,Coll,Pl,Nom,Def
+1	Омбонстнэ	омбонст	NUM	Num	Case=Nom|Definite=Def|Number=Plur|NumType=Ord,Sets	2	nsubj	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=Ord,Coll,Pl,Nom,Def
 2	арсить	арсемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prs,ScPl3
 3	ды	ды	CCONJ	CC	_	4	cc	_	CGdephead=#3-&gt;2|CGdeprel=@CVP|GTtags=
 4	мелявтыть	мелявтомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres	2	conj	_	CGdephead=#4-&gt;2|CGdeprel=@FMV|GTtags=TV,Ind,Prs,ScPl3

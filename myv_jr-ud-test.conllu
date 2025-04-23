@@ -669,9 +669,9 @@
 11	...	...	PUNCT	CLB	_	12	punct	_	_
 12	весть	весть	ADV	Adv	NumType=Mult	3	advmod	_	GTtags=Iter|SpaceAfter=No
 13	,	,	PUNCT	CLB	_	14	punct	_	_
-14	омбоцеде	омбоцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=OrdMult	3	advmod	_	GTtags=Ord,Temp,Abl|SpaceAfter=No
+14	омбоцеде	омбоцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=Mult,Ord	3	advmod	_	GTtags=Ord,Temp,Abl|SpaceAfter=No
 15	...	...	PUNCT	CLB	_	16	punct	_	_
-16	колмоцеде	колмоцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=OrdMult	3	advmod	_	GTtags=Ord,Abl,Indef|SpaceAfter=No
+16	колмоцеде	колмоцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=Mult,Ord	3	advmod	_	GTtags=Ord,Abl,Indef|SpaceAfter=No
 17	...	...	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:137
@@ -9757,7 +9757,7 @@
 # text = Те масторсонть васенцеде мария, кода каштордыть пшти сельме тештне.
 1	Те	те	DET	Det	Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg
 2	масторсонть	мастор	NOUN	N	Case=Ine|Definite=Def|Number=Sing	4	obl	_	GTtags=Sem/Plc,Sg,Ine,Def
-3	васенцеде	васенцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=OrdMult	4	advmod	_	GTtags=Ord,Abl
+3	васенцеде	васенцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=Mult,Ord	4	advmod	_	GTtags=Ord,Abl
 4	мария	марямс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Past	0	root	_	GTtags=TV,Ind,Prt1,ScSg1,OcSg3|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	7	punct	_	_
 6	кода	кода	ADV	Adv	AdvType=Man|PronType=Int	7	advmod	_	GTtags=Interr,Manner
@@ -11831,7 +11831,7 @@
 3	кунсолан	кунсоломс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres	5	advcl	_	GTtags=TV,Ind,Prs,ScSg1|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	сыргойсть	сыргоземс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,ScPl3
-6	омбоцеде	омбоце	ADV	Det	Case=Abl|Definite=Ind|Number=Plur,Sing|NumType=OrdMult	5	advmod	_	GTtags=Ord,SP,Abl,Indef|SpaceAfter=No
+6	омбоцеде	омбоце	ADV	Det	Case=Abl|Definite=Ind|Number=Plur,Sing|NumType=Mult,Ord	5	advmod	_	GTtags=Ord,SP,Abl,Indef|SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4480
