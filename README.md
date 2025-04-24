@@ -55,6 +55,7 @@ If you use this data in your work, please cite:
   * Align :tmod and :lmod in advmod and obl to practice with :unmarked for alignment with issue 1028
   * remove :tcl
   * correct OrdSets, OrdMult to individual values, i.e., Ord,Sets; Mult,Ord
+  * aux:q to PART with PartType=Int mark
 * 2024-11-01
   * Correct DET children
   * Add Nomzr Ag

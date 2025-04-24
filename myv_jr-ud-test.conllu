@@ -633,20 +633,20 @@
 # text = Но кулось ли?..
 1	Но	но	CCONJ	CC	_	2	cc	_	_
 2	кулось	куломс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
-3	ли	ли	AUX	Pcle	_	2	aux:q	_	GTtags=Qst|SpaceAfter=No
+3	ли	ли	PART	Pcle	PartType=Int	2	mark	_	GTtags=Qst|SpaceAfter=No
 4	?..	?..	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:134
 # text = Чувтомсь ли?
 1	Чувтомсь	чувтомомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
-2	ли	ли	AUX	Pcle	_	1	aux:q	_	GTtags=|SpaceAfter=No
+2	ли	ли	PART	Pcle	PartType=Int	1	mark	_	GTtags=|SpaceAfter=No
 3	?	?	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = AnoshkinV_ValskenjGudok_1936:135
 # text = Виде ли кияк косояк мезтькак а тейни?..
 # text_en = Is it true that nobody does anything anywhere?..
 1	Виде	виде	ADJ	A	_	0	root	_	_
-2	ли	ли	AUX	Pcle	_	1	aux:q	_	_
+2	ли	ли	PART	Pcle	PartType=Int	1	mark	_	_
 3	кияк	кияк	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	GTtags=Indef,Sg,Nom
 4	косояк	косояк	ADV	Adv	Case=Ine|Definite=Ind	7	advmod	_	GTtags=Indef,Ine
 5	мезтькак	мезеяк	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	7	obj	_	GTtags=Indef,Pl,Nom,Indef
@@ -7099,7 +7099,7 @@
 7	,	,	PUNCT	CLB	_	9	punct	_	_
 8	эзизе	а	AUX	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Polarity=Neg|Tense=Past	9	aux	_	GTtags=Neg,Ind,Prt1,ScSg3,OcSg3
 9	редя	редямс	VERB	V	Connegative=Yes	3	xcomp	_	GTtags=ConNeg
-10	ли	ли	AUX	Pcle	_	9	aux:q	_	GTtags=Qst,ForeignNew
+10	ли	ли	PART	Pcle	PartType=Int	9	mark	_	GTtags=Qst,ForeignNew
 11	тона	тона	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	9	obj	_	GTtags=Dem,Sg,Nom,Indef|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	14	punct	_	_
 13	мезе	мезе	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	14	obj	_	GTtags=Interr,Sg,Nom

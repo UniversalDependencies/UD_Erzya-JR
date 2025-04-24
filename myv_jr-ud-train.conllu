@@ -1272,7 +1272,7 @@
 4	ризнэме	ризнэмс	VERB	V	Case=Loc|VerbForm=Inf	0	root	_	GTtags=IV,Inf,Loc|SpaceAfter=No
 5	:	:	PUNCT	CLB	_	6	punct	_	_
 6	шумбрат	шумбра	ADJ	A	Number[subj]=Sing|Person[subj]=2|Tense=Pres	4	parataxis	_	_
-7	ли	ли	AUX	Pcle	_	6	aux:q	_	GTtags=Qst
+7	ли	ли	PART	Pcle	PartType=Int	6	mark	_	GTtags=Qst
 8	кудосонть	кудо	NOUN	N	Case=Ine|Definite=Def|Number=Sing	6	obl	_	GTtags=Sem/Plc,Sg,Ine,Def|SpaceAfter=No
 9	?	?	PUNCT	CLB	_	4	punct	_	_
 
@@ -1280,7 +1280,7 @@
 # text = Эзизь машт ли бандитнэ?
 1	Эзизь	а	AUX	Aux	Mood=Ind|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Polarity=Neg|Tense=Past|VerbType=Aux	2	aux	_	_
 2	машт	маштомс	VERB	V	Connegative=Yes	0	root	_	GTtags=TV,Hom2,Dial,Connegative=Yes
-3	ли	ли	AUX	Pcle	_	2	aux:q	_	GTtags=Qst
+3	ли	ли	PART	Pcle	PartType=Int	2	mark	_	GTtags=Qst
 4	бандитнэ	бандит	NOUN	N	Case=Nom|Definite=Def|Number=Plur	2	nsubj	_	GTtags=Pl,Nom,Def|SpaceAfter=No
 5	?	?	PUNCT	CLB	_	2	punct	_	_
 
@@ -2957,7 +2957,7 @@
 1	Каськас	каська	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=SP,Ill,Indef
 2	эзь	а	AUX	Aux	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Past|VerbType=Aux	3	aux	_	_
 3	кекшт	кекшемс	VERB	V	Connegative=Yes	0	root	_	GTtags=IV,ConNeg
-4	ли	ли	AUX	Pcle	_	3	aux:q	_	GTtags=Qst
+4	ли	ли	PART	Pcle	PartType=Int	3	mark	_	GTtags=Qst
 5	сон	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	GTtags=Pers,Sg3,Nom|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -7149,7 +7149,7 @@
 1	—	—	PUNCT	PUNCT	_	3	punct	_	_
 2	Ды	ды	CCONJ	CC	_	3	cc	_	GTtags=|Gloss=but
 3	тонсь	тонсь	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	0	root	_	GTtags=Refl,Sg2,Nom|Gloss=you-yourself
-4	ли	ли	AUX	Pcle	_	3	aux:q	_	GTtags=Qst|Gloss=q
+4	ли	ли	PART	Pcle	PartType=Int	3	mark	_	GTtags=Qst|Gloss=q
 5	те	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	3	nsubj	_	GTtags=Dem,Sg,Nom,Indef|Gloss=this|SpaceAfter=No
 6	?	?	PUNCT	CLB	_	3	punct	_	_
 
@@ -7451,7 +7451,7 @@
 # text = Да сави ли теть арсемс теде.
 1	Да	да	INTJ	Interj	_	5	discourse	_	_
 2	сави	савомс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	5	aux	_	GTtags=IV,Ind,Prs,ScSg3
-3	ли	ли	AUX	Pcle	_	5	aux:q	_	GTtags=Qst
+3	ли	ли	PART	Pcle	PartType=Int	5	mark	_	GTtags=Qst
 4	теть	тон	PRON	Pron	Case=Dat|Number=Sing|Person=2|PronType=Prs|Variant=Short	5	obl:agent	_	GTtags=Pers,Sg2,Dat,Short
 5	арсемс	арсемс	VERB	V	VerbForm=Inf	0	root	_	GTtags=IV,Inf
 6	теде	те	PRON	Pron	Case=Abl|Definite=Ind|Number=Sing|PronType=Dem	5	obl	_	GTtags=Dem,Sg,Abl,Indef|SpaceAfter=No
@@ -8079,7 +8079,7 @@
 # text = А истя ли вирьсэ нармушкине ливтни левкстэ пешксе пизэнзэ вакска, зярдо друк неи малава ютыця ломань?
 1	А	а	AUX	Pcle	Polarity=Neg	2	aux:neg	_	GTtags=Neg
 2	истя	истя	ADV	Adv	AdvType=Man	6	advmod	_	GTtags=Manner
-3	ли	ли	AUX	Pcle	_	2	aux:q	_	GTtags=Qst
+3	ли	ли	PART	Pcle	PartType=Int	2	mark	_	GTtags=Qst
 4	вирьсэ	вирь	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	6	obl	_	GTtags=Sem/Plc,SP,Ine,Indef
 5	нармушкине	нармушкине	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	nsubj	_	GTtags=Sg,Nom,Indef
 6	ливтни	ливтнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=IV,Ind,Prs,ScSg3
@@ -8136,7 +8136,7 @@
 9	чарькоди	чарькодемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	15	parataxis	_	GTtags=TV,Ind,Prs,ScSg3|1q-1:4.2,5|Gloss=understand|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	11	punct	_	_
 11	што	што	PRON	Pron	ExtPos=PRON	9	parataxis	_	GTtags=|Gloss=I-wonder
-12	ли	ли	AUX	Pcle	_	11	fixed	_	GTtags=Qst|SpaceAfter=No
+12	ли	ли	PART	Pcle	PartType=Int	11	fixed	_	GTtags=Qst|SpaceAfter=No
 13	,	,	PUNCT	CLB	_	11	punct	_	_
 14	сонсь	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	det	_	GTtags=Pers,Sg3,Intensive,Nom|1q-1:4.2,5|Gloss=herself
 15	служавтозь	служавтомс	VERB	V	Derivation=Ozj|VerbForm=Conv	0	root	_	GTtags=TV,Der/Озь,Ger|Gloss=serve
@@ -10348,7 +10348,7 @@
 # sent_id = EKS:2011:24:18:EDITORS
 # text = Тонь ли те?
 1	Тонь	тон	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs	0	root	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;N|GTtags=Pers,Sg2,Gen
-2	ли	ли	AUX	Pcle	_	1	aux:q	_	CGdephead=#2-&gt;2|CGdeprel=@&lt;QST|GTtags=
+2	ли	ли	PART	Pcle	PartType=Int	1	mark	_	CGdephead=#2-&gt;2|CGdeprel=@&lt;QST|GTtags=
 3	те	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	1	nsubj:cop	_	CGdephead=#3-&gt;3|CGdeprel=@PRED|GTtags=Dem,Sg,Nom,Indef|SpaceAfter=No
 4	?	?	PUNCT	CLB	_	1	punct	_	CGdephead=#4-&gt;4|CGdeprel=@CLB|GTtags=CLB
 
