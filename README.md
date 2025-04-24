@@ -56,6 +56,7 @@ If you use this data in your work, please cite:
   * remove :tcl
   * correct OrdSets, OrdMult to individual values, i.e., Ord,Sets; Mult,Ord
   * aux:q to PART with PartType=Int mark
+  * remove :lto, :lfrom, iobj, :lmp
 * 2024-11-01
   * Correct DET children
   * Add Nomzr Ag
