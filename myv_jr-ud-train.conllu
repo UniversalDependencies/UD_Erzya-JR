@@ -9538,7 +9538,7 @@
 2	эзь	а	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Past|VerbType=Aux	3	aux	_	GTtags=Aux,Neg,Ind,Prt1,ScSg3
 3	фатяяк	фатямс	VERB	V	Clitic=Add|Connegative=Yes	0	root	_	GTtags=ConNeg,Clt/Add|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
-5	кода	кода	ADV	Adv	AdvType=Man|PronType=Int	6	advmod:mmod	_	GTtags=Interr,Manner
+5	кода	кода	ADV	Adv	AdvType=Man|PronType=Int	6	advmod	_	GTtags=Interr,Manner
 6	прядовсь	прядовомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	3	ccomp	_	GTtags=Ind,Prt1,ScSg3
 7	урокось	урок	NOUN	N	Case=Nom|Definite=Def|Number=Sing	6	nsubj	_	GTtags=Sg,Nom,Def|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	6	punct	_	_
@@ -9550,7 +9550,7 @@
 1	Эрямось	эрямо	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Def
 2	мерькась	мерькамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,ScSg3
 3	Живаевень	Живаев	NOUN	N	Animacy=Hum|Case=Gen|Definite=Ind|NameType=Sur|Number=Plur,Sing	2	obj	_	GTtags=Prop,Sem/Mal-Sur,SP,Gen,Indef
-4	эрьва	эрьва	DET	Det	Case=Nom|Definite=Ind|ExtPos=ADV|Number=Sing	2	advmod:mmod	_	GTtags=Qnt,Sg,Nom,Indef
+4	эрьва	эрьва	DET	Det	Case=Nom|Definite=Ind|ExtPos=ADV|Number=Sing	2	advmod	_	GTtags=Qnt,Sg,Nom,Indef
 5	кода	кода	ADV	Adv	AdvType=Man|PronType=Int	4	fixed	_	GTtags=Interr,Manner|SpaceAfter=No
 6	:	:	PUNCT	CLB	_	8	punct	_	_
 7	мендязьгак	мендямс	VERB	V	Clitic=Add|Derivation=Ozj|VerbForm=Conv	8	advcl	_	GTtags=Der/Ozj,Ger,Clt/Add
@@ -10385,7 +10385,7 @@
 
 # sent_id = EKS:2011:25:2:EDITORS
 # text = Паряк, пиземесь курок прядови...
-1	Паряк	паряк	ADV	Pcle	AdvType=Mod	5	advmod:mmod	_	CGdephead=#1-&gt;1|CGdeprel=@X|GTtags=Epist|SpaceAfter=No
+1	Паряк	паряк	ADV	Pcle	AdvType=Mod	5	advmod	_	CGdephead=#1-&gt;1|CGdeprel=@X|GTtags=Epist|SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	CGdephead=#2-&gt;2|CGdeprel=@CLB|GTtags=CLB
 3	пиземесь	пиземе	NOUN	N	Case=Nom|Definite=Def|Number=Sing	5	nsubj	_	CGdephead=#3-&gt;5|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
 4	курок	курок	ADV	Adv	_	5	advmod	_	CGdephead=#4-&gt;5|CGdeprel=@ADVL&gt;|GTtags=
