@@ -57,6 +57,7 @@ If you use this data in your work, please cite:
   * correct OrdSets, OrdMult to individual values, i.e., Ord,Sets; Mult,Ord
   * aux:q to PART with PartType=Int mark
   * remove :lto, :lfrom, iobj, :lmp, :lmod
+  * change aux:cnd presentation to Mood=Cnd
 * 2024-11-01
   * Correct DET children
   * Add Nomzr Ag
