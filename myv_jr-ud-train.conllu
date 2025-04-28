@@ -6530,7 +6530,7 @@
 1	—	—	PUNCT	PUNCT	_	3	punct	_	_
 2	Митя	Митя	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Giv|Number=Sing	3	nsubj	_	GTtags=Ant_Mal,Sg,Nom,Indef|Gloss=Mitya
 3	кандоволь	кандомс	VERB	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3	0	root	_	GTtags=TV,Conj,ScSg3|1q-1:5.2,2|Gloss=carry
-4	бу	бу	AUX	Pcle	_	3	aux:cnd	_	GTtags=|Gloss=could|SpaceAfter=No
+4	бу	бу	AUX	Pcle	Mood=Cnd	3	aux	_	GTtags=|Gloss=could|SpaceAfter=No
 5	...	...	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:11392
@@ -10509,7 +10509,7 @@
 2	патяй	патяй	NOUN	N	Derivation=Voc	6	vocative	_	CGdephead=#2-&gt;2|CGdeprel=@ADDR|GTtags=Der/aj,Voc|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	2	punct	_	CGdephead=#3-&gt;3|CGdeprel=@CLB|GTtags=CLB
 4	кодаяк	кодаяк	ADV	Adv	AdvType=Man|Definite=Ind	6	advmod	_	CGdephead=#4-&gt;6|CGdeprel=@ADVL&gt;|GTtags=Indef,Manner
-5	бу	бу	AUX	Aux	Mood=Sub|VerbType=Aux	6	aux:cnd	_	CGdephead=#5-&gt;5|CGdeprel=@+FMAINV|GTtags=Aux,Conj
+5	бу	бу	AUX	Aux	Mood=Cnd|VerbType=Aux	6	aux	_	CGdephead=#5-&gt;5|CGdeprel=@+FMAINV|GTtags=Aux,Conj
 6	пейдевтевлимик	пейдевтемс	VERB	V	Mood=Sub|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=2	0	root	_	CGdephead=#6-&gt;6|CGdeprel=@FMV|GTtags=TV,Conj,ScSg2,OcSg1|SpaceAfter=No
 7	...	...	PUNCT	CLB	_	6	punct	_	CGdephead=#7-&gt;7|CGdeprel=@CLB|GTtags=CLB
 
@@ -10868,7 +10868,7 @@
 2	лембе	лембе	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	3	amod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 3	пракстат	пракста	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	4	nsubj	_	CGdephead=#3-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,Indef
 4	эрявольть	эрявомс	VERB	V	Mood=Sub|Number[subj]=Plur|Person[subj]=3	0	root	_	CGdephead=#4-&gt;4|CGdeprel=@FMV|GTtags=IV,Conj,ScPl3
-5	бу	бу	AUX	Pcle	Mood=Sub|VerbType=Aux	4	aux:cnd	_	CGdephead=#5-&gt;5|CGdeprel=@X|GTtags=Aux,Conj|SpaceAfter=No
+5	бу	бу	AUX	Pcle	Mood=Cnd|VerbType=Aux	4	aux	_	CGdephead=#5-&gt;5|CGdeprel=@X|GTtags=Aux,Conj|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	4	punct	_	CGdephead=#6-&gt;6|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = KutorkinA:Kriostketj:24:2
@@ -13526,7 +13526,7 @@
 # sent_id = EKS:2011:41:3:AbramovK
 # text = Ней бу мон симевлинь мезеяк лияяк...
 1	Ней	ней	ADV	Adv	_	4	advmod	_	CGdephead=#1-&gt;4|CGdeprel=@ADVL&gt;|GTtags=
-2	бу	бу	AUX	Pcle	Mood=Sub|VerbType=Aux	4	aux:cnd	_	CGdephead=#2-&gt;2|CGdeprel=@+FMAINV|GTtags=Aux,Conj
+2	бу	бу	AUX	Pcle	Mood=Cnd|VerbType=Aux	4	aux	_	CGdephead=#2-&gt;2|CGdeprel=@+FMAINV|GTtags=Aux,Conj
 3	мон	мон	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	CGdephead=#3-&gt;4|CGdeprel=@SUBJ&gt;|GTtags=Pers,Sg1,Nom
 4	симевлинь	симемс	VERB	V	Mood=Sub|Number[subj]=Sing|Person[subj]=1	0	root	_	CGdephead=#4-&gt;0|CGdeprel=@FMV|GTtags=IV,Conj,ScSg1
 5	мезеяк	мезеяк	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	det	_	CGdephead=#5-&gt;5|CGdeprel=@&gt;N|GTtags=Indef,Sg,Nom,Indef
@@ -13977,7 +13977,7 @@
 # sent_id = EKS:2011:42:21:RadaevV
 # text = Оно бу пенгинеть керявлить валскенень...
 1	Оно	оно	INTJ	Interj	_	4	discourse	_	CGdephead=#1-&gt;0|CGdeprel=@INTERJ|GTtags=
-2	бу	бу	AUX	Pcle	Mood=Sub|VerbType=Aux	4	aux:cnd	_	CGdephead=#2-&gt;2|CGdeprel=@+FMAINV|GTtags=Aux,Conj
+2	бу	бу	AUX	Pcle	Mood=Cnd|VerbType=Aux	4	aux	_	CGdephead=#2-&gt;2|CGdeprel=@+FMAINV|GTtags=Aux,Conj
 3	пенгинеть	пенгине	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=2	4	obj	_	CGdephead=#3-&gt;3|CGdeprel=@-FOBJ&gt;|GTtags=Pl,Gen,PxSg2
 4	керявлить	керямс	VERB	V	Mood=Sub|Number[subj]=Sing|Person[subj]=2	0	root	_	CGdephead=#4-&gt;0|CGdeprel=@FMV|GTtags=TV,Conj,ScSg2
 5	валскенень	валске	NOUN	N	Case=Dat|Definite=Ind|Number=Plur,Sing	4	obl	_	CGdephead=#5-&gt;4|CGdeprel=@&lt;ADVL|GTtags=SP,Dat,Indef|SpaceAfter=No
@@ -14330,7 +14330,7 @@
 1	Ды	ды	CCONJ	CC	_	3	cc	_	CGdephead=#2-&gt;2|CGdeprel=@CC|GTtags=
 2	сынь	сон	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	CGdephead=#3-&gt;4|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl3,Nom
 3	стявольть	стямс	VERB	V	Mood=Sub|Number[subj]=Plur|Person[subj]=3	0	root	_	CGdephead=#4-&gt;0|CGdeprel=@FMV|GTtags=Der/OvOms,V,Conj,ScPl3
-4	бу	бу	AUX	Pcle	Mood=Sub|VerbType=Aux	3	aux	_	CGdephead=#5-&gt;5|CGdeprel=@+FMAINV|GTtags=Aux,Conj|SpaceAfter=No
+4	бу	бу	AUX	Pcle	Mood=Cnd|VerbType=Aux	3	aux	_	CGdephead=#5-&gt;5|CGdeprel=@+FMAINV|GTtags=Aux,Conj|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	CGdephead=#6-&gt;5|CGdeprel=@X|GTtags=CLB
 6	сыргавольть	сыргамс	VERB	V	Mood=Sub|Number[subj]=Plur|Person[subj]=3	3	conj	_	CGdephead=#7-&gt;4|CGdeprel=@FMV|GTtags=Der/OvOms,V,Conj,ScPl3
 7	покш	покш	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	8	amod	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
@@ -14338,7 +14338,7 @@
 9	,	,	PUNCT	CLB	_	11	punct	_	CGdephead=#10-&gt;9|CGdeprel=@X|GTtags=CLB
 10	тосо	тосо	ADV	Adv	Case=Ine	11	advmod	_	CGdephead=#11-&gt;12|CGdeprel=@ADVL&gt;|GTtags=Ine
 11	вейсэндявольть	вейсэндямс	VERB	V	Mood=Sub|Number[subj]=Plur|Person[subj]=3	3	conj	_	CGdephead=#12-&gt;4|CGdeprel=@FMV|GTtags=Der/OvOms,V,Conj,ScPl3
-12	бу	бу	AUX	Pcle	Mood=Sub|VerbType=Aux	11	aux	_	CGdephead=#13-&gt;13|CGdeprel=@+FMAINV|GTtags=Aux,Conj
+12	бу	бу	AUX	Pcle	Mood=Cnd|VerbType=Aux	11	aux	_	CGdephead=#13-&gt;13|CGdeprel=@+FMAINV|GTtags=Aux,Conj
 13	робочейтнень	робочей	NOUN	N	Case=Gen|Definite=Def|Number=Plur	11	obl	_	CGdephead=#14-&gt;15|CGdeprel=@&gt;P|GTtags=Pl,Gen,Def
 14	марто	марто	ADP	Po	AdpType=Post	13	case	_	CGdephead=#15-&gt;12|CGdeprel=@&lt;ADVL|GTtags=Po
 15	ды	ды	CCONJ	CC	_	18	cc	_	CGdephead=#16-&gt;12|CGdeprel=@CVP|GTtags=
