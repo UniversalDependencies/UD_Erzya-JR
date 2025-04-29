@@ -56,8 +56,9 @@ If you use this data in your work, please cite:
   * remove :tcl
   * correct OrdSets, OrdMult to individual values, i.e., Ord,Sets; Mult,Ord
   * aux:q to PART with PartType=Int mark
-  * remove :lto, :lfrom, iobj, :lmp, :lmod, :mmod
-  * simplify deprels: aux:cnd > aux with Mood=Cnd, aux:nec > aux, 
+  * remove :lto, :lfrom, iobj, :lmp, :lmod, :mmod, advmod:lmod, :eval, :deg,
+  * simplify deprels: aux:cnd > aux with Mood=Cnd, aux:nec > aux,
+  * adjust :tmod
 * 2024-11-01
   * Correct DET children
   * Add Nomzr Ag
