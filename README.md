@@ -56,7 +56,7 @@ If you use this data in your work, please cite:
   * remove :tcl
   * correct OrdSets, OrdMult to individual values, i.e., Ord,Sets; Mult,Ord
   * aux:q to PART with PartType=Int mark
-  * remove :lto, :lfrom, iobj, :lmp, :lmod, :mmod, advmod:lmod, :eval, :deg,
+  * remove :lto, :lfrom, iobj, :lmp, :lmod, :mmod, advmod:lmod, :eval, :deg, :foc, :cau, :inst
   * simplify deprels: aux:cnd > aux with Mood=Cnd, aux:nec > aux,
   * adjust :tmod
 * 2024-11-01
