@@ -50,6 +50,15 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2025-04-30
+  * Add ExtPos feature
+  * Align :tmod and :lmod in advmod and obl to practice with :unmarked for alignment with issue 1028
+  * remove :tcl
+  * correct OrdSets, OrdMult to individual values, i.e., Ord,Sets; Mult,Ord
+  * aux:q to PART with PartType=Int mark
+  * remove :lto, :lfrom, iobj, :lmp, :lmod, :mmod, advmod:lmod, :eval, :deg, :foc, :cau, :inst
+  * simplify deprels: aux:cnd > aux with Mood=Cnd, aux:nec > aux,
+  * adjust :tmod
 * 2024-11-01
   * Correct DET children
   * Add Nomzr Ag
