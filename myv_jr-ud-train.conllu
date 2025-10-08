@@ -1566,7 +1566,7 @@
 5	кедровой	кедровой	ADJ	A	_	6	amod	_	_
 6	пешть	пешть	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	obj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
-8	урт	ур	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	4	obj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+8	урт	ур	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	6	conj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
 9	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:170
@@ -6974,7 +6974,7 @@
 # sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:3107
 # text = — Я, тынь эно, цёрат, — мерсь кудазоравась, — кортнеде ськамонк.
 1	—	—	PUNCT	PUNCT	_	14	punct	_	_
-2	Я	я	ADV	Adv	Mood=Imp|Number[subj]=Sing|Person[subj]=2|VerbForm=Fin	14	advmod	_	GTtags=Imprt,ScSg2|SpaceAfter=No
+2	Я	я	INTJ	Interj	_	14	discourse	_	GTtags=Imprt,ScSg2|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	2	punct	_	_
 4	тынь	тон	PRON	Pron	Case=Nom|Number=Plur|Person=2|PronType=Prs	14	vocative	_	GTtags=Pers,Pl2,Nom
 5	эно	эно	PART	Pcle	_	4	advmod	_	GTtags=Epist|SpaceAfter=No
@@ -11578,7 +11578,7 @@
 # text = Ды ансяк зярыя минутань ютазь, тейтересь пшкадсь: — Иля ризнэ, авай. ней уш таштось а велявты...
 1	Ды	ды	CCONJ	CC	_	5	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
 2	ансяк	ансяк	ADV	Adv	_	3	advmod	_	CGdephead=#2-&gt;0|CGdeprel=@ADVL|GTtags=Exclusive
-3	зярыя	зярыя	DET	Det	Case=Nom|Definite=Ind|Number=Sing|Definite=Ind	4	det	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Indef
+3	зярыя	зярыя	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	4	det	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Indef
 4	минутань	минута	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod:gobj	_	CGdephead=#4-&gt;5|CGdeprel=@-FOBJ&gt;|GTtags=SP,Gen,Indef
 5	ютазь	ютамс	VERB	V	VerbForm=Conv,Part	8	advcl	_	CGdephead=#5-&gt;0|CGdeprel=@PRED|GTtags=IV,Der/Ozj,Ger|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	5	punct	_	CGdephead=#6-&gt;5|CGdeprel=@CLB|GTtags=CLB
@@ -11928,7 +11928,7 @@
 
 # sent_id = EKS:2011:33:10:KolomasovV
 # text = Эрь пандя сельведтнень валомс, — корты бабась...
-1	Эрь	эрь	PART	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|VerbForm=Fin	2	discourse	_	CGdephead=#1-&gt;0|CGdeprel=@FMV|GTtags=Imprt,ScPl2
+1	Эрь	эрь	INTJ	Interj	_	2	discourse	_	CGdephead=#1-&gt;0|CGdeprel=@FMV|GTtags=Imprt,ScPl2
 2	пандя	пандя	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|VerbForm=Fin	0	root	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 3	сельведтнень	сельведь	NOUN	N	Case=Gen|Definite=Def|Number=Plur	4	nmod:gobj	_	CGdephead=#3-&gt;4|CGdeprel=@-FOBJ&gt;|GTtags=Pl,Gen,Def
 4	валомс	валомс	VERB	V	VerbForm=Inf	2	xcomp:ds	_	CGdephead=#4-&gt;1|CGdeprel=@IMV|GTtags=TV,Inf|SpaceAfter=No
@@ -12796,7 +12796,7 @@
 9	ие	ие	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	14	obl	_	CGdephead=#9-&gt;9|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 10	яла	яла	ADV	Adv	_	14	advmod	_	CGdephead=#10-&gt;14|CGdeprel=@ADVL&gt;|GTtags=
 11	седе	се	PRON	Pron	Case=Abl|Definite=Ind|Number=Sing|PronType=Dem	12	obl:cmp	_	CGdephead=#11-&gt;14|CGdeprel=@ADVL&gt;|GTtags=Dem,Sg,Abl,Indef
-12	ламо	ламо	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	advmod	_	CGdephead=#12-&gt;0|CGdeprel=@X|GTtags=Sg,Nom,Indef
+12	ламо	ламо	ADV	Adv	_	14	advmod	_	CGdephead=#12-&gt;0|CGdeprel=@X|GTtags=Sg,Nom,Indef
 13	кармасть	кармамс	AUX	V	Aspect=Inch|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|VerbForm=Fin	14	aux:aspect	_	CGdephead=#13-&gt;13|CGdeprel=@-FAUXV&gt;|GTtags=IV,Ind,Prt1,ScPl3
 14	улеме	улемс	VERB	V	Case=Loc|VerbForm=Inf	0	root	_	CGdephead=#14-&gt;13|CGdeprel=@FS-IMV|GTtags=IV,Inf,Loc|SpaceAfter=No
 15	...	...	PUNCT	CLB	_	14	punct	_	CGdephead=#15-&gt;6|CGdeprel=@CLB|GTtags=CLB

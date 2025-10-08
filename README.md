@@ -50,6 +50,8 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2025-10-30
+  * Work with PronType definition of PRON and DET
 * 2025-04-30
   * Add ExtPos feature
   * Align :tmod and :lmod in advmod and obl to practice with :unmarked for alignment with issue 1028
