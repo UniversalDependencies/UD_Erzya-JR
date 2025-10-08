@@ -801,7 +801,7 @@
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:106
 # text = Ваньськавт эйсэнзэ, мон молян ведь кандан.
-1	Ваньськавт	Ваньськавтомс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Style=Arch	0	root	_	GTtags=IV,Imprt,ScSg2|ModernForm=Ванськавтт
+1	Ваньськавт	Ванськавтомс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Style=Arch|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=Ванськавтт|GTtags=IV,Imprt,ScSg2|ModernForm=Ванськавтт
 2	эйсэнзэ	эйсэ	ADP	Adp	Case=Ine|Number[psor]=Sing|Person[psor]=3	1	obj	_	GTtags=Ine,PxSg3|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	мон	мон	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	GTtags=Pers,Sg1,Nom
@@ -1021,7 +1021,7 @@
 3	—	—	PUNCT	PUNCT	_	6	punct	_	_
 4	васняяк	васняяк	ADV	Adv	Clitic=Add|NumType=Ord	6	advmod	_	GTtags=Ord
 5	тонть	тон	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	obj	_	GTtags=Pers,Sg2,Err/Orth,Dial,Gen
-6	чавовледезь	чавомс	VERB	V	Mood=Sub|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=2|Person[subj]=3|Style=Arch	1	conj	_	GTtags=TV,Conj,ScPl3,OcSg2|ModernForm=чавовлидизь|SpaceAfter=No
+6	чавовледезь	чавомс	VERB	V	Mood=Sub|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=2|Person[subj]=3|Style=Arch|VerbForm=Fin	1	conj	_	GTtags=TV,Conj,ScPl3,OcSg2|ModernForm=чавовлидизь|SpaceAfter=No
 7	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:127
@@ -2619,7 +2619,7 @@
 2	кармить	кармамс	AUX	V	Aspect=Inch|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Style=Arch|Tense=Pres|VerbForm=Fin	3	aux:aspect	_	GTtags=IV,Ind,Prs,ScPl3|ModernForm=Бандиттнэ
 3	кевксниман	кевкстнемс	VERB	V	Case=Loc|Number[psor]=Sing|Person[psor]=1|Style=Arch|VerbForm=Inf	0	root	_	GTtags=TV,Inf,Loc,PxSg1|ModernForm=кевкстнеман
 4	—	—	PUNCT	PUNCT	_	5	punct	_	_
-5	мерьть	меремс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Style=Arch	3	conj	_	GTtags=TV,Imprt,ScSg2|ModernForm=мерть
+5	мерьть	меремс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Style=Arch|VerbForm=Fin	3	conj	_	GTtags=TV,Imprt,ScSg2|ModernForm=мерть
 6	тайгасоян	тайга	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing|Number[subj]=Sing|Person[subj]=1|Style=Arch|Tense=Pres	5	ccomp	_	GTtags=SP,Ine,Indef|ModernForm=тайгасан|SpaceAfter=No
 7	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -10481,7 +10481,7 @@
 2	лисевлиде	лисемс	VERB	V	Mood=Sub|Number[subj]=Plur|Person[subj]=2|VerbForm=Fin	0	root	_	CGdephead=#2-&gt;2|CGdeprel=@FMV|GTtags=IV,Conj,ScPl2
 3	(	(	PUNCT	PUNCT	PunctSide=Ini	5	punct	_	CGdephead=#3-&gt;3|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
 4	=	=	PUNCT	PUNCT	_	5	punct	_	CGdephead=#4-&gt;4|CGdeprel=@CLB|GTtags=PUNCT|SpaceAfter=No
-5	лиседе	лисемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=2	2	appos	_	CGdephead=#5-&gt;5|CGdeprel=@-FADVL-partitive&gt;|GTtags=SP,Abl,Indef|SpaceAfter=No
+5	лиседе	лисемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=2|VerbForm=Fin	2	appos	_	CGdephead=#5-&gt;5|CGdeprel=@-FADVL-partitive&gt;|GTtags=SP,Abl,Indef|SpaceAfter=No
 6	)	)	PUNCT	PUNCT	PunctSide=Fin	5	punct	_	CGdephead=#6-&gt;6|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
 7	ушов	ушо	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	2	obl	_	CGdephead=#7-&gt;2|CGdeprel=@&lt;ADVL|GTtags=SP,Lat,Indef
 8	—	—	PUNCT	PUNCT	_	10	punct	_	CGdephead=#8-&gt;8|CGdeprel=@CLB|GTtags=PUNCT
