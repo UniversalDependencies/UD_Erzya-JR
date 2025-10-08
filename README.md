@@ -52,6 +52,7 @@ If you use this data in your work, please cite:
 
 * 2025-10-30
   * Work with PronType definition of PRON and DET
+  * Work with multiple obj, whereas conj, appos and obl are desired. 
 * 2025-04-30
   * Add ExtPos feature
   * Align :tmod and :lmod in advmod and obl to practice with :unmarked for alignment with issue 1028
