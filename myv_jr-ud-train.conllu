@@ -12806,7 +12806,7 @@
 # text = Кудадеенсетне тандадсть, лоткасть...
 1-2	Кудадеенсетне	_	_	_	_	_	_	_	_
 1	Кудадеен	Кудадей	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	2	nmod	_	CGdephead=#1-&gt;1|CGdeprel=@-FOBJ&gt;|GTtags=SP,Gen,Indef,Der/sje,Pron,Pl,Nom,Def
-2	сетне	се	PRON	_	Case=Nom|Definite=Def|Number=Plur	3	nsubj	_	_
+2	сетне	се	PRON	_	Case=Nom|Definite=Def|Number=Plur|PronType=Dem	3	nsubj	_	_
 3	тандадсть	тандадомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScPl3|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	CGdephead=#3-&gt;2|CGdeprel=@CLB|GTtags=CLB
 5	лоткасть	лоткамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|VerbForm=Fin	3	conj	_	CGdephead=#4-&gt;2|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScPl3|SpaceAfter=No
