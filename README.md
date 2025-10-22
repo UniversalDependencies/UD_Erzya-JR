@@ -54,6 +54,7 @@ If you use this data in your work, please cite:
   * Work with PronType definition of PRON and DET
   * Work with multiple obj, whereas conj, appos and obl are desired.
   * obl to nmod where parent is nominal and not predicate.
+  * Erzya PronType assignment for NP head ellipsis as PRON #1161 PronType=Art
 * 2025-04-30
   * Add ExtPos feature
   * Align :tmod and :lmod in advmod and obl to practice with :unmarked for alignment with issue 1028

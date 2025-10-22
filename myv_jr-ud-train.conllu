@@ -2556,7 +2556,7 @@
 5	пачкодить	пачкодемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	GTtags=IV,Ind,Prs,ScPl3
 6-7	ластетне	_	_	_	_	_	_	_	SpaceAfter=No
 6	ласте	ласте	ADV	Adv	AdvType=Sta	7	acl	_	GTtags=Pred2
-7	тне	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Plur	5	nsubj	_	GTtags=Pl,Nom,Def
+7	тне	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	nsubj	_	GTtags=Pl,Nom,Def
 8	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:253
@@ -2830,7 +2830,7 @@
 5	револьвер	револьвер	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	7	nmod	_	GTtags=Sg,Nom,Indef
 6-7	мартось	_	_	_	_	_	_	_	_
 6	марто	марто	ADP	Po	AdpType=Post	5	case	_	_
-7	сь	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Sing	2	conj	_	GTtags=Sg,Nom,Def
+7	сь	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Sing|PronType=Art	2	conj	_	GTtags=Sg,Nom,Def
 8	вицтэ	видьстэ	ADV	Adv	Typo=Yes	7	orphan	_	CorrectForm=видьстэ
 9	Марянень	Маря	PROPN	N	Animacy=Hum|Case=Dat|Definite=Ind|Gender=Fem|NameType=Giv|Number=Plur,Sing	7	orphan	_	GTtags=Prop,Ant_Fem,SP,Dat,Indef|SpaceAfter=No
 10	:	:	PUNCT	CLB	_	2	punct	_	_
@@ -2915,7 +2915,7 @@
 7	револьвер	револьвер	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	nmod	_	GTtags=Sg,Nom,Indef
 8-9	мартось	_	_	_	_	_	_	_	SpaceAfter=No
 8	марто	марто	ADP	Po	AdpType=Post	7	case	_	_
-9	сь	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Sing	6	nsubj	_	GTtags=Sg,Nom,Def
+9	сь	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Sing|PronType=Art	6	nsubj	_	GTtags=Sg,Nom,Def
 10	,	,	PUNCT	CLB	_	6	punct	_	_
 11	—	—	PUNCT	PUNCT	_	12	punct	_	_
 12	вешнинк	вешнемс	VERB	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|VerbForm=Fin	2	conj	_	GTtags=TV,Imprt,ScPl2,OcSg3
@@ -3849,7 +3849,7 @@
 8	револьвер	револьвер	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	nmod	_	GTtags=Sg,Nom,Indef
 9-10	мартось	_	_	_	_	_	_	_	SpaceAfter=No
 9	марто	марто	ADP	Po	AdpType=Post	8	case	_	_
-10	сь	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Sing	7	nsubj	_	GTtags=Sg,Nom,Def
+10	сь	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Sing|PronType=Art	7	nsubj	_	GTtags=Sg,Nom,Def
 11	,	,	PUNCT	CLB	_	7	punct	_	_
 12	—	—	PUNCT	PUNCT	_	7	punct	_	_
 13	минь	мон	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	GTtags=Pers,Pl1,Nom
@@ -3963,7 +3963,7 @@
 7	револьвер	револьвер	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	nmod	_	GTtags=Sg,Nom,Indef
 8-9	мартось	_	_	_	_	_	_	_	SpaceAfter=No
 8	марто	марто	ADP	Po	AdpType=Post	7	case	_	_
-9	сь	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Sing	6	nsubj	_	GTtags=Sg,Nom,Def
+9	сь	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Sing|PronType=Art	6	nsubj	_	GTtags=Sg,Nom,Def
 10	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = GluxovP_KedrovojPeshtj_1929:374
@@ -8220,7 +8220,7 @@
 3	мирде	мирде	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	nmod	_	GTtags=Sem/Kin_Mal,Sg,Nom,Indef|Gloss=husband
 4-5	мартонть	_	_	_	_	_	_	_	_
 4	марто	марто	ADP	Po	AdpType=Post	3	case	_	GTtags=Po|Gloss=with
-5	нть	ось	PRON	Pron	Case=Gen|Definite=Def|Number=Sing	6	nmod	_	GTtags=Sg,Gen,Def|Gloss=with
+5	нть	ось	PRON	Pron	Case=Gen|Definite=Def|Number=Sing|PronType=Art	6	nmod	_	GTtags=Sg,Gen,Def|Gloss=with
 6	лангсо	ланго	NOUN	N	Case=Ine|Definite=Ind|NounType=Relat|Number=Plur,Sing	1	obl	_	GTtags=Relator,Po,Ine|Gloss=at|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	10	punct	_	_
 8	баня	баня	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	compound	_	GTtags=Sem/Plc,Sg,Nom,Indef|Gloss=sauna
@@ -9898,7 +9898,7 @@
 7	«	«	PUNCT	_	PunctSide=Ini	9	punct	_	SpaceAfter=No
 8-9	кода-бутинть	_	_	_	_	_	_	_	SpaceAfter=No
 8	кода-бути	кода-бути	ADV	_	AdvType=Man|PronType=Ind	9	nmod	_	gloss_en=somehow
-9	нть	ось	PRON	Pron	Case=Gen|Definite=Def|Number=Sing	5	obl	_	_
+9	нть	ось	PRON	Pron	Case=Gen|Definite=Def|Number=Sing|PronType=Art	5	obl	_	_
 10	»	»	PUNCT	_	PunctSide=Fin	9	punct	_	_
 11	эйстэ	эйстэ	ADP	_	Case=Ela	9	case	_	gloss_en=from|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
@@ -13197,7 +13197,7 @@
 2	,	,	PUNCT	CLB	_	1	punct	_	CGdephead=#2-&gt;1|CGdeprel=@CLB|GTtags=CLB
 3-4	минекеськак	_	_	_	_	_	_	_	_
 3	минек	мон	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod	_	CGdephead=#3-&gt;4|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl1,Gen,Der/MWN,Pron,Sg,Nom,Def,Clt/Add
-4	еськак	ось	PRON	_	Case=Nom|Clitic=Add|Definite=Def|Number=Sing	5	nsubj	_	_
+4	еськак	ось	PRON	Pron	Case=Nom|Clitic=Add|Definite=Def|Number=Sing|PronType=Art	5	nsubj	_	_
 5	поладсы	поладомс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	1	conj	_	CGdephead=#4-&gt;1|CGdeprel=@FMV|GTtags=TV,Ind,Prs,ScSg3,OcSg3
 6	Нефёдовонь	Нефёдов	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	7	nmod	_	CGdephead=#5-&gt;6|CGdeprel=@&gt;N|GTtags=Prop,SP,Gen,Indef
 7	буенек	буе	NOUN	N	Case=Com|Definite=Ind|Number=Plur,Sing	5	obl	_	CGdephead=#6-&gt;4|CGdeprel=@&lt;ADVL|GTtags=SP,Com,Indef|SpaceAfter=No
@@ -13280,7 +13280,7 @@
 # text = Ластетне секе тев кедь лапушкасост нардтнесть конятнестэ чичавшка лисезь байгетнень...
 1-2	Ластетне	_	_	_	_	_	_	_	_
 1	Ласте	ласте	ADV	_	AdvType=Sta	2	advcl	_	CGdephead=#1-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Ex/Adv,Pred2,Der/MWN,N,Pl,Nom,Def
-2	тне	ось	PRON	_	Case=Nom|Definite=Def|Number=Plur	7	nsubj	_	_
+2	тне	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	nsubj	_	_
 3	секе	секе	PRON	Pron	Case=Nom|ExtPos=ADV|Number=Sing|PronType=Dem	7	advmod	_	CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=Dem,Sg,Nom
 4	тев	тев	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	fixed	_	CGdephead=#3-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
 5	кедь	кедь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	nmod	_	CGdephead=#4-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
@@ -13347,7 +13347,7 @@
 6	пирявтонть	пирявт	NOUN	N	Case=Gen|Definite=Def|Number=Sing	7	nmod	_	CGdephead=#6-&gt;7|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
 7-8	прясотнеяк	_	_	_	_	_	_	_	SpaceAfter=No
 7	прясо	пря	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	8	acl	_	CGdephead=#7-&gt;4|CGdeprel=@&lt;ADVL|GTtags=SP,Ine,Indef,Der/MWN,N,Pl,Nom,Def,Clt/Add
-8	тнеяк	ось	PRON	_	Case=Nom|Clitic=Add|Definite=Def|Number=Plur	4	nsubj	_	_
+8	тнеяк	ось	PRON	Pron	Case=Nom|Clitic=Add|Definite=Def|Number=Plur|PronType=Art	4	nsubj	_	_
 9	...	...	PUNCT	CLB	_	4	punct	_	CGdephead=#8-&gt;4|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = EKS:2011:40:5a:AbramovK
