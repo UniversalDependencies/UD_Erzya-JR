@@ -50,6 +50,8 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2026-04-30
+  * Validate for PronType
 * 2025-10-30
   * Work with PronType definition of PRON and DET
   * Work with multiple obj, whereas conj, appos and obl are desired.
