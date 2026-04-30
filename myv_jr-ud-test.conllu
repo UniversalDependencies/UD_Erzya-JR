@@ -14138,7 +14138,7 @@
 # sent_id = EKS:2011:44:8:A.Doronin
 # text = Вечканов снартыксэль велявтомс кортамонть пейдемакс.
 1	Вечканов	Вечканов	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	GTtags=Prop,Sg,Nom,Indef
-2	снартыксэль	снартомс	VERB	V	Case=Nom|Definite=Ind|Der/Yks|Number=Sing|Number[subj]=Sing|Person[subj]=3|PrsPrc|Tense=Past	0	root	_	GTtags=Der/Yks,PrsPrc,Sg,Nom,Indef,Clt/Cop,Prt2,ScSg3
+2	снартыксэль	снартомс	VERB	V	Mood=Des|Number[subj]=Sing|Person[subj]=3|VerbForm=Fin	0	root	_	GTtags=Der/Yks,PrsPrc,Sg,Nom,Indef,Clt/Cop,Prt2,ScSg3
 3	велявтомс	велявтомс	VERB	V	VerbForm=Inf	2	xcomp	_	GTtags=Inf
 4	кортамонть	кортамо	NOUN	N	Case=Gen|Definite=Def|Number=Sing	3	obj	_	GTtags=Sg,Gen,Def
 5	пейдемакс	пейдема	NOUN	N	Case=Tra|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=SP,Tra,Indef|SpaceAfter=No
@@ -14147,7 +14147,7 @@
 # sent_id = EKS:2011:44:9a:K.Abramov
 # text = Тейтересь эрявсь варчамс Обранонь раськень.
 1	Тейтересь	тейтерь	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Def
-2	эрявсь	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	dep	_	GTtags=Ind,Prt1,ScSg3
+2	эрявсь	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,ScSg3
 3	варчамс	варчамс	VERB	V	VerbForm=Inf	2	xcomp	_	GTtags=Inf
 4	Обранонь	Обран	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	GTtags=Prop,SP,Gen,Indef
 5	раськень	раське	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	3	obj	_	GTtags=SP,Gen,Indef|SpaceAfter=No
@@ -14155,9 +14155,9 @@
 
 # sent_id = EKS:2011:44:9b:K.Abramov
 # text = Цёрынентень течи эряви молемс покштянстэнь, Ашолисьмав.
-1	Цёрынентень	цёрыне	NOUN	N	Case=Dat|Dimin|Definite=Def|Number=Sing	3	obl	_	GTtags=Dimin,Sg,Dat,Def
+1	Цёрынентень	цёрыне	NOUN	N	Case=Dat|Definite=Def|Number=Sing	3	obl	_	GTtags=Dimin,Sg,Dat,Def
 2	течи	течи	ADV	Adv	_	3	advmod	_	GTtags=
-3	эряви	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	dep	_	GTtags=Ind,Prs,ScSg3
+3	эряви	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,ScSg3
 4	молемс	молемс	VERB	V	VerbForm=Inf	3	xcomp	_	GTtags=Inf
 5	покштянстэнь	покштя	NOUN	N	Case=Dat|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	4	obl	_	GTtags=SP,Dat,PxPl3|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	GTtags=CLB
@@ -14165,7 +14165,7 @@
 8	.	.	PUNCT	CLB	_	3	punct	_	GTtags=CLB
 
 # sent_id = EKS:2011:44:10:K.Abramov
-# text = Надя пей мольсь тетянзо вакссо ды эзь бажа кадовомс.
+# text = Надя ней мольсь тетянзо вакссо ды эзь бажа кадовомс.
 1	Надя	Надя	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	3	nsubj	_	GTtags=Prop,Sg,Nom,Indef
 2	ней	ней	ADV	Adv	AdvType=Tim	3	advmod	_	GTtags=Sg,Nom,Indef
 3	мольсь	молемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	GTtags=Ind,Prt1,ScSg3
@@ -14174,6 +14174,6 @@
 6	ды	ды	CCONJ	CC	_	8	cc	_	GTtags=
 7	эзь	а	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Past|VerbForm=Fin	8	aux:neg	_	GTtags=Aux,Neg,Ind,Prt1,ScSg3
 8	бажа	бажамс	VERB	V	Connegative=Yes	3	conj	_	GTtags=ConNeg
-9	кадовомс	кадомс	VERB	V	Voice=Pass|VerbForm=Inf	8	xcomp	_	GTtags=Der/OvOms,V,Inf|SpaceAfter=No
+9	кадовомс	кадовомс	VERB	V	VerbForm=Inf	8	xcomp	_	GTtags=Der/OvOms,V,Inf|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	3	punct	_	GTtags=CLB
 
