@@ -52,6 +52,7 @@ If you use this data in your work, please cite:
 
 * 2026-04-30
   * Validate for PronType and add new trees.
+  * Apply VerbForm=NomAg, Variant=Short is for моры vs морыця. These replace Nomzr=Ag with VerbForm=Part and possibly Tense=Pres
 * 2025-10-30
   * Work with PronType definition of PRON and DET
   * Work with multiple obj, whereas conj, appos and obl are desired.
