@@ -50,6 +50,8 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2026-10-30
+  * change aux to aux:neg in instances of а with verb head.
 * 2026-04-30
   * Validate for PronType and add new trees.
   * Apply VerbForm=NomAg, Variant=Short is for моры vs морыця. These replace Nomzr=Ag with VerbForm=Part and possibly Tense=Pres
