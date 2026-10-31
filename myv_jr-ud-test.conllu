@@ -2315,7 +2315,7 @@
 1	―	―	PUNCT	PUNCT	_	2	punct	_	_
 2	Ули	улемс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	0	root	_	GTtags=IV,Ind,Prs,ScSg3|Gloss=have
 3	мелем	мель	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	GTtags=Sg,Nom,PxSg1|Gloss=desire
-4	пек	пек	ADV	Adv	AdvType=Deg	5	advmod	_	GTtags=Degree€|very
+4	пек	пек	ADV	Adv	AdvType=Deg	5	advmod	_	GTtags=Degree|Gloss=very
 5	покш	покш	ADJ	A	_	6	amod	_	GTtags=|Gloss=big
 6	валонь	вал	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	9	obj	_	GTtags=SP,Gen,Indef|Gloss=speech
 7	ды	ды	CCONJ	CC	_	8	cc	_	GTtags=|Gloss=and
@@ -11287,7 +11287,7 @@
 7	тикшесь	тикше	NOUN	N	Case=Nom|Definite=Def|Number=Sing	8	nsubj	_	GTtags=Sg,Nom,Def
 8	вастневи	вастневемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	0	root	_	GTtags=IV,Ind,Prs,ScSg3
 9	эрьва	эрьва	DET	Det	ExtPos=ADV|PronType=Tot	8	advmod	_	_
-10	кува	_	ADV	Adv	_	9	fixed	_	SpaceAfter=No
+10	кува	кува	ADV	Adv	_	9	fixed	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	Typo=Yes	8	punct	_	CorrectForm=,
 12	Седе	седе	ADV	Adv	Degree=Cmp|Typo=Yes	13	advmod:cmp	_	CorrectForm=седе|GTtags=Comp
 13	сеетьстэ	сеедьстэ	ADV	Adv	Style=Arch	16	orphan	_	GTtags=Iter|ModernForm=сеедьстэ
@@ -12312,7 +12312,7 @@
 11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	стувтсызь	стувтомс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	1	conj	_	GTtags=TV,Ind,Prs,ScPl3,OcPl3
 13	аламос	аламос	ADV	Adv	_	12	advmod	_	GTtags=Qnt,SP,Ill,Indef
-14	кудонь-чинь	кудонь-#чи	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	15	nmod	_	GTtags=SP,Gen,Indef
+14	кудонь-чинь	кудот-чить	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	15	nmod	_	GTtags=SP,Gen,Indef
 15	мелявксост	мелявкс	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Plur|Person[psor]=3	12	obj	_	GTtags=Pl,Gen,PxPl3|SpaceAfter=No
 16	.	.	PUNCT	CLB	_	1	punct	_	_
 
@@ -12646,7 +12646,7 @@
 5	тензэ	сон	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Short	4	obl	_	GTtags=Pers,Sg3,Dat,Short
 6	цилякто	циляк	NOUN	N	Case=Abl|Definite=Ind|Number=Plur,Sing	7	obl	_	GTtags=SP,Abl,Indef
 7	аламо	аламо	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	8	det	_	GTtags=Qnt,Sg,Nom,Indef
-8	товзюрот	товсюро+Err/Sub	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	4	obj	_	GTtags=Pl,Nom,Indef
+8	товзюрот	товсюро	NOUN	N	Case=Nom|Definite=Ind|Number=Plur|Style=Arch	4	obj	_	GTtags=ErrSub,Pl,Nom,Indef|ModernForm=товсюрот
 9	―	―	PUNCT	PUNCT	_	10	punct	_	_
 10	сраматанзат	срамамс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=3|Tense=Pres|VerbForm=Fin	4	conj	_	GTtags=TV,Ind,Prs,ScSg3,OcSg2
 11	весе	весе	ADV	Adv	_	10	advmod	_	GTtags=Qnt|SpaceAfter=No
@@ -13663,7 +13663,7 @@
 1	Те	те	DET	Det	Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg
 2	сборникенть	сборник	NOUN	N	Case=Gen|Definite=Def|Number=Sing	3	obj	_	GTtags=Sg,Gen,Def
 3	нолдамсто	нолдамс	VERB	V	Case=Ela|VerbForm=Conv	6	advcl	_	GTtags=TV,Ger,Ela
-4	кинь-кинь	кие-#кие	PRON	Pron	Case=Gen|Definite=Ind|Number=Plur,Sing|NumType=Dist|PronType=Ind	5	nmod	_	GTtags=Distr,SP,Gen,Indef
+4	кинь-кинь	кие-кие	PRON	Pron	Case=Gen|Definite=Ind|Number=Plur,Sing|NumType=Dist|PronType=Ind	5	nmod	_	GTtags=Distr,SP,Gen,Indef
 5	пельде	пель	NOUN	N	Case=Abl|Definite=Ind|NounType=Relat|Number=Plur,Sing	6	obl	_	GTtags=Relator,Spat,Abl
 6	марявсть	марявомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	GTtags=IV,Ind,Prt1,ScPl3
 7	истят	истямо	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	8	det	_	GTtags=Dem,Pl,Nom,Indef
