@@ -50,6 +50,12 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2026-10-31
+  * change aux to aux:neg in instances of а with verb head.
+  * Introduce ConjType=Cnd, which means SCONJ `бути` and VERB, AUX can be marked, 
+  * Mood no longer takes double for CndSub or hypothetical CndOpt. `вОль` 
+  * is now Mood=Cnd as is `бу`.
+  * Cleansing and testing new tools
 * 2026-04-30
   * Validate for PronType and add new trees.
   * Apply VerbForm=NomAg, Variant=Short is for моры vs морыця. These replace Nomzr=Ag with VerbForm=Part and possibly Tense=Pres
